@@ -1,0 +1,2243 @@
+﻿add_namespace = naflavor
+add_namespace = naflavor_newfrance
+add_namespace = naflavor_formable
+
+########### NON-FORMABLE NEWS EVENTS
+country_event = {
+	id = naflavor.1
+	title = naflavor.1.t
+	desc = naflavor.1.d
+	picture = GFX_naflavorstart
+
+	is_triggered_only = yes
+
+	option = {
+		name = naflavor.1.a
+	}
+}
+
+news_event = { #Pennsylvanian Anarchy
+	id = naflavor.2
+	title = naflavor.2.t
+	desc = naflavor.2.d
+	picture = GFX_nadflnewsanarchy
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.2.a
+		trigger = {
+			original_tag = SPA
+		}
+	}
+
+	option = {
+		name = naflavor.2.b
+		trigger = {
+			NOT = { original_tag = SPA }
+			NOT = { original_tag = WDC }
+		}
+	}
+
+	option = {
+		name = naflavor.2.c
+		
+		trigger = {
+			original_tag = WDC
+		}
+	}
+}
+
+###################################################
+###### TEXAS LEADERS
+###################################################
+news_event = { #Hiram Evans
+	id = naflavor.3
+	title = naflavor.3.t
+	desc = naflavor.3.d
+	picture = GFX_texasklan
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.3.a
+		trigger = {
+			original_tag = STX
+		}
+	}
+
+	option = {
+		name = naflavor.3.b
+		trigger = {
+			NOT = { original_tag = STX }
+			NOT = { original_tag = SLA }
+			NOT = { original_tag = SOK }
+		}
+	}
+
+	option = {
+		name = naflavor.3.c
+		
+		trigger = {
+			original_tag = SLA
+			original_tag = SOK
+		}
+	}
+}
+
+news_event = { #O'Daniel
+	id = naflavor.4
+	title = naflavor.4.t
+	desc = naflavor.4.d
+	picture = GFX_texasodaniel
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.4.a
+		trigger = {
+			original_tag = STX
+		}
+	}
+
+	option = {
+		name = naflavor.4.b
+		trigger = {
+			NOT = { original_tag = STX }
+			NOT = { original_tag = SLA }
+			NOT = { original_tag = SOK }
+		}
+	}
+
+	option = {
+		name = naflavor.4.c
+		
+		trigger = {
+			original_tag = SLA
+			original_tag = SOK
+		}
+	}
+}
+
+news_event = { #Jumbo
+	id = naflavor.5
+	title = naflavor.5.t
+	desc = naflavor.5.d
+	picture = GFX_texasjumbo
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.5.a
+		trigger = {
+			original_tag = STX
+		}
+	}
+
+	option = {
+		name = naflavor.5.b
+		trigger = {
+			NOT = { original_tag = STX }
+			NOT = { original_tag = SLA }
+			NOT = { original_tag = SOK }
+		}
+	}
+
+	option = {
+		name = naflavor.5.c
+		
+		trigger = {
+			original_tag = SLA
+			original_tag = SOK
+		}
+	}
+}
+
+news_event = { #Ferguson
+	id = naflavor.6
+	title = naflavor.6.t
+	desc = naflavor.6.d
+	picture = GFX_texasferguson
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.6.a
+		trigger = {
+			original_tag = STX
+		}
+	}
+
+	option = {
+		name = naflavor.6.b
+		trigger = {
+			NOT = { original_tag = STX }
+			NOT = { original_tag = SLA }
+			NOT = { original_tag = SOK }
+		}
+	}
+
+	option = {
+		name = naflavor.6.c
+		
+		trigger = {
+			original_tag = SLA
+			original_tag = SOK
+		}
+	}
+}
+
+news_event = { #Allred
+	id = naflavor.7
+	title = naflavor.7.t
+	desc = naflavor.7.d
+	picture = GFX_texasallred
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.7.a
+		trigger = {
+			original_tag = STX
+		}
+	}
+
+	option = {
+		name = naflavor.7.b
+		trigger = {
+			NOT = { original_tag = STX }
+			NOT = { original_tag = SLA }
+			NOT = { original_tag = SOK }
+		}
+	}
+
+	option = {
+		name = naflavor.7.c
+		
+		trigger = {
+			original_tag = SLA
+			original_tag = SOK
+		}
+	}
+}
+
+news_event = { #Unionists
+	id = naflavor.8
+	title = naflavor.8.t
+	desc = naflavor.8.d
+	picture = GFX_texasunionists
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.8.a
+		trigger = {
+			original_tag = STX
+		}
+	}
+
+	option = {
+		name = naflavor.8.b
+		trigger = {
+			NOT = { original_tag = STX }
+			NOT = { original_tag = SLA }
+			NOT = { original_tag = SOK }
+		}
+	}
+
+	option = {
+		name = naflavor.8.c
+		
+		trigger = {
+			original_tag = SLA
+			original_tag = SOK
+		}
+	}
+}
+###################################################
+
+news_event = { #Long becomes leader
+	id = naflavor.9
+	title = naflavor.9.t
+	desc = naflavor.9.d
+	picture = GFX_hueylong2
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.9.a
+		trigger = {
+			original_tag = SLA
+		}
+	}
+
+	option = {
+		name = naflavor.9.b
+		trigger = {
+			original_tag = STX
+		}
+	}
+
+	option = {
+		name = naflavor.9.c
+		
+		trigger = {
+			NOT = { original_tag = SLA }
+			NOT = { original_tag = STX }
+		}
+	}	
+}
+
+news_event = { #Third Red River War
+	id = naflavor.10
+	title = naflavor.10.t
+	desc = naflavor.10.d
+	picture = GFX_thirdrrw
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.10.a
+		trigger = {
+			original_tag = STX
+		}
+	}
+
+	option = {
+		name = naflavor.10.b
+		trigger = {
+			OR = {
+				original_tag = SLA
+				original_tag = SOK
+			}
+		}
+	}
+
+	option = {
+		name = naflavor.10.c
+		
+		trigger = {
+			NOT = { 
+				original_tag = SLA 
+				original_tag = SOK
+				original_tag = STX
+			}
+		}
+	}	
+}
+
+news_event = { #Texas unites klans
+	id = naflavor.11
+	title = naflavor.11.t
+	desc = naflavor.11.d
+	picture = GFX_unitedklans
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.11.a
+		trigger = {
+			original_tag = STX
+		}
+	}
+
+	option = {
+		name = naflavor.11.b
+		trigger = {
+			NOT = {
+				original_tag = STX
+			}
+			has_country_flag = KKK_led_USA_state
+		}
+	}
+
+	option = {
+		name = naflavor.11.c
+		
+		trigger = {
+			NOT = { 
+				original_tag = STX
+			}
+		}
+	}
+}
+
+news_event = { #curley coup
+	id = naflavor.12
+	title = naflavor.12.t
+	desc = naflavor.12.d
+	picture = GFX_curleywin
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.12.a
+		trigger = {
+			original_tag = SMA
+		}
+	}
+
+	option = {
+		name = naflavor.12.b
+		trigger = {
+			NOT = {
+				original_tag = SMA
+			}
+			is_new_england_nation_trigger = yes
+		}
+	}
+
+	option = {
+		name = naflavor.12.c
+		
+		trigger = {
+			NOT = { 
+				original_tag = SMA
+			}
+		}
+	}
+}
+
+news_event = { #hurley wins
+	id = naflavor.13
+	title = naflavor.13.t
+	desc = naflavor.13.d
+	picture = GFX_hurleywin
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.13.a
+		trigger = {
+			original_tag = SMA
+		}
+	}
+
+	option = {
+		name = naflavor.13.b
+		trigger = {
+			NOT = {
+				original_tag = SMA
+			}
+			is_new_england_nation_trigger = yes
+		}
+	}
+
+	option = {
+		name = naflavor.13.c
+		
+		trigger = {
+			NOT = { 
+				original_tag = SMA
+			}
+			NOT = { 
+				is_new_england_nation_trigger = yes
+			}
+		}
+	}
+}
+
+news_event = { #moderate republican generic
+	id = naflavor.14
+	title = naflavor.14.t
+	desc = naflavor.14.d
+	picture = GFX_moderaterepublicanwin
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.14.a
+		trigger = {
+			original_tag = SMA
+		}
+	}
+
+	option = {
+		name = naflavor.14.b
+		trigger = {
+			NOT = {
+				original_tag = SMA
+			}
+			is_new_england_nation_trigger = yes
+		}
+	}
+
+	option = {
+		name = naflavor.14.c
+		
+		trigger = {
+			NOT = { 
+				original_tag = SMA
+			}
+			NOT = { 
+				is_new_england_nation_trigger = yes
+			}
+		}
+	}
+}
+
+news_event = { #weeks republican win
+	id = naflavor.15
+	title = naflavor.15.t
+	desc = naflavor.15.d
+	picture = GFX_weekswin
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.15.a
+		trigger = {
+			original_tag = SMA
+		}
+	}
+
+	option = {
+		name = naflavor.15.b
+		trigger = {
+			NOT = {
+				original_tag = SMA
+			}
+			is_new_england_nation_trigger = yes
+		}
+	}
+
+	option = {
+		name = naflavor.15.c
+		
+		trigger = {
+			NOT = { 
+				original_tag = SMA
+			}
+			NOT = { 
+				is_new_england_nation_trigger = yes
+			}
+		}
+	}
+}
+
+news_event = { #communist revolution
+	id = naflavor.16
+	title = naflavor.16.t
+	desc = naflavor.16.d
+	picture = GFX_communistrevolution
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.16.a
+		trigger = {
+			original_tag = SMA
+		}
+	}
+
+	option = {
+		name = naflavor.16.b
+		trigger = {
+			NOT = {
+				has_government = communism
+			}
+		}
+	}
+
+	option = {
+		name = naflavor.16.c
+		
+		trigger = {
+			NOT = {
+				original_tag = SMA
+			}
+			has_government = communism
+		}
+	}
+}
+
+news_event = { #wickliffe takeover
+	id = naflavor.17
+	title = naflavor.17.t
+	desc = naflavor.17.d
+	picture = GFX_eugenics
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.17.a
+		trigger = {
+			original_tag = SMA
+		}
+	}
+
+	option = {
+		name = naflavor.17.b
+		trigger = {
+			NOT = {
+				original_tag = SMA
+			}
+			is_new_england_nation_trigger = yes
+		}
+	}
+
+	option = {
+		name = naflavor.17.c
+		
+		trigger = {
+			NOT = { 
+				original_tag = SMA
+			}
+			NOT = { 
+				is_new_england_nation_trigger = yes
+			}
+		}
+	}
+}
+
+news_event = { #SRI national guard takeover
+	id = naflavor.18
+	title = naflavor.18.t
+	desc = naflavor.18.d
+	picture = GFX_SRIcoup
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.18.a
+		trigger = {
+			original_tag = SRI
+		}
+	}
+
+	option = {
+		name = naflavor.18.b
+		trigger = {
+			NOT = {
+				original_tag = SRI
+			}
+			NOT = {
+				has_government = communism
+			}
+		}
+	}
+
+	option = {
+		name = naflavor.18.c
+		trigger = {
+			NOT = {
+				original_tag = SRI
+			}
+			has_government = communism
+		}
+	}
+}
+
+news_event = { #new england faction
+	id = naflavor.19
+	title = naflavor.19.t
+	desc = naflavor.19.d
+	picture = GFX_SRI_faction
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.19.a
+		trigger = {
+			original_tag = SRI
+		}
+	}
+
+	option = {
+		name = naflavor.19.b
+		trigger = {
+			NOT = {
+				original_tag = SRI
+			}
+			NOT = {
+				is_new_england_nation_trigger = yes
+			}
+		}
+	}
+
+	option = {
+		name = naflavor.19.c
+		trigger = {
+			NOT = {
+				original_tag = SRI
+			}
+			is_new_england_nation_trigger = yes
+		}
+	}
+}
+
+news_event = { #dc maryland war
+	id = naflavor.20
+	title = naflavor.20.t
+	desc = naflavor.20.d
+	picture = GFX_WDC_marlyand
+
+	major = yes
+
+	trigger = {
+		has_global_flag = WDC_reclaimmaryland
+		SMD = { has_defensive_war_with = WDC }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = { 
+		clr_global_flag = WDC_reclaimmaryland
+	}
+
+	option = {
+		name = naflavor.20.a
+		trigger = {
+			original_tag = WDC
+		}
+	}
+
+	option = {
+		name = naflavor.20.b
+		trigger = {
+			original_tag = SMD
+		}
+	}
+
+	option = {
+		name = naflavor.20.c
+		trigger = {
+			NOT = {
+				original_tag = SMD
+			}
+			NOT = {
+				original_tag = WDC
+			}
+		}
+	}
+}
+
+### usastates_news.44
+news_event = { #TEX wins RRW
+	id = naflavor.21
+	title = naflavor.21.t
+	desc = naflavor.21.d
+	picture = GFX_newsevent44
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.21.a
+		trigger = {
+		STX = { 
+		has_completed_focus = STX_Victory_in_Red_river_war2
+		}
+		}
+	}
+}
+
+### usastates_news.45
+news_event = { #SLA wins RRW
+	id = naflavor.22
+	title = naflavor.22.t
+	desc = naflavor.22.d
+	picture = GFX_newsevent45
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.22.a
+		trigger = {
+			original_tag = SLA
+			original_tag = SOK
+		}
+	}
+
+	option = {
+		name = naflavor.22.b
+		trigger = {
+			original_tag = STX
+		}
+	}
+
+	option = {
+		name = naflavor.22.c
+		trigger = {
+			NOT = {
+				original_tag = SLA
+				original_tag = SOK
+				original_tag = STX
+			}
+		}
+	}
+}
+
+### usastates_news.46
+news_event = { #Ohio War
+	id = naflavor.23
+	title = naflavor.23.t
+	desc = naflavor.23.d
+	picture = GFX_newsevent46
+
+	major = yes
+
+	trigger = { 
+		SOH = {
+			has_offensive_war_with = SIN
+		}
+		has_global_flag = SOH_attack_SIN
+	}
+
+	immediate = {
+		clr_global_flag = SOH_attack_SIN
+	}
+
+	option = {
+		name = naflavor.23.a
+		trigger = {
+			original_tag = SOH
+		}
+	}
+
+	option = {
+		name = naflavor.23.b
+		trigger = {
+			original_tag = SIN
+			original_tag = SKY
+			original_tag = SIL
+		}
+	}
+
+	option = {
+		name = naflavor.23.c
+		trigger = {
+			NOT = {
+				original_tag = SIN
+				original_tag = SKY
+				original_tag = SIL
+				original_tag = SOH
+			}
+		}
+	}
+}
+
+news_event = { #Long assassinated
+	id = naflavor.24
+	title = naflavor.24.t
+	desc = naflavor.24.d
+	picture = GFX_hueyfuckingdies
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = naflavor.24.a
+		trigger = {
+			original_tag = SLA
+		}
+	}
+
+	option = {
+		name = naflavor.24.b
+		trigger = {
+			original_tag = STX
+		}
+	}
+
+	option = {
+		name = naflavor.24.c
+		trigger = {
+			NOT = {
+				original_tag = SLA
+				original_tag = STX
+			}
+		}
+	}
+}
+
+news_event = { #New Orleans secedes
+	id = naflavor.25
+	title = naflavor.25.t
+	desc = naflavor.25.d
+	picture = GFX_neworleans
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = naflavor.25.a
+		trigger = {
+			original_tag = SLA
+		}
+	}
+
+	option = {
+		name = naflavor.25.b
+		trigger = {
+			tag = ORL
+		}
+	}
+
+	option = {
+		name = naflavor.25.c
+		trigger = {
+			NOT = {
+				original_tag = SLA
+				tag = ORL
+			}
+		}
+	}
+}
+
+news_event = { #Virginia Monarchy
+	id = naflavor.26
+	title = naflavor.26.t
+	desc = naflavor.26.d
+	picture = GFX_SVA_monarchy
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = naflavor.26.a
+		trigger = {
+			original_tag = SVA
+		}
+	}
+
+	option = {
+		name = naflavor.26.b
+		trigger = {
+			tag = WDC
+		}
+	}
+
+	option = {
+		name = naflavor.26.c
+		trigger = {
+			NOT = {
+				original_tag = SVA
+				original_tag = WDC
+			}
+		}
+	}
+}
+
+news_event = { #Virginia Army Coup
+	id = naflavor.27
+	title = naflavor.27.t
+	desc = naflavor.27.d
+	picture = GFX_SVA_armycoup
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = naflavor.27.a
+		trigger = {
+			original_tag = SVA
+		}
+	}
+
+	option = {
+		name = naflavor.27.b
+		trigger = {
+			tag = WDC
+		}
+	}
+
+	option = {
+		name = naflavor.27.c
+		trigger = {
+			NOT = {
+				original_tag = SVA
+				original_tag = WDC
+			}
+		}
+	}
+}
+
+news_event = { #Hoey Wins
+	id = naflavor.28
+	title = naflavor.28.t
+	desc = naflavor.28.d
+	picture = GFX_hoeywin
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = naflavor.28.a
+		trigger = {
+			original_tag = SNC
+		}
+	}
+
+	option = {
+		name = naflavor.28.b
+		trigger = {
+			NOT = {
+				tag = SNC
+			}
+		}
+	}
+}
+
+news_event = { #Silver Legion wins
+	id = naflavor.29
+	title = naflavor.29.t
+	desc = naflavor.29.d
+	picture = GFX_pelleywin
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = naflavor.29.a
+		trigger = {
+			original_tag = SNC
+		}
+	}
+
+	option = {
+		name = naflavor.29.b
+		trigger = {
+			NOT = {
+				tag = SNC
+			}
+		}
+	}
+}
+
+news_event = { #Populist Triumph
+	id = naflavor.30
+	title = naflavor.30.t
+	desc = naflavor.30.d
+	picture = GFX_populismwin
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = naflavor.30.a
+		trigger = {
+			original_tag = SNC
+		}
+	}
+
+	option = {
+		name = naflavor.30.b
+		trigger = {
+			NOT = {
+				original_tag = SNC
+				original_tag = SLA
+			}
+		}
+	}
+
+	option = {
+		name = naflavor.30.b
+		trigger = {
+			original_tag = SLA
+		}
+	}
+}
+
+news_event = { #Communist
+	id = naflavor.31
+	title = naflavor.31.t
+	desc = naflavor.31.d
+	picture = GFX_communistrevolution
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = naflavor.31.a
+		trigger = {
+			original_tag = SNC
+		}
+	}
+
+	option = {
+		name = naflavor.31.b
+		trigger = {
+			NOT = {
+				original_tag = SNC
+				has_government = communism
+			}
+		}
+	}
+
+	option = {
+		name = naflavor.31.c
+		trigger = {
+			NOT = {
+				original_tag = SNC
+			}
+			has_government = communism
+		}
+	}
+}
+
+############### ADDED FORMABLE NEWS EVENTS, ALL HAVE TRIPLE DIGIT
+
+news_event = { #Confederacy Formed	
+	id = naflavor.100
+	title = naflavor.100.t
+	desc = naflavor.100.d
+	picture = GFX_nadflnewsevent100
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.100.a
+		trigger = {
+			NOT = { is_confederate_nation_trigger = yes }
+			NOT = { original_tag = WDC }
+		}
+	}
+
+	option = {
+		name = naflavor.100.b
+
+		trigger = {
+			is_confederate_nation_trigger = yes
+		}
+	}
+
+	option = {
+		name = naflavor.100.c
+		
+		trigger = {
+			original_tag = WDC
+		}
+	}
+}
+
+news_event = { #Great Lakes Republic formed
+	id = naflavor.101
+	title = naflavor.101.t
+	desc = naflavor.101.d
+	picture = GFX_nadflnewsevent101
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.101.a
+		trigger = {
+			NOT = { is_greatlakes_nation_trigger = yes }
+			NOT = { original_tag = WDC }
+		}
+	}
+
+	option = {
+		name = naflavor.101.b
+
+		trigger = {
+			is_greatlakes_nation_trigger = yes
+		}
+	}
+
+	option = {
+		name = naflavor.101.c
+		
+		trigger = {
+			original_tag = WDC
+		}
+	}
+}
+
+news_event = { #Carolina formed
+	id = naflavor.102
+	title = naflavor.102.t
+	desc = naflavor.102.d
+	picture = GFX_nadflnewsevent102
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.102.a
+		trigger = {
+			NOT = { 
+				original_tag = SNC
+				original_tag = SSC
+				original_tag = WDC
+			}
+		}
+	}
+
+	option = {
+		name = naflavor.102.b
+		trigger = {
+			original_tag = SNC
+			original_tag = SSC
+		}
+	}
+
+	option = {
+		name = naflavor.102.c
+		
+		trigger = {
+			original_tag = WDC
+		}
+	}
+}
+
+news_event = { #Desert formed
+	id = naflavor.103
+	title = naflavor.103.t
+	desc = naflavor.103.d
+	picture = GFX_nadflnewsevent103
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.103.a
+		trigger = {
+			NOT = { original_tag = SUT }
+			NOT = { original_tag = WDC }
+		}
+	}
+
+	option = {
+		name = naflavor.102.b
+		trigger = {
+			original_tag = SUT
+		}
+	}
+
+	option = {
+		name = naflavor.102.c
+		
+		trigger = {
+			original_tag = WDC
+		}
+	}
+}
+
+news_event = { #Dakota formed, Dakotan War event
+	id = naflavor.104
+	title = naflavor.104.t
+	desc = naflavor.104.d
+	picture = GFX_nadflnewsevent104
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.104.a
+		trigger = {
+			NOT = { 
+				original_tag = SND
+				original_tag = SSD
+				original_tag = WDC
+			}
+		}
+	}
+
+	option = {
+		name = naflavor.104.b
+		trigger = {
+			OR = {
+				original_tag = SND
+				original_tag = SSD
+			}
+		}
+	}
+
+	option = {
+		name = naflavor.104.c
+		
+		trigger = {
+			original_tag = WDC
+		}
+	}
+}
+
+news_event = { #Great Plains formed
+	id = naflavor.105
+	title = naflavor.105.t
+	desc = naflavor.105.d
+	picture = GFX_nadflnewsevent105
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.105.a
+		trigger = {
+			is_greatplains_nation_trigger = yes
+		}
+	}
+
+	option = {
+		name = naflavor.105.b
+		trigger = {
+			NOT = { is_greatplains_nation_trigger = yes }
+			NOT = { original_tag = WDC }
+		}
+	}
+
+	option = {
+		name = naflavor.105.c
+		
+		trigger = {
+			original_tag = WDC
+		}
+	}
+}
+
+news_event = { #Appalachia formed
+	id = naflavor.106
+	title = naflavor.106.t
+	desc = naflavor.106.d
+	picture = GFX_nadflnewsevent106
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.106.a
+		trigger = {
+			original_tag = SWV
+		}
+	}
+
+	option = {
+		name = naflavor.106.b
+		trigger = {
+			NOT = { original_tag = SWV }
+			NOT = { original_tag = WDC }
+		}
+	}
+
+	option = {
+		name = naflavor.106.c
+		
+		trigger = {
+			original_tag = WDC
+		}
+	}
+}
+
+news_event = { #Mid-Atlantic Commune Formed
+	id = naflavor.107
+	title = naflavor.107.t
+	desc = naflavor.107.d
+	picture = GFX_nadflnewsevent107
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.107.a
+		trigger = {
+			original_tag = SPA
+		}
+	}
+
+	option = {
+		name = naflavor.107.b
+		trigger = {
+			NOT = { original_tag = SPA }
+			NOT = { original_tag = WDC }
+		}
+	}
+
+	option = {
+		name = naflavor.107.c
+		
+		trigger = {
+			original_tag = WDC
+		}
+	}
+}
+
+news_event = { #East-Coast Commune formed
+	id = naflavor.108
+	title = naflavor.108.t
+	desc = naflavor.108.d
+	picture = GFX_nadflnewsevent108
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.108.a
+		trigger = {
+			original_tag = SPA
+		}
+	}
+
+	option = {
+		name = naflavor.108.b
+		trigger = {
+			NOT = { original_tag = SPA }
+		}
+	}
+}
+
+news_event = { #United Communes formed
+	id = naflavor.109
+	title = naflavor.109.t
+	desc = naflavor.109.d
+	picture = GFX_nadflnewsevent109
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.109.a
+		trigger = {
+			original_tag = SPA
+		}
+	}
+
+	option = {
+		name = naflavor.109.b
+		trigger = {
+			NOT = { original_tag = SPA }
+		}
+	}
+}
+
+news_event = { #eugenics new england
+	id = naflavor.110
+	title = naflavor.110.t
+	desc = naflavor.110.d
+	picture = GFX_nadflnewsevent110
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.110.a
+		trigger = {
+			original_tag = SMA
+		}
+	}
+
+	option = {
+		name = naflavor.110.b
+		trigger = {
+			NOT = { original_tag = SMA }
+		}
+	}
+}
+
+news_event = { #commie new england
+	id = naflavor.111
+	title = naflavor.111.t
+	desc = naflavor.111.d
+	picture = GFX_nadflnewsevent111
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.111.a
+		trigger = {
+			original_tag = SMA
+		}
+	}
+
+	option = {
+		name = naflavor.111.b
+		trigger = {
+			NOT = { original_tag = SMA }
+		}
+	}
+}
+
+news_event = { #new hibernia
+	id = naflavor.112
+	title = naflavor.112.t
+	desc = naflavor.112.d
+	picture = GFX_nadflnewsevent112
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.112.a
+		trigger = {
+			original_tag = SMA
+		}
+	}
+
+	option = {
+		name = naflavor.112.b
+		trigger = {
+			NOT = { original_tag = SMA }
+		}
+	}
+}
+
+news_event = { #lovecraft larp
+	id = naflavor.113
+	title = naflavor.113.t
+	desc = naflavor.113.d
+	picture = GFX_nadflnewsevent113
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.113.a
+		trigger = {
+			original_tag = SRI
+		}
+	}
+
+	option = {
+		name = naflavor.113.b
+		trigger = {
+			NOT = {
+				original_tag = SRI
+			}
+
+		}
+	}
+}
+
+news_event = { #SRI democratic new england
+	id = naflavor.114
+	title = naflavor.114.t
+	desc = naflavor.114.d
+	picture = GFX_nadflnewsevent114
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor.114.a
+		trigger = {
+			original_tag = SRI
+		}
+	}
+
+	option = {
+		name = naflavor.114.b
+
+		trigger = {
+			NOT = {
+				original_tag = SRI
+			}
+			NOT = {
+				original_tag = WDC
+			}
+		}
+	}
+
+	option = {
+		name = naflavor.114.c
+		
+		trigger = {
+			original_tag = WDC
+		}
+	}
+}
+
+news_event = {
+	id = naflavor.115
+	title = naflavor.115.t
+	desc = naflavor.115.desc
+	picture = GFX_nadflnewsevent1
+
+	is_triggered_only = yes
+
+	major = yes
+	
+	option = {
+		name = naflavor.115.a
+		trigger = {
+			is_new_england_nation_trigger = yes
+		}
+	}
+	option = {
+		name = naflavor.115.b
+		trigger = {
+			NOT = { is_new_england_nation_trigger = yes }	
+		}
+	}
+	option = {
+		name = naflavor.115.c
+		trigger = {
+			tag = WDC
+		}
+	}
+}
+
+# Formation of American Bund 
+news_event = {
+	id = naflavor.116
+	title = naflavor.116.t
+	desc = naflavor.116.desc
+	picture = GFX_nadflnewsevent2
+
+	is_triggered_only = yes
+
+	major = yes
+	
+	option = {
+		name = naflavor.116.a
+		trigger = {
+			OR = {
+				original_tag = SWI
+				original_tag = SIA
+				original_tag = SMO
+				original_tag = SMN
+				original_tag = SIL
+				original_tag = SIN
+				original_tag = SOH
+				original_tag = SKY
+				original_tag = SPA
+				original_tag = SWV
+				original_tag = SNY
+				original_tag = NYC
+				original_tag = SND
+				original_tag = SSD
+				original_tag = SNE
+				original_tag = SKS
+				original_tag = SMI
+			}
+		}
+	}
+	option = {
+		name = naflavor.116.b
+		trigger = {
+			NOT = { original_tag = SWI }
+			NOT = { original_tag = SIA }
+			NOT = { original_tag = SMO }
+			NOT = { original_tag = SMN }
+			NOT = { original_tag = SIL }
+			NOT = { original_tag = SIN }
+			NOT = { original_tag = SOH }
+			NOT = { original_tag = SKY }
+			NOT = { original_tag = SPA }
+			NOT = { original_tag = SWV }
+			NOT = { original_tag = SNY }
+			NOT = { original_tag = NYC }
+			NOT = { original_tag = SND }
+			NOT = { original_tag = SSD }
+			NOT = { original_tag = SNE }
+			NOT = { original_tag = SKS }
+			NOT = { original_tag = SMI }
+		}
+	}
+}
+
+news_event = {
+	id = naflavor.117
+	title = naflavor.117.t
+	desc = naflavor.117.desc
+	picture = GFX_nadflnews117
+
+	is_triggered_only = yes
+
+	major = yes
+	
+	option = {
+		name = naflavor.117.a
+		trigger = {
+			OR = {
+				tag = FNS
+				tag = DOU
+				tag = SHE
+				tag = JAM
+			}
+		}
+	}
+	option = {
+		name = naflavor.117.b
+		trigger = {
+			NOT = {
+				tag = FNS
+				tag = DOU
+				tag = SHE
+				tag = JAM
+				original_tag = SFL
+				original_tag = STX
+			}
+		}
+	}
+
+	option = {
+		name = naflavor.117.c
+		trigger = {
+			original_tag = SFL
+			original_tag = STX
+		}
+	}
+}
+
+news_event = {
+	id = naflavor.118
+	title = naflavor.118.t
+	desc = naflavor.118.d
+	picture = GFX_nadflnews118
+
+	is_triggered_only = yes
+
+	major = yes
+	
+	option = {
+		name = naflavor.118.a
+		trigger = {
+			is_confederate_nation_trigger = yes
+		}
+	}
+
+	option = {
+		name = naflavor.118.b
+		trigger = {
+			NOT = { is_confederate_nation_trigger = yes }
+		}
+	}
+
+}
+
+############ FALL OF CITIES EVENTS
+
+news_event = {
+	id = naflavor.200
+	title = naflavor.200.t
+	desc = naflavor.200.d
+	picture = GFX_naflnews200
+	
+	major = yes
+	
+	trigger = {
+		45 = { is_controlled_by = WDC }
+		45 = { is_owned_by = SMD }
+		WDC = { has_war_with = SMD }
+		NOT = { has_global_flag = fall_of_baltimore_wdc }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_baltimore_wdc
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = naflavor.200.a
+		trigger = {
+			NOT = {
+				TAG = WDC
+				TAG = SMD
+			}
+		}
+	}
+	option = {
+		name = naflavor.200.b
+		trigger = { TAG = WDC }
+	}
+	option = {
+		name = naflavor.201.c
+		trigger = { TAG = SMD }
+	}
+}
+
+news_event = {
+	id = naflavor.201
+	title = naflavor.201.t
+	desc = naflavor.201.d
+	picture = GFX_naflnews201
+	
+	major = yes
+	
+	trigger = {
+		44 = { is_controlled_by = SMD }
+		44 = { is_owned_by = WDC }
+		WDC = { has_war_with = SMD }
+		NOT = { has_global_flag = fall_of_washington_dc }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_washington_dc
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = naflavor.201.a
+		trigger = {
+			NOT = {
+				TAG = WDC
+				TAG = SMD
+			}
+		}
+	}
+	option = {
+		name = naflavor.201.b
+		trigger = { TAG = SMD }
+	}
+	option = {
+		name = naflavor.201.c
+		trigger = { TAG = WDC }
+	}
+}
+
+################################################################
+
+country_event = {
+	id = naflavor_newfrance.1
+	title = naflavor_newfrance.1.t
+	desc = naflavor_newfrance.1.d
+	picture = GFX_fracancapital
+
+	is_triggered_only = yes
+
+	option = {
+		name = naflavor_newfrance.1.a
+
+		set_capital = { state = 34 }
+		add_stability = 0.08
+		add_political_power = -75
+	}
+
+	option = {
+		name = naflavor_newfrance.1.b
+		
+		add_political_power = 50
+	}
+}
+
+news_event = {
+	id = naflavor_newfrance.2
+	title = naflavor_newfrance.2.t
+	desc = naflavor_newfrance.2.d
+	picture = GFX_naflavorfrenchcanada
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor_newfrance.2.a
+		trigger = {
+			original_tag = PQC
+		}
+	}
+
+	option = {
+		name = naflavor_newfrance.2.b
+		trigger = {
+			NOT = { original_tag = PQC }
+		}
+	}
+}
+
+news_event = {
+	id = naflavor_newfrance.3
+	title = naflavor_newfrance.3.t
+	desc = naflavor_newfrance.3.d
+	picture = GFX_naflavornewfrance
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = naflavor_newfrance.3.a
+		trigger = {
+			original_tag = PQC
+		}
+	}
+
+	option = {
+		name = naflavor_newfrance.3.b
+		trigger = {
+			NOT = { original_tag = PQC }
+		}
+	}
+}
+
+##############################################################################################
+
+country_event = {
+	id = naflavor_formable.1
+	title = naflavor_formable.1.t
+	desc = naflavor_formable.1.desc
+	picture = GFX_newafrika_capital
+
+	is_triggered_only = yes
+
+	option = {
+		name = naflavor_formable.1.a
+		trigger = {
+			241 = { is_capital = no }
+			controls_state = 241
+		}
+		set_capital = { state = 241 }
+		add_stability = 0.05
+	}
+
+	option = {
+		name = naflavor_formable.1.b
+		trigger = {
+			752 = { is_capital = no }
+			controls_state = 752
+		}
+		set_capital = { state = 752 }
+		add_stability = 0.05
+	}
+
+	option = {
+		name = naflavor_formable.1.c
+		trigger = {
+			74 = { is_capital = no }
+			controls_state = 74
+		}
+		set_capital = { state = 74 }
+		add_stability = 0.05
+	}
+
+	option = {
+		name = naflavor_formable.1.d
+		trigger = {
+			755 = { is_capital = no }
+			controls_state = 755
+		}
+		set_capital = { state = 755 }
+		add_stability = 0.05
+	}
+
+	option = {
+		name = naflavor_formable.1.e
+		add_stability = 0.05
+	}
+}
+
+country_event = {
+	id = naflavor_formable.2
+	title = naflavor_formable.2.t
+	desc = naflavor_formable.2.desc
+	picture = GFX_confederateflag_com
+
+	is_triggered_only = yes
+
+	option = {
+		name = naflavor_formable.2.a
+		set_cosmetic_tag = confederate_states_communist
+		hidden_effect = {
+			country_event = { id = naflavor_formable.3 days = 10 }
+			news_event = { id = naflavor.118 days = 1 }
+		}
+	}
+
+	option = {
+		name = naflavor_formable.2.b
+		set_cosmetic_tag = confederate_states_communist_2
+		hidden_effect = {
+			country_event = { id = naflavor_formable.3 days = 10 }
+			news_event = { id = naflavor.118 days = 1 }
+		}
+	}
+
+	option = {
+		name = naflavor_formable.2.c
+		set_cosmetic_tag = confederate_states_communist_3
+		hidden_effect = {
+			country_event = { id = naflavor_formable.3 days = 10 }
+			news_event = { id = naflavor.118 days = 1 }
+		}
+	}
+
+	option = {
+		name = naflavor_formable.2.d
+		set_cosmetic_tag = confederate_states_communist_4
+		hidden_effect = {
+			country_event = { id = naflavor_formable.3 days = 10 }
+			news_event = { id = naflavor.118 days = 1 }
+		}
+	}
+
+}
+
+country_event = {
+	id = naflavor_formable.3
+	title = naflavor_formable.3.t
+	desc = naflavor_formable.3.desc
+	picture = GFX_confederatecapital
+
+	is_triggered_only = yes
+
+	option = {
+		name = naflavor_formable.3.a
+		trigger = {
+			358 = { is_capital = no }
+			controls_state = 358
+		}
+		set_capital = { state = 358 }
+		add_stability = 0.05
+	}
+
+	option = {
+		name = naflavor_formable.3.b
+		trigger = {
+			23 = { is_capital = no }
+			controls_state = 23
+		}
+		set_capital = { state = 23 }
+		add_stability = 0.05
+	}
+
+	option = {
+		name = naflavor_formable.3.c
+		trigger = {
+			74 = { is_capital = no }
+			controls_state = 74
+		}
+		set_capital = { state = 74 }
+		add_stability = 0.05
+	}
+
+	option = {
+		name = naflavor_formable.3.d
+		trigger = {
+			73 = { is_capital = no }
+			controls_state = 73
+		}
+		set_capital = { state = 73}
+		add_stability = 0.05
+	}
+
+	option = {
+		name = naflavor_formable.3.e
+		add_stability = 0.05
+	}
+}
+
+country_event = {
+	id = naflavor_formable.4
+	title = naflavor_formable.4.t
+	desc = naflavor_formable.4.desc
+	picture = GFX_confederateflag_prog
+
+	is_triggered_only = yes
+
+	option = {
+		name = naflavor_formable.4.a
+		set_cosmetic_tag = confederate_states_progressive
+		hidden_effect = {
+			country_event = { id = naflavor_formable.3 days = 10 }
+			news_event = { id = naflavor.118 days = 1 }
+		}
+	}
+
+	option = {
+		name = naflavor_formable.4.b
+		set_cosmetic_tag = confederate_states_progressive_3
+		hidden_effect = {
+			country_event = { id = naflavor_formable.3 days = 10 }
+			news_event = { id = naflavor.118 days = 1 }
+		}
+	}
+
+	option = {
+		name = naflavor_formable.4.c
+		set_cosmetic_tag = confederate_states_progressive_2
+		hidden_effect = {
+			country_event = { id = naflavor_formable.3 days = 10 }
+			news_event = { id = naflavor.118 days = 1 }
+		}
+	}
+}
+
+country_event = {
+	id = naflavor_formable.5
+	title = naflavor_formable.5.t
+	desc = naflavor_formable.5.desc
+	picture = GFX_confederateflag
+
+	is_triggered_only = yes
+
+	option = {
+		name = naflavor_formable.5.a
+		set_cosmetic_tag = confederate_states
+		hidden_effect = {
+			country_event = { id = naflavor_formable.3 days = 10 }
+			news_event = { id = naflavor.100 days = 1 }
+		}
+	}
+
+	option = {
+		name = naflavor_formable.5.b
+		set_cosmetic_tag = confederate_states_2
+		hidden_effect = {
+			country_event = { id = naflavor_formable.3 days = 10 }
+			news_event = { id = naflavor.100 days = 1 }
+		}
+	}
+
+	option = {
+		name = naflavor_formable.5.c
+		set_cosmetic_tag = confederate_states_3
+		hidden_effect = {
+			country_event = { id = naflavor_formable.3 days = 10 }
+			news_event = { id = naflavor.100 days = 1 }
+		}
+	}
+
+	option = {
+		name = naflavor_formable.5.d
+		set_cosmetic_tag = confederate_states_4
+		hidden_effect = {
+			country_event = { id = naflavor_formable.3 days = 10 }
+			news_event = { id = naflavor.100 days = 1 }
+		}
+	}
+}
+
+country_event = {
+	id = naflavor_formable.6
+	title = naflavor_formable.6.t
+	desc = naflavor_formable.6.desc
+	#picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = naflavor_formable.6.a
+		hidden_effect = {
+			FROM = {
+				country_event = { id = naflavor_formable.7 days = 3 }
+			}
+		}
+	}
+
+	option = {
+		name = naflavor_formable.6.b
+		hidden_effect = {
+			FROM = {
+				country_event = { id = naflavor_formable.7 days = 3 }
+			}
+		}
+	}
+
+}
+
+country_event = {
+	id = naflavor_formable.7
+	title = naflavor_formable.7.t
+	desc = naflavor_formable.7.desc
+	#picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = naflavor_formable.7.a
+		ROOT = { 
+			annex_country = {
+				target = JAM
+				transfer_troops = yes
+			} 
+		}
+
+		hidden_effect = {
+			479 = { add_core_of = ROOT }
+		}
+	}
+}
+
+country_event = {
+	id = naflavor_formable.8
+	title = naflavor_formable.8.t
+	desc = naflavor_formable.8.desc
+	#picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = naflavor_formable.8.a
+		create_wargoal = {
+			type = annex_everything
+			target = JAM
+		}
+
+		hidden_effect = {
+			479 = { add_core_of = ROOT }
+		}
+	}
+
+	option = {
+		name = naflavor_formable.8.b
+		add_war_support = -0.05
+	}
+}
+
+
+
+
+

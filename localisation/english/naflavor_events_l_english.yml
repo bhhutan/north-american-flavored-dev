@@ -1,0 +1,389 @@
+﻿l_english:
+
+##################################
+###### NON-FORMABLE EVENTS #######
+##################################
+### FIXED EVENTS FROM MAIN MOD ###
+### HAVE THEIR ORIGINAL IDS UP ###
+##################################
+
+naflavor.1.t:0 "Thanks for using my sub-mod!"
+naflavor.1.d:0 "This event is to let you know that I thank you for using this sub-mod (and definitely not for me to see if its active in the playset)\n\nCREDITS:\n\n - The North American Divided Dev Team and BattleSkorpion, for the main mod. Without it, this great mod would not exist. \n - The Kaiserreich Dev Team for some assets such as the Mexican/Latin American voiceovers.\n- Southern Victory mod for their Southern voice overs\n- Voices For Canada mod, for their Canadian voiceovers"
+naflavor.1.a:0 "Shut up and let me play the game"
+
+naflavor.2.t:0 "Anarchist Takeover in Pennsylvania"
+naflavor.2.d:0 "Following the recent strikes in state of Pennsylvania, and the lack of action by the Pinchot government, anarchists in Harrisburg and other major cities have taken control of local governments and have dissolved them. \n\nThe newfound [From.GetName] faces instability and lawlessness as many are still in shock of total government breakdown. Many states in North America see Pennsylvania as a lost cause, and expect the state to fracture into warlords and other petty groups vying for power in the now dead nation. \n\nOr will it?"
+naflavor.2.a:0 "Pennsylvanians you have lost your chains!"
+naflavor.2.b:0 "A terrible fate."
+naflavor.2.c:0 "I bet they regret secession now!"
+
+naflavor.3.t:0 "The Klan wins Texan Elections"
+naflavor.3.d:0 "The devasting defeat of Texas in the Second Red River War has been the most humilating times of the State's history. Desperate for scapegoats for their loss, and vengence against the Jeffersonian Populists, [From.GetLeader], the Grand Wizard of the Ku Klux Klan, has won the Texan Elections. \n\nVowing to avenge the Red River Wars, the Grand Wizard declared that only the Klan and their ideals could lead Texas to glory. Mass persecution of African Americans and non-Protestants have already been reported in nation."
+naflavor.3.a:0 "The Klan will prevail!"
+naflavor.3.b:0 "Texas falls to radicalism"
+naflavor.3.c:0 "What will men in ghost costumes do?"
+
+naflavor.4.t:0 "Populist Victory in Texan Elections"
+naflavor.4.d:0 "In an ironic twist of events, following the recent war against the Jeffersonian Populists, W. Lee O'Daniel has won the Texan elections. A populist, O'Daniel was unexpected to do well considering the Second Red River War destroyed the Populist Movement in Texas, but against all odds he pulled through to win by a slim margin against the multiple parties running.\n\nMany wonder how W. Lee O'Daniels will direct the exhausted nation of Texas. Will he reconcile with the Jeffersonians? Or will he carve his own, Texan populist path in anti-communism?"
+naflavor.4.a:0 "Biscuits for all!"
+naflavor.4.b:0 "Populism sweeps the South."
+naflavor.4.c:0 "Perhaps they aren't so bad after all.."
+
+naflavor.5.t:0 "Lyndon B Johnson secures Texan Elections"
+naflavor.5.d:0 "A young and new face ascends to governorship of Texas, as Lyndon B. Johnson lands a surprising victory in the Texas elections. Securing the Democrat nomination, Johnson would win the Texas elections on a strong social liberal platform, and establishing a Texan sphere of influence in the Great Plains region. \n\nThe programs supported by LBJ are relatively similar to Franklin Roosevelt's \"New Deal\", and in some rumors, include a Civil Rights bill to end segregation in Texas, a major political hill to climb."
+naflavor.5.a:0 "For a Great Texan Society!"
+naflavor.5.b:0 "A new face for a new Texas"
+naflavor.5.c:0 "I bet they regret secession now!"
+
+naflavor.6.t:0 "Fergusons win the Texas Elections"
+naflavor.6.d:0 "With the Second Red River at an end, and the votes being counted, in a surprising turns of events, the Fergusons have returned to lead Texas for a fifth time. With Miriam A \"Ma\" Ferguson leading the campaign, she ascends to her 3rd time in power, this time running as a Progressive isolationist, seeing the events in North America unworkable for Texas.\n\nMany wonder if this was all a ploy by Ma's husband, James \"Pa\" Ferguson, to once more have power after his gubernatorial impeachment in 1917. Either way, it seems history does indeed repeat itself."
+naflavor.6.a:0 "Isolation will preserve us."
+naflavor.6.b:0 "The Texan Power Couple"
+naflavor.6.c:0 "The corruption of Texas shines"
+
+naflavor.7.t:0 "Allred Secures a Second Term"
+naflavor.7.d:0 "With the Jeffersonians being beaten back and denied a decisive victory over Texas, the ever-popular James Allred has secured a second term as Texan governor, and many in Texas celebrate the victory of Texas' Man.\n\nWith Texas in a secure position and the populist threat rescinded, Allred looks to the fractured Mexican state and the Rio Grande. With plans to create a Texan sphere in Northern Mexico, it seems Allred has eyes to affirm Texan domination in Mexico, and create a prosperous Texas for all."
+naflavor.7.a:0 "To Hell with Populists!"
+naflavor.7.b:0 "The status-quo is preserved."
+naflavor.7.c:0 "To Hell with him!"
+
+naflavor.8.t:0 "Unionists Storm the Texan Capital!"
+naflavor.8.d:0 "The Texan Pacifist movement has gained much traction in the state following a second Red River incident that almost lead to another war. With the many Communists and other leftist parties supporting and taking the leading charge of the Pacifist movement, a major leftist block has formed and ultimately has resulted in the storming of the Texas capitol in Austin.\n\nNot satisfied with the status-quo, and the political alternatives, the Unionists have taken control of the Capitol, and it seems that it will only be a matter of time before the Lone Star state falls to Communism."
+naflavor.8.a:0 "Long Live the Revolution!"
+naflavor.8.b:0 "How could it lead up to this?"
+naflavor.8.c:0 "Another reason to dislike Texas.."
+
+naflavor.9.t:0 "Huey Long Becomes the Leader of Louisiana"
+naflavor.9.d:0 "The ailing health of previous governor Oscar K. Allen, resulted in his passing just hours ago. Along with his death, Huey Long has ascended as leader of Louisiana to much of the state's jubilee. The Populist strongman, Long no doubts has large and great plans for Louisiana and the Southern Populist movement, such as his famed \"Share the Wealth\" program." \n\nTexas has already denounced Huey Long though, as his dictatorial and jingoistic tendencies seem to worry some. Long will no doubt hit back with a fiery speech, but as of now, he sits as one of the main challengers to the Southern establishment."
+naflavor.9.a:0 "Every Man a King!"
+naflavor.9.b:0 "We must beware of this demagogue.."
+naflavor.9.c:0 "Will war break out?"
+
+naflavor.10.t:0 "The Third River War"
+naflavor.10.d:0 "Since the Klan took over Texas in the 1937 elections, they have always claimed they would avenge both the First and Second Red River Wars, and today, that claim will be put ot the test. Just hours ago, reports of Texan Klan raids along the Louisiana border resulted in border towns being pillaged and torched, and an official Texan declaration of war followed.\n\nThe final battle between Texas and the Jeffersonian Populists has begun, with fanatical Klansmen charging into Louisiana and Oklahoma as we speak. Reports of riots in New Orleans have been recorded, as the city is the only stronghold of anti-Longism in Louisiana. Many wonder if the riots will amount to full scale revolt, aiding the Texan Klan in their war of vengence."
+naflavor.10.a:0 "Onwards to victory!"
+naflavor.10.b:0 "Them damn Texans can't just get enough can they?"
+naflavor.10.c:0 "3 wars over some damned bridge"
+
+naflavor.11.t:0 "Unification of the Southern Klans"
+naflavor.11.d:0 "The astounding victory over Louisiana and Oklahoma, and the following Klan Crusade in the southern states has left [From.GetOldNameDef] in a position of unmatched power in Dixie. With it under Ku Klux Klan control, the various subgroups of the Klan have been united into a singular nation for and by the white supremacist organization. Recognizing this, [From.GetLeader], the Grand Wizard, has announced the formation of [From.GetNameDef]. \n\nA dark shadow falls upon the South, with reports of great oppression and mass lynchings against all those deemed \"non-white, non-protestant, and non-American\". \nThe once Invisible Empire, is now clearly visible."
+naflavor.11.a:0 "The Birth of a Nation."
+naflavor.11.b:0 "Our Southern brothers stand victorious"
+naflavor.11.c:0 "Dark times in Dixie.."
+
+naflavor.12.t:0 "Curley Secures Victory in Massachusetts Elections"
+naflavor.12.d:0 "The elections of Massachusetts have concluded, and in an unexpected turn of events, Curley has secured reelection and will serve another term. A northern populist, Curley is one of the only figures with such an ideology not in the South.\n\nWith such an unlikely victory, many in the state have claimed widespread voting fraud, with accusations of corruption and bribery. Some even report seeing people stuffing ballot boxes full of votes, supposedly for Curley.\n\nNonetheless, not enough evidence could be found against [From.GetLeader], and earlier today, was certified as the winner of the elections."
+naflavor.12.a:0 "All according to plan!"
+naflavor.12.b:0 "A colorful fellow.."
+naflavor.12.c:0 "Good for him"
+
+naflavor.13.t:0 "Charles Hurley Wins Massachusetts Elections"
+naflavor.13.d:0 "The recent Massachusetts elections have finally come to a conclusion, after a brief voting-fraud scandal conducted by incumbent James Michael Curley. The establishment Democratic Party lead the charge to investigate the supposed tampering, and found many fraudulent votes stuffed into the voting box, allegedly by Curley's men.\n\nAfter such news came to light in Massachusetts, a recount was called, and the anti-Curley Democrats came through, electing Charles F. Hurley, an Irish-American Hibernophile. With such a tumultuous beginning to his leadership, Hurley no doubt will have to work hard to rid the government of Curley's corrupted administration."
+naflavor.13.a:0 "Anything to get rid of Curley"
+naflavor.13.b:0 "Who knew populists were corrupt.."
+naflavor.13.c:0 "What the hell is a Hibernophile??"
+
+naflavor.14.t:0 "[From.GetLeader] defeats Massachusetts Democrats"
+naflavor.14.d:0 "With Democratic in-fighting between Curley populists and establishment Democrats, it was to no surprise that the Republicans would come out on top in this election. The moderate ticket won the vote for the party, nominating [From.GetLeader] for election. Running on a campaign of \"pragmatic progressivism\" the moderate Republicans seem to be the middle ground between a divided, and ineffective Democratic Party, and the more Market-Liberal wing of the Republicans.\n\nWith the corrupted Curley administration out of power, [From.GetLeader] will be forced to pick up the pieces and restore faith in the government once more."
+naflavor.14.a:0 "To work we go!"
+naflavor.14.b:0 "A new chapter for Massachusetts"
+naflavor.14.c:0 "Good for them"
+
+naflavor.15.t:0 "Weeks declared victor in Massachusetts Elections"
+naflavor.15.d:0 "A Republican victory was expected from the recent election in [From.GetNameDef], but was not expected was the Market Liberal wing of the Republican party securing victory. Battling it out with the moderate wing against Lodge and Saltonstall, [From.GetLeader] would come out on top and lead the Republican party to win.\n\nA fierce Market Liberal, Weeks will no doubt deregulate the Massachusetts economy, and plan to cut taxes across the state. On top on this, he will have to clean out the corruption of the previous Curley administration, and find compromise with the moderate wing within his own party... "
+naflavor.15.a:0 "Freer the markets, freer the people"
+naflavor.15.b:0 "A new chapter for Massachusetts"
+naflavor.15.c:0 "Good for them"
+
+naflavor.16.t:0 "Revolution in Massachusetts"
+naflavor.16.d:0 "It was to no surprise of anyone that the Massachusetts election would be chaotic, with the corrupt Curley fighting it out against the Republicans and anti-Curley Democrats. But through the political infighting Massachusetts faced, the trade unions and industrial proletariat organized mass strikes in the state, which has resulted in a communist takeover of the state.\n\nAt the head of the revolution, [From.GetLeader] has assumed control of the government admist the chaos and has declared \"proletariat victory over the Bourgeois Dictatorship\". With a new radical ideology in the heart of New England, many wonder what is soon to come in the region, and whether such a revolution will even last."
+naflavor.16.a:0 "Workers of Massachusetts, unite!"
+naflavor.16.b:0 "A spectre is haunting America.."
+naflavor.16.c:0 "Allies of the revolution!"
+
+naflavor.17.t:0 "Pioneer Party coups Massachusetts"
+naflavor.17.d:0 "The political chaos Massachusetts faced during election season, ranging from the corrupt Curley administration, to Communist organization, and Republican infighting has lead to the previously obscure Pioneer Party executing a quick coup of the state government. With [From.GetLeader] at its helm, the eugenicist and strict segregationist brings rise to an American form of Nazism.\n\nSuch a radical change in the politics of New England will not go without repercussions. The New English states have already issued notes of protest against the new government in Boston; all of which have fallen on deaf ears. Let us hope that the American Nazi is contained to Massachusetts, but in this world, the odds aren't in our favor."
+naflavor.17.a:0 "We will create the perfect American race."
+naflavor.17.b:0 "Horrors lie across our border.."
+naflavor.17.c:0 "American Nazis?"
+
+naflavor.18.t:0 "Army Coup in Rhode Island"
+naflavor.18.d:0 "The army of Rhode Island earlier today has cancelled the presidential elections, following with a coup just minutes later. The coup leader, General [From.GetLeader], allegedly discussed with previous president Theordore F. Green about letting the army take control to prevent a \"communist takeover\". Green has publicly denied to agreeing to such a proposal.\n\nWith the democracy in Rhode Island seemingly dead, General Lawton has ordered state-wide curfew and has begun the persecution of Lovecraft and his supporters, deemed \"dangerous and communist\". Who knows just how far he will go with his anti-communist rhetoric, if he will go about restoring democracy, or leave the state in a permament military junta."
+naflavor.18.a:0 "To preserve Rhode Island!"
+naflavor.18.b:0 "Another failed democracy.."
+naflavor.18.c:0 "A minor halt to the North American revolution."
+
+naflavor.19.t:0 "Formation of the [From.GetFactionName]"
+naflavor.19.d:0 "The tiny state of Rhode Island, despite its size, is a beacon of democracy in New England. Recognizing this, and understanding that together New England is stronger, [From.GetLeader] has announced the formation of the [From.GetFactionName]. This new alliance encourages cooperation amongst the New English states through foreign policy and miltary means, to preserve their independence.\n\nThe rise of a new power bloc in North America shows the slow unification of the broken continent, if not politically, through alliances and other obligations between the states. A seemingly bright future awaits New Englanders."
+naflavor.19.a:0 "New England's destiny is in our hands"
+naflavor.19.b:0 "Will it lead to a united New England?"
+naflavor.19.c:0 "Perhaps we should join?"
+
+naflavor.20.t:0 "Federal Government aims to reclaim Maryland"
+naflavor.20.d:0 "The silence of the Federal Government in Washington D.C has been finally broken, as Minutemen forces cross into Maryland to restore federal control. Following such actions, [WDC.GetLeader] has called upon the people of Maryland to lay down their arms, and allow a peaceful annexation of the state back into the Union. [SMD.GetLeader] has denounced such a statement and vows his state and armies will fight to the very end.\n\nThe Mid-Atlantic heats up in tension with such sudden aggression from D.C, and many wonder if this will start a slow reclamation of the former Union, and a restoration to the United States. Only the performance of the Federalists in Maryland will tell."
+naflavor.20.a:0 "Down with the traitors!"
+naflavor.20.b:0 "Come and take it!"
+naflavor.20.c:0 "We will watch with a careful eye.."
+
+### usastates_news.44
+naflavor.21.t:0 "Stalemate in the Second Red River War"
+naflavor.21.d:0 "With a year of fighting between the state of Texas and the Jeffersonian League, the populists could not break the Texan lines and force a surrender of the Lone Star state in favorable terms. Texas has held back Oklahoma and the Longist menace, not allowing them to find a strategic victory to gain favor in the war. With this, the Jeffersonians have issued Texas a wish for an armistice, and a peace settlement for Status quo ante bellum.\n\nAs Texas celebrates their supposed victory, the angry populace of Louisiana and Oklahoma take to the streets, demanding the removal of the present leaders. This is especially prevalent in Louisiana, as anti-Long protests in New Orleans have culminated into full-scale riots."
+naflavor.21.a:0 "The Underdog Wins!"
+
+### usastates_news.45
+naflavor.22.t:0 "Jeffersonian League Victory in Red River War!"
+naflavor.22.d:0 "The exhausted armies of both the Jeffersonian League and the Republic of Texas have finally seen relief, as an armistice was signed by the two, declaring an end to the Second Red River War. Texas was forced to cede their eastern lands to Louisiana, with Oklahoma gaining the Texan Panhandle. \n\nWith the Texan army in dissarray, and the government in shambles, the upcoming election for Texas looks to become one of the young republic's most contentious. Meanwhile the upstart populists in the Jeffersonian League have seen their greatest hurdle pacified and massive political hoo-rahs said. The South may have to look up to New Orleans, rather than Austin, as their regional power."
+naflavor.22.a:0 "The Populist Revolution can now begin!"
+naflavor.22.b:0 "Get Allred the hell out of office!"
+naflavor.22.c:0 "The Lone Star is eclipsed.."
+
+### usastates_news.45
+naflavor.23.t:0 "Ohio At War!"
+naflavor.23.d:0 "As of a few hours ago, the government of Indiana reported Ohioan troops crossing the border into the state, following a declaration of war received 2 hours later. Along with a declaration of war on Indiana, another declaration was issued to [SKY.GetNameDef], beginning a grueling war along the Ohio River.\n\nAs [SOH.GetLeader] leads the state to war with its neighbors, the Great Lakes states are on high alert, in anticipation of an Ohioan invasion. The Ohio war machine rages on, as Kentucky and Indiana try to hold their ground to beat back the juggernaut.\n\nJust how long will they hold?"
+naflavor.23.a:0 "We will triumph!"
+naflavor.23.b:0 "We should've known this was coming!"
+naflavor.23.c:0 "The Ohio Menace's second attempt.."
+
+naflavor.24.t:0 "Huey Long Assassinated"
+naflavor.24.d:0 "The loss in the Second Red River War left the Jeffersonian nations in deep political troubles, but nobody predicted the assassination of Huey Long, once Louisiana's most popular man. The perpetrator, a woman who supposedly lost her son in the disastrous war, shot Long twice in the chest. Barely holding on, he was transfered to a hospital in Shreveport where he subsequently passed.\n\nThis, as well as the recent seccession of New Orleans, has left Louisiana in a state of chaos and instability. Many wonder if this will be virtual end of Louisiana as a regional power in the South, or perhaps the start of something even greater, a full blown civil war."
+naflavor.24.a:0 "Rest in peace, Kingfish."
+naflavor.24.b:0 "Good riddance!"
+naflavor.24.c:0 "Terrible times await Louisiana"
+
+naflavor.25.t:0 "New Orleans Declares Independence"
+naflavor.25.d:0 "The riots of New Orleans have cultivated into full-blown chaos, as the Louisianan army was driven out of the city just hours ago. After the army retreated from the city, the people declared total independence from the state of Louisiana, creating the Republic of New Orleans.\n\nAnti-Longism has been prevalent in the city for many months now, especially after the Jeffersonian defeat in the Second Red River War. Huey Long has yet to comment on the secession of New Orleans from the state of Louisiana, but it seems their new state has secured its independence as the Louisianan army retreats further and further from the city and surrounding area."
+naflavor.25.a:0 "That damned city!"
+naflavor.25.b:0 "Free New Orleans!"
+naflavor.25.c:0 "Can Huey save Louisiana?"
+
+naflavor.26.t:0 "A Virginian Monarchy?"
+naflavor.26.d:0 "In the collapsed United States, many expected that some radical ideologies could find a foothold in the shattered Union. Such an ideology, monarchism, was not one of them. Virginia has abandoned their democratic traditions, and have elected a new monarch for their state.\n\n[From.GetLeader], grandson of the famed Confederate General Robert E. Lee was, made King of Virginia in a ceremony yesterday which abolished the democratic institutions of the state in favor an absolute monarchy. Shortly after the ceremony, King Lee made a speech declaring that he would do everything in his power to make Virginia a respected power in the old United States, and that he would not rest until such a goal was accomplished."
+naflavor.26.a:0 "Three hurrahs for Lee!"
+naflavor.26.b:0 "An embarrassing stain on the continent."
+naflavor.26.c:0 "Was the American Revolution in vain?"
+
+naflavor.27.t:0 "Radical Army Coup in Virginia"
+naflavor.27.d:0 "After supposedly months of planning, the Army of Virginia, lead by [From.GetLeader] has stormed the Virginian capitol and placed the governor under house arrest. Following this, the Army has dissolved the current government and placed it under military rule.\n\nThe new fascist military dictatorship has reportedly purged political opponents, and others deemed \"an enemy of the state\". The rabidly racist, and anti-semetic junta has already targetted their so called enemies. Northern industrialists, Jews, and Blacks seem to be the target, as the military rounds them up for execution. Dark times lie ahead for Virginia, as the ruthless rule of the military cements its power further and further every passing day."
+naflavor.27.a:0 "Anglo Saxon America will be saved."
+naflavor.27.b:0 "What a criminal!"
+naflavor.27.c:0 "A terrible era for Virginia.."
+
+naflavor.28.t:0 "[From.GetLeader] wins North Carolina Election"
+naflavor.28.d:0 "The 1936 North Carolinian elections have concluded, and the votes have been counted. In a race against the leader of the fascist Silver Legion, William Dudley Pelley, Hoey would win with a Populist coalition to ensure total electoral victory, despite his disdain for Longist populism.\n\nNow that the election has been won, cracks have already been showing in the Democrat-Populist coalition. With [From.GetLeader]'s vocal opposition to Huey Long, many wonder how the current government will function, if the anti-Longist democrats can push out the populists, or if the Longists can push out the Democrats."
+naflavor.28.a:0 "The coalition has served its purpose"
+naflavor.28.b:0 "Can Hoey keep control?"
+
+naflavor.29.t:0 "Silver Legion victory in North Carolina Elections"
+naflavor.29.d:0 "In an unexpected upset, the Silver Legion has triumphed in the 1936 elections, defeating the Democrat-Populist coalition by a slim margin. [From.GetLeader] has been sworn in, and his visions for North Carolina are already in progress of being implemented. A radical Christian Right party, the Silver Legion is anti-communist and anti-Democrat.\n\nWith Pelley's visions for the newly proclaimed [From.GetName] including the expansion of its borders, many southern states have denounced his election and policies. [From.GetLeader]'s view of a pure Christian south is a difficult goal, and some wonder if he will even be able to achieve it."
+naflavor.29.a:0 "The Christian South will rise again."
+naflavor.29.b:0 "Foolish and ambitious.."
+
+naflavor.30.t:0 "North Carolinian Populists Oust Hoey"
+naflavor.30.d:0 "The fallout between the Democrats and the Longist coalition have ended in a victory for the Populists. The populists of North Carolina have secured a majority in the state's government, and have issued a motion of no confidence for now-previous president Clyde Roark Hoey. [From.GetLeader] has assumed presidency after a congressional vote, and the Longists have secured total control of the government institutions.\n\nNorth Carolina now seeks to cooperate with Huey Long, and join the Jeffersonian League. The last great bastion of the establishment Democrats has fallen to southern populism, and experts say it won't be long until all of Dixie is under the ideologies rule."
+naflavor.30.a:0 "Every Man a King!"
+naflavor.30.b:0 "A Solid South.."
+naflavor.30.c:0 "Victory against the corrupt establishment!"
+
+naflavor.31.t:0 "Revolution in North Carolina!"
+naflavor.31.d:0 "The political infighting between the Democrats and the Longist populists in North Carolina have been a detriment to the state, as all focus was put on securing control over the government from one another. This attitude has left many in the lower-class dissastisfied with both factions of the coalition, leading to proletarian organization and eventual revolution in the state.\n\nThe leader of the revolution, [From.GetLeader] is a Textile union leader that spoke out against the government's infighting and neglect of the working class. Her words would resonate with much of the populace, which have stormed the capital city of Raleigh and have taken over other major population centers and factories."
+naflavor.31.a:0 "Long Live the Revolution!"
+naflavor.31.b:0 "Communists in Dixie?"
+naflavor.31.c:0 "Another ally to the Revolution!"
+
+#################################
+####### NEW FRANCE EVENTS #######
+#################################
+naflavor_newfrance.1.t:0 "The Capital Question"
+naflavor_newfrance.1.d:0 "Our victory over the English oppressors and the formation of our French Canada have lead to many debates on whether we should move the capital from Quebec City, to the more populous city of Montreal.\n\nMany claim that Montreal would be a great city to begin anew with the founding of our nation, and would appease some of the English-speaking population as Montreal is a bilingual city, as well as more centered in our country.\nSome argue rather, that we should keep the capital in Quebec City, to cement our French identity and not to compromise with the Ontarian dogs. They say Quebec City will and forever will be, the heart of French America, and that is fitting for a capital of a French North American nation.\n\nWho shall we back?"
+naflavor_newfrance.1.a:0 "Montreal seems fitting for a new capital."
+naflavor_newfrance.1.b:0 "We shall keep it in Quebec City."
+
+naflavor_newfrance.2.t:0 "[From.GetOldName] unites Canada"
+naflavor_newfrance.2.d:0 "After the disastrous Ontarian war to reclaim Quebec to unite Canada under their rule, the Quebecois have achieved ultimate victory and ironically have decided to form Canada in their own, French image. The newly formed [From.GetName] claims to be the heir of the old French colony of New France, and avenging the French and Indian War in which saw its destruction.\n\nThough, rumors have gone around saying Ontario won't be the only nation on the Quebecois chopping block. Hazy sources claim the [From.GetAdjective] plan to reconquer the old lands of the New France colony, which would ressurect French dominance on the North American continent, and create a great power as well. We can only wait and see if such rumors are true."
+naflavor_newfrance.2.a:0 "Vive le Québec libre!"
+naflavor_newfrance.2.b:0 "The Quebecois have gotten their revenge.."
+
+naflavor_newfrance.3.t:0 "Ressurection of New France"
+naflavor_newfrance.3.d:0 "Many did not predict the Quebecois victory in the Ontarian-Quebecois War, and many more did not predict they would be able reach the Gulf of Mexico and reclaim New Orleans. In a ceremony, the government has declared the Franco-American culture to be saved and revived. To reflect such a declaration, they have proclaimed [From.GetNameDef], the true ressurection of New France.\n\nYet they have said they are not done. The government has offically deemed the old Louisiana Territory rightful land of [From.GetNameDef], and will take it by force if necessary. French influence in America has been restored, and they will not rest until the old colonial lands of France have been liberated by the new Franco-American state. "
+naflavor_newfrance.3.a:0 "Vive la Nouvelle-France!"
+naflavor_newfrance.3.b:0 "1700's avenged."
+
+##################################
+##### FORMABLE FLAVOR EVENTS #####
+##################################
+naflavor_formable.1.t:0 "Capital of [From.GetNameDef]"
+naflavor_formable.1.desc:0 "Our victory has been won, and a nation for African Americans has been established. With it under our control, now is the time to set up a permanent capital for our newfound nation. Out of many cities, four have been chosen.\n\nJacksonville, Mississippi has been a popular choice by many in the provisional government, with it already being the state capital so it would not take much effort to appropiate it to our needs.\n\nNew Orleans is also a popular choice, with it being called the \"cultural\" capital of African Americans. This option would surely enhance our African American culture.\n\nThe last two options are Atlanta and Birmingham, both major cities that are majority black. It would also grant us a fresh start for a capital city, to build it in our image to suit our governmental needs.\n\nWhich city shall be the capital of our nation?"
+naflavor_formable.1.a:0 "Jackson it is!"
+naflavor_formable.1.b:0 "New Orleans would make a beautiful capital."
+naflavor_formable.1.c:0 "Atlanta seems nice"
+naflavor_formable.1.d:0 "I prefer Birmingham."
+naflavor_formable.1.e:0 "What's wrong with our current capital?!"
+
+naflavor_formable.2.t:0 "A New Flag"
+naflavor_formable.2.desc:0 "As we get ready to proclaim the Second Declaration of Independence of the South, one issue that remains is that of our new national flag. Three designs have been brought forth to represent our grand nation.\n\nWhat design shall we choose?"
+naflavor_formable.2.a:0 "The Red Sickle flag will do."
+naflavor_formable.2.b:0 "A socialist Stars and Bars flag!"
+naflavor_formable.2.c:0 "The design based on the Confederate battle flag!."
+naflavor_formable.2.d:0 "A red Bonnie Blue!"
+
+naflavor_formable.3.t:0 "The Southern Capital"
+naflavor_formable.3.desc:0 "The Confederacy has been reborn, and with it comes the need for a permanent capital of our reformed nation. Many different government figures have varying opinions on where the capital should be, but the most popular options are Richmond, Montgomery, Atlanta, and Charleston. \n\nWhat choice should we back?"
+naflavor_formable.3.a:0 "Richmond, the former capital!"
+naflavor_formable.3.b:0 "Montgomery, the original capital!"
+naflavor_formable.3.c:0 "Atlanta would be a fine choice."
+naflavor_formable.3.d:0 "Charleston, the city where South Carolina declared secession!"
+naflavor_formable.3.e:0 "Our current capital is already enough!"
+
+naflavor_formable.4.t:0 "A New Flag"
+naflavor_formable.4.desc:0 "As we get ready to proclaim the Second Declaration of Independence of the South, one issue that remains is that of our new national flag. Three designs have been brought forth to represent our grand nation.\n\nWhat design shall we choose?"
+naflavor_formable.4.a:0 "The Free Man flag is great."
+naflavor_formable.4.b:0 "I prefer the Ringed Flag."
+naflavor_formable.4.c:0 "The Shield Flag seems nice."
+
+naflavor_formable.5.t:0 "A New Flag"
+naflavor_formable.5.desc:0 "As we get ready to proclaim the Second Declaration of Independence of the South, one issue that remains is that of our new national flag. Three designs have been brought forth to represent our grand nation.\n\nWhat design shall we choose?"
+naflavor_formable.5.a:0 "The Stars and Bars!"
+naflavor_formable.5.b:0 "The Rebel Flag!"
+naflavor_formable.5.c:0 "The Blood-Stained Banner!"
+naflavor_formable.5.d:0 "Bonnie Blue!"
+
+naflavor_formable.6.t:0 "Integration?"
+naflavor_formable.6.desc:0 "Our fellow Negro peoples on the mainland continent have secured their independence, with the formation of the [From.GetName]. They have formally petitioned us to be annexed into their African-American state, seeing us as one of their own. Should we accept such a proposal?"
+naflavor_formable.6.a:0 "Our New Afrikan dream has been realized!"
+naflavor_formable.6.b:0 "Their New Afrikan state is degenerated! We shall not join."
+
+naflavor_formable.7.t:0 "Jamaica accepts!"
+naflavor_formable.7.desc:0 "[JAM.GetLeader] has accepted our proposal of our annexation of the Jamaican island. The blacks of North America our one step closer to true unification!"
+naflavor_formable.7.a:0 "Free at last!"
+
+naflavor_formable.8.t:0 "Jamaica refuses!"
+naflavor_formable.8.desc:0 "Our invitation to [JAM.GetLeader], to be annexed into our glorious New Afrikan state has been flat out rejected. Stating that our nation has \"degenerated the very idea of a New Afrikan state\". What should be done about this predictament?"
+naflavor_formable.8.a:0 "Diplomacy has failed, to war it is."
+naflavor_formable.8.b:0 "That damned island isn't worth our time."
+
+################################
+##### NEWS FORMABLE EVENTS #####
+################################
+
+naflavor.100.t:0 "Rebirth of the Confederacy"
+naflavor.100.d:0 "All Southerners fondly remember their heritage and history of the Confederate States of America, and many wished for its return following the many seccessions from the Federal Government. [From.GetOldName] has achieved the Southern dream of independence, and today as announced the reunification of the South, under the new [From.GetName]. Southerners rejoice as the nations leader, [From.GetLeader] has made a grand 're-declaration of independence', stating that their nation will forever more, \"be free from Yankee tyranny\". \n\nWith such a strong and united country now on the ruined North America, many wonder how the Confederacy will make its mark on the continent, and possibly soon, the world."
+naflavor.100.a:0 "You can't keep Johnny Reb down forever."
+naflavor.100.b:0 "The South has risen again!"
+naflavor.100.c:0 "We will triumph over them once again."
+
+naflavor.101.t:0 "Rise of the Great Lakes"
+naflavor.101.d:0 "In the the midst of the former states of America battling it out for supremacy over one another, one region has unified into a single nation under [From.GetOldName]. [From.GetName] has been proclaimed, after much war and diplomacy for a united Great Lakes region. This industrial behemoth controls all of the former economic industrial power of the Steel Belt, and stretches from Minnesota, to the major city of Pittsburgh. A great force to be reckoned with, they seem to have not just limited their claims to the Great Lake states of America, as they are officially claiming parts of Canada as their rightful land. \n\n Just how far will this new American Giant go, before they end up claiming the whole of the former United States as their own?"
+naflavor.101.a:0 "The strength of the Steel Belt has been harnessed."
+naflavor.101.b:0 "They shall all fear our might."
+naflavor.101.c:0 "Nonsense! Nothing but a paper tiger.."
+
+naflavor.102.t:0 "Unification of the Carolinas"
+naflavor.102.d:0 "Although not a major regional power in the North American continent, the states of North and South Carolina have united into a single nation earlier today. The state of [From.GetOldName] lead the charge to a unified Carolina, stating that it was nonsensical to be separated if they were independent nations, and has claimed that a single Carolina will eventually lead to something greater in the Southern states. \n\n A potentially ominous statement for what could to come to Dixie."
+naflavor.102.a:0 "A precursor to a new Confederacy?."
+naflavor.102.b:0 "Together, Dixie shall be under our control!"
+naflavor.102.c:0 "They're full of themselves."
+
+naflavor.103.t:0 "Declaration of Deseret"
+naflavor.103.d:0 "The Mormons of Utah have long awaited for their proper state of Deseret to be a reality, and such a day has come. Through diplomatic and military means, Mormons rejoice as their nation was proclaimed mere hours ago. \n\nA new power in the Pacific and Rocky Mountain states rises, spreading the faith conceived by Joeseph Smith. Only time will tell how far the Mormons will go in the warzone that is North America."
+naflavor.103.a:0 "Nothing but a bunch of polygamists"
+naflavor.103.b:0 "At long last, we are truly free!"
+naflavor.103.c:0 "Damned Mormons!"
+
+naflavor.104.t:0 "[From.GetOldAdjective] Victory in the Dakota War"
+naflavor.104.d:0 "The Dakota War has come to end, and [From.GetOldName] has come out on top as the victor. Having both North and South Dakota under their control, [From.GetLeader] has proclaimed the unification of the Dakotas into one nation. [From.GetName] is the first of many states to soon unify in a war-torn America, and sits comfortably as a key player in the Great Plains. \n\n Although, much of Dakota is in ruins due to the war, and it will take months to rebuild and have whatever strength the Dakotas had before the conflict."
+naflavor.104.a:0 "Rebuilding what? Fields?"
+naflavor.104.b:0 "Let us get to work."
+naflavor.104.c:0 "Do people even live there?"
+
+naflavor.105.t:0 "Unification of the Great Plains"
+naflavor.105.d:0 "The farmstates of the Great Plains region have been unified under one government earlier today, with [From.GetOldName] controlling all of the former Plains states. A large agricultural nation, America's breadbasket is now under the control of a single nation, ready to defend its nation by tooth and nail despite its relatively low population. \n\nWith claims in states like Montana, Colorado, and Missouri, conflict in the region will continue, but at the very least, from Minnesota to Kansas, [From.GetName] stands as one the regional unifiers of a broken America."
+naflavor.105.a:0 "Will it ever become a threat?"
+naflavor.105.b:0 "A glorious day!"
+naflavor.105.c:0 "All bark and no bite."
+
+naflavor.106.t:0 "Unification of Appalachia"
+naflavor.106.d:0 "The mountainous terrain of the Appalachian region have long served a natural border in North America, and [From.GetOldName] has unified the core Appalachian territories. Seeing this as an oppurtunity for greater claims for the state, they have declared the unification of Appalachia, and have renamed their nation to [From.GetNameDef]. \n\nDespite this, the new-found nation is not done with their conquests. [From.GetNameDef] has claimed a vast amount of land in the Applachian region, ranging from the northern parts of Georgia, including Atlanta, to the southern half of Pennsylvania. The new nation is ever eager to see a return of their so-called \"rightful land\"."
+naflavor.106.a:0 "Them otherfolk better leave us be."
+naflavor.106.b:0 "Let's see what these hillbillies can do.."
+naflavor.106.c:0 "Nothing but a bunch of hicks!"
+
+naflavor.107.t:0 "Anarchist Takeover of the Mid-Atlantic!"
+naflavor.107.d:0 "Following the Pennsylvanian collapse and turn to anarchy, its lawlessness has seem to spread through out the Mid-Atlantic states, with the collapse of the New Jersey and New York governments. The anarchists have since then taken control and have proclaimed the Mid-Atlantic Commune, cementing anarchist control in the former United States. \n\nFollowing this, many anarchists in other states have taken to the streets in inspiration of their Mid-Atlantic comrades, calling for total dissolution of current goverment institutions. The governments of these states are sure that they will soon be quelled.\n\nOnly time will tell."
+naflavor.107.a:0 "Anarchy knows no borders!"
+naflavor.107.b:0 "Such lawlessness will surely see their collapse."
+naflavor.107.c:0 "The mob will submit to us in time.."
+
+naflavor.108.t:0 "The East Coast is Red"
+naflavor.108.d:0 "Many expected the [From.GetOldName] to amount to nothing, for it to collapse, or to be dissolved. Nobody predicted the anarchist mob would flood through the East Coast of America. Earlier today, the once Tri-State Commune has now renamed itself to the [From.GetName].\n\nWith the original 13 states in control by the anarchists, many in the remaining American states take to the streets, rioting and calling to join the [From.GetName].\n[From.GetNameDef] has declared that it will not rest until all of America is under true liberation and revolution, and looks west to unite the continental states."
+naflavor.108.a:0 "People of America, true liberation is near!"
+naflavor.108.b:0 "Quell the damned riots!"
+
+naflavor.109.t:0 "The American Anarchy"
+naflavor.109.d:0 "Years after anarchist takeover in Pennsylvania, the revolution has swept throughout the old United States. The continental states have been conquered by the people and have been reorganized into communes. The [From.GetName] rises in the place of the old America, claiming true liberty for all finally being achieved...\n\nBut just for America. The Communes have made it clear that anarchist revolution worldwide is their end-goal, but how long until such a goal is reached, or even started? Only time will tell us, but for now and seemingly forever, the red and black bisect waves through the sky in an anarchist America."
+naflavor.109.a:0 "No gods, no masters!"
+naflavor.109.b:0 "North America trembles over the march of the people."
+
+naflavor.110.t:0 "A \"Pure\" New England"
+naflavor.110.d:0 "The takeover of the state of Massachusetts by the eugenicist [From.GetLeader] has culiminated into the consolidation of the New English states under his Nazi-like administration. Built on the backs of far-right ideals, nativism, and eugenics, the Pioneer Party marched through the states of New England to unify the region under their domain.\n\nWith strict laws for segregation and white supremacy, as well as the forced sterilization and even elimination of \"undesirables\", Draper and his Pioneer Party have proclaimed [From.GetNameDef]. The government claims that their populace will be the \"true American Race\", being superior to all others on the fractured North American continent."
+naflavor.110.a:0 "For we are true Americans."
+naflavor.110.b:0 "Are they out of their minds!?"
+
+naflavor.111.t:0 "The New English Revolution"
+naflavor.111.d:0 "Following the communist revolution in Massachusetts, the path to socialism under their government has lead to the unification of New England into a single, socialist nation. The Premier of the Republic, [From.GetLeader] leads the charge for the communist cause in the Northeast.\n\nWith New England under their control, a strong communist force has been cemented in the United States. In a speech made by [From.GetLeader], he has declared a \"Second American Revolution\" in Boston earlier today, claiming that communism in America will only be a matter of time, and New England and Boston, like in 1775, will be the heart of the revolution."
+naflavor.111.a:0 "Workers of New England, unite!"
+naflavor.111.b:0 "A spectre of communism.."
+
+naflavor.112.t:0 "The Formation of New Hibernia"
+naflavor.112.d:0 "The mass immigration of Irish people to the United States in the mid 19th century lead to many of the states of the former nation having a large number of Irish-American citizens. With Massachusetts having one of the largest Irish-American populations, [From.GetLeader] has declared [From.GetNameDef].\n\nA nation built by, and for Irish-Americans, the nation of New Hibernia is an odd state in the shattered North American continent. Violently against white Anglo-Saxon Protestants, the state prioritizes Irish culture and the Catholic church, over all else; with the ultimate goal of uniting the Irish-American diasphora, and securing their place in North America."
+naflavor.112.a:0 "Glory to New Hibernia!"
+naflavor.112.b:0 "Irish need not apply"
+
+naflavor.113.t:0 "Lovecraft Unites England"
+naflavor.113.d:0 "The estranged author, [From.GetLeader], has unified the region of New England under his own ideology of Lovecraftian Socialism. Opposed to free markets and the class system, the Anglophillic Lovecraftian ideals is a strange, but seemingly effective system of governance. Under his leadership he has unified New England militarily, and sets his eyes on the rest of the American states.\n\nWith such an esoteric ideology on the shattered North American continent, many are against his vision for America. The mystic author seems to isolate his nation from the other countries, being against all forms of foreign communication."
+naflavor.113.a:0 "Providence guides us."
+naflavor.113.b:0 "Insanity plagues the continent"
+
+naflavor.114.t:0 "Unification of New England"
+naflavor.114.d:0 "Following the establishment of the [From.GetFactionName] and the inclusion of all New English states into the alliance, the region of New England has been unified through diplomatic means. The newly formed [From.GetName] is a model for democracy and republicanism in a broken North America, showing that in a continent plauged with conflict and division, cooperation and the democratic process will overcome.\n\n[From.GetLeader], the now President of New England, guides the newfound nation through a time of peace and prosperity with a revival of New English patriotism. New England takes a step forth into the world, with hopes of establishing diplomatic relations with foreign powers."
+naflavor.114.a:0 "The true Bloodless Revolution!"
+naflavor.114.b:0 "A light shines in the darkness"
+naflavor.114.c:0 "No one will recognize this illegitimate government!"
+
+naflavor.115.t:0 "Unification of New England"
+naflavor.115.desc:0 "The important and historic region of New England rejoices today, as the region as been unified under one nation. Rising from the ashes of a disunited States, [From.GetOldNameDef] has united the states of New England, and its government has petitioned for formal recognition as an independent nation from foreign powers. [From.GetName] is the newest power in the shattered North American continent, and many wonder if it will project such power, or keep to itself, focusing on nation-building and economic structuring. \n\n America is one more step to unification, if it ever comes to such a point. One thing is clear though, New England's bold step towards unity will serve as an inspiration to a broken continent."
+naflavor.115.a:0 "A glorious day for all of New England!"
+naflavor.115.b:0 "The pieces slowly put back together."
+naflavor.115.c:0 "No one will recognize this illegitimate government!"
+ 
+naflavor.116.t:0 "Rise of the American Bund"
+naflavor.116.desc:0 "The fracture of the United States left many states to themselves without a common identity. Now, [From.GetOldNameDef] has harnessed the German ancestral patriotism of the German-American states and have declared a new nation, for German-Americans, by German-Americans. \n\nThe [From.GetName] now stands as one of the most powerful states in the old United States, stretching from the farmlands of the Great Plains, to the Keystone state of Pennsylvania. the Bund creates a new, yet odd national identity in the ashes of the old Union."
+naflavor.116.a:0 "A glorious day!"
+naflavor.116.b:0 "An interesting development"
+
+naflavor.117.t:0 "Declaration of New Afrikan Independence"
+naflavor.117.desc:0 "In the deep south, the smoke of war clears as the nation of [From.GetOldName] triumphs in their Negro Crusade. Starting as a revolt from their oppressor state, [From.GetOldNameDef] has conquered the deep south, liberating the majority of the black population in the former Untied States. \n\nWith this, [From.GetLeader] and their government has declared [From.GetNameDef], a country for African Americans, by African Americans. As the black population in the newly formed nation celebrates their self-described \"true freedom\", New Afrika has stated that the nation will not truly rest until the black population of eastern Texas and Northern Florida have been liberated."
+naflavor.117.a:0 "Free at last, free at last!"
+naflavor.117.b:0 "Worrying.."
+naflavor.117.c:0 "Come and take it!"
+
+naflavor.118.t:0 "A New Confederacy"
+naflavor.118.d:0 "The collapse of the former United States was sure to see the rise of a new southern nation, but a new southern nation built on leftism was not to be expected. The once small communist and progressive forces in the deeply conservative south have triumphed, and have proclaimed the [From.GetName].\n\nMassive ideological education measures have taken place, in an effort to root out the old aristocratic and racist beliefs of the old south. Many wonder if such a massive undertaking could even be achieved, considering the centuries of reactionary tradition in Dixie."
+naflavor.118.a:0 "Arise, workers of Dixie!"
+naflavor.118.b:0 "How did it all come to such a point.."
+
+################################
+###### FALL OF CITY EVENT ######
+################################
+
+naflavor.200.t:0 "Fall of Baltimore"
+naflavor.200.d:0 "News from the war between the Federal Government in D.C and the state of Maryland is broadcasted today, as Federalist forces have reportedly captured the major city of Baltimore just mere days ago. \n\n[WDC.GetLeader] has held a speech declaring that Baltimore is just one stepping stone to returning orderly rule and stability to the Union.\n\nWith Maryland split in two pieces, and the Federalist advance seemingly unstoppable, many wonder if any action from Maryland could save them from being reintegrated into the Union now.."
+naflavor.200.a:0 "It won't amount to much."
+naflavor.200.b:0 "Down with the traitors! Up with the Stars!"
+naflavor.200.c:0 "It's over.."
+
+naflavor.201.t:0 "Fall of Washington"
+naflavor.201.d:0 "The District of Columbia, the capital of the former United States, has fallen to advancing forces from Maryland. The disastrous war ignited by the Federal Government has resulted in Marylander troops parading down Pennsylvania Avenue.\n\nCongressmen and other politicians in D.C have either fled the Capitol or have been placed under house arrest by the state of Maryland. A treaty has been signed, notifiying the surrender of the District, and the laying down of arms.\n\nTerms have been agreed upon for the preservation of historical American documents, such as the Declaration of Independence, and the Constitution."
+naflavor.201.a:0 "And so the Feds finally fall.."
+naflavor.201.b:0 "A victory to be celebrated for years to come!"
+naflavor.201.c:0 "It's over.."
+

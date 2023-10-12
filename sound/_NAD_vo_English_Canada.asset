@@ -1,0 +1,1884 @@
+
+category = 
+{
+ name = "Voices"
+ soundeffects = {
+	PON_infantry_idle
+	PON_infantry_neutral_combat
+	PON_infantry_positive_combat
+	PON_infantry_retreat
+	PON_infantry_move_out
+	PNL_infantry_idle
+	PNL_infantry_neutral_combat
+	PNL_infantry_positive_combat
+	PNL_infantry_retreat
+	PNL_infantry_move_out
+	PNB_infantry_idle
+	PNB_infantry_neutral_combat
+	PNB_infantry_positive_combat
+	PNB_infantry_retreat
+	PNB_infantry_move_out
+	PNS_infantry_idle
+	PNS_infantry_neutral_combat
+	PNS_infantry_positive_combat
+	PNS_infantry_retreat
+	PNS_infantry_move_out
+	PEI_infantry_idle
+	PEI_infantry_neutral_combat
+	PEI_infantry_positive_combat
+	PEI_infantry_retreat
+	PEI_infantry_move_out
+	PMB_infantry_idle
+	PMB_infantry_neutral_combat
+	PMB_infantry_positive_combat
+	PMB_infantry_retreat
+	PMB_infantry_move_out
+	PSK_infantry_idle
+	PSK_infantry_neutral_combat
+	PSK_infantry_positive_combat
+	PSK_infantry_retreat
+	PSK_infantry_move_out
+	PAB_infantry_idle
+	PAB_infantry_neutral_combat
+	PAB_infantry_positive_combat
+	PAB_infantry_retreat
+	PAB_infantry_move_out
+	PBC_infantry_idle
+	PBC_infantry_neutral_combat
+	PBC_infantry_positive_combat
+	PBC_infantry_retreat
+	PBC_infantry_move_out
+	PYT_infantry_idle
+	PYT_infantry_neutral_combat
+	PYT_infantry_positive_combat
+	PYT_infantry_retreat
+	PYT_infantry_move_out
+	PNT_infantry_idle
+	PNT_infantry_neutral_combat
+	PNT_infantry_positive_combat
+	PNT_infantry_retreat
+	PNT_infantry_move_out
+	NFL_infantry_idle
+	NFL_infantry_neutral_combat
+	NFL_infantry_positive_combat
+	NFL_infantry_retreat
+	NFL_infantry_move_out
+	LAB_infantry_idle
+	LAB_infantry_neutral_combat
+	LAB_infantry_positive_combat
+	LAB_infantry_retreat
+	LAB_infantry_move_out
+	PVC_infantry_idle
+	PVC_infantry_neutral_combat
+	PVC_infantry_positive_combat
+	PVC_infantry_retreat
+	PVC_infantry_move_out
+	
+ }
+  compressor = 
+ {
+	enabled = yes
+	pregain = 0.0
+	postgain = 2.0
+	ratio = 10.0
+	threshold = -10.0
+	attacktime = 0.030
+	releasetime = 1.2
+ }
+}
+
+########## PON
+
+soundeffect =
+{
+    name = "PON_infantry_idle"
+    sounds = {
+        sound = canadian_Idle_001
+        sound = canadian_Idle_002
+        sound = canadian_Idle_003
+        sound = canadian_Idle_004
+        sound = canadian_Idle_005
+        sound = canadian_Idle_006
+        sound = canadian_Idle_007
+        sound = canadian_Idle_008
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PON_infantry_neutral_combat"
+    sounds = {
+        sound = canadian_Neutral_001
+        sound = canadian_Neutral_002
+        sound = canadian_Neutral_003
+        sound = canadian_Neutral_004
+        sound = canadian_Neutral_005
+        sound = canadian_Neutral_006
+        sound = canadian_Neutral_007
+        sound = canadian_Neutral_008
+        sound = canadian_Neutral_009
+        sound = canadian_Neutral_010
+        sound = canadian_Neutral_011
+        sound = canadian_Neutral_012   
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PON_infantry_positive_combat"
+    sounds = {
+        sound = canadian_Positive_001
+        sound = canadian_Positive_002
+        sound = canadian_Positive_003
+        sound = canadian_Positive_004
+        sound = canadian_Positive_005
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PON_infantry_retreat"
+    sounds = {
+        sound = canadian_Retreat_001
+        sound = canadian_Retreat_002
+        sound = canadian_Retreat_003
+        sound = canadian_Retreat_004
+        sound = canadian_Retreat_005
+        sound = canadian_Retreat_006
+        sound = canadian_Retreat_007
+        sound = canadian_Retreat_008
+        sound = canadian_Retreat_009
+        sound = canadian_Retreat_010
+        sound = canadian_Retreat_011
+        sound = canadian_Retreat_012
+        sound = canadian_Retreat_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PON_infantry_move_out"
+    sounds = {
+        sound = canadian_Moving_001
+        sound = canadian_Moving_002
+        sound = canadian_Moving_003
+        sound = canadian_Moving_004
+        sound = canadian_Moving_005
+        sound = canadian_Moving_006
+        sound = canadian_Moving_007
+        sound = canadian_Moving_008
+        sound = canadian_Moving_009
+        sound = canadian_Moving_010
+        sound = canadian_Moving_011
+        sound = canadian_Moving_012
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## PNL
+
+soundeffect =
+{
+    name = "PNL_infantry_idle"
+    sounds = {
+        sound = canadian_Idle_001
+        sound = canadian_Idle_002
+        sound = canadian_Idle_003
+        sound = canadian_Idle_004
+        sound = canadian_Idle_005
+        sound = canadian_Idle_006
+        sound = canadian_Idle_007
+        sound = canadian_Idle_008
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PNL_infantry_neutral_combat"
+    sounds = {
+        sound = canadian_Neutral_001
+        sound = canadian_Neutral_002
+        sound = canadian_Neutral_003
+        sound = canadian_Neutral_004
+        sound = canadian_Neutral_005
+        sound = canadian_Neutral_006
+        sound = canadian_Neutral_007
+        sound = canadian_Neutral_008
+        sound = canadian_Neutral_009
+        sound = canadian_Neutral_010
+        sound = canadian_Neutral_011
+        sound = canadian_Neutral_012   
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PNL_infantry_positive_combat"
+    sounds = {
+        sound = canadian_Positive_001
+        sound = canadian_Positive_002
+        sound = canadian_Positive_003
+        sound = canadian_Positive_004
+        sound = canadian_Positive_005
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PNL_infantry_retreat"
+    sounds = {
+        sound = canadian_Retreat_001
+        sound = canadian_Retreat_002
+        sound = canadian_Retreat_003
+        sound = canadian_Retreat_004
+        sound = canadian_Retreat_005
+        sound = canadian_Retreat_006
+        sound = canadian_Retreat_007
+        sound = canadian_Retreat_008
+        sound = canadian_Retreat_009
+        sound = canadian_Retreat_010
+        sound = canadian_Retreat_011
+        sound = canadian_Retreat_012
+        sound = canadian_Retreat_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PNL_infantry_move_out"
+    sounds = {
+        sound = canadian_Moving_001
+        sound = canadian_Moving_002
+        sound = canadian_Moving_003
+        sound = canadian_Moving_004
+        sound = canadian_Moving_005
+        sound = canadian_Moving_006
+        sound = canadian_Moving_007
+        sound = canadian_Moving_008
+        sound = canadian_Moving_009
+        sound = canadian_Moving_010
+        sound = canadian_Moving_011
+        sound = canadian_Moving_012
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## PNB
+
+soundeffect =
+{
+    name = "PNB_infantry_idle"
+    sounds = {
+        sound = canadian_Idle_001
+        sound = canadian_Idle_002
+        sound = canadian_Idle_003
+        sound = canadian_Idle_004
+        sound = canadian_Idle_005
+        sound = canadian_Idle_006
+        sound = canadian_Idle_007
+        sound = canadian_Idle_008
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PNB_infantry_neutral_combat"
+    sounds = {
+        sound = canadian_Neutral_001
+        sound = canadian_Neutral_002
+        sound = canadian_Neutral_003
+        sound = canadian_Neutral_004
+        sound = canadian_Neutral_005
+        sound = canadian_Neutral_006
+        sound = canadian_Neutral_007
+        sound = canadian_Neutral_008
+        sound = canadian_Neutral_009
+        sound = canadian_Neutral_010
+        sound = canadian_Neutral_011
+        sound = canadian_Neutral_012   
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PNB_infantry_positive_combat"
+    sounds = {
+        sound = canadian_Positive_001
+        sound = canadian_Positive_002
+        sound = canadian_Positive_003
+        sound = canadian_Positive_004
+        sound = canadian_Positive_005
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PNB_infantry_retreat"
+    sounds = {
+        sound = canadian_Retreat_001
+        sound = canadian_Retreat_002
+        sound = canadian_Retreat_003
+        sound = canadian_Retreat_004
+        sound = canadian_Retreat_005
+        sound = canadian_Retreat_006
+        sound = canadian_Retreat_007
+        sound = canadian_Retreat_008
+        sound = canadian_Retreat_009
+        sound = canadian_Retreat_010
+        sound = canadian_Retreat_011
+        sound = canadian_Retreat_012
+        sound = canadian_Retreat_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PNB_infantry_move_out"
+    sounds = {
+        sound = canadian_Moving_001
+        sound = canadian_Moving_002
+        sound = canadian_Moving_003
+        sound = canadian_Moving_004
+        sound = canadian_Moving_005
+        sound = canadian_Moving_006
+        sound = canadian_Moving_007
+        sound = canadian_Moving_008
+        sound = canadian_Moving_009
+        sound = canadian_Moving_010
+        sound = canadian_Moving_011
+        sound = canadian_Moving_012
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## PNS
+
+soundeffect =
+{
+    name = "PNS_infantry_idle"
+    sounds = {
+        sound = canadian_Idle_001
+        sound = canadian_Idle_002
+        sound = canadian_Idle_003
+        sound = canadian_Idle_004
+        sound = canadian_Idle_005
+        sound = canadian_Idle_006
+        sound = canadian_Idle_007
+        sound = canadian_Idle_008
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PNS_infantry_neutral_combat"
+    sounds = {
+        sound = canadian_Neutral_001
+        sound = canadian_Neutral_002
+        sound = canadian_Neutral_003
+        sound = canadian_Neutral_004
+        sound = canadian_Neutral_005
+        sound = canadian_Neutral_006
+        sound = canadian_Neutral_007
+        sound = canadian_Neutral_008
+        sound = canadian_Neutral_009
+        sound = canadian_Neutral_010
+        sound = canadian_Neutral_011
+        sound = canadian_Neutral_012   
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PNS_infantry_positive_combat"
+    sounds = {
+        sound = canadian_Positive_001
+        sound = canadian_Positive_002
+        sound = canadian_Positive_003
+        sound = canadian_Positive_004
+        sound = canadian_Positive_005
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PNS_infantry_retreat"
+    sounds = {
+        sound = canadian_Retreat_001
+        sound = canadian_Retreat_002
+        sound = canadian_Retreat_003
+        sound = canadian_Retreat_004
+        sound = canadian_Retreat_005
+        sound = canadian_Retreat_006
+        sound = canadian_Retreat_007
+        sound = canadian_Retreat_008
+        sound = canadian_Retreat_009
+        sound = canadian_Retreat_010
+        sound = canadian_Retreat_011
+        sound = canadian_Retreat_012
+        sound = canadian_Retreat_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PNS_infantry_move_out"
+    sounds = {
+        sound = canadian_Moving_001
+        sound = canadian_Moving_002
+        sound = canadian_Moving_003
+        sound = canadian_Moving_004
+        sound = canadian_Moving_005
+        sound = canadian_Moving_006
+        sound = canadian_Moving_007
+        sound = canadian_Moving_008
+        sound = canadian_Moving_009
+        sound = canadian_Moving_010
+        sound = canadian_Moving_011
+        sound = canadian_Moving_012
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## PEI
+
+soundeffect =
+{
+    name = "PEI_infantry_idle"
+    sounds = {
+        sound = canadian_Idle_001
+        sound = canadian_Idle_002
+        sound = canadian_Idle_003
+        sound = canadian_Idle_004
+        sound = canadian_Idle_005
+        sound = canadian_Idle_006
+        sound = canadian_Idle_007
+        sound = canadian_Idle_008
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PEI_infantry_neutral_combat"
+    sounds = {
+        sound = canadian_Neutral_001
+        sound = canadian_Neutral_002
+        sound = canadian_Neutral_003
+        sound = canadian_Neutral_004
+        sound = canadian_Neutral_005
+        sound = canadian_Neutral_006
+        sound = canadian_Neutral_007
+        sound = canadian_Neutral_008
+        sound = canadian_Neutral_009
+        sound = canadian_Neutral_010
+        sound = canadian_Neutral_011
+        sound = canadian_Neutral_012   
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PEI_infantry_positive_combat"
+    sounds = {
+        sound = canadian_Positive_001
+        sound = canadian_Positive_002
+        sound = canadian_Positive_003
+        sound = canadian_Positive_004
+        sound = canadian_Positive_005
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PEI_infantry_retreat"
+    sounds = {
+        sound = canadian_Retreat_001
+        sound = canadian_Retreat_002
+        sound = canadian_Retreat_003
+        sound = canadian_Retreat_004
+        sound = canadian_Retreat_005
+        sound = canadian_Retreat_006
+        sound = canadian_Retreat_007
+        sound = canadian_Retreat_008
+        sound = canadian_Retreat_009
+        sound = canadian_Retreat_010
+        sound = canadian_Retreat_011
+        sound = canadian_Retreat_012
+        sound = canadian_Retreat_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PEI_infantry_move_out"
+    sounds = {
+        sound = canadian_Moving_001
+        sound = canadian_Moving_002
+        sound = canadian_Moving_003
+        sound = canadian_Moving_004
+        sound = canadian_Moving_005
+        sound = canadian_Moving_006
+        sound = canadian_Moving_007
+        sound = canadian_Moving_008
+        sound = canadian_Moving_009
+        sound = canadian_Moving_010
+        sound = canadian_Moving_011
+        sound = canadian_Moving_012
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## PMB
+
+soundeffect =
+{
+    name = "PMB_infantry_idle"
+    sounds = {
+        sound = canadian_Idle_001
+        sound = canadian_Idle_002
+        sound = canadian_Idle_003
+        sound = canadian_Idle_004
+        sound = canadian_Idle_005
+        sound = canadian_Idle_006
+        sound = canadian_Idle_007
+        sound = canadian_Idle_008
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PMB_infantry_neutral_combat"
+    sounds = {
+        sound = canadian_Neutral_001
+        sound = canadian_Neutral_002
+        sound = canadian_Neutral_003
+        sound = canadian_Neutral_004
+        sound = canadian_Neutral_005
+        sound = canadian_Neutral_006
+        sound = canadian_Neutral_007
+        sound = canadian_Neutral_008
+        sound = canadian_Neutral_009
+        sound = canadian_Neutral_010
+        sound = canadian_Neutral_011
+        sound = canadian_Neutral_012   
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PMB_infantry_positive_combat"
+    sounds = {
+        sound = canadian_Positive_001
+        sound = canadian_Positive_002
+        sound = canadian_Positive_003
+        sound = canadian_Positive_004
+        sound = canadian_Positive_005
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PMB_infantry_retreat"
+    sounds = {
+        sound = canadian_Retreat_001
+        sound = canadian_Retreat_002
+        sound = canadian_Retreat_003
+        sound = canadian_Retreat_004
+        sound = canadian_Retreat_005
+        sound = canadian_Retreat_006
+        sound = canadian_Retreat_007
+        sound = canadian_Retreat_008
+        sound = canadian_Retreat_009
+        sound = canadian_Retreat_010
+        sound = canadian_Retreat_011
+        sound = canadian_Retreat_012
+        sound = canadian_Retreat_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PMB_infantry_move_out"
+    sounds = {
+        sound = canadian_Moving_001
+        sound = canadian_Moving_002
+        sound = canadian_Moving_003
+        sound = canadian_Moving_004
+        sound = canadian_Moving_005
+        sound = canadian_Moving_006
+        sound = canadian_Moving_007
+        sound = canadian_Moving_008
+        sound = canadian_Moving_009
+        sound = canadian_Moving_010
+        sound = canadian_Moving_011
+        sound = canadian_Moving_012
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## PSK
+
+soundeffect =
+{
+    name = "PSK_infantry_idle"
+    sounds = {
+        sound = canadian_Idle_001
+        sound = canadian_Idle_002
+        sound = canadian_Idle_003
+        sound = canadian_Idle_004
+        sound = canadian_Idle_005
+        sound = canadian_Idle_006
+        sound = canadian_Idle_007
+        sound = canadian_Idle_008
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PSK_infantry_neutral_combat"
+    sounds = {
+        sound = canadian_Neutral_001
+        sound = canadian_Neutral_002
+        sound = canadian_Neutral_003
+        sound = canadian_Neutral_004
+        sound = canadian_Neutral_005
+        sound = canadian_Neutral_006
+        sound = canadian_Neutral_007
+        sound = canadian_Neutral_008
+        sound = canadian_Neutral_009
+        sound = canadian_Neutral_010
+        sound = canadian_Neutral_011
+        sound = canadian_Neutral_012   
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PSK_infantry_positive_combat"
+    sounds = {
+        sound = canadian_Positive_001
+        sound = canadian_Positive_002
+        sound = canadian_Positive_003
+        sound = canadian_Positive_004
+        sound = canadian_Positive_005
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PSK_infantry_retreat"
+    sounds = {
+        sound = canadian_Retreat_001
+        sound = canadian_Retreat_002
+        sound = canadian_Retreat_003
+        sound = canadian_Retreat_004
+        sound = canadian_Retreat_005
+        sound = canadian_Retreat_006
+        sound = canadian_Retreat_007
+        sound = canadian_Retreat_008
+        sound = canadian_Retreat_009
+        sound = canadian_Retreat_010
+        sound = canadian_Retreat_011
+        sound = canadian_Retreat_012
+        sound = canadian_Retreat_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PSK_infantry_move_out"
+    sounds = {
+        sound = canadian_Moving_001
+        sound = canadian_Moving_002
+        sound = canadian_Moving_003
+        sound = canadian_Moving_004
+        sound = canadian_Moving_005
+        sound = canadian_Moving_006
+        sound = canadian_Moving_007
+        sound = canadian_Moving_008
+        sound = canadian_Moving_009
+        sound = canadian_Moving_010
+        sound = canadian_Moving_011
+        sound = canadian_Moving_012
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## PAB
+
+soundeffect =
+{
+    name = "PAB_infantry_idle"
+    sounds = {
+        sound = canadian_Idle_001
+        sound = canadian_Idle_002
+        sound = canadian_Idle_003
+        sound = canadian_Idle_004
+        sound = canadian_Idle_005
+        sound = canadian_Idle_006
+        sound = canadian_Idle_007
+        sound = canadian_Idle_008
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PAB_infantry_neutral_combat"
+    sounds = {
+        sound = canadian_Neutral_001
+        sound = canadian_Neutral_002
+        sound = canadian_Neutral_003
+        sound = canadian_Neutral_004
+        sound = canadian_Neutral_005
+        sound = canadian_Neutral_006
+        sound = canadian_Neutral_007
+        sound = canadian_Neutral_008
+        sound = canadian_Neutral_009
+        sound = canadian_Neutral_010
+        sound = canadian_Neutral_011
+        sound = canadian_Neutral_012   
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PAB_infantry_positive_combat"
+    sounds = {
+        sound = canadian_Positive_001
+        sound = canadian_Positive_002
+        sound = canadian_Positive_003
+        sound = canadian_Positive_004
+        sound = canadian_Positive_005
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PAB_infantry_retreat"
+    sounds = {
+        sound = canadian_Retreat_001
+        sound = canadian_Retreat_002
+        sound = canadian_Retreat_003
+        sound = canadian_Retreat_004
+        sound = canadian_Retreat_005
+        sound = canadian_Retreat_006
+        sound = canadian_Retreat_007
+        sound = canadian_Retreat_008
+        sound = canadian_Retreat_009
+        sound = canadian_Retreat_010
+        sound = canadian_Retreat_011
+        sound = canadian_Retreat_012
+        sound = canadian_Retreat_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PAB_infantry_move_out"
+    sounds = {
+        sound = canadian_Moving_001
+        sound = canadian_Moving_002
+        sound = canadian_Moving_003
+        sound = canadian_Moving_004
+        sound = canadian_Moving_005
+        sound = canadian_Moving_006
+        sound = canadian_Moving_007
+        sound = canadian_Moving_008
+        sound = canadian_Moving_009
+        sound = canadian_Moving_010
+        sound = canadian_Moving_011
+        sound = canadian_Moving_012
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## PBC
+
+soundeffect =
+{
+    name = "PBC_infantry_idle"
+    sounds = {
+        sound = canadian_Idle_001
+        sound = canadian_Idle_002
+        sound = canadian_Idle_003
+        sound = canadian_Idle_004
+        sound = canadian_Idle_005
+        sound = canadian_Idle_006
+        sound = canadian_Idle_007
+        sound = canadian_Idle_008
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PBC_infantry_neutral_combat"
+    sounds = {
+        sound = canadian_Neutral_001
+        sound = canadian_Neutral_002
+        sound = canadian_Neutral_003
+        sound = canadian_Neutral_004
+        sound = canadian_Neutral_005
+        sound = canadian_Neutral_006
+        sound = canadian_Neutral_007
+        sound = canadian_Neutral_008
+        sound = canadian_Neutral_009
+        sound = canadian_Neutral_010
+        sound = canadian_Neutral_011
+        sound = canadian_Neutral_012   
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PBC_infantry_positive_combat"
+    sounds = {
+        sound = canadian_Positive_001
+        sound = canadian_Positive_002
+        sound = canadian_Positive_003
+        sound = canadian_Positive_004
+        sound = canadian_Positive_005
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PBC_infantry_retreat"
+    sounds = {
+        sound = canadian_Retreat_001
+        sound = canadian_Retreat_002
+        sound = canadian_Retreat_003
+        sound = canadian_Retreat_004
+        sound = canadian_Retreat_005
+        sound = canadian_Retreat_006
+        sound = canadian_Retreat_007
+        sound = canadian_Retreat_008
+        sound = canadian_Retreat_009
+        sound = canadian_Retreat_010
+        sound = canadian_Retreat_011
+        sound = canadian_Retreat_012
+        sound = canadian_Retreat_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PBC_infantry_move_out"
+    sounds = {
+        sound = canadian_Moving_001
+        sound = canadian_Moving_002
+        sound = canadian_Moving_003
+        sound = canadian_Moving_004
+        sound = canadian_Moving_005
+        sound = canadian_Moving_006
+        sound = canadian_Moving_007
+        sound = canadian_Moving_008
+        sound = canadian_Moving_009
+        sound = canadian_Moving_010
+        sound = canadian_Moving_011
+        sound = canadian_Moving_012
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## PYT
+
+soundeffect =
+{
+    name = "PYT_infantry_idle"
+    sounds = {
+        sound = canadian_Idle_001
+        sound = canadian_Idle_002
+        sound = canadian_Idle_003
+        sound = canadian_Idle_004
+        sound = canadian_Idle_005
+        sound = canadian_Idle_006
+        sound = canadian_Idle_007
+        sound = canadian_Idle_008
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PYT_infantry_neutral_combat"
+    sounds = {
+        sound = canadian_Neutral_001
+        sound = canadian_Neutral_002
+        sound = canadian_Neutral_003
+        sound = canadian_Neutral_004
+        sound = canadian_Neutral_005
+        sound = canadian_Neutral_006
+        sound = canadian_Neutral_007
+        sound = canadian_Neutral_008
+        sound = canadian_Neutral_009
+        sound = canadian_Neutral_010
+        sound = canadian_Neutral_011
+        sound = canadian_Neutral_012   
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PYT_infantry_positive_combat"
+    sounds = {
+        sound = canadian_Positive_001
+        sound = canadian_Positive_002
+        sound = canadian_Positive_003
+        sound = canadian_Positive_004
+        sound = canadian_Positive_005
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PYT_infantry_retreat"
+    sounds = {
+        sound = canadian_Retreat_001
+        sound = canadian_Retreat_002
+        sound = canadian_Retreat_003
+        sound = canadian_Retreat_004
+        sound = canadian_Retreat_005
+        sound = canadian_Retreat_006
+        sound = canadian_Retreat_007
+        sound = canadian_Retreat_008
+        sound = canadian_Retreat_009
+        sound = canadian_Retreat_010
+        sound = canadian_Retreat_011
+        sound = canadian_Retreat_012
+        sound = canadian_Retreat_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PYT_infantry_move_out"
+    sounds = {
+        sound = canadian_Moving_001
+        sound = canadian_Moving_002
+        sound = canadian_Moving_003
+        sound = canadian_Moving_004
+        sound = canadian_Moving_005
+        sound = canadian_Moving_006
+        sound = canadian_Moving_007
+        sound = canadian_Moving_008
+        sound = canadian_Moving_009
+        sound = canadian_Moving_010
+        sound = canadian_Moving_011
+        sound = canadian_Moving_012
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## PNT
+
+soundeffect =
+{
+    name = "PNT_infantry_idle"
+    sounds = {
+        sound = canadian_Idle_001
+        sound = canadian_Idle_002
+        sound = canadian_Idle_003
+        sound = canadian_Idle_004
+        sound = canadian_Idle_005
+        sound = canadian_Idle_006
+        sound = canadian_Idle_007
+        sound = canadian_Idle_008
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PNT_infantry_neutral_combat"
+    sounds = {
+        sound = canadian_Neutral_001
+        sound = canadian_Neutral_002
+        sound = canadian_Neutral_003
+        sound = canadian_Neutral_004
+        sound = canadian_Neutral_005
+        sound = canadian_Neutral_006
+        sound = canadian_Neutral_007
+        sound = canadian_Neutral_008
+        sound = canadian_Neutral_009
+        sound = canadian_Neutral_010
+        sound = canadian_Neutral_011
+        sound = canadian_Neutral_012   
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PNT_infantry_positive_combat"
+    sounds = {
+        sound = canadian_Positive_001
+        sound = canadian_Positive_002
+        sound = canadian_Positive_003
+        sound = canadian_Positive_004
+        sound = canadian_Positive_005
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PNT_infantry_retreat"
+    sounds = {
+        sound = canadian_Retreat_001
+        sound = canadian_Retreat_002
+        sound = canadian_Retreat_003
+        sound = canadian_Retreat_004
+        sound = canadian_Retreat_005
+        sound = canadian_Retreat_006
+        sound = canadian_Retreat_007
+        sound = canadian_Retreat_008
+        sound = canadian_Retreat_009
+        sound = canadian_Retreat_010
+        sound = canadian_Retreat_011
+        sound = canadian_Retreat_012
+        sound = canadian_Retreat_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PNT_infantry_move_out"
+    sounds = {
+        sound = canadian_Moving_001
+        sound = canadian_Moving_002
+        sound = canadian_Moving_003
+        sound = canadian_Moving_004
+        sound = canadian_Moving_005
+        sound = canadian_Moving_006
+        sound = canadian_Moving_007
+        sound = canadian_Moving_008
+        sound = canadian_Moving_009
+        sound = canadian_Moving_010
+        sound = canadian_Moving_011
+        sound = canadian_Moving_012
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## NFL
+
+soundeffect =
+{
+    name = "NFL_infantry_idle"
+    sounds = {
+        sound = canadian_Idle_001
+        sound = canadian_Idle_002
+        sound = canadian_Idle_003
+        sound = canadian_Idle_004
+        sound = canadian_Idle_005
+        sound = canadian_Idle_006
+        sound = canadian_Idle_007
+        sound = canadian_Idle_008
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "NFL_infantry_neutral_combat"
+    sounds = {
+        sound = canadian_Neutral_001
+        sound = canadian_Neutral_002
+        sound = canadian_Neutral_003
+        sound = canadian_Neutral_004
+        sound = canadian_Neutral_005
+        sound = canadian_Neutral_006
+        sound = canadian_Neutral_007
+        sound = canadian_Neutral_008
+        sound = canadian_Neutral_009
+        sound = canadian_Neutral_010
+        sound = canadian_Neutral_011
+        sound = canadian_Neutral_012   
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "NFL_infantry_positive_combat"
+    sounds = {
+        sound = canadian_Positive_001
+        sound = canadian_Positive_002
+        sound = canadian_Positive_003
+        sound = canadian_Positive_004
+        sound = canadian_Positive_005
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "NFL_infantry_retreat"
+    sounds = {
+        sound = canadian_Retreat_001
+        sound = canadian_Retreat_002
+        sound = canadian_Retreat_003
+        sound = canadian_Retreat_004
+        sound = canadian_Retreat_005
+        sound = canadian_Retreat_006
+        sound = canadian_Retreat_007
+        sound = canadian_Retreat_008
+        sound = canadian_Retreat_009
+        sound = canadian_Retreat_010
+        sound = canadian_Retreat_011
+        sound = canadian_Retreat_012
+        sound = canadian_Retreat_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "NFL_infantry_move_out"
+    sounds = {
+        sound = canadian_Moving_001
+        sound = canadian_Moving_002
+        sound = canadian_Moving_003
+        sound = canadian_Moving_004
+        sound = canadian_Moving_005
+        sound = canadian_Moving_006
+        sound = canadian_Moving_007
+        sound = canadian_Moving_008
+        sound = canadian_Moving_009
+        sound = canadian_Moving_010
+        sound = canadian_Moving_011
+        sound = canadian_Moving_012
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## LAB
+
+soundeffect =
+{
+    name = "LAB_infantry_idle"
+    sounds = {
+        sound = canadian_Idle_001
+        sound = canadian_Idle_002
+        sound = canadian_Idle_003
+        sound = canadian_Idle_004
+        sound = canadian_Idle_005
+        sound = canadian_Idle_006
+        sound = canadian_Idle_007
+        sound = canadian_Idle_008
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "LAB_infantry_neutral_combat"
+    sounds = {
+        sound = canadian_Neutral_001
+        sound = canadian_Neutral_002
+        sound = canadian_Neutral_003
+        sound = canadian_Neutral_004
+        sound = canadian_Neutral_005
+        sound = canadian_Neutral_006
+        sound = canadian_Neutral_007
+        sound = canadian_Neutral_008
+        sound = canadian_Neutral_009
+        sound = canadian_Neutral_010
+        sound = canadian_Neutral_011
+        sound = canadian_Neutral_012   
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "LAB_infantry_positive_combat"
+    sounds = {
+        sound = canadian_Positive_001
+        sound = canadian_Positive_002
+        sound = canadian_Positive_003
+        sound = canadian_Positive_004
+        sound = canadian_Positive_005
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "LAB_infantry_retreat"
+    sounds = {
+        sound = canadian_Retreat_001
+        sound = canadian_Retreat_002
+        sound = canadian_Retreat_003
+        sound = canadian_Retreat_004
+        sound = canadian_Retreat_005
+        sound = canadian_Retreat_006
+        sound = canadian_Retreat_007
+        sound = canadian_Retreat_008
+        sound = canadian_Retreat_009
+        sound = canadian_Retreat_010
+        sound = canadian_Retreat_011
+        sound = canadian_Retreat_012
+        sound = canadian_Retreat_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "LAB_infantry_move_out"
+    sounds = {
+        sound = canadian_Moving_001
+        sound = canadian_Moving_002
+        sound = canadian_Moving_003
+        sound = canadian_Moving_004
+        sound = canadian_Moving_005
+        sound = canadian_Moving_006
+        sound = canadian_Moving_007
+        sound = canadian_Moving_008
+        sound = canadian_Moving_009
+        sound = canadian_Moving_010
+        sound = canadian_Moving_011
+        sound = canadian_Moving_012
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## PVC
+
+soundeffect =
+{
+    name = "PVC_infantry_idle"
+    sounds = {
+        sound = canadian_Idle_001
+        sound = canadian_Idle_002
+        sound = canadian_Idle_003
+        sound = canadian_Idle_004
+        sound = canadian_Idle_005
+        sound = canadian_Idle_006
+        sound = canadian_Idle_007
+        sound = canadian_Idle_008
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PVC_infantry_neutral_combat"
+    sounds = {
+        sound = canadian_Neutral_001
+        sound = canadian_Neutral_002
+        sound = canadian_Neutral_003
+        sound = canadian_Neutral_004
+        sound = canadian_Neutral_005
+        sound = canadian_Neutral_006
+        sound = canadian_Neutral_007
+        sound = canadian_Neutral_008
+        sound = canadian_Neutral_009
+        sound = canadian_Neutral_010
+        sound = canadian_Neutral_011
+        sound = canadian_Neutral_012   
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PVC_infantry_positive_combat"
+    sounds = {
+        sound = canadian_Positive_001
+        sound = canadian_Positive_002
+        sound = canadian_Positive_003
+        sound = canadian_Positive_004
+        sound = canadian_Positive_005
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PVC_infantry_retreat"
+    sounds = {
+        sound = canadian_Retreat_001
+        sound = canadian_Retreat_002
+        sound = canadian_Retreat_003
+        sound = canadian_Retreat_004
+        sound = canadian_Retreat_005
+        sound = canadian_Retreat_006
+        sound = canadian_Retreat_007
+        sound = canadian_Retreat_008
+        sound = canadian_Retreat_009
+        sound = canadian_Retreat_010
+        sound = canadian_Retreat_011
+        sound = canadian_Retreat_012
+        sound = canadian_Retreat_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "PVC_infantry_move_out"
+    sounds = {
+        sound = canadian_Moving_001
+        sound = canadian_Moving_002
+        sound = canadian_Moving_003
+        sound = canadian_Moving_004
+        sound = canadian_Moving_005
+        sound = canadian_Moving_006
+        sound = canadian_Moving_007
+        sound = canadian_Moving_008
+        sound = canadian_Moving_009
+        sound = canadian_Moving_010
+        sound = canadian_Moving_011
+        sound = canadian_Moving_012
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+
+############## AUDIO ASSETS
+
+####### CAN
+
+sound =
+{
+	name = "canadian_Idle_001"
+	file = "canadian/canadian_Idle_001.wav"
+}
+sound =
+{
+	name = "canadian_Idle_002"
+	file = "canadian/canadian_Idle_002.wav"
+}
+sound =
+{
+	name = "canadian_Idle_003"
+	file = "canadian/canadian_Idle_003.wav"
+}
+sound =
+{
+	name = "canadian_Idle_004"
+	file = "canadian/canadian_Idle_004.wav"
+}
+sound =
+{
+	name = "canadian_Idle_005"
+	file = "canadian/canadian_Idle_005.wav"
+}
+sound =
+{
+	name = "canadian_Idle_006"
+	file = "canadian/canadian_Idle_006.wav"
+}
+sound =
+{
+	name = "canadian_Idle_007"
+	file = "canadian/canadian_Idle_007.wav"
+}
+sound =
+{
+	name = "canadian_Idle_008"
+	file = "canadian/canadian_Idle_008.wav"
+}
+sound =
+{
+	name = "canadian_Moving_001"
+	file = "canadian/canadian_Moving_001.wav"
+}
+sound =
+{
+	name = "canadian_Moving_002"
+	file = "canadian/canadian_Moving_002.wav"
+}
+sound =
+{
+	name = "canadian_Moving_003"
+	file = "canadian/canadian_Moving_003.wav"
+}
+sound =
+{
+	name = "canadian_Moving_004"
+	file = "canadian/canadian_Moving_004.wav"
+}
+sound =
+{
+	name = "canadian_Moving_005"
+	file = "canadian/canadian_Moving_005.wav"
+}
+sound =
+{
+	name = "canadian_Moving_006"
+	file = "canadian/canadian_Moving_006.wav"
+}
+sound =
+{
+	name = "canadian_Moving_007"
+	file = "canadian/canadian_Moving_007.wav"
+}
+sound =
+{
+	name = "canadian_Moving_008"
+	file = "canadian/canadian_Moving_008.wav"
+}
+sound =
+{
+	name = "canadian_Moving_009"
+	file = "canadian/canadian_Moving_009.wav"
+}
+sound =
+{
+	name = "canadian_Moving_010"
+	file = "canadian/canadian_Moving_010.wav"
+}
+sound =
+{
+	name = "canadian_Moving_011"
+	file = "canadian/canadian_Moving_011.wav"
+}
+sound =
+{
+	name = "canadian_Moving_012"
+	file = "canadian/canadian_Moving_012.wav"
+}
+sound =
+{
+	name = "canadian_Neutral_001"
+	file = "canadian/canadian_Neutral_001.wav"
+}
+sound =
+{
+	name = "canadian_Neutral_002"
+	file = "canadian/canadian_Neutral_002.wav"
+}
+sound =
+{
+	name = "canadian_Neutral_003"
+	file = "canadian/canadian_Neutral_003.wav"
+}
+sound =
+{
+	name = "canadian_Neutral_004"
+	file = "canadian/canadian_Neutral_004.wav"
+}
+sound =
+{
+	name = "canadian_Neutral_005"
+	file = "canadian/canadian_Neutral_005.wav"
+}
+sound =
+{
+	name = "canadian_Neutral_006"
+	file = "canadian/canadian_Neutral_006.wav"
+}
+sound =
+{
+	name = "canadian_Neutral_007"
+	file = "canadian/canadian_Neutral_007.wav"
+}
+sound =
+{
+	name = "canadian_Neutral_008"
+	file = "canadian/canadian_Neutral_008.wav"
+}
+sound =
+{
+	name = "canadian_Neutral_009"
+	file = "canadian/canadian_Neutral_009.wav"
+}
+sound =
+{
+	name = "canadian_Neutral_010"
+	file = "canadian/canadian_Neutral_010.wav"
+}
+sound =
+{
+	name = "canadian_Neutral_011"
+	file = "canadian/canadian_Neutral_011.wav"
+}
+sound =
+{
+	name = "canadian_Neutral_012"
+	file = "canadian/canadian_Neutral_012.wav"
+}
+sound =
+{
+	name = "canadian_Positive_001"
+	file = "canadian/canadian_Positive_001.wav"
+}
+sound =
+{
+	name = "canadian_Positive_002"
+	file = "canadian/canadian_Positive_002.wav"
+}
+sound =
+{
+	name = "canadian_Positive_003"
+	file = "canadian/canadian_Positive_003.wav"
+}
+sound =
+{
+	name = "canadian_Positive_004"
+	file = "canadian/canadian_Positive_004.wav"
+}
+sound =
+{
+	name = "canadian_Positive_005"
+	file = "canadian/canadian_Positive_005.wav"
+}
+sound =
+{
+	name = "canadian_Retreat_001"
+	file = "canadian/canadian_Retreat_001.wav"
+}
+sound =
+{
+	name = "canadian_Retreat_002"
+	file = "canadian/canadian_Retreat_002.wav"
+}
+sound =
+{
+	name = "canadian_Retreat_003"
+	file = "canadian/canadian_Retreat_003.wav"
+}
+sound =
+{
+	name = "canadian_Retreat_004"
+	file = "canadian/canadian_Retreat_004.wav"
+}
+sound =
+{
+	name = "canadian_Retreat_005"
+	file = "canadian/canadian_Retreat_005.wav"
+}
+sound =
+{
+	name = "canadian_Retreat_006"
+	file = "canadian/canadian_Retreat_006.wav"
+}
+sound =
+{
+	name = "canadian_Retreat_007"
+	file = "canadian/canadian_Retreat_007.wav"
+}
+sound =
+{
+	name = "canadian_Retreat_008"
+	file = "canadian/canadian_Retreat_008.wav"
+}
+sound =
+{
+	name = "canadian_Retreat_009"
+	file = "canadian/canadian_Retreat_009.wav"
+}
+sound =
+{
+	name = "canadian_Retreat_010"
+	file = "canadian/canadian_Retreat_010.wav"
+}
+sound =
+{
+	name = "canadian_Retreat_011"
+	file = "canadian/canadian_Retreat_011.wav"
+}
+sound =
+{
+	name = "canadian_Retreat_012"
+	file = "canadian/canadian_Retreat_012.wav"
+}
+sound =
+{
+	name = "canadian_Retreat_013"
+	file = "canadian/canadian_Retreat_013.wav"
+}

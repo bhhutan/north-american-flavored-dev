@@ -1,0 +1,2847 @@
+
+category = 
+{
+ name = "Voices"
+ soundeffects = {
+
+	############ SOUTH ############
+	SLA_infantry_idle
+	SLA_infantry_neutral_combat
+	SLA_infantry_positive_combat
+	SLA_infantry_retreat
+	SLA_infantry_move_out
+	SFL_infantry_idle
+	SFL_infantry_neutral_combat
+	SFL_infantry_positive_combat
+	SFL_infantry_retreat
+	SFL_infantry_move_out
+	SOK_infantry_neutral_combat
+	SOK_infantry_positive_combat
+	SOK_infantry_retreat
+	SOK_infantry_move_out
+	SOK_infantry_idle
+	SAR_infantry_neutral_combat
+	SAR_infantry_positive_combat
+	SAR_infantry_retreat
+	SAR_infantry_move_out
+	SAR_infantry_idle
+	SGA_infantry_neutral_combat
+	SGA_infantry_positive_combat
+	SGA_infantry_retreat
+	SGA_infantry_move_out
+	SGA_infantry_idle
+	SAL_infantry_neutral_combat
+	SAL_infantry_positive_combat
+	SAL_infantry_retreat
+	SAL_infantry_move_out
+	SAL_infantry_idle
+	SNC_infantry_neutral_combat
+	SNC_infantry_positive_combat
+	SNC_infantry_retreat
+	SNC_infantry_move_out
+	SNC_infantry_idle
+	SSC_infantry_neutral_combat
+	SSC_infantry_positive_combat
+	SSC_infantry_retreat
+	SSC_infantry_move_out
+	SSC_infantry_idle
+	SVA_infantry_neutral_combat
+	SVA_infantry_positive_combat
+	SVA_infantry_retreat
+	SVA_infantry_move_out
+	SVA_infantry_idle
+	STN_infantry_neutral_combat
+	STN_infantry_positive_combat
+	STN_infantry_retreat
+	STN_infantry_move_out
+	STN_infantry_idle
+	SKY_infantry_neutral_combat
+	SKY_infantry_positive_combat
+	SKY_infantry_retreat
+	SKY_infantry_move_out
+	SKY_infantry_idle
+	SMS_infantry_neutral_combat
+	SMS_infantry_positive_combat
+	SMS_infantry_retreat
+	SMS_infantry_move_out
+	SMS_infantry_idle
+	SWV_infantry_neutral_combat
+	SWV_infantry_positive_combat
+	SWV_infantry_retreat
+	SWV_infantry_move_out
+	SWV_infantry_idle
+	STX_infantry_idle
+	STX_infantry_neutral_combat
+	STX_infantry_positive_combat
+	STX_infantry_retreat
+	STX_infantry_move_out
+	LMO_infantry_neutral_combat
+	LMO_infantry_positive_combat
+	LMO_infantry_retreat
+	LMO_infantry_move_out
+	LMO_infantry_idle
+	MTX_infantry_positive_combat
+    MTX_infantry_neutral_combat
+	MTX_infantry_retreat
+	MTX_infantry_move_out
+	MTX_infantry_idle
+	ORL_infantry_positive_combat
+    ORL_infantry_neutral_combat
+	ORL_infantry_retreat
+	ORL_infantry_move_out
+	ORL_infantry_idle
+	STL_infantry_positive_combat
+    STL_infantry_neutral_combat
+	STL_infantry_retreat
+	STL_infantry_move_out
+	STL_infantry_idle
+
+ }
+  compressor = 
+ {
+	enabled = yes
+	pregain = 0.0
+	postgain = 2.0
+	ratio = 10.0
+	threshold = -10.0
+	attacktime = 0.030
+	releasetime = 1.2
+ }
+}
+
+########## SLA
+
+soundeffect =
+{
+    name = "SLA_infantry_idle"
+    sounds = {
+        sound = dixie_Idle_001
+        sound = dixie_Idle_002
+        sound = dixie_Idle_003
+        sound = dixie_Idle_004
+        sound = dixie_Idle_005
+        sound = dixie_Idle_006
+        sound = dixie_Idle_007
+        sound = dixie_Idle_008
+        sound = dixie_Idle_009
+        sound = dixie_Idle_010
+        sound = dixie_Idle_011
+        sound = dixie_Idle_012
+        sound = dixie_Idle_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SLA_infantry_neutral_combat"
+    sounds = {
+        sound = dixie_Neutral_001
+        sound = dixie_Neutral_002
+        sound = dixie_Neutral_003
+        sound = dixie_Neutral_004
+        sound = dixie_Neutral_005
+        sound = dixie_Neutral_006
+        sound = dixie_Neutral_007
+        sound = dixie_Neutral_008
+        sound = dixie_Neutral_009
+        sound = dixie_Neutral_010
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SLA_infantry_positive_combat"
+    sounds = {
+        sound = dixie_Positive_001
+        sound = dixie_Positive_002
+        sound = dixie_Positive_003
+        sound = dixie_Positive_004
+        sound = dixie_Positive_005
+        sound = dixie_Positive_006
+        sound = dixie_Positive_007
+        sound = dixie_Positive_008
+        sound = dixie_Positive_009
+        sound = dixie_Positive_010
+        sound = dixie_Positive_011
+        sound = dixie_Positive_012
+        sound = dixie_Positive_013
+        sound = dixie_Positive_014
+        sound = dixie_Positive_015
+        sound = dixie_Positive_016
+        sound = dixie_Positive_017
+        sound = dixie_Positive_018
+        sound = dixie_Positive_019
+        sound = dixie_Positive_020
+        
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SLA_infantry_retreat"
+    sounds = {
+        sound = dixie_Retreat_001
+        sound = dixie_Retreat_002
+        sound = dixie_Retreat_003
+        sound = dixie_Retreat_004
+        sound = dixie_Retreat_005
+        sound = dixie_Retreat_006
+        sound = dixie_Retreat_007
+        sound = dixie_Retreat_008
+        sound = dixie_Retreat_009
+        sound = dixie_Retreat_010
+        sound = dixie_Retreat_011
+        sound = dixie_Retreat_012
+        sound = dixie_Retreat_013
+        sound = dixie_Retreat_014
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SLA_infantry_move_out"
+    sounds = {
+        sound = dixie_Moving_001
+        sound = dixie_Moving_002
+        sound = dixie_Moving_003
+        sound = dixie_Moving_004
+        sound = dixie_Moving_005
+        sound = dixie_Moving_006
+        sound = dixie_Moving_007
+        sound = dixie_Moving_008
+        sound = dixie_Moving_009
+        sound = dixie_Moving_010
+        sound = dixie_Moving_011
+        sound = dixie_Moving_012
+        sound = dixie_Moving_013
+        sound = dixie_Moving_014
+        sound = dixie_Moving_015
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## SFL
+
+soundeffect =
+{
+    name = "SFL_infantry_idle"
+    sounds = {
+        sound = dixie_Idle_001
+        sound = dixie_Idle_002
+        sound = dixie_Idle_003
+        sound = dixie_Idle_004
+        sound = dixie_Idle_005
+        sound = dixie_Idle_006
+        sound = dixie_Idle_007
+        sound = dixie_Idle_008
+        sound = dixie_Idle_009
+        sound = dixie_Idle_010
+        sound = dixie_Idle_011
+        sound = dixie_Idle_012
+        sound = dixie_Idle_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SFL_infantry_neutral_combat"
+    sounds = {
+        sound = dixie_Neutral_001
+        sound = dixie_Neutral_002
+        sound = dixie_Neutral_003
+        sound = dixie_Neutral_004
+        sound = dixie_Neutral_005
+        sound = dixie_Neutral_006
+        sound = dixie_Neutral_007
+        sound = dixie_Neutral_008
+        sound = dixie_Neutral_009
+        sound = dixie_Neutral_010
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SFL_infantry_positive_combat"
+    sounds = {
+        sound = dixie_Positive_001
+        sound = dixie_Positive_002
+        sound = dixie_Positive_003
+        sound = dixie_Positive_004
+        sound = dixie_Positive_005
+        sound = dixie_Positive_006
+        sound = dixie_Positive_007
+        sound = dixie_Positive_008
+        sound = dixie_Positive_009
+        sound = dixie_Positive_010
+        sound = dixie_Positive_011
+        sound = dixie_Positive_012
+        sound = dixie_Positive_013
+        sound = dixie_Positive_014
+        sound = dixie_Positive_015
+        sound = dixie_Positive_016
+        sound = dixie_Positive_017
+        sound = dixie_Positive_018
+        sound = dixie_Positive_019
+        sound = dixie_Positive_020
+        
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SFL_infantry_retreat"
+    sounds = {
+        sound = dixie_Retreat_001
+        sound = dixie_Retreat_002
+        sound = dixie_Retreat_003
+        sound = dixie_Retreat_004
+        sound = dixie_Retreat_005
+        sound = dixie_Retreat_006
+        sound = dixie_Retreat_007
+        sound = dixie_Retreat_008
+        sound = dixie_Retreat_009
+        sound = dixie_Retreat_010
+        sound = dixie_Retreat_011
+        sound = dixie_Retreat_012
+        sound = dixie_Retreat_013
+        sound = dixie_Retreat_014
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SFL_infantry_move_out"
+    sounds = {
+        sound = dixie_Moving_001
+        sound = dixie_Moving_002
+        sound = dixie_Moving_003
+        sound = dixie_Moving_004
+        sound = dixie_Moving_005
+        sound = dixie_Moving_006
+        sound = dixie_Moving_007
+        sound = dixie_Moving_008
+        sound = dixie_Moving_009
+        sound = dixie_Moving_010
+        sound = dixie_Moving_011
+        sound = dixie_Moving_012
+        sound = dixie_Moving_013
+        sound = dixie_Moving_014
+        sound = dixie_Moving_015
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## SOK
+
+soundeffect =
+{
+    name = "SOK_infantry_idle"
+    sounds = {
+        sound = dixie_Idle_001
+        sound = dixie_Idle_002
+        sound = dixie_Idle_003
+        sound = dixie_Idle_004
+        sound = dixie_Idle_005
+        sound = dixie_Idle_006
+        sound = dixie_Idle_007
+        sound = dixie_Idle_008
+        sound = dixie_Idle_009
+        sound = dixie_Idle_010
+        sound = dixie_Idle_011
+        sound = dixie_Idle_012
+        sound = dixie_Idle_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SOK_infantry_neutral_combat"
+    sounds = {
+        sound = dixie_Neutral_001
+        sound = dixie_Neutral_002
+        sound = dixie_Neutral_003
+        sound = dixie_Neutral_004
+        sound = dixie_Neutral_005
+        sound = dixie_Neutral_006
+        sound = dixie_Neutral_007
+        sound = dixie_Neutral_008
+        sound = dixie_Neutral_009
+        sound = dixie_Neutral_010
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SOK_infantry_positive_combat"
+    sounds = {
+        sound = dixie_Positive_001
+        sound = dixie_Positive_002
+        sound = dixie_Positive_003
+        sound = dixie_Positive_004
+        sound = dixie_Positive_005
+        sound = dixie_Positive_006
+        sound = dixie_Positive_007
+        sound = dixie_Positive_008
+        sound = dixie_Positive_009
+        sound = dixie_Positive_010
+        sound = dixie_Positive_011
+        sound = dixie_Positive_012
+        sound = dixie_Positive_013
+        sound = dixie_Positive_014
+        sound = dixie_Positive_015
+        sound = dixie_Positive_016
+        sound = dixie_Positive_017
+        sound = dixie_Positive_018
+        sound = dixie_Positive_019
+        sound = dixie_Positive_020
+        
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SOK_infantry_retreat"
+    sounds = {
+        sound = dixie_Retreat_001
+        sound = dixie_Retreat_002
+        sound = dixie_Retreat_003
+        sound = dixie_Retreat_004
+        sound = dixie_Retreat_005
+        sound = dixie_Retreat_006
+        sound = dixie_Retreat_007
+        sound = dixie_Retreat_008
+        sound = dixie_Retreat_009
+        sound = dixie_Retreat_010
+        sound = dixie_Retreat_011
+        sound = dixie_Retreat_012
+        sound = dixie_Retreat_013
+        sound = dixie_Retreat_014
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SOK_infantry_move_out"
+    sounds = {
+        sound = dixie_Moving_001
+        sound = dixie_Moving_002
+        sound = dixie_Moving_003
+        sound = dixie_Moving_004
+        sound = dixie_Moving_005
+        sound = dixie_Moving_006
+        sound = dixie_Moving_007
+        sound = dixie_Moving_008
+        sound = dixie_Moving_009
+        sound = dixie_Moving_010
+        sound = dixie_Moving_011
+        sound = dixie_Moving_012
+        sound = dixie_Moving_013
+        sound = dixie_Moving_014
+        sound = dixie_Moving_015
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## SAR
+
+soundeffect =
+{
+    name = "SAR_infantry_idle"
+    sounds = {
+        sound = dixie_Idle_001
+        sound = dixie_Idle_002
+        sound = dixie_Idle_003
+        sound = dixie_Idle_004
+        sound = dixie_Idle_005
+        sound = dixie_Idle_006
+        sound = dixie_Idle_007
+        sound = dixie_Idle_008
+        sound = dixie_Idle_009
+        sound = dixie_Idle_010
+        sound = dixie_Idle_011
+        sound = dixie_Idle_012
+        sound = dixie_Idle_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SAR_infantry_neutral_combat"
+    sounds = {
+        sound = dixie_Neutral_001
+        sound = dixie_Neutral_002
+        sound = dixie_Neutral_003
+        sound = dixie_Neutral_004
+        sound = dixie_Neutral_005
+        sound = dixie_Neutral_006
+        sound = dixie_Neutral_007
+        sound = dixie_Neutral_008
+        sound = dixie_Neutral_009
+        sound = dixie_Neutral_010
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SAR_infantry_positive_combat"
+    sounds = {
+        sound = dixie_Positive_001
+        sound = dixie_Positive_002
+        sound = dixie_Positive_003
+        sound = dixie_Positive_004
+        sound = dixie_Positive_005
+        sound = dixie_Positive_006
+        sound = dixie_Positive_007
+        sound = dixie_Positive_008
+        sound = dixie_Positive_009
+        sound = dixie_Positive_010
+        sound = dixie_Positive_011
+        sound = dixie_Positive_012
+        sound = dixie_Positive_013
+        sound = dixie_Positive_014
+        sound = dixie_Positive_015
+        sound = dixie_Positive_016
+        sound = dixie_Positive_017
+        sound = dixie_Positive_018
+        sound = dixie_Positive_019
+        sound = dixie_Positive_020
+        
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SAR_infantry_retreat"
+    sounds = {
+        sound = dixie_Retreat_001
+        sound = dixie_Retreat_002
+        sound = dixie_Retreat_003
+        sound = dixie_Retreat_004
+        sound = dixie_Retreat_005
+        sound = dixie_Retreat_006
+        sound = dixie_Retreat_007
+        sound = dixie_Retreat_008
+        sound = dixie_Retreat_009
+        sound = dixie_Retreat_010
+        sound = dixie_Retreat_011
+        sound = dixie_Retreat_012
+        sound = dixie_Retreat_013
+        sound = dixie_Retreat_014
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SAR_infantry_move_out"
+    sounds = {
+        sound = dixie_Moving_001
+        sound = dixie_Moving_002
+        sound = dixie_Moving_003
+        sound = dixie_Moving_004
+        sound = dixie_Moving_005
+        sound = dixie_Moving_006
+        sound = dixie_Moving_007
+        sound = dixie_Moving_008
+        sound = dixie_Moving_009
+        sound = dixie_Moving_010
+        sound = dixie_Moving_011
+        sound = dixie_Moving_012
+        sound = dixie_Moving_013
+        sound = dixie_Moving_014
+        sound = dixie_Moving_015
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## SGA
+
+soundeffect =
+{
+    name = "SGA_infantry_idle"
+    sounds = {
+        sound = dixie_Idle_001
+        sound = dixie_Idle_002
+        sound = dixie_Idle_003
+        sound = dixie_Idle_004
+        sound = dixie_Idle_005
+        sound = dixie_Idle_006
+        sound = dixie_Idle_007
+        sound = dixie_Idle_008
+        sound = dixie_Idle_009
+        sound = dixie_Idle_010
+        sound = dixie_Idle_011
+        sound = dixie_Idle_012
+        sound = dixie_Idle_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SGA_infantry_neutral_combat"
+    sounds = {
+        sound = dixie_Neutral_001
+        sound = dixie_Neutral_002
+        sound = dixie_Neutral_003
+        sound = dixie_Neutral_004
+        sound = dixie_Neutral_005
+        sound = dixie_Neutral_006
+        sound = dixie_Neutral_007
+        sound = dixie_Neutral_008
+        sound = dixie_Neutral_009
+        sound = dixie_Neutral_010
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SGA_infantry_positive_combat"
+    sounds = {
+        sound = dixie_Positive_001
+        sound = dixie_Positive_002
+        sound = dixie_Positive_003
+        sound = dixie_Positive_004
+        sound = dixie_Positive_005
+        sound = dixie_Positive_006
+        sound = dixie_Positive_007
+        sound = dixie_Positive_008
+        sound = dixie_Positive_009
+        sound = dixie_Positive_010
+        sound = dixie_Positive_011
+        sound = dixie_Positive_012
+        sound = dixie_Positive_013
+        sound = dixie_Positive_014
+        sound = dixie_Positive_015
+        sound = dixie_Positive_016
+        sound = dixie_Positive_017
+        sound = dixie_Positive_018
+        sound = dixie_Positive_019
+        sound = dixie_Positive_020
+        
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SGA_infantry_retreat"
+    sounds = {
+        sound = dixie_Retreat_001
+        sound = dixie_Retreat_002
+        sound = dixie_Retreat_003
+        sound = dixie_Retreat_004
+        sound = dixie_Retreat_005
+        sound = dixie_Retreat_006
+        sound = dixie_Retreat_007
+        sound = dixie_Retreat_008
+        sound = dixie_Retreat_009
+        sound = dixie_Retreat_010
+        sound = dixie_Retreat_011
+        sound = dixie_Retreat_012
+        sound = dixie_Retreat_013
+        sound = dixie_Retreat_014
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SGA_infantry_move_out"
+    sounds = {
+        sound = dixie_Moving_001
+        sound = dixie_Moving_002
+        sound = dixie_Moving_003
+        sound = dixie_Moving_004
+        sound = dixie_Moving_005
+        sound = dixie_Moving_006
+        sound = dixie_Moving_007
+        sound = dixie_Moving_008
+        sound = dixie_Moving_009
+        sound = dixie_Moving_010
+        sound = dixie_Moving_011
+        sound = dixie_Moving_012
+        sound = dixie_Moving_013
+        sound = dixie_Moving_014
+        sound = dixie_Moving_015
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## SAL
+
+soundeffect =
+{
+    name = "SAL_infantry_idle"
+    sounds = {
+        sound = dixie_Idle_001
+        sound = dixie_Idle_002
+        sound = dixie_Idle_003
+        sound = dixie_Idle_004
+        sound = dixie_Idle_005
+        sound = dixie_Idle_006
+        sound = dixie_Idle_007
+        sound = dixie_Idle_008
+        sound = dixie_Idle_009
+        sound = dixie_Idle_010
+        sound = dixie_Idle_011
+        sound = dixie_Idle_012
+        sound = dixie_Idle_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SAL_infantry_neutral_combat"
+    sounds = {
+        sound = dixie_Neutral_001
+        sound = dixie_Neutral_002
+        sound = dixie_Neutral_003
+        sound = dixie_Neutral_004
+        sound = dixie_Neutral_005
+        sound = dixie_Neutral_006
+        sound = dixie_Neutral_007
+        sound = dixie_Neutral_008
+        sound = dixie_Neutral_009
+        sound = dixie_Neutral_010
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SAL_infantry_positive_combat"
+    sounds = {
+        sound = dixie_Positive_001
+        sound = dixie_Positive_002
+        sound = dixie_Positive_003
+        sound = dixie_Positive_004
+        sound = dixie_Positive_005
+        sound = dixie_Positive_006
+        sound = dixie_Positive_007
+        sound = dixie_Positive_008
+        sound = dixie_Positive_009
+        sound = dixie_Positive_010
+        sound = dixie_Positive_011
+        sound = dixie_Positive_012
+        sound = dixie_Positive_013
+        sound = dixie_Positive_014
+        sound = dixie_Positive_015
+        sound = dixie_Positive_016
+        sound = dixie_Positive_017
+        sound = dixie_Positive_018
+        sound = dixie_Positive_019
+        sound = dixie_Positive_020
+        
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SAL_infantry_retreat"
+    sounds = {
+        sound = dixie_Retreat_001
+        sound = dixie_Retreat_002
+        sound = dixie_Retreat_003
+        sound = dixie_Retreat_004
+        sound = dixie_Retreat_005
+        sound = dixie_Retreat_006
+        sound = dixie_Retreat_007
+        sound = dixie_Retreat_008
+        sound = dixie_Retreat_009
+        sound = dixie_Retreat_010
+        sound = dixie_Retreat_011
+        sound = dixie_Retreat_012
+        sound = dixie_Retreat_013
+        sound = dixie_Retreat_014
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SAL_infantry_move_out"
+    sounds = {
+        sound = dixie_Moving_001
+        sound = dixie_Moving_002
+        sound = dixie_Moving_003
+        sound = dixie_Moving_004
+        sound = dixie_Moving_005
+        sound = dixie_Moving_006
+        sound = dixie_Moving_007
+        sound = dixie_Moving_008
+        sound = dixie_Moving_009
+        sound = dixie_Moving_010
+        sound = dixie_Moving_011
+        sound = dixie_Moving_012
+        sound = dixie_Moving_013
+        sound = dixie_Moving_014
+        sound = dixie_Moving_015
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## SNC
+
+soundeffect =
+{
+    name = "SNC_infantry_idle"
+    sounds = {
+        sound = dixie_Idle_001
+        sound = dixie_Idle_002
+        sound = dixie_Idle_003
+        sound = dixie_Idle_004
+        sound = dixie_Idle_005
+        sound = dixie_Idle_006
+        sound = dixie_Idle_007
+        sound = dixie_Idle_008
+        sound = dixie_Idle_009
+        sound = dixie_Idle_010
+        sound = dixie_Idle_011
+        sound = dixie_Idle_012
+        sound = dixie_Idle_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SNC_infantry_neutral_combat"
+    sounds = {
+        sound = dixie_Neutral_001
+        sound = dixie_Neutral_002
+        sound = dixie_Neutral_003
+        sound = dixie_Neutral_004
+        sound = dixie_Neutral_005
+        sound = dixie_Neutral_006
+        sound = dixie_Neutral_007
+        sound = dixie_Neutral_008
+        sound = dixie_Neutral_009
+        sound = dixie_Neutral_010
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SNC_infantry_positive_combat"
+    sounds = {
+        sound = dixie_Positive_001
+        sound = dixie_Positive_002
+        sound = dixie_Positive_003
+        sound = dixie_Positive_004
+        sound = dixie_Positive_005
+        sound = dixie_Positive_006
+        sound = dixie_Positive_007
+        sound = dixie_Positive_008
+        sound = dixie_Positive_009
+        sound = dixie_Positive_010
+        sound = dixie_Positive_011
+        sound = dixie_Positive_012
+        sound = dixie_Positive_013
+        sound = dixie_Positive_014
+        sound = dixie_Positive_015
+        sound = dixie_Positive_016
+        sound = dixie_Positive_017
+        sound = dixie_Positive_018
+        sound = dixie_Positive_019
+        sound = dixie_Positive_020
+        
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SNC_infantry_retreat"
+    sounds = {
+        sound = dixie_Retreat_001
+        sound = dixie_Retreat_002
+        sound = dixie_Retreat_003
+        sound = dixie_Retreat_004
+        sound = dixie_Retreat_005
+        sound = dixie_Retreat_006
+        sound = dixie_Retreat_007
+        sound = dixie_Retreat_008
+        sound = dixie_Retreat_009
+        sound = dixie_Retreat_010
+        sound = dixie_Retreat_011
+        sound = dixie_Retreat_012
+        sound = dixie_Retreat_013
+        sound = dixie_Retreat_014
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SNC_infantry_move_out"
+    sounds = {
+        sound = dixie_Moving_001
+        sound = dixie_Moving_002
+        sound = dixie_Moving_003
+        sound = dixie_Moving_004
+        sound = dixie_Moving_005
+        sound = dixie_Moving_006
+        sound = dixie_Moving_007
+        sound = dixie_Moving_008
+        sound = dixie_Moving_009
+        sound = dixie_Moving_010
+        sound = dixie_Moving_011
+        sound = dixie_Moving_012
+        sound = dixie_Moving_013
+        sound = dixie_Moving_014
+        sound = dixie_Moving_015
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## SSC
+
+soundeffect =
+{
+    name = "SSC_infantry_idle"
+    sounds = {
+        sound = dixie_Idle_001
+        sound = dixie_Idle_002
+        sound = dixie_Idle_003
+        sound = dixie_Idle_004
+        sound = dixie_Idle_005
+        sound = dixie_Idle_006
+        sound = dixie_Idle_007
+        sound = dixie_Idle_008
+        sound = dixie_Idle_009
+        sound = dixie_Idle_010
+        sound = dixie_Idle_011
+        sound = dixie_Idle_012
+        sound = dixie_Idle_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SSC_infantry_neutral_combat"
+    sounds = {
+        sound = dixie_Neutral_001
+        sound = dixie_Neutral_002
+        sound = dixie_Neutral_003
+        sound = dixie_Neutral_004
+        sound = dixie_Neutral_005
+        sound = dixie_Neutral_006
+        sound = dixie_Neutral_007
+        sound = dixie_Neutral_008
+        sound = dixie_Neutral_009
+        sound = dixie_Neutral_010
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SSC_infantry_positive_combat"
+    sounds = {
+        sound = dixie_Positive_001
+        sound = dixie_Positive_002
+        sound = dixie_Positive_003
+        sound = dixie_Positive_004
+        sound = dixie_Positive_005
+        sound = dixie_Positive_006
+        sound = dixie_Positive_007
+        sound = dixie_Positive_008
+        sound = dixie_Positive_009
+        sound = dixie_Positive_010
+        sound = dixie_Positive_011
+        sound = dixie_Positive_012
+        sound = dixie_Positive_013
+        sound = dixie_Positive_014
+        sound = dixie_Positive_015
+        sound = dixie_Positive_016
+        sound = dixie_Positive_017
+        sound = dixie_Positive_018
+        sound = dixie_Positive_019
+        sound = dixie_Positive_020
+        
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SSC_infantry_retreat"
+    sounds = {
+        sound = dixie_Retreat_001
+        sound = dixie_Retreat_002
+        sound = dixie_Retreat_003
+        sound = dixie_Retreat_004
+        sound = dixie_Retreat_005
+        sound = dixie_Retreat_006
+        sound = dixie_Retreat_007
+        sound = dixie_Retreat_008
+        sound = dixie_Retreat_009
+        sound = dixie_Retreat_010
+        sound = dixie_Retreat_011
+        sound = dixie_Retreat_012
+        sound = dixie_Retreat_013
+        sound = dixie_Retreat_014
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SSC_infantry_move_out"
+    sounds = {
+        sound = dixie_Moving_001
+        sound = dixie_Moving_002
+        sound = dixie_Moving_003
+        sound = dixie_Moving_004
+        sound = dixie_Moving_005
+        sound = dixie_Moving_006
+        sound = dixie_Moving_007
+        sound = dixie_Moving_008
+        sound = dixie_Moving_009
+        sound = dixie_Moving_010
+        sound = dixie_Moving_011
+        sound = dixie_Moving_012
+        sound = dixie_Moving_013
+        sound = dixie_Moving_014
+        sound = dixie_Moving_015
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## SVA
+
+soundeffect =
+{
+    name = "SVA_infantry_idle"
+    sounds = {
+        sound = dixie_Idle_001
+        sound = dixie_Idle_002
+        sound = dixie_Idle_003
+        sound = dixie_Idle_004
+        sound = dixie_Idle_005
+        sound = dixie_Idle_006
+        sound = dixie_Idle_007
+        sound = dixie_Idle_008
+        sound = dixie_Idle_009
+        sound = dixie_Idle_010
+        sound = dixie_Idle_011
+        sound = dixie_Idle_012
+        sound = dixie_Idle_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SVA_infantry_neutral_combat"
+    sounds = {
+        sound = dixie_Neutral_001
+        sound = dixie_Neutral_002
+        sound = dixie_Neutral_003
+        sound = dixie_Neutral_004
+        sound = dixie_Neutral_005
+        sound = dixie_Neutral_006
+        sound = dixie_Neutral_007
+        sound = dixie_Neutral_008
+        sound = dixie_Neutral_009
+        sound = dixie_Neutral_010
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SVA_infantry_positive_combat"
+    sounds = {
+        sound = dixie_Positive_001
+        sound = dixie_Positive_002
+        sound = dixie_Positive_003
+        sound = dixie_Positive_004
+        sound = dixie_Positive_005
+        sound = dixie_Positive_006
+        sound = dixie_Positive_007
+        sound = dixie_Positive_008
+        sound = dixie_Positive_009
+        sound = dixie_Positive_010
+        sound = dixie_Positive_011
+        sound = dixie_Positive_012
+        sound = dixie_Positive_013
+        sound = dixie_Positive_014
+        sound = dixie_Positive_015
+        sound = dixie_Positive_016
+        sound = dixie_Positive_017
+        sound = dixie_Positive_018
+        sound = dixie_Positive_019
+        sound = dixie_Positive_020
+        
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SVA_infantry_retreat"
+    sounds = {
+        sound = dixie_Retreat_001
+        sound = dixie_Retreat_002
+        sound = dixie_Retreat_003
+        sound = dixie_Retreat_004
+        sound = dixie_Retreat_005
+        sound = dixie_Retreat_006
+        sound = dixie_Retreat_007
+        sound = dixie_Retreat_008
+        sound = dixie_Retreat_009
+        sound = dixie_Retreat_010
+        sound = dixie_Retreat_011
+        sound = dixie_Retreat_012
+        sound = dixie_Retreat_013
+        sound = dixie_Retreat_014
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SVA_infantry_move_out"
+    sounds = {
+        sound = dixie_Moving_001
+        sound = dixie_Moving_002
+        sound = dixie_Moving_003
+        sound = dixie_Moving_004
+        sound = dixie_Moving_005
+        sound = dixie_Moving_006
+        sound = dixie_Moving_007
+        sound = dixie_Moving_008
+        sound = dixie_Moving_009
+        sound = dixie_Moving_010
+        sound = dixie_Moving_011
+        sound = dixie_Moving_012
+        sound = dixie_Moving_013
+        sound = dixie_Moving_014
+        sound = dixie_Moving_015
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## STN
+
+soundeffect =
+{
+    name = "STN_infantry_idle"
+    sounds = {
+        sound = dixie_Idle_001
+        sound = dixie_Idle_002
+        sound = dixie_Idle_003
+        sound = dixie_Idle_004
+        sound = dixie_Idle_005
+        sound = dixie_Idle_006
+        sound = dixie_Idle_007
+        sound = dixie_Idle_008
+        sound = dixie_Idle_009
+        sound = dixie_Idle_010
+        sound = dixie_Idle_011
+        sound = dixie_Idle_012
+        sound = dixie_Idle_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "STN_infantry_neutral_combat"
+    sounds = {
+        sound = dixie_Neutral_001
+        sound = dixie_Neutral_002
+        sound = dixie_Neutral_003
+        sound = dixie_Neutral_004
+        sound = dixie_Neutral_005
+        sound = dixie_Neutral_006
+        sound = dixie_Neutral_007
+        sound = dixie_Neutral_008
+        sound = dixie_Neutral_009
+        sound = dixie_Neutral_010
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "STN_infantry_positive_combat"
+    sounds = {
+        sound = dixie_Positive_001
+        sound = dixie_Positive_002
+        sound = dixie_Positive_003
+        sound = dixie_Positive_004
+        sound = dixie_Positive_005
+        sound = dixie_Positive_006
+        sound = dixie_Positive_007
+        sound = dixie_Positive_008
+        sound = dixie_Positive_009
+        sound = dixie_Positive_010
+        sound = dixie_Positive_011
+        sound = dixie_Positive_012
+        sound = dixie_Positive_013
+        sound = dixie_Positive_014
+        sound = dixie_Positive_015
+        sound = dixie_Positive_016
+        sound = dixie_Positive_017
+        sound = dixie_Positive_018
+        sound = dixie_Positive_019
+        sound = dixie_Positive_020
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "STN_infantry_retreat"
+    sounds = {
+        sound = dixie_Retreat_001
+        sound = dixie_Retreat_002
+        sound = dixie_Retreat_003
+        sound = dixie_Retreat_004
+        sound = dixie_Retreat_005
+        sound = dixie_Retreat_006
+        sound = dixie_Retreat_007
+        sound = dixie_Retreat_008
+        sound = dixie_Retreat_009
+        sound = dixie_Retreat_010
+        sound = dixie_Retreat_011
+        sound = dixie_Retreat_012
+        sound = dixie_Retreat_013
+        sound = dixie_Retreat_014
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "STN_infantry_move_out"
+    sounds = {
+        sound = dixie_Moving_001
+        sound = dixie_Moving_002
+        sound = dixie_Moving_003
+        sound = dixie_Moving_004
+        sound = dixie_Moving_005
+        sound = dixie_Moving_006
+        sound = dixie_Moving_007
+        sound = dixie_Moving_008
+        sound = dixie_Moving_009
+        sound = dixie_Moving_010
+        sound = dixie_Moving_011
+        sound = dixie_Moving_012
+        sound = dixie_Moving_013
+        sound = dixie_Moving_014
+        sound = dixie_Moving_015
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## SKY
+
+soundeffect =
+{
+    name = "SKY_infantry_idle"
+    sounds = {
+        sound = dixie_Idle_001
+        sound = dixie_Idle_002
+        sound = dixie_Idle_003
+        sound = dixie_Idle_004
+        sound = dixie_Idle_005
+        sound = dixie_Idle_006
+        sound = dixie_Idle_007
+        sound = dixie_Idle_008
+        sound = dixie_Idle_009
+        sound = dixie_Idle_010
+        sound = dixie_Idle_011
+        sound = dixie_Idle_012
+        sound = dixie_Idle_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SKY_infantry_neutral_combat"
+    sounds = {
+        sound = dixie_Neutral_001
+        sound = dixie_Neutral_002
+        sound = dixie_Neutral_003
+        sound = dixie_Neutral_004
+        sound = dixie_Neutral_005
+        sound = dixie_Neutral_006
+        sound = dixie_Neutral_007
+        sound = dixie_Neutral_008
+        sound = dixie_Neutral_009
+        sound = dixie_Neutral_010
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SKY_infantry_positive_combat"
+    sounds = {
+        sound = dixie_Positive_001
+        sound = dixie_Positive_002
+        sound = dixie_Positive_003
+        sound = dixie_Positive_004
+        sound = dixie_Positive_005
+        sound = dixie_Positive_006
+        sound = dixie_Positive_007
+        sound = dixie_Positive_008
+        sound = dixie_Positive_009
+        sound = dixie_Positive_010
+        sound = dixie_Positive_011
+        sound = dixie_Positive_012
+        sound = dixie_Positive_013
+        sound = dixie_Positive_014
+        sound = dixie_Positive_015
+        sound = dixie_Positive_016
+        sound = dixie_Positive_017
+        sound = dixie_Positive_018
+        sound = dixie_Positive_019
+        sound = dixie_Positive_020
+        
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SKY_infantry_retreat"
+    sounds = {
+        sound = dixie_Retreat_001
+        sound = dixie_Retreat_002
+        sound = dixie_Retreat_003
+        sound = dixie_Retreat_004
+        sound = dixie_Retreat_005
+        sound = dixie_Retreat_006
+        sound = dixie_Retreat_007
+        sound = dixie_Retreat_008
+        sound = dixie_Retreat_009
+        sound = dixie_Retreat_010
+        sound = dixie_Retreat_011
+        sound = dixie_Retreat_012
+        sound = dixie_Retreat_013
+        sound = dixie_Retreat_014
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SKY_infantry_move_out"
+    sounds = {
+        sound = dixie_Moving_001
+        sound = dixie_Moving_002
+        sound = dixie_Moving_003
+        sound = dixie_Moving_004
+        sound = dixie_Moving_005
+        sound = dixie_Moving_006
+        sound = dixie_Moving_007
+        sound = dixie_Moving_008
+        sound = dixie_Moving_009
+        sound = dixie_Moving_010
+        sound = dixie_Moving_011
+        sound = dixie_Moving_012
+        sound = dixie_Moving_013
+        sound = dixie_Moving_014
+        sound = dixie_Moving_015
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## SMS
+
+soundeffect =
+{
+    name = "SMS_infantry_idle"
+    sounds = {
+        sound = dixie_Idle_001
+        sound = dixie_Idle_002
+        sound = dixie_Idle_003
+        sound = dixie_Idle_004
+        sound = dixie_Idle_005
+        sound = dixie_Idle_006
+        sound = dixie_Idle_007
+        sound = dixie_Idle_008
+        sound = dixie_Idle_009
+        sound = dixie_Idle_010
+        sound = dixie_Idle_011
+        sound = dixie_Idle_012
+        sound = dixie_Idle_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SMS_infantry_neutral_combat"
+    sounds = {
+        sound = dixie_Neutral_001
+        sound = dixie_Neutral_002
+        sound = dixie_Neutral_003
+        sound = dixie_Neutral_004
+        sound = dixie_Neutral_005
+        sound = dixie_Neutral_006
+        sound = dixie_Neutral_007
+        sound = dixie_Neutral_008
+        sound = dixie_Neutral_009
+        sound = dixie_Neutral_010
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SMS_infantry_positive_combat"
+    sounds = {
+        sound = dixie_Positive_001
+        sound = dixie_Positive_002
+        sound = dixie_Positive_003
+        sound = dixie_Positive_004
+        sound = dixie_Positive_005
+        sound = dixie_Positive_006
+        sound = dixie_Positive_007
+        sound = dixie_Positive_008
+        sound = dixie_Positive_009
+        sound = dixie_Positive_010
+        sound = dixie_Positive_011
+        sound = dixie_Positive_012
+        sound = dixie_Positive_013
+        sound = dixie_Positive_014
+        sound = dixie_Positive_015
+        sound = dixie_Positive_016
+        sound = dixie_Positive_017
+        sound = dixie_Positive_018
+        sound = dixie_Positive_019
+        sound = dixie_Positive_020
+        
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SMS_infantry_retreat"
+    sounds = {
+        sound = dixie_Retreat_001
+        sound = dixie_Retreat_002
+        sound = dixie_Retreat_003
+        sound = dixie_Retreat_004
+        sound = dixie_Retreat_005
+        sound = dixie_Retreat_006
+        sound = dixie_Retreat_007
+        sound = dixie_Retreat_008
+        sound = dixie_Retreat_009
+        sound = dixie_Retreat_010
+        sound = dixie_Retreat_011
+        sound = dixie_Retreat_012
+        sound = dixie_Retreat_013
+        sound = dixie_Retreat_014
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SMS_infantry_move_out"
+    sounds = {
+        sound = dixie_Moving_001
+        sound = dixie_Moving_002
+        sound = dixie_Moving_003
+        sound = dixie_Moving_004
+        sound = dixie_Moving_005
+        sound = dixie_Moving_006
+        sound = dixie_Moving_007
+        sound = dixie_Moving_008
+        sound = dixie_Moving_009
+        sound = dixie_Moving_010
+        sound = dixie_Moving_011
+        sound = dixie_Moving_012
+        sound = dixie_Moving_013
+        sound = dixie_Moving_014
+        sound = dixie_Moving_015
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## SWV
+
+soundeffect =
+{
+    name = "SWV_infantry_idle"
+    sounds = {
+        sound = dixie_Idle_001
+        sound = dixie_Idle_002
+        sound = dixie_Idle_003
+        sound = dixie_Idle_004
+        sound = dixie_Idle_005
+        sound = dixie_Idle_006
+        sound = dixie_Idle_007
+        sound = dixie_Idle_008
+        sound = dixie_Idle_009
+        sound = dixie_Idle_010
+        sound = dixie_Idle_011
+        sound = dixie_Idle_012
+        sound = dixie_Idle_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SWV_infantry_neutral_combat"
+    sounds = {
+        sound = dixie_Neutral_001
+        sound = dixie_Neutral_002
+        sound = dixie_Neutral_003
+        sound = dixie_Neutral_004
+        sound = dixie_Neutral_005
+        sound = dixie_Neutral_006
+        sound = dixie_Neutral_007
+        sound = dixie_Neutral_008
+        sound = dixie_Neutral_009
+        sound = dixie_Neutral_010
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SWV_infantry_positive_combat"
+    sounds = {
+        sound = dixie_Positive_001
+        sound = dixie_Positive_002
+        sound = dixie_Positive_003
+        sound = dixie_Positive_004
+        sound = dixie_Positive_005
+        sound = dixie_Positive_006
+        sound = dixie_Positive_007
+        sound = dixie_Positive_008
+        sound = dixie_Positive_009
+        sound = dixie_Positive_010
+        sound = dixie_Positive_011
+        sound = dixie_Positive_012
+        sound = dixie_Positive_013
+        sound = dixie_Positive_014
+        sound = dixie_Positive_015
+        sound = dixie_Positive_016
+        sound = dixie_Positive_017
+        sound = dixie_Positive_018
+        sound = dixie_Positive_019
+        sound = dixie_Positive_020
+        
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SWV_infantry_retreat"
+    sounds = {
+        sound = dixie_Retreat_001
+        sound = dixie_Retreat_002
+        sound = dixie_Retreat_003
+        sound = dixie_Retreat_004
+        sound = dixie_Retreat_005
+        sound = dixie_Retreat_006
+        sound = dixie_Retreat_007
+        sound = dixie_Retreat_008
+        sound = dixie_Retreat_009
+        sound = dixie_Retreat_010
+        sound = dixie_Retreat_011
+        sound = dixie_Retreat_012
+        sound = dixie_Retreat_013
+        sound = dixie_Retreat_014
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SWV_infantry_move_out"
+    sounds = {
+        sound = dixie_Moving_001
+        sound = dixie_Moving_002
+        sound = dixie_Moving_003
+        sound = dixie_Moving_004
+        sound = dixie_Moving_005
+        sound = dixie_Moving_006
+        sound = dixie_Moving_007
+        sound = dixie_Moving_008
+        sound = dixie_Moving_009
+        sound = dixie_Moving_010
+        sound = dixie_Moving_011
+        sound = dixie_Moving_012
+        sound = dixie_Moving_013
+        sound = dixie_Moving_014
+        sound = dixie_Moving_015
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## STX
+
+soundeffect =
+{
+    name = "STX_infantry_idle"
+    sounds = {
+        sound = dixie_Idle_001
+        sound = dixie_Idle_002
+        sound = dixie_Idle_003
+        sound = dixie_Idle_004
+        sound = dixie_Idle_005
+        sound = dixie_Idle_006
+        sound = dixie_Idle_007
+        sound = dixie_Idle_008
+        sound = dixie_Idle_009
+        sound = dixie_Idle_010
+        sound = dixie_Idle_011
+        sound = dixie_Idle_012
+        sound = dixie_Idle_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "STX_infantry_neutral_combat"
+    sounds = {
+        sound = dixie_Neutral_001
+        sound = dixie_Neutral_002
+        sound = dixie_Neutral_003
+        sound = dixie_Neutral_004
+        sound = dixie_Neutral_005
+        sound = dixie_Neutral_006
+        sound = dixie_Neutral_007
+        sound = dixie_Neutral_008
+        sound = dixie_Neutral_009
+        sound = dixie_Neutral_010
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "STX_infantry_positive_combat"
+    sounds = {
+        sound = dixie_Positive_001
+        sound = dixie_Positive_002
+        sound = dixie_Positive_003
+        sound = dixie_Positive_004
+        sound = dixie_Positive_005
+        sound = dixie_Positive_006
+        sound = dixie_Positive_007
+        sound = dixie_Positive_008
+        sound = dixie_Positive_009
+        sound = dixie_Positive_010
+        sound = dixie_Positive_011
+        sound = dixie_Positive_012
+        sound = dixie_Positive_013
+        sound = dixie_Positive_014
+        sound = dixie_Positive_015
+        sound = dixie_Positive_016
+        sound = dixie_Positive_017
+        sound = dixie_Positive_018
+        sound = dixie_Positive_019
+        sound = dixie_Positive_020
+        
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "STX_infantry_retreat"
+    sounds = {
+        sound = dixie_Retreat_001
+        sound = dixie_Retreat_002
+        sound = dixie_Retreat_003
+        sound = dixie_Retreat_004
+        sound = dixie_Retreat_005
+        sound = dixie_Retreat_006
+        sound = dixie_Retreat_007
+        sound = dixie_Retreat_008
+        sound = dixie_Retreat_009
+        sound = dixie_Retreat_010
+        sound = dixie_Retreat_011
+        sound = dixie_Retreat_012
+        sound = dixie_Retreat_013
+        sound = dixie_Retreat_014
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "STX_infantry_move_out"
+    sounds = {
+        sound = dixie_Moving_001
+        sound = dixie_Moving_002
+        sound = dixie_Moving_003
+        sound = dixie_Moving_004
+        sound = dixie_Moving_005
+        sound = dixie_Moving_006
+        sound = dixie_Moving_007
+        sound = dixie_Moving_008
+        sound = dixie_Moving_009
+        sound = dixie_Moving_010
+        sound = dixie_Moving_011
+        sound = dixie_Moving_012
+        sound = dixie_Moving_013
+        sound = dixie_Moving_014
+        sound = dixie_Moving_015
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## LMO
+
+soundeffect =
+{
+    name = "LMO_infantry_idle"
+    sounds = {
+        sound = dixie_Idle_001
+        sound = dixie_Idle_002
+        sound = dixie_Idle_003
+        sound = dixie_Idle_004
+        sound = dixie_Idle_005
+        sound = dixie_Idle_006
+        sound = dixie_Idle_007
+        sound = dixie_Idle_008
+        sound = dixie_Idle_009
+        sound = dixie_Idle_010
+        sound = dixie_Idle_011
+        sound = dixie_Idle_012
+        sound = dixie_Idle_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "LMO_infantry_neutral_combat"
+    sounds = {
+        sound = dixie_Neutral_001
+        sound = dixie_Neutral_002
+        sound = dixie_Neutral_003
+        sound = dixie_Neutral_004
+        sound = dixie_Neutral_005
+        sound = dixie_Neutral_006
+        sound = dixie_Neutral_007
+        sound = dixie_Neutral_008
+        sound = dixie_Neutral_009
+        sound = dixie_Neutral_010
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "LMO_infantry_positive_combat"
+    sounds = {
+        sound = dixie_Positive_001
+        sound = dixie_Positive_002
+        sound = dixie_Positive_003
+        sound = dixie_Positive_004
+        sound = dixie_Positive_005
+        sound = dixie_Positive_006
+        sound = dixie_Positive_007
+        sound = dixie_Positive_008
+        sound = dixie_Positive_009
+        sound = dixie_Positive_010
+        sound = dixie_Positive_011
+        sound = dixie_Positive_012
+        sound = dixie_Positive_013
+        sound = dixie_Positive_014
+        sound = dixie_Positive_015
+        sound = dixie_Positive_016
+        sound = dixie_Positive_017
+        sound = dixie_Positive_018
+        sound = dixie_Positive_019
+        sound = dixie_Positive_020
+        
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "LMO_infantry_retreat"
+    sounds = {
+        sound = dixie_Retreat_001
+        sound = dixie_Retreat_002
+        sound = dixie_Retreat_003
+        sound = dixie_Retreat_004
+        sound = dixie_Retreat_005
+        sound = dixie_Retreat_006
+        sound = dixie_Retreat_007
+        sound = dixie_Retreat_008
+        sound = dixie_Retreat_009
+        sound = dixie_Retreat_010
+        sound = dixie_Retreat_011
+        sound = dixie_Retreat_012
+        sound = dixie_Retreat_013
+        sound = dixie_Retreat_014
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "LMO_infantry_move_out"
+    sounds = {
+        sound = dixie_Moving_001
+        sound = dixie_Moving_002
+        sound = dixie_Moving_003
+        sound = dixie_Moving_004
+        sound = dixie_Moving_005
+        sound = dixie_Moving_006
+        sound = dixie_Moving_007
+        sound = dixie_Moving_008
+        sound = dixie_Moving_009
+        sound = dixie_Moving_010
+        sound = dixie_Moving_011
+        sound = dixie_Moving_012
+        sound = dixie_Moving_013
+        sound = dixie_Moving_014
+        sound = dixie_Moving_015
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## MTX
+
+soundeffect =
+{
+    name = "MTX_infantry_idle"
+    sounds = {
+        sound = dixie_Idle_001
+        sound = dixie_Idle_002
+        sound = dixie_Idle_003
+        sound = dixie_Idle_004
+        sound = dixie_Idle_005
+        sound = dixie_Idle_006
+        sound = dixie_Idle_007
+        sound = dixie_Idle_008
+        sound = dixie_Idle_009
+        sound = dixie_Idle_010
+        sound = dixie_Idle_011
+        sound = dixie_Idle_012
+        sound = dixie_Idle_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MTX_infantry_neutral_combat"
+    sounds = {
+        sound = dixie_Neutral_001
+        sound = dixie_Neutral_002
+        sound = dixie_Neutral_003
+        sound = dixie_Neutral_004
+        sound = dixie_Neutral_005
+        sound = dixie_Neutral_006
+        sound = dixie_Neutral_007
+        sound = dixie_Neutral_008
+        sound = dixie_Neutral_009
+        sound = dixie_Neutral_010
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MTX_infantry_positive_combat"
+    sounds = {
+        sound = dixie_Positive_001
+        sound = dixie_Positive_002
+        sound = dixie_Positive_003
+        sound = dixie_Positive_004
+        sound = dixie_Positive_005
+        sound = dixie_Positive_006
+        sound = dixie_Positive_007
+        sound = dixie_Positive_008
+        sound = dixie_Positive_009
+        sound = dixie_Positive_010
+        sound = dixie_Positive_011
+        sound = dixie_Positive_012
+        sound = dixie_Positive_013
+        sound = dixie_Positive_014
+        sound = dixie_Positive_015
+        sound = dixie_Positive_016
+        sound = dixie_Positive_017
+        sound = dixie_Positive_018
+        sound = dixie_Positive_019
+        sound = dixie_Positive_020
+        
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MTX_infantry_retreat"
+    sounds = {
+        sound = dixie_Retreat_001
+        sound = dixie_Retreat_002
+        sound = dixie_Retreat_003
+        sound = dixie_Retreat_004
+        sound = dixie_Retreat_005
+        sound = dixie_Retreat_006
+        sound = dixie_Retreat_007
+        sound = dixie_Retreat_008
+        sound = dixie_Retreat_009
+        sound = dixie_Retreat_010
+        sound = dixie_Retreat_011
+        sound = dixie_Retreat_012
+        sound = dixie_Retreat_013
+        sound = dixie_Retreat_014
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MTX_infantry_move_out"
+    sounds = {
+        sound = dixie_Moving_001
+        sound = dixie_Moving_002
+        sound = dixie_Moving_003
+        sound = dixie_Moving_004
+        sound = dixie_Moving_005
+        sound = dixie_Moving_006
+        sound = dixie_Moving_007
+        sound = dixie_Moving_008
+        sound = dixie_Moving_009
+        sound = dixie_Moving_010
+        sound = dixie_Moving_011
+        sound = dixie_Moving_012
+        sound = dixie_Moving_013
+        sound = dixie_Moving_014
+        sound = dixie_Moving_015
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## ORL
+
+soundeffect =
+{
+    name = "ORL_infantry_idle"
+    sounds = {
+        sound = dixie_Idle_001
+        sound = dixie_Idle_002
+        sound = dixie_Idle_003
+        sound = dixie_Idle_004
+        sound = dixie_Idle_005
+        sound = dixie_Idle_006
+        sound = dixie_Idle_007
+        sound = dixie_Idle_008
+        sound = dixie_Idle_009
+        sound = dixie_Idle_010
+        sound = dixie_Idle_011
+        sound = dixie_Idle_012
+        sound = dixie_Idle_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "ORL_infantry_neutral_combat"
+    sounds = {
+        sound = dixie_Neutral_001
+        sound = dixie_Neutral_002
+        sound = dixie_Neutral_003
+        sound = dixie_Neutral_004
+        sound = dixie_Neutral_005
+        sound = dixie_Neutral_006
+        sound = dixie_Neutral_007
+        sound = dixie_Neutral_008
+        sound = dixie_Neutral_009
+        sound = dixie_Neutral_010
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "ORL_infantry_positive_combat"
+    sounds = {
+        sound = dixie_Positive_001
+        sound = dixie_Positive_002
+        sound = dixie_Positive_003
+        sound = dixie_Positive_004
+        sound = dixie_Positive_005
+        sound = dixie_Positive_006
+        sound = dixie_Positive_007
+        sound = dixie_Positive_008
+        sound = dixie_Positive_009
+        sound = dixie_Positive_010
+        sound = dixie_Positive_011
+        sound = dixie_Positive_012
+        sound = dixie_Positive_013
+        sound = dixie_Positive_014
+        sound = dixie_Positive_015
+        sound = dixie_Positive_016
+        sound = dixie_Positive_017
+        sound = dixie_Positive_018
+        sound = dixie_Positive_019
+        sound = dixie_Positive_020
+        
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "ORL_infantry_retreat"
+    sounds = {
+        sound = dixie_Retreat_001
+        sound = dixie_Retreat_002
+        sound = dixie_Retreat_003
+        sound = dixie_Retreat_004
+        sound = dixie_Retreat_005
+        sound = dixie_Retreat_006
+        sound = dixie_Retreat_007
+        sound = dixie_Retreat_008
+        sound = dixie_Retreat_009
+        sound = dixie_Retreat_010
+        sound = dixie_Retreat_011
+        sound = dixie_Retreat_012
+        sound = dixie_Retreat_013
+        sound = dixie_Retreat_014
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "ORL_infantry_move_out"
+    sounds = {
+        sound = dixie_Moving_001
+        sound = dixie_Moving_002
+        sound = dixie_Moving_003
+        sound = dixie_Moving_004
+        sound = dixie_Moving_005
+        sound = dixie_Moving_006
+        sound = dixie_Moving_007
+        sound = dixie_Moving_008
+        sound = dixie_Moving_009
+        sound = dixie_Moving_010
+        sound = dixie_Moving_011
+        sound = dixie_Moving_012
+        sound = dixie_Moving_013
+        sound = dixie_Moving_014
+        sound = dixie_Moving_015
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+########## STL
+
+soundeffect =
+{
+    name = "STL_infantry_idle"
+    sounds = {
+        sound = dixie_Idle_001
+        sound = dixie_Idle_002
+        sound = dixie_Idle_003
+        sound = dixie_Idle_004
+        sound = dixie_Idle_005
+        sound = dixie_Idle_006
+        sound = dixie_Idle_007
+        sound = dixie_Idle_008
+        sound = dixie_Idle_009
+        sound = dixie_Idle_010
+        sound = dixie_Idle_011
+        sound = dixie_Idle_012
+        sound = dixie_Idle_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "STL_infantry_neutral_combat"
+    sounds = {
+        sound = dixie_Neutral_001
+        sound = dixie_Neutral_002
+        sound = dixie_Neutral_003
+        sound = dixie_Neutral_004
+        sound = dixie_Neutral_005
+        sound = dixie_Neutral_006
+        sound = dixie_Neutral_007
+        sound = dixie_Neutral_008
+        sound = dixie_Neutral_009
+        sound = dixie_Neutral_010
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "STL_infantry_positive_combat"
+    sounds = {
+        sound = dixie_Positive_001
+        sound = dixie_Positive_002
+        sound = dixie_Positive_003
+        sound = dixie_Positive_004
+        sound = dixie_Positive_005
+        sound = dixie_Positive_006
+        sound = dixie_Positive_007
+        sound = dixie_Positive_008
+        sound = dixie_Positive_009
+        sound = dixie_Positive_010
+        sound = dixie_Positive_011
+        sound = dixie_Positive_012
+        sound = dixie_Positive_013
+        sound = dixie_Positive_014
+        sound = dixie_Positive_015
+        sound = dixie_Positive_016
+        sound = dixie_Positive_017
+        sound = dixie_Positive_018
+        sound = dixie_Positive_019
+        sound = dixie_Positive_020
+        
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "STL_infantry_retreat"
+    sounds = {
+        sound = dixie_Retreat_001
+        sound = dixie_Retreat_002
+        sound = dixie_Retreat_003
+        sound = dixie_Retreat_004
+        sound = dixie_Retreat_005
+        sound = dixie_Retreat_006
+        sound = dixie_Retreat_007
+        sound = dixie_Retreat_008
+        sound = dixie_Retreat_009
+        sound = dixie_Retreat_010
+        sound = dixie_Retreat_011
+        sound = dixie_Retreat_012
+        sound = dixie_Retreat_013
+        sound = dixie_Retreat_014
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "STL_infantry_move_out"
+    sounds = {
+        sound = dixie_Moving_001
+        sound = dixie_Moving_002
+        sound = dixie_Moving_003
+        sound = dixie_Moving_004
+        sound = dixie_Moving_005
+        sound = dixie_Moving_006
+        sound = dixie_Moving_007
+        sound = dixie_Moving_008
+        sound = dixie_Moving_009
+        sound = dixie_Moving_010
+        sound = dixie_Moving_011
+        sound = dixie_Moving_012
+        sound = dixie_Moving_013
+        sound = dixie_Moving_014
+        sound = dixie_Moving_015
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.65
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+################################################
+
+sound =
+{
+	name = "dixie_Idle_001"
+	file = "dixie/dixie_Idle_001.wav"
+}
+sound =
+{
+	name = "dixie_Idle_002"
+	file = "dixie/dixie_Idle_002.wav"
+}
+sound =
+{
+	name = "dixie_Idle_003"
+	file = "dixie/dixie_Idle_003.wav"
+}
+sound =
+{
+	name = "dixie_Idle_004"
+	file = "dixie/dixie_Idle_004.wav"
+}
+sound =
+{
+	name = "dixie_Idle_005"
+	file = "dixie/dixie_Idle_005.wav"
+}
+sound =
+{
+	name = "dixie_Idle_006"
+	file = "dixie/dixie_Idle_006.wav"
+}
+sound =
+{
+	name = "dixie_Idle_007"
+	file = "dixie/dixie_Idle_007.wav"
+}
+sound =
+{
+	name = "dixie_Idle_008"
+	file = "dixie/dixie_Idle_008.wav"
+}
+sound =
+{
+	name = "dixie_Idle_009"
+	file = "dixie/dixie_Idle_009.wav"
+}
+sound =
+{
+	name = "dixie_Idle_010"
+	file = "dixie/dixie_Idle_010.wav"
+}
+sound =
+{
+	name = "dixie_Idle_011"
+	file = "dixie/dixie_Idle_011.wav"
+}
+sound =
+{
+	name = "dixie_Idle_012"
+	file = "dixie/dixie_Idle_012.wav"
+}
+sound =
+{
+	name = "dixie_Idle_013"
+	file = "dixie/dixie_Idle_013.wav"
+}
+sound =
+{
+	name = "dixie_Moving_001"
+	file = "dixie/dixie_Moving_001.wav"
+}
+sound =
+{
+	name = "dixie_Moving_002"
+	file = "dixie/dixie_Moving_002.wav"
+}
+sound =
+{
+	name = "dixie_Moving_003"
+	file = "dixie/dixie_Moving_003.wav"
+}
+sound =
+{
+	name = "dixie_Moving_004"
+	file = "dixie/dixie_Moving_004.wav"
+}
+sound =
+{
+	name = "dixie_Moving_005"
+	file = "dixie/dixie_Moving_005.wav"
+}
+sound =
+{
+	name = "dixie_Moving_006"
+	file = "dixie/dixie_Moving_006.wav"
+}
+sound =
+{
+	name = "dixie_Moving_007"
+	file = "dixie/dixie_Moving_007.wav"
+}
+sound =
+{
+	name = "dixie_Moving_008"
+	file = "dixie/dixie_Moving_008.wav"
+}
+sound =
+{
+	name = "dixie_Moving_009"
+	file = "dixie/dixie_Moving_009.wav"
+}
+sound =
+{
+	name = "dixie_Moving_010"
+	file = "dixie/dixie_Moving_010.wav"
+}
+sound =
+{
+	name = "dixie_Moving_011"
+	file = "dixie/dixie_Moving_011.wav"
+}
+sound =
+{
+	name = "dixie_Moving_012"
+	file = "dixie/dixie_Moving_012.wav"
+}
+sound =
+{
+	name = "dixie_Moving_013"
+	file = "dixie/dixie_Moving_013.wav"
+}
+sound =
+{
+	name = "dixie_Moving_014"
+	file = "dixie/dixie_Moving_014.wav"
+}
+sound =
+{
+	name = "dixie_Moving_015"
+	file = "dixie/dixie_Moving_015.wav"
+}
+sound =
+{
+	name = "dixie_Neutral_001"
+	file = "dixie/dixie_Neutral_001.wav"
+}
+sound =
+{
+	name = "dixie_Neutral_002"
+	file = "dixie/dixie_Neutral_002.wav"
+}
+sound =
+{
+	name = "dixie_Neutral_003"
+	file = "dixie/dixie_Neutral_003.wav"
+}
+sound =
+{
+	name = "dixie_Neutral_004"
+	file = "dixie/dixie_Neutral_004.wav"
+}
+sound =
+{
+	name = "dixie_Neutral_005"
+	file = "dixie/dixie_Neutral_005.wav"
+}
+sound =
+{
+	name = "dixie_Neutral_006"
+	file = "dixie/dixie_Neutral_006.wav"
+}
+sound =
+{
+	name = "dixie_Neutral_007"
+	file = "dixie/dixie_Neutral_007.wav"
+}
+sound =
+{
+	name = "dixie_Neutral_008"
+	file = "dixie/dixie_Neutral_008.wav"
+}
+sound =
+{
+	name = "dixie_Neutral_009"
+	file = "dixie/dixie_Neutral_009.wav"
+}
+sound =
+{
+	name = "dixie_Neutral_010"
+	file = "dixie/dixie_Neutral_010.wav"
+}
+sound =
+{
+	name = "dixie_Positive_001"
+	file = "dixie/dixie_Positive_001.wav"
+}
+sound =
+{
+	name = "dixie_Positive_002"
+	file = "dixie/dixie_Positive_002.wav"
+}
+sound =
+{
+	name = "dixie_Positive_003"
+	file = "dixie/dixie_Positive_003.wav"
+}
+sound =
+{
+	name = "dixie_Positive_004"
+	file = "dixie/dixie_Positive_004.wav"
+}
+sound =
+{
+	name = "dixie_Positive_005"
+	file = "dixie/dixie_Positive_005.wav"
+}
+sound =
+{
+	name = "dixie_Positive_006"
+	file = "dixie/dixie_Positive_006.wav"
+}
+sound =
+{
+	name = "dixie_Positive_007"
+	file = "dixie/dixie_Positive_007.wav"
+}
+sound =
+{
+	name = "dixie_Positive_008"
+	file = "dixie/dixie_Positive_008.wav"
+}
+sound =
+{
+	name = "dixie_Positive_009"
+	file = "dixie/dixie_Positive_009.wav"
+}
+sound =
+{
+	name = "dixie_Positive_010"
+	file = "dixie/dixie_Positive_010.wav"
+}
+sound =
+{
+	name = "dixie_Positive_011"
+	file = "dixie/dixie_Positive_011.wav"
+}
+sound =
+{
+	name = "dixie_Positive_012"
+	file = "dixie/dixie_Positive_012.wav"
+}
+sound =
+{
+	name = "dixie_Positive_013"
+	file = "dixie/dixie_Positive_013.wav"
+}
+sound =
+{
+	name = "dixie_Positive_014"
+	file = "dixie/dixie_Positive_014.wav"
+}
+sound =
+{
+	name = "dixie_Positive_015"
+	file = "dixie/dixie_Positive_015.wav"
+}
+sound =
+{
+	name = "dixie_Positive_016"
+	file = "dixie/dixie_Positive_016.wav"
+}
+sound =
+{
+	name = "dixie_Positive_017"
+	file = "dixie/dixie_Positive_017.wav"
+}
+sound =
+{
+	name = "dixie_Positive_018"
+	file = "dixie/dixie_Positive_018.wav"
+}
+sound =
+{
+	name = "dixie_Positive_019"
+	file = "dixie/dixie_Positive_019.wav"
+}
+sound =
+{
+	name = "dixie_Positive_020"
+	file = "dixie/dixie_Positive_020.wav"
+}
+sound =
+{
+	name = "dixie_Retreat_001"
+	file = "dixie/dixie_Retreat_001.wav"
+}
+sound =
+{
+	name = "dixie_Retreat_002"
+	file = "dixie/dixie_Retreat_002.wav"
+}
+sound =
+{
+	name = "dixie_Retreat_003"
+	file = "dixie/dixie_Retreat_003.wav"
+}
+sound =
+{
+	name = "dixie_Retreat_004"
+	file = "dixie/dixie_Retreat_004.wav"
+}
+sound =
+{
+	name = "dixie_Retreat_005"
+	file = "dixie/dixie_Retreat_005.wav"
+}
+sound =
+{
+	name = "dixie_Retreat_006"
+	file = "dixie/dixie_Retreat_006.wav"
+}
+sound =
+{
+	name = "dixie_Retreat_007"
+	file = "dixie/dixie_Retreat_007.wav"
+}
+sound =
+{
+	name = "dixie_Retreat_008"
+	file = "dixie/dixie_Retreat_008.wav"
+}
+sound =
+{
+	name = "dixie_Retreat_009"
+	file = "dixie/dixie_Retreat_009.wav"
+}
+sound =
+{
+	name = "dixie_Retreat_010"
+	file = "dixie/dixie_Retreat_010.wav"
+}
+sound =
+{
+	name = "dixie_Retreat_011"
+	file = "dixie/dixie_Retreat_011.wav"
+}
+sound =
+{
+	name = "dixie_Retreat_012"
+	file = "dixie/dixie_Retreat_012.wav"
+}
+sound =
+{
+	name = "dixie_Retreat_013"
+	file = "dixie/dixie_Retreat_013.wav"
+}
+sound =
+{
+	name = "dixie_Retreat_014"
+	file = "dixie/dixie_Retreat_014.wav"
+}

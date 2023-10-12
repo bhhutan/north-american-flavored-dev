@@ -1,0 +1,1117 @@
+form_NEW_FRANCE_category = {
+	#--------------------#
+	#   French America   #
+	#--------------------#
+
+	form_french_canada = {
+		ai_will_do = {
+			factor = 20
+		}
+
+		fire_only_once = yes
+
+		visible = {
+			original_tag = PQC
+
+			NOT = {
+				has_global_flag = french_canada_formed
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = controls_ontario_tt
+				controls_ontario_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = controls_quebec_tt
+				controls_quebec_trigger = yes
+			}
+			NOT = {
+				custom_trigger_tooltip = {
+					tooltip = french_can_exists_tt
+					has_global_flag = french_canada_formed
+				}
+			}
+			
+		}
+		complete_effect = {
+			set_cosmetic_tag = FRENCH_CANADA
+			custom_effect_tooltip = core_ontario_tt
+			
+			custom_effect_tooltip = french_american_crusade_tt
+			hidden_effect = {
+				set_global_flag = french_canada_formed
+				news_event = { id = naflavor_newfrance.2 days = 1 }
+				country_event = { id = naflavor_newfrance.1 days = 7 }
+				core_ontario = yes
+			}
+		}
+	}
+
+	integrate_acadia = {
+		ai_will_do = {
+			factor = 20
+		}
+
+		fire_only_once = yes
+
+		visible = {
+			AND = {
+				has_global_flag = french_canada_formed
+				has_cosmetic_tag = FRENCH_CANADA
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = controls_new_brunswick_tt
+				controls_new_brunswick_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = controls_prince_edward_island_tt
+				controls_prince_edward_island_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = controls_nova_scotia_tt
+				controls_nova_scotia_trigger = yes
+			}
+			
+		}
+
+		days_remove = 90
+
+		cost = 75
+
+		remove_effect = {
+			custom_effect_tooltip = core_new_brunswick_tt
+			custom_effect_tooltip = core_prince_edward_island_tt
+			custom_effect_tooltip = core_nova_scotia_tt
+			hidden_effect = {
+				set_country_flag = new_france_acadia_integrated
+				core_new_brunswick = yes
+				core_prince_edward_island = yes
+				core_nova_scotia = yes
+			}
+		}
+	}
+
+	reenact_quebec_act = {
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 20
+		}
+		
+		visible = {
+			AND = {
+				has_global_flag = french_canada_formed
+				has_cosmetic_tag = FRENCH_CANADA
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = has_integrated_acadie_tt
+				has_country_flag = new_france_acadia_integrated
+			}
+			custom_trigger_tooltip = {
+				tooltip = controls_michigan_tt
+				controls_michigan_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = controls_ohio_tt
+				controls_ohio_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = controls_indiana_tt
+				controls_indiana_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = controls_illinois_tt
+				controls_illinois_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = controls_wisconsin_tt
+				controls_wisconsin_trigger = yes
+			}
+			controls_state = 834
+			controls_state = 198
+			controls_state = 838
+			controls_state = 342
+			controls_state = 839
+		}
+
+		days_remove = 280
+
+		cost = 250
+
+		remove_effect = {
+			custom_effect_tooltip = core_great_lakes_states_tt
+			custom_effect_tooltip = new_france_goal_tt
+			hidden_effect = {
+				set_global_flag = new_france_begin
+				core_michigan = yes
+				core_ohio = yes
+				core_indiana = yes
+				core_illinois = yes
+				core_wisconsin = yes
+				834 = { add_core_of = ROOT }
+				198 = { add_core_of = ROOT }
+				838 = { add_core_of = ROOT }
+				342 = { add_core_of = ROOT }
+				839 = { add_core_of = ROOT }
+			}
+		}
+	}
+
+	integrate_nfl_lab = {
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 20
+		}
+		
+		visible = {
+			AND = {
+				has_global_flag = french_canada_formed
+				has_cosmetic_tag = FRENCH_CANADA
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = has_integrated_acadie_tt
+				has_country_flag = new_france_acadia_integrated
+			}
+			custom_trigger_tooltip = {
+				tooltip = controls_newfoundland_and_labrador_tt
+				controls_newfoundland_and_labrador_trigger = yes
+			}
+		}
+
+		days_remove = 25
+
+		cost = 25
+
+		remove_effect = {
+			custom_effect_tooltip = core_newfoundland_and_labrador_tt
+			hidden_effect = {
+				set_country_flag = conquered_nfl_lab
+				core_newfoundland_and_labrador = yes
+			}
+		}
+	}
+
+	annex_psp = {
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 20
+		}
+		
+		visible = {
+			AND = {
+				has_global_flag = french_canada_formed
+				has_cosmetic_tag = FRENCH_CANADA
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = has_integrated_acadie_tt
+				has_country_flag = new_france_acadia_integrated
+			}
+		}
+
+		days_remove = 7
+
+		cost = 10
+
+		remove_effect = {
+			annex_country = {
+    			target = PSP
+    			transfer_troops = no
+			}
+			hidden_effect = {
+				set_country_flag = annexed_st_pierre
+				64 = { add_core_of = ROOT }
+			}
+		}
+	}
+
+	conquer_west_province_claims = {
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 20
+		}
+		
+		visible = {
+			has_global_flag = new_france_begin
+		}
+
+		available = {
+			is_subject = no
+
+			controls_state = 68
+			controls_state = 386
+			controls_state = 387
+			controls_state = 388
+		}
+
+		days_remove = 30
+
+		cost = 30
+
+		remove_effect = {
+			68 = { add_core_of = ROOT }
+			386 = { add_core_of = ROOT }
+			387 = { add_core_of = ROOT }
+			388 = { add_core_of = ROOT }
+
+			hidden_effect = {
+				set_country_flag = conquered_west_province_claims
+			}
+		}
+	}
+
+	conquer_upper_mississippi = {
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 20
+		}
+		
+		visible = {
+			has_global_flag = new_france_begin
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = controls_missouri_tt
+				controls_missouri_trigger = yes
+			}
+			controls_state = 167
+			controls_state = 269
+			controls_state = 343
+			controls_state = 374
+			controls_state = 375
+			controls_state = 775
+			controls_state = 776
+			controls_state = 777
+			controls_state = 832
+			controls_state = 833
+			controls_state = 835
+			controls_state = 836
+			controls_state = 837
+			controls_state = 840
+		}
+
+		days_remove = 120
+
+		cost = 100
+
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = conquered_upper_mississippi
+			}
+		}
+
+		remove_effect = {
+			custom_effect_tooltip = core_upper_mississippi_tt
+			hidden_effect = {
+				core_missouri = yes
+				167 = { add_core_of = ROOT }
+				269 = { add_core_of = ROOT }
+				343 = { add_core_of = ROOT }
+				374 = { add_core_of = ROOT }
+				375 = { add_core_of = ROOT }
+				775 = { add_core_of = ROOT }
+				776 = { add_core_of = ROOT }
+				777 = { add_core_of = ROOT }
+				832 = { add_core_of = ROOT }
+				833 = { add_core_of = ROOT }
+				835 = { add_core_of = ROOT }
+				836 = { add_core_of = ROOT }
+				837 = { add_core_of = ROOT }
+				840 = { add_core_of = ROOT }
+			}
+		}
+	}
+
+	conquer_lower_mississippi = {
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 20
+		}
+		
+		visible = {
+			has_global_flag = new_france_begin
+			has_country_flag = conquered_upper_mississippi
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = controls_kentucky_tt
+				controls_kentucky_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = control_mississippi_tt
+				controls_mississippi_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = control_arkansas_tt
+				controls_arkansas_trigger = yes
+			}
+			controls_state = 361
+			controls_state = 518
+			controls_state = 520
+		}
+
+		days_remove = 150
+
+		cost = 120
+
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = conquered_lower_mississippi
+			}
+		}
+
+		remove_effect = {
+			custom_effect_tooltip = core_lower_mississippi_tt
+			hidden_effect = {
+				core_kentucky = yes
+				core_mississippi = yes
+				core_arkansas = yes
+				361 = { add_core_of = ROOT }
+				518 = { add_core_of = ROOT }
+				520 = { add_core_of = ROOT }
+			}
+		}
+	}
+
+	reclaim_louisiana = {
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 20
+		}
+		
+		visible = {
+			has_global_flag = new_france_begin
+			has_country_flag = conquered_upper_mississippi
+			has_country_flag = conquered_lower_mississippi
+			has_country_flag = conquered_nfl_lab
+			has_country_flag = annexed_st_pierre
+			has_country_flag = conquered_west_province_claims
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = control_louisiana_tt
+				controls_louisiana_trigger = yes
+			}
+		}
+		
+		days_remove = 35
+
+		cost = 50
+
+		remove_effect = {
+			custom_effect_tooltip = core_louisiana_tt
+			custom_effect_tooltip = retake_louisiana_territory_tt
+			set_cosmetic_tag = NEW_FRANCE
+			hidden_effect = {
+				core_louisiana = yes
+				news_event = { id = naflavor_newfrance.3 days = 1 }
+				set_country_flag = new_france_conquered
+			}
+		}
+	}
+
+	restore_louisiana_territory = {
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 20
+		}
+		
+		visible = {
+			has_country_flag = new_france_conquered
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = control_north_dakota_tt
+				controls_north_dakota_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = controls_minnesota_tt
+				controls_minnesota_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = control_south_dakota_tt
+				controls_south_dakota_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = controls_nebraska_tt
+				controls_nebraska_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = controls_iowa_tt
+				controls_iowa_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = controls_kansas_tt
+				controls_kansas_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = controls_oklahoma_tt
+				controls_oklahoma_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = controls_montana_no_missoula
+				controls_montana_no_missoula_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = controls_eastern_wyoming_tt
+				controls_eastern_wyoming_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = controls_eastern_colorado_tt
+				controls_eastern_colorado_trigger = yes
+			}
+		}
+
+		days_remove = 180
+
+		cost = 150
+
+		remove_effect = {
+			custom_effect_tooltip = core_louisiana_territory_tt
+			hidden_effect = {
+				core_north_dakota = yes
+				core_minnesota = yes
+				core_south_dakota = yes
+				core_iowa = yes
+				core_nebraska = yes
+				core_kansas = yes
+				core_oklahoma = yes
+				
+				178 = { add_core_of = ROOT }
+				187 = { add_core_of = ROOT }
+				193 = { add_core_of = ROOT }
+				196 = { add_core_of = ROOT }
+				197 = { add_core_of = ROOT }
+				219 = { add_core_of = ROOT }
+				234 = { add_core_of = ROOT }
+				316 = { add_core_of = ROOT }
+				317 = { add_core_of = ROOT }
+				318 = { add_core_of = ROOT }
+				748 = { add_core_of = ROOT }
+				836 = { add_core_of = ROOT }
+				271 = { add_core_of = ROOT }
+				340 = { add_core_of = ROOT }
+			}
+		}
+	}
+
+	debug_NEW_FRA_RESET = {
+
+		ai_will_do = {
+			factor = 20
+		}
+		
+		visible = {
+			is_ai = no
+			is_debug = yes
+		}
+
+		available = {
+			
+		}
+
+		complete_effect = {
+			clr_country_flag = conquered_upper_mississippi
+			clr_country_flag = conquered_lower_mississippi
+			clr_country_flag = conquered_nfl_lab
+			clr_country_flag = annexed_st_pierre
+			clr_country_flag = conquered_west_province_claims
+			clr_country_flag = new_france_acadia_integrated
+			clr_country_flag = new_france_conquered
+			clr_global_flag = new_france_begin
+			clr_global_flag = french_canada_formed
+		}
+	}
+}
+
+
+form_SCT_western_reserve_category = {
+
+	reintegrate_western_reserve = {
+		ai_will_do = {
+			factor = 20
+		}
+		
+		fire_only_once = yes
+
+		visible = {
+			original_tag = SCT
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 48
+			controls_state = 538 
+			controls_state = 540
+		}
+
+		cost = 80
+		days_remove = 90
+		modifier = {
+			political_power_gain = -0.15
+		}
+
+		remove_effect = {
+			48 = { add_core_of = ROOT }
+			538 = { add_core_of = ROOT }
+			540 = { add_core_of = ROOT }
+		}
+	}
+}
+
+form_new_afrika_category = {
+
+	form_new_afrika = {
+		ai_will_do = {
+			factor = 20
+		}
+		
+		visible = {
+			OR = {
+				tag = FNS
+				tag = DOU
+				tag = JAM
+				tag = SHE
+			}
+			NOT = {
+				has_global_flag = NEW_AFRIKA_FORMED
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = control_louisiana_tt
+				controls_louisiana_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = control_mississippi_tt
+				controls_mississippi_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = control_alabama_tt
+				controls_alabama_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = control_georgia_tt
+				controls_georgia_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = control_south_carolina_tt
+				controls_south_carolina_trigger = yes
+			}
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = cores_claims_newafrika_tt
+			set_cosmetic_tag = NEW_AFRIKA
+			if = {
+				limit = {
+					NOT = {
+						tag = JAM
+					}					
+				}
+				JAM = {
+					country_event = { id = naflavor_formable.6 days = 2}
+				}
+			}
+			hidden_effect = {
+				core_louisiana = yes
+				core_mississippi = yes
+				core_alabama = yes
+				core_georgia = yes
+				core_south_carolina = yes
+
+				13 = { add_claim_by = ROOT }
+				14 = { add_claim_by = ROOT }
+				163 = { add_claim_by = ROOT }
+				222 = { add_claim_by = ROOT}
+				223 = { add_claim_by = ROOT}
+
+				set_global_flag = NEW_AFRIKA_FORMED
+				set_country_flag = formed_newafrika
+
+				country_event = { id = naflavor_formable.1 days = 14}
+				news_event = { id = naflavor.117 days = 1}
+			}
+			
+		}
+	}
+
+	new_afrika_core_FLpanhandle = {
+		ai_will_do = {
+			factor = 20
+		}
+		
+		fire_only_once = yes
+
+		visible = {
+			has_global_flag = NEW_AFRIKA_FORMED
+			has_country_flag = formed_newafrika
+		}
+
+		available = {
+			
+			controls_state = 13
+			13 = {
+				compliance > 25
+				resistance < 15
+			}
+
+			controls_state = 14
+			14 = {
+				compliance > 25
+				resistance < 15
+			}
+		}
+
+		complete_effect = {
+			remove_state_claim = 13
+			remove_state_claim = 14
+		}
+
+		remove_effect = {
+			13 = {add_core_of = ROOT }
+			14 = { add_core_of = ROOT }
+
+		}
+	}
+
+	new_afrika_core_easttex = {
+		ai_will_do = {
+			factor = 20
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			has_global_flag = NEW_AFRIKA_FORMED
+			has_country_flag = formed_newafrika
+		}
+
+		available = {
+			controls_state = 163
+			163 = {
+				compliance > 25
+				resistance < 15
+			}
+
+			controls_state = 222
+			222 = {
+				compliance > 25
+				resistance < 15
+			}
+
+			controls_state = 223
+			223 = {
+				compliance > 25
+				resistance < 15
+			}
+		}
+
+		complete_effect = {
+			163 = { add_core_of = ROOT }
+			222 = { add_core_of = ROOT }
+			223 = { add_core_of = ROOT }
+
+			hidden_effect = {
+				remove_state_claim = 163
+				remove_state_claim = 222
+				remove_state_claim = 223
+			}
+		}
+	}
+
+	debug_new_afrika = {
+		ai_will_do = {
+			factor = 20
+		}
+				
+		visible = {
+			is_ai = no
+			is_debug = yes
+		}
+	
+		available = {
+			
+		}
+	
+		complete_effect = {
+			clr_global_flag = NEW_AFRIKA_FORMED
+			clr_country_flag = formed_newafrika
+		}
+	}
+}
+
+form_leftist_CSA_category = {
+	form_leftist_confederacy = {
+		ai_will_do = {
+			factor = 20
+		}
+
+		visible = {
+			OR = {
+				has_government = communism
+				has_government = progressivism
+			}
+
+			NOT = {
+				has_global_flag = leftist_confederacy_formed
+			}
+			NOT = {
+				has_cosmetic_tag = UNITED_STATES_BIG
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = control_alabama_tt
+				controls_alabama_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = control_arkansas_tt
+				controls_arkansas_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = control_florida_tt
+				controls_florida_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = control_georgia_tt
+				controls_georgia_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = control_louisiana_tt
+				controls_louisiana_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = control_mississippi_tt
+				controls_mississippi_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = control_north_carolina_tt
+				controls_north_carolina_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = control_south_carolina_tt
+				controls_south_carolina_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = controls_tennessee_trigger_tt
+				controls_tennessee_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = controls_texas_trigger_tt
+				controls_texas_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = controls_virginia_but_in_right_file_trigger_tt
+				controls_virginia_trigger = yes
+			}
+			NOT = {
+				custom_trigger_tooltip = {
+					tooltip = csa_exists_tt
+					has_global_flag = leftist_confederacy_formed
+				}
+			}
+			
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					has_government = communism
+				}
+				country_event = { id = naflavor_formable.2 }
+			}
+
+			else_if = {
+				limit = {
+					has_government = progressivism
+				}
+				country_event = { id = naflavor_formable.4 }
+			}
+			custom_effect_tooltip = core_alabama_tt
+			custom_effect_tooltip = core_arkansas_tt
+			custom_effect_tooltip = core_florida_tt
+			custom_effect_tooltip = core_georgia_tt
+			custom_effect_tooltip = core_louisiana_tt
+			custom_effect_tooltip = core_mississippi_tt
+			custom_effect_tooltip = core_north_carolina_tt
+			custom_effect_tooltip = core_south_carolina_tt
+			custom_effect_tooltip = core_tennessee_tt
+			custom_effect_tooltip = core_texas_tt
+			custom_effect_tooltip = core_virginia_tt
+
+			hidden_effect = {
+				set_global_flag = leftist_confederacy_formed
+				set_country_flag = leftist_confederacy_nation
+				core_alabama = yes
+				core_arkansas = yes
+				core_florida = yes
+				core_georgia = yes
+				core_louisiana = yes
+				core_mississippi = yes
+				core_north_carolina = yes
+				core_south_carolina = yes
+				core_tennessee = yes
+				core_texas = yes
+				core_virginia = yes
+				news_event = { id = naflavor.100 days = 1 }
+			}
+		}
+	}
+
+	leftist_integrate_oklahoma = {
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 20
+		}
+		
+		visible = {
+			OR = {
+				has_government = communism
+				has_government = progressivism
+			}
+
+			has_global_flag = leftist_confederacy_formed
+			has_country_flag = leftist_confederacy_nation
+		}
+
+		cost = 25
+		days_remove = 30
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = controls_oklahoma_tt
+				controls_oklahoma_trigger = yes
+			}
+		}
+
+		remove_effect = {
+			custom_effect_tooltip = core_oklahoma_tt
+			hidden_effect = {
+				core_oklahoma = yes
+			}
+		}
+	}
+
+	leftist_integrate_kentucky = {
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 20
+		}
+		
+		visible = {
+			OR = {
+				has_government = communism
+				has_government = progressivism
+			}
+
+			has_global_flag = leftist_confederacy_formed
+			has_country_flag = leftist_confederacy_nation
+		}
+		cost = 50
+		days_remove = 30
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = controls_kentucky_tt
+				controls_kentucky_trigger = yes
+			}
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = core_kentucky_tt
+			hidden_effect = {
+				core_kentucky = yes
+			}
+		}
+	}
+
+	leftist_integrate_missouri = {
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 20
+		}
+		
+		visible = {
+			OR = {
+				has_government = communism
+				has_government = progressivism
+			}
+
+			has_global_flag = leftist_confederacy_formed
+			has_country_flag = leftist_confederacy_nation
+		}
+
+		cost = 30
+
+		available = {
+			is_subject = no
+			core_compliance = {
+				occupied_country_tag = SMO
+				value > 20
+			}
+			custom_trigger_tooltip = {
+				tooltip = controls_missouri_tt
+				controls_missouri_trigger = yes
+			}
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = core_missouri_tt
+			hidden_effect = {
+				core_missouri = yes
+			}
+		}
+	}
+
+	leftist_integrate_west_virginia = {
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 20
+		}
+		
+		visible = {
+			OR = {
+				has_government = communism
+				has_government = progressivism
+			}
+		
+			has_global_flag = leftist_confederacy_formed
+			has_country_flag = leftist_confederacy_nation
+		}
+		
+		cost = 30
+
+		available = {
+			is_subject = no
+			core_compliance = {
+				occupied_country_tag = SWV
+				value > 30
+			}
+			custom_trigger_tooltip = {
+				tooltip = controls_west_virginia_tt
+				controls_west_virginia_trigger = yes
+			}
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = core_west_virginia_tt
+			hidden_effect = {
+				core_west_virginia = yes
+			}
+		}
+	}
+
+	leftist_integrate_g_new_mexico = {
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 20
+		}
+		
+		visible = {
+			OR = {
+				has_government = communism
+				has_government = progressivism
+			}
+
+			has_global_flag = leftist_confederacy_formed
+			has_country_flag = leftist_confederacy_nation
+		}
+
+		available = {
+			is_subject = no
+			core_compliance = {
+				occupied_country_tag = SNM
+				value > 20
+			}
+			core_compliance = {
+				occupied_country_tag = SAZ
+				value > 20
+			}
+			custom_trigger_tooltip = {
+				tooltip = controls_g_new_mexico_tt
+				controls_new_mexico_trigger = yes
+			}
+		}
+		cost = 50
+		complete_effect = {
+			custom_effect_tooltip = core_g_new_mexico_tt
+			hidden_effect = {
+				146 = { add_core_of = ROOT }
+				147 = { add_core_of = ROOT }
+				150 = { add_core_of = ROOT }
+				151 = { add_core_of = ROOT }
+				148 = { add_core_of = ROOT }
+				149 = { add_core_of = ROOT }
+				160 = { add_core_of = ROOT }
+				303 = { add_core_of = ROOT }
+				304 = { add_core_of = ROOT }
+				307 = { add_core_of = ROOT }
+				145 = { add_core_of = ROOT }
+				76 = { add_core_of = ROOT }
+				77 = { add_core_of = ROOT }
+				166 = { add_core_of = ROOT }
+				169 = { add_core_of = ROOT }
+				86 = { add_core_of = ROOT }
+				641 = { add_core_of = ROOT }
+				141 = { add_core_of = ROOT }
+				687 = { add_core_of = ROOT }
+				611 = { add_core_of = ROOT }
+				50 = { add_core_of = ROOT }
+			}
+		}
+	}
+
+}

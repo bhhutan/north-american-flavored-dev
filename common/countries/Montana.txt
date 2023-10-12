@@ -1,0 +1,6 @@
+
+
+graphical_culture = american_gfx
+graphical_culture_2d = american_2d
+
+color = { 226 144 86 }

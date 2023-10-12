@@ -1,0 +1,310 @@
+﻿l_english:
+
+#########################################################
+###### NEW FRANCE 
+#########################################################
+form_NEW_FRANCE_category:0 "Restoring French Influence in North America"
+form_NEW_FRANCE_category_desc:0 "The French people were one of the first to settle the North American continent, but with the annexation of New France and Anglo subjugation of our people, our culture would be pushed ever closer to obscurity. As one of the last bastions of Franco-North American peoples, it is only right we take what was ours, and eventually claim the mantle of New France."
+
+########## FRENCH CANADA
+form_french_canada:0 "A Rightful French Canada"
+
+controls_ontario_tt:0 "Controls §YOntario§!"
+controls_quebec_tt:0 "Controls §YQuebec§!"
+french_can_exists_tt:0 "§YFrench Canada§! does not already exist"
+core_ontario_tt:0 "Gain §Ycores§! on §YOntario§!"
+french_american_crusade_tt:0 "§YWe will embark on a great crusade to reclaim§! §BNew France§!"
+
+##### INTEGRATE ACADIA
+integrate_acadia:0 "Integrate Acadie"
+
+controls_new_brunswick_tt:0 "Controls §YNew Brunswick§!"
+controls_prince_edward_island_tt:0 "Controls §YPrince Edward Island§!"
+controls_nova_scotia_tt:0 "Controls §YNova Scotia§!"
+core_new_brunswick_tt:0 "Gain §Ycores§! on §YNew Brunswick§!"
+core_prince_edward_island_tt:0 "Gain §Ycores§! on §YPrince Edward Island§!"
+core_nova_scotia_tt:0 "Gain §Ycores§! on §YNova Scotia§!"
+
+##### REENACT QUEBEC ACT
+reenact_quebec_act:0 "Reenact the Quebec Act"
+
+has_integrated_acadie_tt:0 "We have integrated §YAcadie§!"
+controls_michigan_tt:0 "Controls §YMichigan§!"
+controls_ohio_tt:0 "Controls §YOhio§!"
+controls_indiana_tt:0 "Controls §YIndiana§!"
+controls_illinois_tt:0 "Controls §YIllinois§!"
+controls_wisconsin_tt:0 "Controls §YWisconsin§!"
+core_great_lakes_states_tt:0 "Gain §Ycores§! on the §YGreat Lakes States§!"
+
+new_france_goal_tt:0 "§YAfter our Canadien Reconquista, we shall move to the§! §Rultimate goal of establishing§! §BNew France.§!"
+
+##### ANNEX PSP
+annex_psp:0 "Annex St. Pierre and Miquelon"
+
+##### INTEGRATE NFL AND LAB
+integrate_nfl_lab:0 "Reintegrate Newfoundland and Labrador"
+controls_newfoundland_and_labrador_tt:0 "Controls §YNewfoundland and Labrador§!"
+core_newfoundland_and_labrador_tt:0 "Gain §Ycores§! on §YNewfoundland and Labrador§!"
+
+##### CONQUER WEST PROVINCE CLAIMS
+conquer_west_province_claims:0 "Conquer the West Province claims"
+
+##### CONQUER UPPER/LOWER MISSISSIPPI
+conquer_upper_mississippi:0 "Conquer the Upper Mississippi"
+conquer_lower_mississippi:0 "Conquer the Lower Mississippi"
+core_upper_mississippi_tt:0 "Gain §Ycores§! on the §YUpper Mississippi§!"
+core_lower_mississippi_tt:0 "Gain §Ycores§! on the §YLower Mississippi§!"
+
+##### RECLAIM LOUISIANA
+reclaim_louisiana:0 "Reclaim Louisiana"
+retake_louisiana_territory_tt:0 "§YSince the territory of New France has been finally returned to their rightful rulers, now is the time to§! §Rfurther our claim, and begin the reconquest of the§! §Bold Louisiana Territory.§!"
+### TERRITORY
+restore_louisiana_territory:0 "Restore the Louisiana Territory"
+
+controls_minnesota_tt:0 "Controls §YMinnesota§!"
+controls_nebraska_tt:0 "Controls §YNebraska§!"
+controls_iowa_tt:0 "Controls §YIowa§!"
+controls_montana_no_missoula:0 "Controls §Yall of Montana§! apart from §YMissoula§!"
+controls_eastern_wyoming_tt:0 "Controls §YEastern Wyoming§!"
+controls_eastern_colorado_tt:0 "Controls §YEastern Colorado§!"
+
+core_louisiana_territory_tt:0 "Gain §Ycores§! on the §YLouisiana Territory§!"
+
+###########################################################
+FRENCH_CANADA:0 "République du Canada"
+FRENCH_CANADA_DEF:0 "the République du Canada"
+FRENCH_CANADA_ADJ:0 "Canadien"
+FRENCH_CANADA_neutrality:0 "République du Canada"
+FRENCH_CANADA_neutrality_DEF:0 "the République du Canada"
+FRENCH_CANADA_neutrality_ADJ:0 "Canadien"
+FRENCH_CANADA_fascism:0 "Résurrectionniste Canada"
+FRENCH_CANADA_fascism_DEF:0 "Résurrectionniste Canada"
+FRENCH_CANADA_fascism_ADJ:0 "Canadien"
+FRENCH_CANADA_democratic:0 "République du Canada"
+FRENCH_CANADA_democratic_DEF:0 "the République du Canada"
+FRENCH_CANADA_democratic_ADJ:0 "Canadien"
+FRENCH_CANADA_communism:0 "Canadien Socialist Republic"
+FRENCH_CANADA_communism_DEF:0 "the Canadien Socialist Republic"
+FRENCH_CANADA_communism_ADJ:0 "Canadien"
+FRENCH_CANADA_longism:0 "République du Canada"
+FRENCH_CANADA_longism_DEF:0 "the République du Canada"
+FRENCH_CANADA_longism_ADJ:0 "Canadien"
+FRENCH_CANADA_progressivism:0 "République du Canada"
+FRENCH_CANADA_progressivism_DEF:0 "the République du Canada"
+FRENCH_CANADA_progressivism_ADJ:0 "Canadien"
+#########################################################
+NEW_FRANCE:0 "Nouvelle-France"
+NEW_FRANCE_DEF:0 "Nouvelle-France"
+NEW_FRANCE_ADJ:0 "Franco-American"
+NEW_FRANCE_neutrality:0 "Nouvelle-France"
+NEW_FRANCE_neutrality_DEF:0 "Nouvelle-France"
+NEW_FRANCE_neutrality_ADJ:0 "Franco-American"
+NEW_FRANCE_fascism:0 "République Nationale de la Nouvelle-France"
+NEW_FRANCE_fascism_DEF:0 "the République Nationale de la Nouvelle-France"
+NEW_FRANCE_fascism_ADJ:0 "Nouveau français"
+NEW_FRANCE_democratic:0 "Nouvelle République Française"
+NEW_FRANCE_democratic_DEF:0 "the Nouvelle République Française"
+NEW_FRANCE_democratic_ADJ:0 "Franco-American"
+NEW_FRANCE_communism:0 "Franco-American Democratic Socialist Republic"
+NEW_FRANCE_communism_DEF:0 "the Franco-American Democratic Socialist Republic"
+NEW_FRANCE_communism_ADJ:0 "Franco-American"
+NEW_FRANCE_longism:0 "Nouvelle République Française"
+NEW_FRANCE_longism_DEF:0 "the Nouvelle République Française"
+NEW_FRANCE_longism_ADJ:0 "Franco-American"
+NEW_FRANCE_progressivism:0 "Nouvelle République Française"
+NEW_FRANCE_progressivism_DEF:0 "the Nouvelle République Française"
+NEW_FRANCE_progressivism_ADJ:0 "Franco-American"
+
+#########################################################
+###### MEXICO STUFF
+#########################################################
+MEX_united:0 "United Mexican States"
+MEX_united_DEF:0 "the United Mexican States"
+MEX_united_ADJ:0 "Mexican"
+
+NA_MEX_reunification:0 "Mexico United Once More"
+NA_MEX_reunification_desc:0 "The wars of reunifcation have ended, and our vision of a secular Mexico has been achieved. The cutting of Church influence will allow our great nation to progress into the modern era, and build a greater Mexico for all!"
+
+own_mexico_no_baja_tt:0 "§YControls§! all of §YMexico§!, excluding §YBaja California§!"
+
+MDC_united:0 "Catholic Republic of Mexico"
+MDC_united_DEF:0 "the Catholic Republic of Mexico"
+MDC_united_ADJ:0 "Mexican"
+
+MDC_Catholic_Mexico:0 "A Catholic Mexico"
+MDC_Catholic_Mexico_desc:0 "Our Holy War against a secular Mexico has ended in our victory. No more will the Church be persecuted for spreading the truth and wisdom of God, and no more will His followers be oppressed in Mexico. Viva Cristo Rey!"
+
+#########################################################
+###### GREATER VIRGINIA
+#########################################################
+form_greater_virginia_category:0 "Restoring Our Northwest Claims"
+form_greater_virginia_category_desc:0 "In 1778, our state staked a vast claim in the soon-to-be Northwest Territory, named Illinois County. With our admittance into the Union, we were forced to cede our Northwestern claims to the Federal government. Without Federal authority, it is Virginia's destiny to reclaim the Illinois County, and to establish ourselves as one of the dominant states in the former Union."
+
+greater_virginia_integrate_ohio:0 "Integrate Ohio"
+greater_virginia_integrate_indiana:0 "Integrate Indiana"
+greater_virginia_integrate_illinois:0 "Integrate Illinois"
+greater_virginia_integrate_michigan:0 "Integrate Michigan"
+greater_virginia_integrate_wisconsin:0 "Integrate Wisconsin"
+greater_virginia_integrate_eastern_minnesota:0 "Integrate Eastern Minnesota"
+
+cores_ohio_tt:0 "Gain §Ycores§! on §YOhio§!"
+cores_indiana_tt:0 "Gain §Ycores§! on §YIndiana§!"
+cores_illinois_tt:0 "Gain §Ycores§! on §YIllinois§!"
+cores_michigan_tt:0 "Gain §Ycores§! on §YMichigan§!"
+cores_wisconsin_tt:0 "Gain §Ycores§! on §YWisconsin§!"
+
+SVA_nw_claims_tt:0 "§RInstead of focusing on the Southern states, we shall instead look North, and reconquer our lost claims of the Northwest Territories.§!"
+
+#######
+SVA_attack_ohio:0 "Obliterate Ohio"
+SVA_attack_indiana:0 "Integrate Indiana"
+SVA_attack_illinois:0 "Eliminate Illinois"
+SVA_attack_michigan:0 "Melt Michigan"
+SVA_attack_farmer_labor_league:0 "Liquify the League"
+
+SVA_attack_ohio_desc:0 " "
+SVA_attack_indiana_desc:0 " "
+SVA_attack_illinois_desc:0 " "
+SVA_attack_michigan_desc:0 " "
+SVA_attack_farmer_labor_league_desc:0 " "
+
+#########################################################
+###### CONNECTICUT WESTERN RESERVE 
+#########################################################
+form_SCT_western_reserve_category:0 "Recapture the Western Reserve"
+form_SCT_western_reserve_category_desc:0 "We don't know how we've done it, but our state somehow did. The old Western Reserve of the Revolutionary Era has been recovered, and who is to say we can't integrate it back into the great state of Connecticut?\nBizzare times call for bizzare outcomes.."
+
+reintegrate_western_reserve:0 "The Western Reserve"
+
+#########################################################
+###### NEW AFRIKA 
+#########################################################
+form_new_afrika_category:0 "The New Afrikan Idea"
+form_new_afrika_category_desc:0 "For centuries, our people have suffered under the boot of our White Oppressors. No more will we tolerate the pseudo-enslavement of our fellow Negros, and no more will we be subjected to the racism and segregation we face. Only through the liberation of the Negro in the deep-south can we achieve true freedom, and finally Free the Land."
+
+form_new_afrika:0 "Proclaim New Afrika"
+new_afrika_core_FLpanhandle:0 "Liberate the Floridan Panhandle"
+new_afrika_core_easttex:0 "Liberate East Texas"
+cores_claims_newafrika_tt:0 "Gain §Ycores§! on §Yrequired states§!, and §Yclaims§! on the §YFloridan Panhandle and Eastern Texas§!"
+
+NEW_AFRIKA:0 "New Afrika"
+NEW_AFRIKA_DEF:0 "New Afrika"
+NEW_AFRIKA_ADJ:0 "New Afrikan"
+NEW_AFRIKA_neutrality:0 "State of New Afrika"
+NEW_AFRIKA_neutrality_DEF:0 "the State of New Afrika"
+NEW_AFRIKA_neutrality_ADJ:0 "New Afrikan"
+NEW_AFRIKA_fascism:0 "New Afrika"
+NEW_AFRIKA_fascism_DEF:0 "New Afrika"
+NEW_AFRIKA_fascism_ADJ:0 "New Afrikan"
+NEW_AFRIKA_democratic:0 "Republic of New Afrika"
+NEW_AFRIKA_democratic_DEF:0 "the Republic of New Afrika"
+NEW_AFRIKA_democratic_ADJ:0 "New Afrikan"
+NEW_AFRIKA_communism:0 "People's Republic of New Afrika"
+NEW_AFRIKA_communism_DEF:0 "the People's Republic of New Afrika"
+NEW_AFRIKA_communism_ADJ:0 "New Afrikan"
+NEW_AFRIKA_longism:0 "New Afrikan Republic"
+NEW_AFRIKA_longism_DEF:0 "the New Afrikan Republic"
+NEW_AFRIKA_longism_ADJ:0 "New Afrikan"
+NEW_AFRIKA_progressivism:0 "Freedmen's Republic"
+NEW_AFRIKA_progressivism_DEF:0 "the Freedmen's Republic"
+NEW_AFRIKA_progressivism_ADJ:0 "Freedman"
+
+#########################################################
+###### LEFTIST CONFEDERACY 
+#########################################################
+form_leftist_CSA_category:0 "The Southern Confederacy"
+form_leftist_CSA_category_desc:0 "The old Confederacy still lives on in the hearts of many southerners, no matter how terrible its cause. We cannot destroy such heritage, so we shall embrace it. We will paint a new history for the Confederacy, one not of slavery, but of a noble goal of throwing off the shackles of the corrupt Northern industrialists and the tyranny of the reactionary Federal Government."
+
+form_leftist_confederacy:0 "A New Confederation"
+
+leftist_integrate_missouri:0 "Integrate Missouri"
+leftist_integrate_g_new_mexico:0 "Integrate The New Mexico Territory"
+leftist_integrate_oklahoma:0 "Integrate The Indian Territory"
+leftist_integrate_missouri:0 "Integrate Missouri"
+leftist_integrate_kentucky:0 "Integrate Kentucky"
+leftist_integrate_west_virginia:0 "Integrate West Virginia"
+
+confederate_states_communist_2:0 "Confederation of American Workers"
+confederate_states_communist_2_DEF:0 "the Confederation of American Workers"
+confederate_states_communist_2_ADJ:0 "Confederate"
+
+confederate_states_communist_3:0 "Confederation of American Workers"
+confederate_states_communist_3_DEF:0 "the Confederation of American Workers"
+confederate_states_communist_3_ADJ:0 "Confederate"
+
+confederate_states_communist_4:0 "Confederation of American Workers"
+confederate_states_communist_4_DEF:0 "the Confederation of American Workers"
+confederate_states_communist_4_ADJ:0 "Confederate"
+
+
+confederate_states_progressive:0 "Dixieland Confederacy"
+confederate_states_progressive_DEF:0 "the Dixieland Confederacy"
+confederate_states_progressive_ADJ:0 "Dixielander"
+
+confederate_states_progressive_2:0 "Dixieland Confederacy"
+confederate_states_progressive_2_DEF:0 "the Dixieland Confederacy"
+confederate_states_progressive_2_ADJ:0 "Dixielander"
+
+confederate_states_progressive_3:0 "Dixieland Confederacy"
+confederate_states_progressive_3_DEF:0 "the Dixieland Confederacy"
+confederate_states_progressive_3_ADJ:0 "Dixielander"
+
+#########################################################
+###### NORMAL CONFEDERACY FLAGS 
+#########################################################
+confederate_states_2_neutrality:0 "Confederate States of America"
+confederate_states_2_neutrality_DEF:0 "the Confederate States of America"
+confederate_states_2_neutrality_ADJ:0 "Confederate"
+confederate_states_2_fascism:0 "Confederate States of America"
+confederate_states_2_fascism_DEF:0 "the Confederate States of America"
+confederate_states_2_fascism_ADJ:0 "Confederate"
+confederate_states_2_democratic:0 "Confederated States of America"
+confederate_states_2_democratic_DEF:0 "the Confederated States of America"
+confederate_states_2_democratic_ADJ:0 "Confederate"
+confederate_states_2_communism:0 "Confederation of American Workers"
+confederate_states_2_communism_DEF:0 "the Confederation of American Workers"
+confederate_states_2_communism_ADJ:0 "Confederate"
+confederate_states_2_longism:0 "Confederated States of America"
+confederate_states_2_longism_DEF:0 "the Confederated States of America"
+confederate_states_2_longism_ADJ:0 "Confederate"
+confederate_states_2_progressivism:0 "Confederated States of America"
+confederate_states_2_progressivism_DEF:0 "the Confederated States of America"
+confederate_states_2_progressivism_ADJ:0 "Confederate"
+
+confederate_states_3_neutrality:0 "Confederate States of America"
+confederate_states_3_neutrality_DEF:0 "the Confederate States of America"
+confederate_states_3_neutrality_ADJ:0 "Confederate"
+confederate_states_3_fascism:0 "Confederate States of America"
+confederate_states_3_fascism_DEF:0 "the Confederate States of America"
+confederate_states_3_fascism_ADJ:0 "Confederate"
+confederate_states_3_democratic:0 "Confederated States of America"
+confederate_states_3_democratic_DEF:0 "the Confederated States of America"
+confederate_states_3_democratic_ADJ:0 "Confederate"
+confederate_states_3_communism:0 "Confederation of American Workers"
+confederate_states_3_communism_DEF:0 "the Confederation of American Workers"
+confederate_states_3_communism_ADJ:0 "Confederate"
+confederate_states_3_longism:0 "Confederated States of America"
+confederate_states_3_longism_DEF:0 "the Confederated States of America"
+confederate_states_3_longism_ADJ:0 "Confederate"
+confederate_states_3_progressivism:0 "Confederated States of America"
+confederate_states_3_progressivism_DEF:0 "the Confederated States of America"
+confederate_states_3_progressivism_ADJ:0 "Confederate"
+
+confederate_states_4_neutrality:0 "Confederate States of America"
+confederate_states_4_neutrality_DEF:0 "the Confederate States of America"
+confederate_states_4_neutrality_ADJ:0 "Confederate"
+confederate_states_4_fascism:0 "Confederate States of America"
+confederate_states_4_fascism_DEF:0 "the Confederate States of America"
+confederate_states_4_fascism_ADJ:0 "Confederate"
+confederate_states_4_democratic:0 "Confederated States of America"
+confederate_states_4_democratic_DEF:0 "the Confederated States of America"
+confederate_states_4_democratic_ADJ:0 "Confederate"
+confederate_states_4_communism:0 "Confederation of American Workers"
+confederate_states_4_communism_DEF:0 "the Confederation of American Workers"
+confederate_states_4_communism_ADJ:0 "Confederate"
+confederate_states_longism:0 "Confederated States of America"
+confederate_states_4_longism_DEF:0 "the Confederated States of America"
+confederate_states_4_longism_ADJ:0 "Confederate"
+confederate_states_4_progressivism:0 "Confederated States of America"
+confederate_states_4_progressivism_DEF:0 "the Confederated States of America"
+confederate_states_4_progressivism_ADJ:0 "Confederate"

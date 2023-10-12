@@ -1,0 +1,3085 @@
+
+category = 
+{
+ name = "Voices"
+ soundeffects = {
+	MEX_infantry_idle
+	MEX_infantry_neutral_combat
+	MEX_infantry_positive_combat
+	MEX_infantry_retreat
+	MEX_infantry_move_out
+	BAJ_infantry_idle
+	BAJ_infantry_neutral_combat
+	BAJ_infantry_positive_combat
+	BAJ_infantry_retreat
+	BAJ_infantry_move_out
+	MAG_infantry_idle
+	MAG_infantry_neutral_combat
+	MAG_infantry_positive_combat
+	MAG_infantry_retreat
+	MAG_infantry_move_out
+	MCA_infantry_idle
+	MCA_infantry_neutral_combat
+	MCA_infantry_positive_combat
+	MCA_infantry_retreat
+	MCA_infantry_move_out
+	MCH_infantry_idle
+	MCH_infantry_neutral_combat
+	MCH_infantry_positive_combat
+	MCH_infantry_retreat
+	MCH_infantry_move_out
+	MCI_infantry_idle
+	MCI_infantry_neutral_combat
+	MCI_infantry_positive_combat
+	MCI_infantry_retreat
+	MCI_infantry_move_out
+	MCM_infantry_idle
+	MCM_infantry_neutral_combat
+	MCM_infantry_positive_combat
+	MCM_infantry_retreat
+	MCM_infantry_move_out
+	MCO_infantry_idle
+	MCO_infantry_neutral_combat
+	MCO_infantry_positive_combat
+	MCO_infantry_retreat
+	MCO_infantry_move_out
+	MCT_infantry_idle
+	MCT_infantry_neutral_combat
+	MCT_infantry_positive_combat
+	MCT_infantry_retreat
+	MCT_infantry_move_out
+	MDC_infantry_idle
+	MDC_infantry_neutral_combat
+	MDC_infantry_positive_combat
+	MDC_infantry_retreat
+	MDC_infantry_move_out
+	MDU_infantry_idle
+	MDU_infantry_neutral_combat
+	MDU_infantry_positive_combat
+	MDU_infantry_retreat
+	MDU_infantry_move_out
+	MEM_infantry_idle
+	MEM_infantry_neutral_combat
+	MEM_infantry_positive_combat
+	MEM_infantry_retreat
+	MEM_infantry_move_out
+	MGR_infantry_idle
+	MGR_infantry_neutral_combat
+	MGR_infantry_positive_combat
+	MGR_infantry_retreat
+	MGR_infantry_move_out
+	MGU_infantry_idle
+	MGU_infantry_neutral_combat
+	MGU_infantry_positive_combat
+	MGU_infantry_retreat
+	MGU_infantry_move_out
+	MHI_infantry_idle
+	MHI_infantry_neutral_combat
+	MHI_infantry_positive_combat
+	MHI_infantry_retreat
+	MHI_infantry_move_out
+	MJA_infantry_idle
+	MJA_infantry_neutral_combat
+	MJA_infantry_positive_combat
+	MJA_infantry_retreat
+	MJA_infantry_move_out
+	MMI_infantry_idle
+	MMI_infantry_neutral_combat
+	MMI_infantry_positive_combat
+	MMI_infantry_retreat
+	MMI_infantry_move_out
+	MMO_infantry_idle
+	MMO_infantry_neutral_combat
+	MMO_infantry_positive_combat
+	MMO_infantry_retreat
+	MMO_infantry_move_out
+	MNA_infantry_idle
+	MNA_infantry_neutral_combat
+	MNA_infantry_positive_combat
+	MNA_infantry_retreat
+	MNA_infantry_move_out
+	MNL_infantry_idle
+	MNL_infantry_neutral_combat
+	MNL_infantry_positive_combat
+	MNL_infantry_retreat
+	MNL_infantry_move_out
+	MOX_infantry_idle
+	MOX_infantry_neutral_combat
+	MOX_infantry_positive_combat
+	MOX_infantry_retreat
+	MOX_infantry_move_out
+	MPU_infantry_idle
+	MPU_infantry_neutral_combat
+	MPU_infantry_positive_combat
+	MPU_infantry_retreat
+	MPU_infantry_move_out
+	MQR_infantry_idle
+	MQR_infantry_neutral_combat
+	MQR_infantry_positive_combat
+	MQR_infantry_retreat
+	MQR_infantry_move_out
+	MQU_infantry_idle
+	MQU_infantry_neutral_combat
+	MQU_infantry_positive_combat
+	MQU_infantry_retreat
+	MQU_infantry_move_out
+	MSI_infantry_idle
+	MSI_infantry_neutral_combat
+	MSI_infantry_positive_combat
+	MSI_infantry_retreat
+	MSI_infantry_move_out
+	MSL_infantry_idle
+	MSL_infantry_neutral_combat
+	MSL_infantry_positive_combat
+	MSL_infantry_retreat
+	MSL_infantry_move_out
+	MSO_infantry_idle
+	MSO_infantry_neutral_combat
+	MSO_infantry_positive_combat
+	MSO_infantry_retreat
+	MSO_infantry_move_out
+	MTA_infantry_idle
+	MTA_infantry_neutral_combat
+	MTA_infantry_positive_combat
+	MTA_infantry_retreat
+	MTA_infantry_move_out
+	MTB_infantry_idle
+	MTB_infantry_neutral_combat
+	MTB_infantry_positive_combat
+	MTB_infantry_retreat
+	MTB_infantry_move_out
+	MTL_infantry_idle
+	MTL_infantry_neutral_combat
+	MTL_infantry_positive_combat
+	MTL_infantry_retreat
+	MTL_infantry_move_out
+	MTE_infantry_idle
+	MTE_infantry_neutral_combat
+	MTE_infantry_positive_combat
+	MTE_infantry_retreat
+	MTE_infantry_move_out
+	MVE_infantry_idle
+	MVE_infantry_neutral_combat
+	MVE_infantry_positive_combat
+	MVE_infantry_retreat
+	MVE_infantry_move_out
+	MYU_infantry_idle
+	MYU_infantry_neutral_combat
+	MYU_infantry_positive_combat
+	MYU_infantry_retreat
+	MYU_infantry_move_out
+	MZA_infantry_idle
+	MZA_infantry_neutral_combat
+	MZA_infantry_positive_combat
+	MZA_infantry_retreat
+	MZA_infantry_move_out
+	COZ_infantry_idle
+	COZ_infantry_neutral_combat
+	COZ_infantry_positive_combat
+	COZ_infantry_retreat
+	COZ_infantry_move_out
+	RIO_infantry_idle
+	RIO_infantry_neutral_combat
+	RIO_infantry_positive_combat
+	RIO_infantry_retreat
+	RIO_infantry_move_out
+	MAC_infantry_idle
+	MAC_infantry_neutral_combat
+	MAC_infantry_positive_combat
+	MAC_infantry_retreat
+	MAC_infantry_move_out
+	MCL_infantry_idle
+	MCL_infantry_neutral_combat
+	MCL_infantry_positive_combat
+	MCL_infantry_retreat
+	MCL_infantry_move_out
+	
+ }
+  compressor = 
+ {
+	enabled = yes
+	pregain = 0.0
+	postgain = 2.0
+	ratio = 10.0
+	threshold = -10.0
+	attacktime = 0.030
+	releasetime = 1.2
+ }
+}
+
+########## MEX
+
+soundeffect =
+{
+    name = "MEX_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MEX_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MEX_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MEX_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MEX_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## BAJ
+
+soundeffect =
+{
+    name = "BAJ_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "BAJ_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "BAJ_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "BAJ_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "BAJ_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MAG
+
+soundeffect =
+{
+    name = "MAG_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MAG_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MAG_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MAG_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MAG_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MCA
+
+soundeffect =
+{
+    name = "MCA_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MCA_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MCA_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MCA_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MCA_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MCH
+
+soundeffect =
+{
+    name = "MCH_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MCH_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MCH_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MCH_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MCH_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MCI
+
+soundeffect =
+{
+    name = "MCI_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MCI_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MCI_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MCI_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MCI_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MCM
+
+soundeffect =
+{
+    name = "MCM_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MCM_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MCM_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MCM_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MCM_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MCO
+
+soundeffect =
+{
+    name = "MCO_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MCO_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MCO_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MCO_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MCO_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MCT
+
+soundeffect =
+{
+    name = "MCT_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MCT_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MCT_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MCT_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MCT_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MDC
+
+soundeffect =
+{
+    name = "MDC_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MDC_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MDC_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MDC_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MDC_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MDU
+
+soundeffect =
+{
+    name = "MDU_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MDU_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MDU_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MDU_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MDU_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MEM
+
+soundeffect =
+{
+    name = "MEM_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MEM_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MEM_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MEM_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MEM_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MGR
+
+soundeffect =
+{
+    name = "MGR_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MGR_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MGR_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MGR_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MGR_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MGU
+
+soundeffect =
+{
+    name = "MGU_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MGU_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MGU_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MGU_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MGU_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MHI
+
+soundeffect =
+{
+    name = "MHI_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MHI_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MHI_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MHI_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MHI_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MJA
+
+soundeffect =
+{
+    name = "MJA_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MJA_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MJA_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MJA_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MJA_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MMI
+
+soundeffect =
+{
+    name = "MMI_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MMI_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MMI_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MMI_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MMI_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MMO
+
+soundeffect =
+{
+    name = "MMO_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MMO_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MMO_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MMO_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MMO_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MNA
+
+soundeffect =
+{
+    name = "MNA_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MNA_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MNA_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MNA_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MNA_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MNL
+
+soundeffect =
+{
+    name = "MNL_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MNL_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MNL_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MNL_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MNL_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MOX
+
+soundeffect =
+{
+    name = "MOX_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MOX_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MOX_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MOX_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MOX_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MPU
+
+soundeffect =
+{
+    name = "MPU_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MPU_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MPU_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MPU_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MPU_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MQR
+
+soundeffect =
+{
+    name = "MQR_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MQR_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MQR_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MQR_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MQR_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MQU
+
+soundeffect =
+{
+    name = "MQU_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MQU_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MQU_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MQU_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MQU_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MSI
+
+soundeffect =
+{
+    name = "MSI_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MSI_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MSI_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MSI_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MSI_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MSL
+
+soundeffect =
+{
+    name = "MSL_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MSL_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MSL_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MSL_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MSL_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MSO
+
+soundeffect =
+{
+    name = "MSO_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MSO_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MSO_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MSO_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MSO_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MTA
+
+soundeffect =
+{
+    name = "MTA_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MTA_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MTA_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MTA_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MTA_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MTB
+
+soundeffect =
+{
+    name = "MTB_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MTB_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MTB_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MTB_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MTB_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MTL
+
+soundeffect =
+{
+    name = "MTL_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MTL_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MTL_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MTL_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MTL_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MTE
+
+soundeffect =
+{
+    name = "MTE_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MTE_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MTE_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MTE_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MTE_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MVE
+
+soundeffect =
+{
+    name = "MVE_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MVE_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MVE_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MVE_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MVE_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MYU
+
+soundeffect =
+{
+    name = "MYU_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MYU_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MYU_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MYU_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MYU_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MZA
+
+soundeffect =
+{
+    name = "MZA_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MZA_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MZA_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MZA_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MZA_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## COZ
+
+soundeffect =
+{
+    name = "COZ_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "COZ_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "COZ_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "COZ_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "COZ_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## RIO
+
+soundeffect =
+{
+    name = "RIO_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "RIO_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "RIO_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "RIO_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "RIO_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MAC
+
+soundeffect =
+{
+    name = "MAC_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MAC_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MAC_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MAC_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MAC_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MCL
+
+soundeffect =
+{
+    name = "MCL_infantry_idle"
+    sounds = {
+		sound = MEX_Idle_01
+        sound = MEX_Idle_02
+        sound = MEX_Idle_03
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect =
+{
+    name = "MCL_infantry_neutral_combat"
+    sounds = {
+        sound = MEX_Combat_01
+        sound = MEX_Combat_02
+        sound = MEX_Combat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MCL_infantry_positive_combat"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MCL_infantry_retreat"
+    sounds = {
+        sound = MEX_Retreat_01
+        sound = MEX_Retreat_02
+        sound = MEX_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "MCL_infantry_move_out"
+    sounds = {
+        sound = MEX_Winning_01
+        sound = MEX_Winning_02
+        sound = MEX_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+
+############## AUDIO ASSETS
+
+########### MEX
+sound =
+{
+	name = "MEX_Idle_01"
+	file = "mex/MEX_Idle_01.wav"
+}
+sound =
+{
+	name = "MEX_Idle_02"
+	file = "mex/MEX_Idle_02.wav"
+}
+sound =
+{
+	name = "MEX_Idle_03"
+	file = "mex/MEX_Idle_03.wav"
+}
+sound =
+{
+	name = "MEX_Winning_01"
+	file = "mex/MEX_Winning_01.wav"
+}
+sound =
+{
+	name = "MEX_Winning_02"
+	file = "mex/MEX_Winning_02.wav"
+}
+sound =
+{
+	name = "MEX_Winning_03"
+	file = "mex/MEX_Winning_03.wav"
+}
+sound =
+{
+	name = "MEX_Retreat_01"
+	file = "mex/MEX_Retreat_01.wav"
+}
+sound =
+{
+	name = "MEX_Retreat_02"
+	file = "mex/MEX_Retreat_02.wav"
+}
+sound =
+{
+	name = "MEX_Retreat_03"
+	file = "mex/MEX_Retreat_03.wav"
+}
+sound =
+{
+	name = "MEX_Combat_01"
+	file = "mex/MEX_Combat_01.wav"
+}
+sound =
+{
+	name = "MEX_Combat_02"
+	file = "mex/MEX_Combat_02.wav"
+}
+sound =
+{
+	name = "MEX_Combat_03"
+	file = "mex/MEX_Combat_03.wav"
+}

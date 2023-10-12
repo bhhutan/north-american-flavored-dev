@@ -1,0 +1,21 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_new_france"
+		texturefile = "gfx/interface/decisions/new_france.dds"
+	}
+	spriteType = {
+		name = "GFX_western_reserve"
+		texturefile = "gfx/interface/decisions/western_reserve.dds"
+	}
+	spriteType = {
+		name = "GFX_greater_greater_virginia"
+		texturefile = "gfx/interface/decisions/greater_greather_virginia.dds"
+	}
+	spriteType = {
+		name = "GFX_new_afrika"
+		texturefile = "gfx/interface/decisions/new_afrika.dds"
+	}
+	
+}#END
+
+

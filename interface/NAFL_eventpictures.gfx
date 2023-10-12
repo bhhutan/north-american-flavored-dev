@@ -1,0 +1,243 @@
+spriteTypes = {
+	
+	####### NEWLY ADDED
+	spriteType = {
+		name = "GFX_naflavorfrenchcanada"
+		texturefile = "gfx/event_pictures/news_frenchcanada.dds"
+	}
+	spriteType = {
+		name = "GFX_naflavornewfrance"
+		texturefile = "gfx/event_pictures/news_newfrance.dds"
+	}
+	spriteType = {
+		name = "GFX_fracancapital"
+		texturefile = "gfx/event_pictures/naflavor_fracancapital.dds"
+	}
+	spriteType = {
+		name = "GFX_naflavorstart"
+		texturefile = "gfx/event_pictures/naflavorstartevent.dds"
+	}
+	spriteType = {
+		name = "GFX_nadflnewsevent1"
+		texturefile = "gfx/event_pictures/news_newenglandformed.dds"
+	}
+	spriteType = {
+		name = "GFX_nadflnewsevent2"
+		texturefile = "gfx/event_pictures/news_bundformed.dds"
+	}
+	spriteType = {
+		name = "GFX_nadflnewsanarchy"
+		texturefile = "gfx/event_pictures/news_pennsylvaniaanarchy.dds"
+	}
+	spriteType = {
+		name = "GFX_texasallred"
+		texturefile = "gfx/event_pictures/news_texaselection_allred.dds"
+	}
+	spriteType = {
+		name = "GFX_texasferguson"
+		texturefile = "gfx/event_pictures/news_texaselection_ferguson.dds"
+	}
+	spriteType = {
+		name = "GFX_texasjumbo"
+		texturefile = "gfx/event_pictures/news_texaselection_jumbo.dds"
+	}
+	spriteType = {
+		name = "GFX_texasklan"
+		texturefile = "gfx/event_pictures/news_texaselection_klan.dds"
+	}
+	spriteType = {
+		name = "GFX_texasodaniel"
+		texturefile = "gfx/event_pictures/news_texaselection_odaniel.dds"
+	}
+	spriteType = {
+		name = "GFX_texasunionists"
+		texturefile = "gfx/event_pictures/news_texaselection_unionists.dds"
+	}
+	spriteType = {
+		name = "GFX_hueylong2"
+		texturefile = "gfx/event_pictures/news_hueylongleads.dds"
+	}
+	spriteType = {
+		name = "GFX_thirdrrw"
+		texturefile = "gfx/event_pictures/news_thirdrrw.dds"
+	}
+	spriteType = {
+		name = "GFX_unitedklans"
+		texturefile = "gfx/event_pictures/news_unitedklans.dds"
+	}
+	spriteType = {
+		name = "GFX_curleywin"
+		texturefile = "gfx/event_pictures/news_masselection_curley.dds"
+	}
+	spriteType = {
+		name = "GFX_hurleywin"
+		texturefile = "gfx/event_pictures/news_masselection_hurley.dds"
+	}
+	spriteType = {
+		name = "GFX_moderaterepublicanwin"
+		texturefile = "gfx/event_pictures/news_masselection_modrep.dds"
+	}
+	spriteType = {
+		name = "GFX_weekswin"
+		texturefile = "gfx/event_pictures/news_masselection_weeks.dds"
+	}
+	spriteType = {
+		name = "GFX_communistrevolution"
+		texturefile = "gfx/event_pictures/news_masselection_communistrev.dds"
+	}
+	spriteType = {
+		name = "GFX_eugenics"
+		texturefile = "gfx/event_pictures/news_masselection_draper.dds"
+	}
+	spriteType = {
+		name = "GFX_SRIcoup"
+		texturefile = "gfx/event_pictures/news_rhodeisland_coup.dds"
+	}
+	spriteType = {
+		name = "GFX_SRI_faction"
+		texturefile = "gfx/event_pictures/news_rhodeisland_faction.dds"
+	}
+	spriteType = {
+		name = "GFX_WDC_marlyand"
+		texturefile = "gfx/event_pictures/news_dc_reclaimmaryland.dds"
+	}
+	spriteType = {
+		name = "GFX_hueyfuckingdies"
+		texturefile = "gfx/event_pictures/news_hueylongfuckingdies.dds"
+	}
+	spriteType = {
+		name = "GFX_neworleans"
+		texturefile = "gfx/event_pictures/news_neworleans.dds"
+	}
+	spriteType = {
+		name = "GFX_SVA_monarchy"
+		texturefile = "gfx/event_pictures/news_virginia_monarchy.dds"
+	}
+	spriteType = {
+		name = "GFX_SVA_armycoup"
+		texturefile = "gfx/event_pictures/news_virginia_armycoup.dds"
+	}
+	spriteType = {
+		name = "GFX_hoeywin"
+		texturefile = "gfx/event_pictures/news_northcarolina_hoey.dds"
+	}
+	spriteType = {
+		name = "GFX_pelleywin"
+		texturefile = "gfx/event_pictures/news_northcarolina_pelley.dds"
+	}
+	spriteType = {
+		name = "GFX_populismwin"
+		texturefile = "gfx/event_pictures/news_northcarolina_populism.dds"
+	}
+	spriteType = {
+		name = "GFX_newafrika_capital"
+		texturefile = "gfx/event_pictures/naflavor_newafrikacapital.dds"
+	}
+	spriteType = {
+		name = "GFX_confederateflag_com"
+		texturefile = "gfx/event_pictures/naflavor_confederateflag_com.dds"
+	}
+	spriteType = {
+		name = "GFX_confederateflag_prog"
+		texturefile = "gfx/event_pictures/naflavor_confederateflag_prog.dds"
+	}
+	spriteType = {
+		name = "GFX_confederateflag"
+		texturefile = "gfx/event_pictures/naflavor_confederateflag.dds"
+	}
+	spriteType = {
+		name = "GFX_confederatecapital"
+		texturefile = "gfx/event_pictures/naflavor_confederatecapital.dds"
+	}
+	
+	
+
+
+#######################################################################################################################
+	spriteType = {
+		name = "GFX_nadflnewsevent100"
+		texturefile = "gfx/event_pictures/news_confederateformed.dds"
+	}
+	spriteType = {
+		name = "GFX_nadflnewsevent101"
+		texturefile = "gfx/event_pictures/news_greatlakesformed.dds"
+	}
+	spriteType = {
+		name = "GFX_nadflnewsevent102"
+		texturefile = "gfx/event_pictures/news_carolinasformed.dds"
+	}
+	spriteType = {
+		name = "GFX_nadflnewsevent103"
+		texturefile = "gfx/event_pictures/news_deseretformed.dds"
+	}
+	spriteType = {
+		name = "GFX_nadflnewsevent104"
+		texturefile = "gfx/event_pictures/news_dakotaformed.dds"
+	}
+	spriteType = {
+		name = "GFX_nadflnewsevent105"
+		texturefile = "gfx/event_pictures/news_greatplainsformed.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_nadflnewsevent106"
+		texturefile = "gfx/event_pictures/news_appalachiaformed.dds"
+	}
+
+	spriteType = {
+		name = "GFX_nadflnewsevent107"
+		texturefile = "gfx/event_pictures/news_tristateformed.dds"
+	}
+
+	spriteType = {
+		name = "GFX_nadflnewsevent108"
+		texturefile = "gfx/event_pictures/news_eastcoastcommuneformed.dds"
+	}
+
+	spriteType = {
+		name = "GFX_nadflnewsevent109"
+		texturefile = "gfx/event_pictures/news_unitedcommunesformed.dds"
+	}
+	spriteType = {
+		name = "GFX_nadflnewsevent110"
+		texturefile = "gfx/event_pictures/news_mass_purenewengland.dds"
+	}
+	spriteType = {
+		name = "GFX_nadflnewsevent111"
+		texturefile = "gfx/event_pictures/news_mass_commienewengland.dds"
+	}
+	spriteType = {
+		name = "GFX_nadflnewsevent112"
+		texturefile = "gfx/event_pictures/news_mass_newhibernia.dds"
+	}
+	spriteType = {
+		name = "GFX_nadflnewsevent113"
+		texturefile = "gfx/event_pictures/news_lovecraftnewengland.dds"
+	}
+	spriteType = {
+		name = "GFX_nadflnewsevent114"
+		texturefile = "gfx/event_pictures/news_rhodeisland_newengland.dds"
+	}
+	spriteType = {
+		name = "GFX_nadflnews117"
+		texturefile = "gfx/event_pictures/news_newafrikaformed.dds"
+	}
+	spriteType = {
+		name = "GFX_nadflnews118"
+		texturefile = "gfx/event_pictures/news_leftistconfederacyformed.dds"
+	}
+
+#######################################################################################################################
+	
+	spriteType = {
+		name = "GFX_naflnews200"
+		texturefile = "gfx/event_pictures/news_fallof_baltimore.dds"
+	}
+	spriteType = {
+		name = "GFX_naflnews201"
+		texturefile = "gfx/event_pictures/news_fallof_washington.dds"
+	}
+	
+}#END
+
+

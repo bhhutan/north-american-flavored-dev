@@ -1,0 +1,155 @@
+################# ADDED CATEGORIES 
+
+form_NEW_FRANCE_category = {
+
+	icon = generic_formable_nations
+
+	picture = GFX_new_france
+
+	allowed = {
+		OR = {
+			tag = PQC
+			tag = SAC
+		}
+	}
+
+	visible = {
+		OR = {
+			tag = PQC
+			tag = SAC
+		}
+	}
+}
+
+form_greater_virginia_category = {
+	
+	icon = GFX_generic_formable_nations
+
+	picture = GFX_greater_greater_virginia
+	
+	visible = {
+		original_tag = SVA
+
+		NOT = { 
+			has_cosmetic_tag = confederate_states
+		}
+	}
+
+	allowed = {
+		original_tag = SVA
+
+		NOT = { 
+			has_cosmetic_tag = confederate_states
+		}
+	}
+}
+
+form_SCT_western_reserve_category = {
+	
+	icon = GFX_generic_formable_nations
+
+	picture = GFX_western_reserve
+	
+	visible = {
+		original_tag = SCT
+	}
+
+	allowed = {
+		original_tag = SCT
+	}
+}
+
+form_new_afrika_category = {
+	
+	icon = GFX_generic_formable_nations
+
+	picture = GFX_new_afrika
+	
+	visible = {
+		OR = {
+			tag = FNS
+			tag = DOU
+			tag = JAM
+			tag = SHE
+		}
+	}
+
+	allowed = {
+		OR = {
+			tag = FNS
+			tag = DOU
+			tag = JAM
+			tag = SHE
+		}
+	}
+}
+
+form_leftist_CSA_category = {
+	
+	icon = GFX_generic_formable_nations
+
+	picture = GFX_csa_formable
+
+	visible = {
+		OR = {
+			original_tag = SAL
+			original_tag = SAR
+			original_tag = SFL
+			original_tag = SGA
+			original_tag = SLA
+			original_tag = SMS
+			original_tag = SNC
+			original_tag = SSC
+			original_tag = STN
+			original_tag = STX
+			original_tag = SVA
+			original_tag = STL
+			original_tag = ORL
+			original_tag = SMD
+			original_tag = SMO
+			original_tag = SKY
+			original_tag = SOK
+			original_tag = LMO
+		}
+	}
+
+	allowed = {
+		OR = {
+			original_tag = SAL
+			original_tag = SAR
+			original_tag = SFL
+			original_tag = SGA
+			original_tag = SLA
+			original_tag = SMS
+			original_tag = SNC
+			original_tag = SSC
+			original_tag = STN
+			original_tag = STX
+			original_tag = SVA
+			original_tag = STL
+			original_tag = ORL
+			original_tag = SMD
+			original_tag = SMO
+			original_tag = SKY
+			original_tag = SOK
+			original_tag = LMO
+		}
+	}
+}
+
+form_appalachia_category = {
+	
+	icon = GFX_generic_formable_nations
+	
+	visible = {
+		OR = {
+			original_tag = SWV
+		}
+	}
+
+	allowed = {
+		OR = {
+			original_tag = SWV
+		}
+	}
+}

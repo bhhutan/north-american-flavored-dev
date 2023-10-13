@@ -1763,7 +1763,7 @@ news_event = {
 }
 
 ############ FALL OF CITIES EVENTS
-
+### baltimore - DC
 news_event = {
 	id = naflavor.200
 	title = naflavor.200.t
@@ -1805,7 +1805,7 @@ news_event = {
 		trigger = { TAG = SMD }
 	}
 }
-
+### DC - maryland
 news_event = {
 	id = naflavor.201
 	title = naflavor.201.t
@@ -1845,6 +1845,132 @@ news_event = {
 	option = {
 		name = naflavor.201.c
 		trigger = { TAG = WDC }
+	}
+}
+###philly - DC
+news_event = {
+	id = naflavor.202
+	title = naflavor.202.t
+	desc = naflavor.202.d
+	picture = GFX_naflnews201
+	
+	major = yes
+	
+	trigger = {
+		46 = { is_controlled_by = WDC }
+		46 = { is_owned_by = SPA }
+		WDC = { has_war_with = SPA }
+		NOT = { has_global_flag = fall_of_philidelphia }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_philidelphia
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = naflavor.202.a
+		trigger = {
+			NOT = {
+				TAG = WDC
+				TAG = SPA
+			}
+		}
+	}
+	option = {
+		name = naflavor.202.b
+		trigger = { TAG = WDC }
+	}
+	option = {
+		name = naflavor.202.c
+		trigger = { TAG = SPA }
+	}
+}
+### manhattan - DC
+news_event = {
+	id = naflavor.203
+	title = naflavor.203.t
+	desc = naflavor.203.d
+	picture = GFX_naflnews201
+	
+	major = yes
+	
+	trigger = {
+		27 = { is_controlled_by = WDC }
+		27 = { is_owned_by = NYC }
+		WDC = { has_war_with = NYC }
+		NOT = { has_global_flag = fall_of_manhattan }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_manhattan
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = naflavor.203.a
+		trigger = {
+			NOT = {
+				TAG = WDC
+				TAG = NYC
+			}
+		}
+	}
+	option = {
+		name = naflavor.203.b
+		trigger = { TAG = WDC }
+	}
+	option = {
+		name = naflavor.203.c
+		trigger = { TAG = NYC }
+	}
+}
+
+news_event = {
+	id = naflavor.204
+	title = naflavor.204.t
+	desc = naflavor.204.d
+	picture = GFX_naflnews201
+	
+	major = yes
+	
+	trigger = {
+		5 = { is_controlled_by = WDC }
+		5 = { is_owned_by = SMA }
+		WDC = { has_war_with = SMA }
+		NOT = { has_global_flag = fall_of_boston }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_boston
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = naflavor.204.a
+		trigger = {
+			NOT = {
+				TAG = WDC
+				TAG = SMA
+			}
+		}
+	}
+	option = {
+		name = naflavor.204.b
+		trigger = { TAG = WDC }
+	}
+	option = {
+		name = naflavor.204.c
+		trigger = { TAG = SMA }
 	}
 }
 

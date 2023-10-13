@@ -7,5 +7,5 @@ tags={
 	"Fixes"
 	"Events"
 }
-name="North America Flavored DEV"
+name="north-american-flavored-dev"
 supported_version="1.12.14"

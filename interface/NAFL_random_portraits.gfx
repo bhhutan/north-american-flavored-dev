@@ -53,45 +53,107 @@ spriteTypes = {
 		texturefile = "gfx/interface/generic_portrait_ideas/idea_USA_generic_land_5.dds"
 	}
 	
-	### BBA USA
+	### KASIERREICH GFX
 	
 	spriteType = {
 		name = "GFX_Portrait_USA_Generic_land_6"
-		texturefile = "gfx/leaders/USA/Portrait_USA_Generic_land_6.dds"
+		texturefile = "gfx/leaders/USA/Portrait_America_Generic_land_1.dds"
 	}
 	spriteType = {
 		name = "GFX_Portrait_USA_Generic_land_6_small"
 		texturefile = "gfx/interface/generic_portrait_ideas/idea_USA_generic_land_6.dds"
 	}
+
 	
 	spriteType = {
 		name = "GFX_Portrait_USA_Generic_land_7"
-		texturefile = "gfx/leaders/USA/Portrait_USA_Generic_land_7.dds"
+		texturefile = "gfx/leaders/USA/Portrait_America_Generic_land_2.dds"
 	}
 	spriteType = {
 		name = "GFX_Portrait_USA_Generic_land_7_small"
 		texturefile = "gfx/interface/generic_portrait_ideas/idea_USA_generic_land_7.dds"
 	}
 	
+
 	spriteType = {
 		name = "GFX_Portrait_USA_Generic_land_8"
-		texturefile = "gfx/leaders/USA/Portrait_USA_Generic_land_8.dds"
+		texturefile = "gfx/leaders/USA/Portrait_America_Generic_land_3.dds"
 	}
 	spriteType = {
 		name = "GFX_Portrait_USA_Generic_land_8_small"
 		texturefile = "gfx/interface/generic_portrait_ideas/idea_USA_generic_land_8.dds"
 	}
 	
+
 	spriteType = {
 		name = "GFX_Portrait_USA_Generic_land_9"
-		texturefile = "gfx/leaders/USA/Portrait_USA_Generic_land_9.dds"
+		texturefile = "gfx/leaders/USA/Portrait_America_Generic_land_4.dds"
 	}
 	spriteType = {
 		name = "GFX_Portrait_USA_Generic_land_9_small"
 		texturefile = "gfx/interface/generic_portrait_ideas/idea_USA_generic_land_9.dds"
 	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_USA_Generic_land_10"
+		texturefile = "gfx/leaders/USA/Portrait_America_Generic_land_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Generic_land_10_small"
+		texturefile = "gfx/interface/generic_portrait_ideas/idea_USA_generic_land_8.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_USA_Generic_land_11"
+		texturefile = "gfx/leaders/USA/Portrait_America_Generic_land_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Generic_land_11_small"
+		texturefile = "gfx/interface/generic_portrait_ideas/idea_USA_generic_land_7.dds"
+	}
 	
-	### END BBA USA
+	######## navy
+	spriteType = {
+		name = "GFX_Portrait_USA_Generic_navy_4"
+		texturefile = "gfx/leaders/USA/Portrait_America_Generic_navy_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Generic_navy_1_small"
+		texturefile = "gfx/interface/generic_portrait_ideas/idea_USA_generic_navy_1.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_USA_Generic_navy_5"
+		texturefile = "gfx/leaders/USA/Portrait_America_Generic_navy_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Generic_navy_1_small"
+		texturefile = "gfx/interface/generic_portrait_ideas/idea_USA_generic_navy_2.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_USA_Generic_navy_6"
+		texturefile = "gfx/leaders/USA/Portrait_America_Generic_navy_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Generic_navy_1_small"
+		texturefile = "gfx/interface/generic_portrait_ideas/idea_USA_generic_navy_3.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_USA_Generic_navy_7"
+		texturefile = "gfx/leaders/USA/Portrait_America_Generic_navy_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Generic_navy_1_small"
+		texturefile = "gfx/interface/generic_portrait_ideas/idea_USA_generic_navy_2.dds"
+	}
+	### END KASIERREICH USA
 
 	spriteType = {
 		name = "GFX_Portrait_USA_Generic_navy_1"
@@ -305,6 +367,37 @@ spriteTypes = {
 
 
 	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_4"
+		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_4_small"
+		texturefile = "gfx/interface/generic_portrait_ideas/idea_generic_communist_south_america.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_5"
+		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_5_small"
+		texturefile = "gfx/interface/generic_portrait_ideas/idea_generic_democratic_south_america.dds"
+	}
+
+ 
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_6"
+		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_6_small"
+		texturefile = "gfx/interface/generic_portrait_ideas/idea_generic_fascist_south_america.dds"
+	}
+
+################## land
+
+	spriteType = {
 		name = "GFX_Portrait_South_America_Generic_land_1"
 		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
 	}
@@ -353,7 +446,164 @@ spriteTypes = {
 		texturefile = "gfx/interface/generic_portrait_ideas/idea_south_america_generic_land_5.dds"
 	}
 
+################# KAISERREICH SOUTH AMERICA
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_7"
+		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_new_1.dds"
+	}
 
+
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_8"
+		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_new_2.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_9"
+		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_new_3.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_10"
+		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_new_3.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_11"
+		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_new_4.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_12"
+		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_new_5.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_13"
+		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_new_6.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_13"
+		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_new_7.dds"
+	}
+	########### LAND
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_6"
+		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_land_new_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_6_small"
+		texturefile = "gfx/interface/generic_portrait_ideas/idea_south_america_generic_land_5.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_7"
+		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_land_new_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_7_small"
+		texturefile = "gfx/interface/generic_portrait_ideas/idea_south_america_generic_land_5.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_8"
+		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_land_new_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_8_small"
+		texturefile = "gfx/interface/generic_portrait_ideas/idea_south_america_generic_land_5.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_9"
+		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_land_new_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_9_small"
+		texturefile = "gfx/interface/generic_portrait_ideas/idea_south_america_generic_land_5.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_10"
+		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_land_new_5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_10_small"
+		texturefile = "gfx/interface/generic_portrait_ideas/idea_south_america_generic_land_5.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_11"
+		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_land_new_6.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_11_small"
+		texturefile = "gfx/interface/generic_portrait_ideas/idea_south_america_generic_land_5.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_12"
+		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_land_new_7.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_12_small"
+		texturefile = "gfx/interface/generic_portrait_ideas/idea_south_america_generic_land_5.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_13"
+		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_land_new_8.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_13_small"
+		texturefile = "gfx/interface/generic_portrait_ideas/idea_south_america_generic_land_5.dds"
+	}
+
+	###### NAVY
+
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_navy_4"
+		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_navy_new_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_navy_4_small"
+		texturefile = "gfx/interface/generic_portrait_ideas/idea_south_america_generic_navy_1.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_navy_5"
+		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_navy_new_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_navy_5_small"
+		texturefile = "gfx/interface/generic_portrait_ideas/idea_south_america_generic_navy_2.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_navy_6"
+		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_navy_new_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_navy_6_small"
+		texturefile = "gfx/interface/generic_portrait_ideas/idea_south_america_generic_navy_3.dds"
+	}
+#######################
 	spriteType = {
 		name = "GFX_Portrait_South_America_Generic_navy_1"
 		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"

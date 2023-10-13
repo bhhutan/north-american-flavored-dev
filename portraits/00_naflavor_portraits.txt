@@ -498,14 +498,27 @@ continent = {
 			"GFX_Portrait_South_America_Generic_land_3"
 			"GFX_Portrait_South_America_Generic_land_4"
 			"GFX_Portrait_South_America_Generic_land_5"
+			
+			"GFX_Portrait_South_America_Generic_land_6"
+			"GFX_Portrait_South_America_Generic_land_7"
+			"GFX_Portrait_South_America_Generic_land_8"
+			"GFX_Portrait_South_America_Generic_land_9"
+			"GFX_Portrait_South_America_Generic_land_10"
+			"GFX_Portrait_South_America_Generic_land_11"
+			"GFX_Portrait_South_America_Generic_land_12"
+			"GFX_Portrait_South_America_Generic_land_13"
 		}
 	}
 	
 	navy = {
 		male = {
-			"GFX_Portrait_South_America_Generic_land_1"
-			"GFX_Portrait_South_America_Generic_land_2"
-			"GFX_Portrait_South_America_Generic_land_3"
+			"GFX_Portrait_South_America_Generic_navy_1"
+			"GFX_Portrait_South_America_Generic_navy_2"
+			"GFX_Portrait_South_America_Generic_navy_3"
+
+			"GFX_Portrait_South_America_Generic_navy_4"
+			"GFX_Portrait_South_America_Generic_navy_5"
+			"GFX_Portrait_South_America_Generic_navy_6"
 		}
 	}
 	
@@ -513,31 +526,86 @@ continent = {
 		communism = {
 				male = { 
 					"GFX_Portrait_South_America_Generic_1"
+					"GFX_Portrait_South_America_Generic_4"
+
+					"GFX_Portrait_South_America_Generic_7"
+					"GFX_Portrait_South_America_Generic_8"
+					"GFX_Portrait_South_America_Generic_9"
+					"GFX_Portrait_South_America_Generic_10"
+					"GFX_Portrait_South_America_Generic_11"
+					"GFX_Portrait_South_America_Generic_12"
+					"GFX_Portrait_South_America_Generic_13"
 			}
 		}
 		democratic = {
 				male = { 
-					"GFX_Portrait_South_America_Generic_2" 
+					"GFX_Portrait_South_America_Generic_2"
+					"GFX_Portrait_South_America_Generic_5"
+
+					"GFX_Portrait_South_America_Generic_7"
+					"GFX_Portrait_South_America_Generic_8"
+					"GFX_Portrait_South_America_Generic_9"
+					"GFX_Portrait_South_America_Generic_10"
+					"GFX_Portrait_South_America_Generic_11"
+					"GFX_Portrait_South_America_Generic_12"
+					"GFX_Portrait_South_America_Generic_13"
 			}
 		}
 		fascism = {
 				male = { 
-					"GFX_Portrait_South_America_Generic_3" 
+					"GFX_Portrait_South_America_Generic_3"
+					"GFX_Portrait_South_America_Generic_6"
+
+					"GFX_Portrait_South_America_Generic_7"
+					"GFX_Portrait_South_America_Generic_8"
+					"GFX_Portrait_South_America_Generic_9"
+					"GFX_Portrait_South_America_Generic_10"
+					"GFX_Portrait_South_America_Generic_11"
+					"GFX_Portrait_South_America_Generic_12"
+					"GFX_Portrait_South_America_Generic_13"
 			}
 		}
 		neutrality = {
 				male = { 
-					"GFX_Portrait_South_America_Generic_3" 
+					"GFX_Portrait_South_America_Generic_3"
+					"GFX_Portrait_South_America_Generic_6"
+
+					"GFX_Portrait_South_America_Generic_7"
+					"GFX_Portrait_South_America_Generic_8"
+					"GFX_Portrait_South_America_Generic_9"
+					"GFX_Portrait_South_America_Generic_10"
+					"GFX_Portrait_South_America_Generic_11"
+					"GFX_Portrait_South_America_Generic_12"
+					"GFX_Portrait_South_America_Generic_13"
 			}
 		}
 		progressivism = {
 				male = { 
-					"GFX_Portrait_South_America_Generic_3" 
+					"GFX_Portrait_South_America_Generic_3"
+					"GFX_Portrait_South_America_Generic_5"
+
+					"GFX_Portrait_South_America_Generic_7"
+					"GFX_Portrait_South_America_Generic_8"
+					"GFX_Portrait_South_America_Generic_9"
+					"GFX_Portrait_South_America_Generic_10"
+					"GFX_Portrait_South_America_Generic_11"
+					"GFX_Portrait_South_America_Generic_12"
+					"GFX_Portrait_South_America_Generic_13"
 			}
 		}
 		longism = {
 				male = {
-					"GFX_Portrait_South_America_Generic_3" 
+					"GFX_Portrait_South_America_Generic_3"
+					"GFX_Portrait_South_America_Generic_5"
+					"GFX_Portrait_South_America_Generic_6"
+
+					"GFX_Portrait_South_America_Generic_7"
+					"GFX_Portrait_South_America_Generic_8"
+					"GFX_Portrait_South_America_Generic_9"
+					"GFX_Portrait_South_America_Generic_10"
+					"GFX_Portrait_South_America_Generic_11"
+					"GFX_Portrait_South_America_Generic_12"
+					"GFX_Portrait_South_America_Generic_13"
 			}
 		}
 	}
@@ -553,15 +621,28 @@ continent = {
 			"GFX_Portrait_South_America_Generic_land_2"
 			"GFX_Portrait_South_America_Generic_land_3"
 			"GFX_Portrait_South_America_Generic_land_4"
-			"GFX_Portrait_South_America_Generic_land_5"		
+			"GFX_Portrait_South_America_Generic_land_5"
+			
+			"GFX_Portrait_South_America_Generic_land_6"
+			"GFX_Portrait_South_America_Generic_land_7"
+			"GFX_Portrait_South_America_Generic_land_8"
+			"GFX_Portrait_South_America_Generic_land_9"
+			"GFX_Portrait_South_America_Generic_land_10"
+			"GFX_Portrait_South_America_Generic_land_11"
+			"GFX_Portrait_South_America_Generic_land_12"
+			"GFX_Portrait_South_America_Generic_land_13"
 		}
 	}
 	
 	navy = {
 		male = {
-			"GFX_Portrait_South_America_Generic_land_1"
-			"GFX_Portrait_South_America_Generic_land_2"
-			"GFX_Portrait_South_America_Generic_land_3"
+			"GFX_Portrait_South_America_Generic_navy_1"
+			"GFX_Portrait_South_America_Generic_navy_2"
+			"GFX_Portrait_South_America_Generic_navy_3"
+
+			"GFX_Portrait_South_America_Generic_navy_4"
+			"GFX_Portrait_South_America_Generic_navy_5"
+			"GFX_Portrait_South_America_Generic_navy_6"
 		}
 	}
 
@@ -569,34 +650,89 @@ continent = {
 		communism = {
 				male = { 
 					"GFX_Portrait_South_America_Generic_1"
+					"GFX_Portrait_South_America_Generic_4"
+
+					"GFX_Portrait_South_America_Generic_7"
+					"GFX_Portrait_South_America_Generic_8"
+					"GFX_Portrait_South_America_Generic_9"
+					"GFX_Portrait_South_America_Generic_10"
+					"GFX_Portrait_South_America_Generic_11"
+					"GFX_Portrait_South_America_Generic_12"
+					"GFX_Portrait_South_America_Generic_13"
 			}
 		}
 		democratic = {
 				male = { 
-					"GFX_Portrait_South_America_Generic_2" 
+					"GFX_Portrait_South_America_Generic_2"
+					"GFX_Portrait_South_America_Generic_5"
+
+					"GFX_Portrait_South_America_Generic_7"
+					"GFX_Portrait_South_America_Generic_8"
+					"GFX_Portrait_South_America_Generic_9"
+					"GFX_Portrait_South_America_Generic_10"
+					"GFX_Portrait_South_America_Generic_11"
+					"GFX_Portrait_South_America_Generic_12"
+					"GFX_Portrait_South_America_Generic_13"
 			}
 		}
 		fascism = {
 				male = { 
-					"GFX_Portrait_South_America_Generic_3" 
+					"GFX_Portrait_South_America_Generic_3"
+					"GFX_Portrait_South_America_Generic_6"
+
+					"GFX_Portrait_South_America_Generic_7"
+					"GFX_Portrait_South_America_Generic_8"
+					"GFX_Portrait_South_America_Generic_9"
+					"GFX_Portrait_South_America_Generic_10"
+					"GFX_Portrait_South_America_Generic_11"
+					"GFX_Portrait_South_America_Generic_12"
+					"GFX_Portrait_South_America_Generic_13"
 			}
 		}
 		neutrality = {
 				male = { 
-					"GFX_Portrait_South_America_Generic_3" 
+					"GFX_Portrait_South_America_Generic_3"
+					"GFX_Portrait_South_America_Generic_6"
+
+					"GFX_Portrait_South_America_Generic_7"
+					"GFX_Portrait_South_America_Generic_8"
+					"GFX_Portrait_South_America_Generic_9"
+					"GFX_Portrait_South_America_Generic_10"
+					"GFX_Portrait_South_America_Generic_11"
+					"GFX_Portrait_South_America_Generic_12"
+					"GFX_Portrait_South_America_Generic_13"
 			}
 		}
 		progressivism = {
 				male = { 
-					"GFX_Portrait_South_America_Generic_3" 
+					"GFX_Portrait_South_America_Generic_3"
+					"GFX_Portrait_South_America_Generic_5"
+
+					"GFX_Portrait_South_America_Generic_7"
+					"GFX_Portrait_South_America_Generic_8"
+					"GFX_Portrait_South_America_Generic_9"
+					"GFX_Portrait_South_America_Generic_10"
+					"GFX_Portrait_South_America_Generic_11"
+					"GFX_Portrait_South_America_Generic_12"
+					"GFX_Portrait_South_America_Generic_13"
 			}
 		}
 		longism = {
 				male = {
-					"GFX_Portrait_South_America_Generic_3" 
+					"GFX_Portrait_South_America_Generic_3"
+					"GFX_Portrait_South_America_Generic_5"
+					"GFX_Portrait_South_America_Generic_6"
+
+					"GFX_Portrait_South_America_Generic_7"
+					"GFX_Portrait_South_America_Generic_8"
+					"GFX_Portrait_South_America_Generic_9"
+					"GFX_Portrait_South_America_Generic_10"
+					"GFX_Portrait_South_America_Generic_11"
+					"GFX_Portrait_South_America_Generic_12"
+					"GFX_Portrait_South_America_Generic_13"
 			}
 		}
-	}	
+	}
 
 }
 
@@ -783,6 +919,15 @@ continent = {
 			"GFX_Portrait_South_America_Generic_land_3"
 			"GFX_Portrait_South_America_Generic_land_4"
 			"GFX_Portrait_South_America_Generic_land_5"
+			
+			"GFX_Portrait_South_America_Generic_land_6"
+			"GFX_Portrait_South_America_Generic_land_7"
+			"GFX_Portrait_South_America_Generic_land_8"
+			"GFX_Portrait_South_America_Generic_land_9"
+			"GFX_Portrait_South_America_Generic_land_10"
+			"GFX_Portrait_South_America_Generic_land_11"
+			"GFX_Portrait_South_America_Generic_land_12"
+			"GFX_Portrait_South_America_Generic_land_13"
 		}
 	}
 	
@@ -791,6 +936,10 @@ continent = {
 			"GFX_Portrait_South_America_Generic_navy_1"
 			"GFX_Portrait_South_America_Generic_navy_2"
 			"GFX_Portrait_South_America_Generic_navy_3"
+
+			"GFX_Portrait_South_America_Generic_navy_4"
+			"GFX_Portrait_South_America_Generic_navy_5"
+			"GFX_Portrait_South_America_Generic_navy_6"
 		}
 	}
 	
@@ -798,31 +947,86 @@ continent = {
 		communism = {
 				male = { 
 					"GFX_Portrait_South_America_Generic_1"
+					"GFX_Portrait_South_America_Generic_4"
+
+					"GFX_Portrait_South_America_Generic_7"
+					"GFX_Portrait_South_America_Generic_8"
+					"GFX_Portrait_South_America_Generic_9"
+					"GFX_Portrait_South_America_Generic_10"
+					"GFX_Portrait_South_America_Generic_11"
+					"GFX_Portrait_South_America_Generic_12"
+					"GFX_Portrait_South_America_Generic_13"
 			}
 		}
 		democratic = {
 				male = { 
-					"GFX_Portrait_South_America_Generic_2" 
+					"GFX_Portrait_South_America_Generic_2"
+					"GFX_Portrait_South_America_Generic_5"
+
+					"GFX_Portrait_South_America_Generic_7"
+					"GFX_Portrait_South_America_Generic_8"
+					"GFX_Portrait_South_America_Generic_9"
+					"GFX_Portrait_South_America_Generic_10"
+					"GFX_Portrait_South_America_Generic_11"
+					"GFX_Portrait_South_America_Generic_12"
+					"GFX_Portrait_South_America_Generic_13"
 			}
 		}
 		fascism = {
 				male = { 
-					"GFX_Portrait_South_America_Generic_3" 
+					"GFX_Portrait_South_America_Generic_3"
+					"GFX_Portrait_South_America_Generic_6"
+
+					"GFX_Portrait_South_America_Generic_7"
+					"GFX_Portrait_South_America_Generic_8"
+					"GFX_Portrait_South_America_Generic_9"
+					"GFX_Portrait_South_America_Generic_10"
+					"GFX_Portrait_South_America_Generic_11"
+					"GFX_Portrait_South_America_Generic_12"
+					"GFX_Portrait_South_America_Generic_13"
 			}
 		}
 		neutrality = {
 				male = { 
-					"GFX_Portrait_South_America_Generic_3" 
+					"GFX_Portrait_South_America_Generic_3"
+					"GFX_Portrait_South_America_Generic_6"
+
+					"GFX_Portrait_South_America_Generic_7"
+					"GFX_Portrait_South_America_Generic_8"
+					"GFX_Portrait_South_America_Generic_9"
+					"GFX_Portrait_South_America_Generic_10"
+					"GFX_Portrait_South_America_Generic_11"
+					"GFX_Portrait_South_America_Generic_12"
+					"GFX_Portrait_South_America_Generic_13"
 			}
 		}
 		progressivism = {
 				male = { 
-					"GFX_Portrait_South_America_Generic_3" 
+					"GFX_Portrait_South_America_Generic_3"
+					"GFX_Portrait_South_America_Generic_5"
+
+					"GFX_Portrait_South_America_Generic_7"
+					"GFX_Portrait_South_America_Generic_8"
+					"GFX_Portrait_South_America_Generic_9"
+					"GFX_Portrait_South_America_Generic_10"
+					"GFX_Portrait_South_America_Generic_11"
+					"GFX_Portrait_South_America_Generic_12"
+					"GFX_Portrait_South_America_Generic_13"
 			}
 		}
 		longism = {
 				male = {
-					"GFX_Portrait_South_America_Generic_3" 
+					"GFX_Portrait_South_America_Generic_3"
+					"GFX_Portrait_South_America_Generic_5"
+					"GFX_Portrait_South_America_Generic_6"
+
+					"GFX_Portrait_South_America_Generic_7"
+					"GFX_Portrait_South_America_Generic_8"
+					"GFX_Portrait_South_America_Generic_9"
+					"GFX_Portrait_South_America_Generic_10"
+					"GFX_Portrait_South_America_Generic_11"
+					"GFX_Portrait_South_America_Generic_12"
+					"GFX_Portrait_South_America_Generic_13"
 			}
 		}
 	}

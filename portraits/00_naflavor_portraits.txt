@@ -108,6 +108,11 @@ continent = {
 			"GFX_Portrait_USA_Generic_navy_1"
 			"GFX_Portrait_USA_Generic_navy_2"
 			"GFX_Portrait_USA_Generic_navy_3"
+
+			"GFX_Portrait_USA_Generic_navy_4"
+			"GFX_Portrait_USA_Generic_navy_5"
+			"GFX_Portrait_USA_Generic_navy_6"
+			"GFX_Portrait_USA_Generic_navy_7"
 		}
 	}
 
@@ -118,6 +123,11 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+					
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_9"
+					"GFX_Portrait_Europe_Generic_14"
+					"GFX_Portrait_Europe_Generic_20"
 			}
 		}
 		democratic = {
@@ -126,6 +136,14 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_10"
+					"GFX_Portrait_Europe_Generic_11"
+					"GFX_Portrait_Europe_Generic_16"
+					"GFX_Portrait_Europe_Generic_18"
+					"GFX_Portrait_Europe_Generic_19"
 			}
 		}
 		progressivism = {
@@ -134,6 +152,14 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_10"
+					"GFX_Portrait_Europe_Generic_11"
+					"GFX_Portrait_Europe_Generic_16"
+					"GFX_Portrait_Europe_Generic_18"
+					"GFX_Portrait_Europe_Generic_19"
 			}
 		}
 		fascism = {
@@ -142,6 +168,14 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_9"
+					"GFX_Portrait_Europe_Generic_15"
+					"GFX_Portrait_Europe_Generic_17"
+					"GFX_Portrait_Europe_Generic_19"
+					"GFX_Portrait_Europe_Generic_20"
+					
 			}
 		}
 		neutrality = {
@@ -150,6 +184,17 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_9"
+					"GFX_Portrait_Europe_Generic_10"
+					"GFX_Portrait_Europe_Generic_11"
+					"GFX_Portrait_Europe_Generic_15"
+					"GFX_Portrait_Europe_Generic_16"
+					"GFX_Portrait_Europe_Generic_17"
+					"GFX_Portrait_Europe_Generic_18"
+					"GFX_Portrait_Europe_Generic_19"
 			}
 		}
 		longism = {
@@ -158,6 +203,18 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_9"
+					"GFX_Portrait_Europe_Generic_10"
+					"GFX_Portrait_Europe_Generic_11"
+					"GFX_Portrait_Europe_Generic_15"
+					"GFX_Portrait_Europe_Generic_16"
+					"GFX_Portrait_Europe_Generic_17"
+					"GFX_Portrait_Europe_Generic_18"
+					"GFX_Portrait_Europe_Generic_19"
+					
 			}
 		}
 	}
@@ -196,6 +253,11 @@ continent = {
 			"GFX_Portrait_USA_Generic_navy_1"
 			"GFX_Portrait_USA_Generic_navy_2"
 			"GFX_Portrait_USA_Generic_navy_3"
+
+			"GFX_Portrait_USA_Generic_navy_4"
+			"GFX_Portrait_USA_Generic_navy_5"
+			"GFX_Portrait_USA_Generic_navy_6"
+			"GFX_Portrait_USA_Generic_navy_7"
 		}
 	}
 	
@@ -206,6 +268,11 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+					
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_9"
+					"GFX_Portrait_Europe_Generic_14"
+					"GFX_Portrait_Europe_Generic_20"
 			}
 		}
 		democratic = {
@@ -214,6 +281,14 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_10"
+					"GFX_Portrait_Europe_Generic_11"
+					"GFX_Portrait_Europe_Generic_16"
+					"GFX_Portrait_Europe_Generic_18"
+					"GFX_Portrait_Europe_Generic_19"
 			}
 		}
 		progressivism = {
@@ -222,6 +297,14 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_10"
+					"GFX_Portrait_Europe_Generic_11"
+					"GFX_Portrait_Europe_Generic_16"
+					"GFX_Portrait_Europe_Generic_18"
+					"GFX_Portrait_Europe_Generic_19"
 			}
 		}
 		fascism = {
@@ -230,6 +313,14 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_9"
+					"GFX_Portrait_Europe_Generic_15"
+					"GFX_Portrait_Europe_Generic_17"
+					"GFX_Portrait_Europe_Generic_19"
+					"GFX_Portrait_Europe_Generic_20"
+					
 			}
 		}
 		neutrality = {
@@ -238,6 +329,17 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_9"
+					"GFX_Portrait_Europe_Generic_10"
+					"GFX_Portrait_Europe_Generic_11"
+					"GFX_Portrait_Europe_Generic_15"
+					"GFX_Portrait_Europe_Generic_16"
+					"GFX_Portrait_Europe_Generic_17"
+					"GFX_Portrait_Europe_Generic_18"
+					"GFX_Portrait_Europe_Generic_19"
 			}
 		}
 		longism = {
@@ -246,6 +348,18 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_9"
+					"GFX_Portrait_Europe_Generic_10"
+					"GFX_Portrait_Europe_Generic_11"
+					"GFX_Portrait_Europe_Generic_15"
+					"GFX_Portrait_Europe_Generic_16"
+					"GFX_Portrait_Europe_Generic_17"
+					"GFX_Portrait_Europe_Generic_18"
+					"GFX_Portrait_Europe_Generic_19"
+					
 			}
 		}
 	}
@@ -280,6 +394,11 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+					
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_9"
+					"GFX_Portrait_Europe_Generic_14"
+					"GFX_Portrait_Europe_Generic_20"
 			}
 		}
 		democratic = {
@@ -288,6 +407,14 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_10"
+					"GFX_Portrait_Europe_Generic_11"
+					"GFX_Portrait_Europe_Generic_16"
+					"GFX_Portrait_Europe_Generic_18"
+					"GFX_Portrait_Europe_Generic_19"
 			}
 		}
 		progressivism = {
@@ -296,6 +423,14 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_10"
+					"GFX_Portrait_Europe_Generic_11"
+					"GFX_Portrait_Europe_Generic_16"
+					"GFX_Portrait_Europe_Generic_18"
+					"GFX_Portrait_Europe_Generic_19"
 			}
 		}
 		fascism = {
@@ -304,6 +439,14 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_9"
+					"GFX_Portrait_Europe_Generic_15"
+					"GFX_Portrait_Europe_Generic_17"
+					"GFX_Portrait_Europe_Generic_19"
+					"GFX_Portrait_Europe_Generic_20"
+					
 			}
 		}
 		neutrality = {
@@ -312,6 +455,17 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_9"
+					"GFX_Portrait_Europe_Generic_10"
+					"GFX_Portrait_Europe_Generic_11"
+					"GFX_Portrait_Europe_Generic_15"
+					"GFX_Portrait_Europe_Generic_16"
+					"GFX_Portrait_Europe_Generic_17"
+					"GFX_Portrait_Europe_Generic_18"
+					"GFX_Portrait_Europe_Generic_19"
 			}
 		}
 		longism = {
@@ -320,6 +474,18 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_9"
+					"GFX_Portrait_Europe_Generic_10"
+					"GFX_Portrait_Europe_Generic_11"
+					"GFX_Portrait_Europe_Generic_15"
+					"GFX_Portrait_Europe_Generic_16"
+					"GFX_Portrait_Europe_Generic_17"
+					"GFX_Portrait_Europe_Generic_18"
+					"GFX_Portrait_Europe_Generic_19"
+					
 			}
 		}
 	}
@@ -368,6 +534,11 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+					
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_9"
+					"GFX_Portrait_Europe_Generic_14"
+					"GFX_Portrait_Europe_Generic_20"
 			}
 		}
 		democratic = {
@@ -376,6 +547,14 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_10"
+					"GFX_Portrait_Europe_Generic_11"
+					"GFX_Portrait_Europe_Generic_16"
+					"GFX_Portrait_Europe_Generic_18"
+					"GFX_Portrait_Europe_Generic_19"
 			}
 		}
 		progressivism = {
@@ -384,6 +563,14 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_10"
+					"GFX_Portrait_Europe_Generic_11"
+					"GFX_Portrait_Europe_Generic_16"
+					"GFX_Portrait_Europe_Generic_18"
+					"GFX_Portrait_Europe_Generic_19"
 			}
 		}
 		fascism = {
@@ -392,6 +579,14 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_9"
+					"GFX_Portrait_Europe_Generic_15"
+					"GFX_Portrait_Europe_Generic_17"
+					"GFX_Portrait_Europe_Generic_19"
+					"GFX_Portrait_Europe_Generic_20"
+					
 			}
 		}
 		neutrality = {
@@ -400,6 +595,17 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_9"
+					"GFX_Portrait_Europe_Generic_10"
+					"GFX_Portrait_Europe_Generic_11"
+					"GFX_Portrait_Europe_Generic_15"
+					"GFX_Portrait_Europe_Generic_16"
+					"GFX_Portrait_Europe_Generic_17"
+					"GFX_Portrait_Europe_Generic_18"
+					"GFX_Portrait_Europe_Generic_19"
 			}
 		}
 		longism = {
@@ -408,6 +614,18 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_9"
+					"GFX_Portrait_Europe_Generic_10"
+					"GFX_Portrait_Europe_Generic_11"
+					"GFX_Portrait_Europe_Generic_15"
+					"GFX_Portrait_Europe_Generic_16"
+					"GFX_Portrait_Europe_Generic_17"
+					"GFX_Portrait_Europe_Generic_18"
+					"GFX_Portrait_Europe_Generic_19"
+					
 			}
 		}
 	}
@@ -442,6 +660,11 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+					
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_9"
+					"GFX_Portrait_Europe_Generic_14"
+					"GFX_Portrait_Europe_Generic_20"
 			}
 		}
 		democratic = {
@@ -450,6 +673,14 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_10"
+					"GFX_Portrait_Europe_Generic_11"
+					"GFX_Portrait_Europe_Generic_16"
+					"GFX_Portrait_Europe_Generic_18"
+					"GFX_Portrait_Europe_Generic_19"
 			}
 		}
 		progressivism = {
@@ -458,6 +689,14 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_10"
+					"GFX_Portrait_Europe_Generic_11"
+					"GFX_Portrait_Europe_Generic_16"
+					"GFX_Portrait_Europe_Generic_18"
+					"GFX_Portrait_Europe_Generic_19"
 			}
 		}
 		fascism = {
@@ -466,6 +705,14 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_9"
+					"GFX_Portrait_Europe_Generic_15"
+					"GFX_Portrait_Europe_Generic_17"
+					"GFX_Portrait_Europe_Generic_19"
+					"GFX_Portrait_Europe_Generic_20"
+					
 			}
 		}
 		neutrality = {
@@ -474,6 +721,17 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_9"
+					"GFX_Portrait_Europe_Generic_10"
+					"GFX_Portrait_Europe_Generic_11"
+					"GFX_Portrait_Europe_Generic_15"
+					"GFX_Portrait_Europe_Generic_16"
+					"GFX_Portrait_Europe_Generic_17"
+					"GFX_Portrait_Europe_Generic_18"
+					"GFX_Portrait_Europe_Generic_19"
 			}
 		}
 		longism = {
@@ -482,6 +740,18 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_9"
+					"GFX_Portrait_Europe_Generic_10"
+					"GFX_Portrait_Europe_Generic_11"
+					"GFX_Portrait_Europe_Generic_15"
+					"GFX_Portrait_Europe_Generic_16"
+					"GFX_Portrait_Europe_Generic_17"
+					"GFX_Portrait_Europe_Generic_18"
+					"GFX_Portrait_Europe_Generic_19"
+					
 			}
 		}
 	}
@@ -778,6 +1048,11 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+					
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_9"
+					"GFX_Portrait_Europe_Generic_14"
+					"GFX_Portrait_Europe_Generic_20"
 			}
 		}
 		democratic = {
@@ -786,6 +1061,14 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_10"
+					"GFX_Portrait_Europe_Generic_11"
+					"GFX_Portrait_Europe_Generic_16"
+					"GFX_Portrait_Europe_Generic_18"
+					"GFX_Portrait_Europe_Generic_19"
 			}
 		}
 		progressivism = {
@@ -794,6 +1077,14 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_10"
+					"GFX_Portrait_Europe_Generic_11"
+					"GFX_Portrait_Europe_Generic_16"
+					"GFX_Portrait_Europe_Generic_18"
+					"GFX_Portrait_Europe_Generic_19"
 			}
 		}
 		fascism = {
@@ -802,6 +1093,14 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_9"
+					"GFX_Portrait_Europe_Generic_15"
+					"GFX_Portrait_Europe_Generic_17"
+					"GFX_Portrait_Europe_Generic_19"
+					"GFX_Portrait_Europe_Generic_20"
+					
 			}
 		}
 		neutrality = {
@@ -810,6 +1109,17 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_9"
+					"GFX_Portrait_Europe_Generic_10"
+					"GFX_Portrait_Europe_Generic_11"
+					"GFX_Portrait_Europe_Generic_15"
+					"GFX_Portrait_Europe_Generic_16"
+					"GFX_Portrait_Europe_Generic_17"
+					"GFX_Portrait_Europe_Generic_18"
+					"GFX_Portrait_Europe_Generic_19"
 			}
 		}
 		longism = {
@@ -818,6 +1128,18 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_9"
+					"GFX_Portrait_Europe_Generic_10"
+					"GFX_Portrait_Europe_Generic_11"
+					"GFX_Portrait_Europe_Generic_15"
+					"GFX_Portrait_Europe_Generic_16"
+					"GFX_Portrait_Europe_Generic_17"
+					"GFX_Portrait_Europe_Generic_18"
+					"GFX_Portrait_Europe_Generic_19"
+					
 			}
 		}
 	}
@@ -865,6 +1187,11 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+					
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_9"
+					"GFX_Portrait_Europe_Generic_14"
+					"GFX_Portrait_Europe_Generic_20"
 			}
 		}
 		democratic = {
@@ -873,6 +1200,14 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_10"
+					"GFX_Portrait_Europe_Generic_11"
+					"GFX_Portrait_Europe_Generic_16"
+					"GFX_Portrait_Europe_Generic_18"
+					"GFX_Portrait_Europe_Generic_19"
 			}
 		}
 		progressivism = {
@@ -881,6 +1216,14 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_10"
+					"GFX_Portrait_Europe_Generic_11"
+					"GFX_Portrait_Europe_Generic_16"
+					"GFX_Portrait_Europe_Generic_18"
+					"GFX_Portrait_Europe_Generic_19"
 			}
 		}
 		fascism = {
@@ -889,6 +1232,14 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_9"
+					"GFX_Portrait_Europe_Generic_15"
+					"GFX_Portrait_Europe_Generic_17"
+					"GFX_Portrait_Europe_Generic_19"
+					"GFX_Portrait_Europe_Generic_20"
+					
 			}
 		}
 		neutrality = {
@@ -897,6 +1248,17 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_9"
+					"GFX_Portrait_Europe_Generic_10"
+					"GFX_Portrait_Europe_Generic_11"
+					"GFX_Portrait_Europe_Generic_15"
+					"GFX_Portrait_Europe_Generic_16"
+					"GFX_Portrait_Europe_Generic_17"
+					"GFX_Portrait_Europe_Generic_18"
+					"GFX_Portrait_Europe_Generic_19"
 			}
 		}
 		longism = {
@@ -905,6 +1267,18 @@ continent = {
 					"GFX_Portrait_Europe_Generic_4"
 					"GFX_Portrait_Europe_Generic_5"
 					"GFX_Portrait_Europe_Generic_6"
+
+					"GFX_Portrait_Europe_Generic_7"
+					"GFX_Portrait_Europe_Generic_8"
+					"GFX_Portrait_Europe_Generic_9"
+					"GFX_Portrait_Europe_Generic_10"
+					"GFX_Portrait_Europe_Generic_11"
+					"GFX_Portrait_Europe_Generic_15"
+					"GFX_Portrait_Europe_Generic_16"
+					"GFX_Portrait_Europe_Generic_17"
+					"GFX_Portrait_Europe_Generic_18"
+					"GFX_Portrait_Europe_Generic_19"
+					
 			}
 		}
 	}

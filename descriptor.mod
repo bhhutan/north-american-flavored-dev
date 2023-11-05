@@ -8,4 +8,4 @@ tags={
 	"Events"
 }
 name="north-american-flavored-dev"
-supported_version="1.12.14"
+supported_version="1.13.*"

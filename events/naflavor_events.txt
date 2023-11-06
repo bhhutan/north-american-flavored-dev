@@ -1762,7 +1762,11 @@ news_event = {
 
 }
 
-############ FALL OF CITIES EVENTS
+################################################################################################
+####################################
+######################## FALL OF CITIES EVENTS
+####################################
+################################################################################################
 ### baltimore - DC
 news_event = {
 	id = naflavor.200
@@ -1852,7 +1856,7 @@ news_event = {
 	id = naflavor.202
 	title = naflavor.202.t
 	desc = naflavor.202.d
-	picture = GFX_naflnews201
+	picture = GFX_naflnews202
 	
 	major = yes
 	
@@ -1894,7 +1898,7 @@ news_event = {
 	id = naflavor.203
 	title = naflavor.203.t
 	desc = naflavor.203.d
-	picture = GFX_naflnews201
+	picture = GFX_naflnews203
 	
 	major = yes
 	
@@ -1931,12 +1935,12 @@ news_event = {
 		trigger = { TAG = NYC }
 	}
 }
-
+### Boston - DC
 news_event = {
 	id = naflavor.204
 	title = naflavor.204.t
 	desc = naflavor.204.d
-	picture = GFX_naflnews201
+	picture = GFX_naflnews204
 	
 	major = yes
 	
@@ -1971,6 +1975,48 @@ news_event = {
 	option = {
 		name = naflavor.204.c
 		trigger = { TAG = SMA }
+	}
+}
+
+news_event = {
+	id = naflavor.205
+	title = naflavor.205.t
+	desc = naflavor.205.d
+	picture = GFX_naflnews205
+	
+	major = yes
+	
+	trigger = {
+		358 = { is_controlled_by = WDC }
+		358 = { is_owned_by = SVA }
+		WDC = { has_war_with = SVA }
+		NOT = { has_global_flag = fall_of_richmond }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_richmond
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = naflavor.205.a
+		trigger = {
+			NOT = {
+				TAG = WDC
+				TAG = SVA
+			}
+		}
+	}
+	option = {
+		name = naflavor.205.b
+		trigger = { TAG = WDC }
+	}
+	option = {
+		name = naflavor.205.c
+		trigger = { TAG = SVA }
 	}
 }
 

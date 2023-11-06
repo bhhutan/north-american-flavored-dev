@@ -249,6 +249,10 @@ spriteTypes = {
 		name = "GFX_naflnews204"
 		texturefile = "gfx/event_pictures/news_fallof_boston.dds"
 	}
+	spriteType = {
+		name = "GFX_naflnews205"
+		texturefile = "gfx/event_pictures/news_fallof_richmond.dds"
+	}
 	
 }#END
 

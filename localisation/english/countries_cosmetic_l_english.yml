@@ -71,6 +71,10 @@
     GLAKES_progressivism_DEF:0 "the Great Lakes Republic"
     GLAKES_progressivism_ADJ:0 "Great Laker" 
 
+    SPA_Anarchy:0 "Pennsylvanian Commune"
+    SPA_Anarchy_DEF:0 "the Pennsylvanian Commune"
+    SPA_Anarchy_ADJ:0 "Anarchists"
+
     TRI_STATE_COMMUNE:0 "Mid-Atlantic Commune"
     TRI_STATE_COMMUNE_DEF:0 "the Mid-Atlantic Commune"
     TRI_STATE_COMMUNE_ADJ:0 "Anarchist"
@@ -156,6 +160,38 @@
     confederate_states_communist_DEF:0 "the Confederation of American Workers"
     confederate_states_communist_ADJ:0 "Confederate"
     
+
+    Western_Canadian_Canada:0 "Republic of West Canada"
+    Western_Canadian_Canada_DEF:0 "the Republic of West Canada"
+    Western_Canadian_Canada_fascism:0 "State of Borealia"
+    Western_Canadian_Canada_fascism_DEF:0 "the State of Borealia"
+    Western_Canadian_Canada_communism:0 "Socialist State of Borealia"
+    Western_Canadian_Canada_communism_DEF:0 "the Socialist State of Borealia"
+    Western_Canadian_Canada_progressivism:0 "Farmer's Union of West Canada"
+    Western_Canadian_Canada_progressivism_DEF:0 "the Farmer's Union of West Canada"
+    Western_Canadian_Canada_ADJ:0 "West Canadian"
+    Western_Canadian_Canada_fascism_ADJ:0 "Borealian"
+    Western_Canadian_Canada_communism_ADJ:0 "Borealian" 
+
+    CELTIC:0 "Maritime Union"
+    CELTIC_DEF:0 "the Maritime Union"
+    CELTIC_ADJ:0 "Maritimer"
+    CELTIC_democratic:0 "Maritime Federation"
+    CELTIC_democratic_DEF:0 "the Maritime Federation"
+    CELTIC_democratic_ADJ:0 "Maritimer"
+    CELTIC_communism:0 "Atlantic People's Republic"
+    CELTIC_communism_DEF:0 "the Atlantic People's Republic"
+    CELTIC_communism_ADJ:0 "Atlantic"
+    CELTIC_fascism:0 "New Atlantis"
+    CELTIC_fascism_DEF:0 "New Atlantis"
+    CELTIC_fascism_ADJ:0 "Atlantean"
+    CELTIC_longism:0 "Union of the Martimes"
+    CELTIC_longism_DEF:0 "the Union of the Martimes"
+    CELTIC_longism_ADJ:0 "Maritimer"
+    CELTIC_progressivism:0 "Maritime Republic"
+    CELTIC_progressivism_DEF:0 "the Maritime Republic"
+    CELTIC_progressivism_ADJ:0 "Maritimer"
+
     ###################################
     
     UNITED_STATES_BIG_fascism:0 "Free American Empire"
@@ -396,10 +432,6 @@
     DAKOTA_DEF:0 "The Unified State of Dakota"
     DAKOTA_ADJ:0 "Dakotan"
 
-    CELTIC:0 "Atlantic Celtic Federation"
-    CELTIC_DEF:0 "Neo Celtic"
-    CELTIC_ADJ:0 "Celtic"
-
     DSCR:0 "Canadian Socialist Republic"
     DSCR_DEF:0 "The Democratic Socialist Republic of Canada"
     DSCR_ADJ:0 "Canadian"
@@ -487,10 +519,6 @@
     LMO_NEW_DIXIE:0 "New Dixie"
     LMO_NEW_DIXIE_DEF:0 "The Republic of New Dixie"
     LMO_NEW_DIXIE_ADJ:0 "New Dixian"
-
-    SPA_Anarchy:0 "Pennsylvania Anarchists"
-    SPA_Anarchy_DEF:0 "Pennsylvania Anarchists Republic"
-    SPA_Anarchy_ADJ:0 "Anarchists"
 
     PA_Deutschland:0 "Distelfink Republic"
     PA_Deutschland_DEF:0 "The Republic of Distelfink"

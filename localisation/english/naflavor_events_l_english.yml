@@ -261,6 +261,17 @@ naflavor_formable.8.desc:0 "Our invitation to [JAM.GetLeader], to be annexed int
 naflavor_formable.8.a:0 "Diplomacy has failed, to war it is."
 naflavor_formable.8.b:0 "That damned island isn't worth our time."
 
+naflavor_formable.9.t:0 "The Great Canadian Flag Debate"
+naflavor_formable.9.desc:0 "With the rebirth of the Canadian nation, we find ourselves no longer under direct British control, either through the Commonwealth or Dominion system. This has lead to a grand issue of our national flag. It makes no sense to continue flying our Dominion flag, as we no longer are under the United Kingdom.\n\nTwo flag designs have been proposed, both having a maple leaf, but one being blue and the other red. Which one shall we choose?"
+naflavor_formable.9.a:0 "The 3-leafed flag will do!"
+naflavor_formable.9.b:0 "I like the red on the singular leafed flag."
+
+naflavor_formable.10.t:0 "The Capital Question"
+naflavor_formable.10.desc:0 "Following the choice of our flag, the question of where our capital should be placed has come up.\n\nMany say this is a simple choice, and we should just move our capital to Ottawa, like the previous Canadian state before us. \n\nOthers say a new Canada needs a new capital, and have proposed that Toronto be the new capital. Some wish to not move the capital at all.\n\nIn the end, it is up to you."
+naflavor_formable.10.a:0 "Ottawa is just the logical choice."
+naflavor_formable.10.b:0 "To Toronto!"
+naflavor_formable.10.c:0 "There is no need to move capitals at all."
+
 ################################
 ##### NEWS FORMABLE EVENTS #####
 ################################

@@ -1115,3 +1115,245 @@ form_leftist_CSA_category = {
 	}
 
 }
+
+form_canada_generic_category = {
+
+	form_canada_generic = {
+		ai_will_do = {
+			factor = 20
+		}
+		
+		visible = {
+			AND = {
+				OR = {
+					tag = PMB
+					tag = PSK
+					tag = PAB
+					tag = PBC
+					tag = PNB
+					tag = PNS
+					tag = PEI
+					tag = PYT
+					tag = PNT
+					tag = PNL
+					tag = NFL
+					tag = LAB
+				}
+				OR = {
+					has_cosmetic_tag = CELTIC
+					has_cosmetic_tag = Western_Canadian_Canada
+					has_cosmetic_tag = GYUKON
+				}
+			}
+			NOT = {
+				has_global_flag = CANADA_formed
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = controls_ontario_tt
+				controls_ontario_trigger = yes
+			}
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = cores_generic_canada
+			if = {
+				limit = {
+					OR = {
+						has_government = democratic
+						has_government = longism
+						has_government = progressivism
+						has_government = neutrality
+					}
+				}
+				country_event = { id = naflavor_formable.9 }
+			}
+			else = {
+				set_cosmetic_tag = NAFL_canada_generic
+			}
+			hidden_effect = {
+				core_ontario  = yes
+				core_quebec = yes
+				core_new_brunswick = yes
+				core_prince_edward_island = yes
+				core_nova_scotia = yes
+				core_newfoundland_and_labrador = yes
+				core_manitoba = yes
+				core_alberta = yes
+				core_saskatchewan = yes
+				core_british_columbia = yes
+				core_yukon = yes
+				core_nwt = yes
+				106 = { add_core_of = ROOT }
+
+				set_global_flag = CANADA_formed
+				set_country_flag = formed_CANADA
+
+				#country_event = { id = naflavor_formable.1 days = 14}
+				#news_event = { id = naflavor.117 days = 1}
+			}
+			
+		}
+	}
+
+	canada_demand_psp = {
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 20
+		}
+		
+		visible = {
+			AND = {
+				has_global_flag = CANADA_formed
+				has_country_flag = formed_CANADA
+			}
+		}
+
+		available = {
+			is_subject = no
+			controls_labrador_trigger = yes
+		}
+
+		days_remove = 7
+
+		cost = 10
+
+		remove_effect = {
+			annex_country = {
+    			target = PSP
+    			transfer_troops = no
+			}
+			hidden_effect = {
+				64 = { add_core_of = ROOT }
+			}
+		}
+	}
+
+	canada_generic_alaska = {
+		ai_will_do = {
+			factor = 20
+		}
+		
+		fire_only_once = yes
+
+		visible = {
+			has_global_flag = CANADA_formed
+			has_country_flag = formed_CANADA
+		}
+	
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = controls_alaska_tt
+				controls_alaska_trigger = yes
+			}
+		}
+		days_remove = 30
+		cost = 25
+		remove_effect = {
+			custom_effect_tooltip = core_alaska_tt
+			hidden_effect = {
+				core_alaska = yes
+			}
+		}
+	}
+
+	canada_generic_columbia_district = {
+		ai_will_do = {
+			factor = 20
+		}
+		
+		fire_only_once = yes
+
+		visible = {
+			NOT = {
+				has_country_flag = west_canada_columbia_claimed
+			}
+			has_global_flag = CANADA_formed
+			has_country_flag = formed_CANADA
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = controls_teton_triangle_tt
+				controls_state = 681
+			}
+			custom_trigger_tooltip = {
+				tooltip = controls_missoula_tt
+				controls_state = 194
+			}	
+			custom_trigger_tooltip = {
+				tooltip = controls_washington_tt
+				controls_washington_trigger = yes
+			}	
+			custom_trigger_tooltip = {
+				tooltip = controls_oregon_tt
+				controls_all_of_oregon_trigger = yes
+			}	
+			custom_trigger_tooltip = {
+				tooltip = controls_idaho_tt
+				controls_idaho_trigger = yes
+			}	
+		}
+		
+		days_remove = 90
+		cost = 75
+
+		remove_effect = {
+			custom_effect_tooltip = core_columbia_district
+			hidden_effect = {
+				core_washington = yes
+				core_all_of_oregon = yes
+				core_idaho = yes
+				681 = { add_core_of = ROOT }
+				194 = { add_core_of = ROOT }
+			}
+		}
+
+	}
+
+	canada_generic_new_england = {
+		ai_will_do = {
+			factor = 20
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			has_global_flag = CANADA_formed
+			has_country_flag = formed_CANADA
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = form_new_england_required_states_tt
+				controls_new_england_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_country_required_states_new_york_tt
+				controls_new_york_trigger = yes
+			}
+		}
+
+		days_remove = 120
+		cost = 100
+
+		remove_effect = {
+			custom_effect_tooltip = canada_core_new_england_tt
+			hidden_effect = {
+				core_massachusetts = yes
+				core_connecticut = yes
+				core_rhode_island = yes
+				core_new_hampshire = yes
+				core_vermont = yes
+				core_maine = yes
+				core_new_york = yes
+			}
+		}
+	}
+}

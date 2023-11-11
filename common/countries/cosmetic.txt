@@ -91,6 +91,11 @@ confederate_states_4 = {
 	color_ui = rgb { 100 122 143 }
 }
 ####
+NAFL_canada_generic = {
+	color = rgb { 233 59 59 } 
+	color_ui = rgb { 233 59 59 }
+}
+####
 MEX_united = {
 	color = rgb { 104 152 83 }
 	color_ui = rgb { 135 198 108 }
@@ -828,4 +833,20 @@ SOH_USA_COMMIE = {
 SMN_viking_minnesota = {
 	color = rgb { 11 125 153 }
 	color_ui = rgb { 11 125 153 }
+}
+GCSA_GOLDEN_CIRCLE = {
+	color = rgb { 255 215 0 }
+	color_ui = rgb { 255 215 0 }
+}
+Illinois_big = {
+	color = rgb { 9 94 149 }
+	color_ui = rgb { 9 94 149 }
+}
+PBC_athabaskia_tag = {
+	color = rgb { 200 200 211 }
+	color_ui = rgb { 220 220 231 }
+}
+Western_Canadian_Canada = {
+	color = rgb { 65 68 102 }
+	color_ui = rgb { 65 68 102 }
 }

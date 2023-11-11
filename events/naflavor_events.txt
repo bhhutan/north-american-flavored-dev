@@ -2409,7 +2409,64 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = naflavor_formable.9
+	title = naflavor_formable.9.t
+	desc = naflavor_formable.9.desc
+	picture = GFX_canadianflag
 
+	is_triggered_only = yes
 
+	option = {
+		name = naflavor_formable.9.a
+		set_cosmetic_tag = NAFL_canada_generic
+		hidden_effect = {
+			country_event = { id = naflavor_formable.10 days = 10 }
+			#news_event = { id = naflavor.118 days = 1 }
+		}
+	}
 
+	option = {
+		name = naflavor_formable.9.b
+		set_cosmetic_tag = NAFL_canada_generic1
+		hidden_effect = {
+			country_event = { id = naflavor_formable.10 days = 10 }
+			#news_event = { id = naflavor.118 days = 1 }
+		}
+	}
+}
+
+country_event = {
+	id = naflavor_formable.10
+	title = naflavor_formable.10.t
+	desc = naflavor_formable.10.desc
+	picture = GFX_canadiancapital
+
+	is_triggered_only = yes
+
+	option = {
+		name = naflavor_formable.10.a
+		trigger = {
+			33 = { is_capital = no }
+			controls_state = 33
+		}
+		set_capital = { state = 33 }
+		add_stability = 0.05
+	}
+
+	option = {
+		name = naflavor_formable.10.b
+		trigger = {
+			30 = { is_capital = no }
+			controls_state = 30
+		}
+		set_capital = { state = 30 }
+		add_stability = 0.05
+	}
+
+	option = {
+		name = naflavor_formable.10.c
+		add_stability = 0.05
+	}
+}
 

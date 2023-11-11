@@ -15,7 +15,10 @@ spriteTypes = {
 		name = "GFX_new_afrika"
 		texturefile = "gfx/interface/decisions/new_afrika.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_generic_canada"
+		texturefile = "gfx/interface/decisions/generic_canada.dds"
+	}
 }#END
 
 

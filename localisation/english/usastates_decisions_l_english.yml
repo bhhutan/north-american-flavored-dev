@@ -16,6 +16,11 @@
  carolina_formed:0 "Carolina has already been formed"
  
  form_deseret: "Form Deseret" 
+
+form_west_canada_category:0 "Western Canadian Unity"
+form_west_canada_category_desc:0 "Western Canada has always had a distinct identity compared to Ontario, Quebec, or the Maritimes. With the Western Provinces in our hands, it is time we proclaim a United Western Canadian State."
+form_western_canada:0 "Form Western Canada"
+integrate_the_columbia_district:0 "Integrate The Former Columbia District"
  
  #forming country required states
  form_country_required_states_ndakota_tt:0 "Controls §YNorth Dakota§!"
@@ -81,6 +86,10 @@
     
     core_deseret_tt: "Gain §Ycores§! on integral states of Deseret."
 
+ form_west_canada_category:0 "Western Canadian Unity"
+ form_west_canada_category_desc:0 "Western Canada has always had a distinct identity compared to Ontario, Quebec, or the Maritimes. With the Western Provinces in our hands, it is time we proclaim a United Western Canadian State."
+ form_western_canada:0 "Form Western Canada"
+ integrate_the_columbia_district:0 "Integrate The Former Columbia District"
 
     ###Cascadia###
     form_cascadia_category:0 "Unite Cascadia"

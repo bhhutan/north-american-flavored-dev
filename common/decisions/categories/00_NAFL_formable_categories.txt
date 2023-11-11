@@ -137,6 +137,46 @@ form_leftist_CSA_category = {
 	}
 }
 
+form_canada_generic_category = {
+	icon = GFX_generic_formable_nations
+
+	picture = GFX_generic_canada
+
+	visible = {
+		OR = {
+			tag = PMB
+			tag = PSK
+			tag = PAB
+			tag = PBC
+			tag = PNB
+			tag = PNS
+			tag = PEI
+			tag = PYT
+			tag = PNT
+			tag = PNL
+			tag = NFL
+			tag = LAB
+		}
+	}
+
+	allowed = {
+		OR = {
+			tag = PMB
+			tag = PSK
+			tag = PAB
+			tag = PBC
+			tag = PNB
+			tag = PNS
+			tag = PEI
+			tag = PYT
+			tag = PNT
+			tag = PNL
+			tag = NFL
+			tag = LAB
+		}
+	}
+}
+
 form_appalachia_category = {
 	
 	icon = GFX_generic_formable_nations

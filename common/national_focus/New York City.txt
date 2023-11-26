@@ -1567,6 +1567,7 @@ continuous_focus_position = { x = 0001 y = 2200 }
 		}
 		completion_reward = {
 			add_ideas = NYC_Zog_President_king
+			core_the_united_states = yes
 			set_province_name = {
 				id = 3421
 				name = "New Tirana"
@@ -4024,9 +4025,6 @@ continuous_focus_position = { x = 0001 y = 2200 }
 		bypass = {
 
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		complete_tooltip = {
 
 		}
@@ -4144,9 +4142,6 @@ continuous_focus_position = { x = 0001 y = 2200 }
 
 		}
 		search_filters = {  FOCUS_FILTER_RESEARCH }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		complete_tooltip = {
 			navy_experience = 25
 			add_extra_state_shared_building_slots = 3

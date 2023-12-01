@@ -1125,6 +1125,91 @@ news_event = { #Communist
 	}
 }
 
+news_event = { #Second Cristero War
+	id = naflavor.32
+	title = naflavor.32.t
+	desc = naflavor.32.d
+	picture = GFX_second_cristero_war
+
+	major = yes
+
+	trigger = {
+		has_global_flag = second_cristero_war
+		MDC = { has_war_with = MEX }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = { 
+		clr_global_flag = second_cristero_war
+	}
+
+	option = {
+		name = naflavor.32.a
+		trigger = {
+			original_tag = MEX
+		}
+	}
+
+	option = {
+		name = naflavor.32.b
+		trigger = {
+			NOT = {
+				original_tag = MEX
+				original_tag = MDC
+			}
+		}
+	}
+
+	option = {
+		name = naflavor.32.c
+		trigger = {
+			original_tag = MDC
+		}
+	}
+}
+
+news_event = { #Yucatan War
+	id = naflavor.33
+	title = naflavor.33.t
+	desc = naflavor.33.d
+	picture = GFX_yucatan_war
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = naflavor.33.a
+		trigger = {
+			original_tag = MYU
+			original_tag = MCA
+			original_tag = MQR
+		}
+	}
+
+	option = {
+		name = naflavor.33.b
+		trigger = {
+			NOT = {
+				original_tag = MYU
+				original_tag = MCA
+				original_tag = MQR
+				original_tag = COZ
+			}
+		}
+	}
+
+	option = {
+		name = naflavor.33.c
+		trigger = {
+			original_tag = COZ
+		}
+	}
+}
+
 ############### ADDED FORMABLE NEWS EVENTS, ALL HAVE TRIPLE DIGIT
 
 news_event = { #Confederacy Formed	
@@ -2554,7 +2639,8 @@ country_event = {
 		}
 		set_capital = { state = 44 }
 		add_stability = -0.01
-		custom_effect_tooltip = SDE_brandon_tt
+		#custom_effect_tooltip = SDE_brandon_tt
+		#soon
 	}
 
 }

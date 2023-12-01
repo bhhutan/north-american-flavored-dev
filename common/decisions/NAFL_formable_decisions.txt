@@ -42,7 +42,7 @@ form_NEW_FRANCE_category = {
 			custom_effect_tooltip = french_american_crusade_tt
 
 			add_country_leader_trait = french_conqueror
-			
+
 			hidden_effect = {
 				set_global_flag = french_canada_formed
 				news_event = { id = naflavor_newfrance.2 days = 1 }
@@ -1162,7 +1162,7 @@ form_canada_generic_category = {
 		}
 
 		complete_effect = {
-			custom_effect_tooltip = cores_generic_canada
+			custom_effect_tooltip = cores_generic_canada_tt
 			if = {
 				limit = {
 					OR = {
@@ -1383,6 +1383,7 @@ form_delmarva_category = {
 		cost = 25
 		available = {
 			controls_state = 204
+			country_exists = TDW
 		}
 		
 		remove_effect = {

@@ -3598,6 +3598,7 @@ continuous_focus_position = { x = 50 y = 2000 }
                     id = na_mexico.20
                     days = 6
                 }
+                set_global_flag = second_cristero_war
             }
         }
     }
@@ -5826,6 +5827,9 @@ continuous_focus_position = { x = 50 y = 2000 }
             transfer_state = 574
             add_state_core = 542
             add_state_core = 574
+            hidden_effect = {
+                set_global_flag = second_cristero_war
+            }
         }
     }
     focus = {
@@ -6644,6 +6648,9 @@ continuous_focus_position = { x = 50 y = 2000 }
             }
             core_the_cartels = yes
             core_colima = yes
+            hidden_effect = {
+                set_global_flag = second_cristero_war
+            }
         }
     }
     focus = {

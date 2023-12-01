@@ -190,6 +190,12 @@ naflavor.31.a:0 "Long Live the Revolution!"
 naflavor.31.b:0 "Communists in Dixie?"
 naflavor.31.c:0 "Another ally to the Revolution!"
 
+naflavor.32.t:0 "The Second Cristero War"
+naflavor.32.d:0 "Ever since the collapse of central authority from Mexico City, the rival, Catholic-dominated government just north of the Federales have antagonized their southern neighbor. Border raids, Cristero insurgencies, and more, have all culminated into a final war to determine the fate of the Mexican Federal Government.\n\nMirroring the first Cristero War, Antidisestablishmentarists and Disestablishmentarists fight it out for their view of the Catholic Church in Mexico.\n\nMany wonder if the Mexico City government can last long in this war, with their civil war just years ago. The fate of Mexico rests in the outcome of this brutal war."
+naflavor.32.a:0 "We will prevail!"
+naflavor.32.b:0 "Will Mexico ever find peace?"
+naflavor.32.c:0 "Down with the atheists!"
+
 #################################
 ####### NEW FRANCE EVENTS #######
 #################################

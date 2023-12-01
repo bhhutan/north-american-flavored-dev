@@ -157,6 +157,14 @@ spriteTypes = {
 		name = "GFX_canadiancapital"
 		texturefile = "gfx/event_pictures/naflavor_canadiancapital.dds"
 	}
+	spriteType = {
+		name = "GFX_second_cristero_war"
+		texturefile = "gfx/event_pictures/news_second_cristero_war.dds"
+	}
+	spriteType = {
+		name = "GFX_yucatan_war"
+		texturefile = "gfx/event_pictures/news_yucatan_war.dds"
+	}
 
 
 #######################################################################################################################

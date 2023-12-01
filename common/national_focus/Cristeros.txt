@@ -1024,7 +1024,8 @@ focus_tree = {
 		completion_reward = {
 		custom_effect_tooltip = core_mexico_tt
 		hidden_effect = {
-		core_all_of_mexico = yes	
+			core_all_of_mexico = yes
+			set_global_flag = second_cristero_war
 		}
 			remove_ideas = MDC_Uneasy_Truce_with_Mexico
 			create_wargoal = {

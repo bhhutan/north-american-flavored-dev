@@ -272,6 +272,22 @@ naflavor_formable.10.a:0 "Ottawa is just the logical choice."
 naflavor_formable.10.b:0 "To Toronto!"
 naflavor_formable.10.c:0 "There is no need to move capitals at all."
 
+naflavor_formable.11.t:0 "[SDE.GetNameDef] has seized the Eastern Shore!"
+naflavor_formable.11.desc:0 "With the revolt in Tidewater, the Eastern Shore of Virginia has been cutoff from the mainland. Knowing this, the dastardly [SDE.GetAdjective] have seized the territory. \n\nUntil we put down the Tidewater Revolt, there is nothing we could possibly do."
+naflavor_formable.11.a:0 "The bastards!"
+
+naflavor_formable.12.t:0 "The Columbian Idea"
+naflavor_formable.12.desc:0 "We have done the seemingly impossible; assert total control of the Delmarva Peninsula. With this great victory, our national spirit has been greatly bolstered. Bolstered so much so, that secret discussions in the Delmarvan government have taken place to claim even more land for our great state.\n\nThe Commonwealth of Columbia is a proposed state that would include the states of Virginia and Maryland, with us, Delmarva, at its helm.\n\nWith a weakened, to nonexistant Maryland, the Federal Government without any power nor popularity, and an assured conflict with Virginia sooner or later, it seems that now the time is nigh."
+naflavor_formable.12.a:0 "We will achieve this Columbian Dream!"
+naflavor_formable.12.b:0 "I'd rather not"
+
+naflavor_formable.13.t:0 "The Commonwealth Capital"
+naflavor_formable.13.desc:0 "With the formation of the Commonwealth, and our position of power asserted, it is now appropiate to move our capital for our new nation."
+naflavor_formable.13.a:0 "No need to move our capital"
+naflavor_formable.13.b:0 "We shall move it to Baltimore"
+naflavor_formable.13.c:0 "Move the capital to Richmond"
+naflavor_formable.13.d:0 "Appropiate the old Federal capital"
+
 ################################
 ##### NEWS FORMABLE EVENTS #####
 ################################

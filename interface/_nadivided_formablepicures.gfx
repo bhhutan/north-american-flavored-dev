@@ -19,6 +19,14 @@ spriteTypes = {
 		name = "GFX_generic_canada"
 		texturefile = "gfx/interface/decisions/generic_canada.dds"
 	}
+	spriteType = {
+		name = "GFX_delmarva"
+		texturefile = "gfx/interface/decisions/delmarva.dds"
+	}
+	spriteType = {
+		name = "GFX_columbia"
+		texturefile = "gfx/interface/decisions/columbia.dds"
+	}
 }#END
 
 

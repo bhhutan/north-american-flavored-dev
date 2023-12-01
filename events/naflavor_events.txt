@@ -2470,3 +2470,91 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = naflavor_formable.11
+	title = naflavor_formable.11.t
+	desc = naflavor_formable.11.desc
+	picture = GFX_illinois4
+
+	is_triggered_only = yes
+
+	option = {
+		name = naflavor_formable.11.a
+		
+		add_war_support = 0.05
+	}
+
+}
+
+country_event = {
+	id = naflavor_formable.12
+	title = naflavor_formable.12.t
+	desc = naflavor_formable.12.desc
+	picture = GFX_illinois4
+
+	is_triggered_only = yes
+
+	option = {
+		name = naflavor_formable.12.a
+		add_stability = -0.05
+		add_war_support = 0.1
+		custom_effect_tooltip = SDE_columbian_claims_tt
+		hidden_effect = {
+			set_country_flag = SDE_columbian_dreams
+			claim_virginia = yes
+			claim_maryland = yes
+			claim_west_virginia = yes
+		}
+	}
+
+	option = {
+		name = naflavor_formable.12.b
+		add_stability = 0.01
+		custom_effect_tooltip = SDE_loser_tt
+	}
+
+}
+
+country_event = {
+	id = naflavor_formable.13
+	title = naflavor_formable.13.t
+	desc = naflavor_formable.13.desc
+	picture = GFX_canadiancapital
+
+	is_triggered_only = yes
+
+	option = {
+		name = naflavor_formable.13.a
+		add_stability = 0.05
+	}
+
+	option = {
+		name = naflavor_formable.13.b
+		trigger = {
+			45 = { is_capital = no }
+			controls_state = 45
+		}
+		set_capital = { state = 45 }
+	}
+
+	option = {
+		name = naflavor_formable.13.c
+		trigger = {
+			358 = { is_capital = no }
+			controls_state = 358
+		}
+		set_capital = { state = 358 }
+	}
+
+	option = {
+		name = naflavor_formable.13.d
+		trigger = {
+			44 = { is_capital = no }
+			controls_state = 44
+		}
+		set_capital = { state = 44 }
+		add_stability = -0.01
+		custom_effect_tooltip = SDE_brandon_tt
+	}
+
+}

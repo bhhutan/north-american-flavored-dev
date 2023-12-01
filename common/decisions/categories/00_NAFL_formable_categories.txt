@@ -177,6 +177,49 @@ form_canada_generic_category = {
 	}
 }
 
+form_delmarva_category = {
+	
+	icon = GFX_generic_formable_nations
+	
+	picture = GFX_delmarva
+
+	on_map_area = {
+		state = 205
+		state = 136
+		state = 204
+		state = 137
+		name = delmarva_states
+		zoom = 100
+	}
+	
+	visible = {
+		original_tag = SDE
+		NOT = {
+			has_country_flag = formed_delmarva
+		}
+	}
+
+	allowed = {
+		original_tag = SDE
+	}
+}
+
+form_columbia_category = {
+	
+	icon = GFX_generic_formable_nations
+	
+	picture = GFX_columbia
+	
+	visible = {
+		original_tag = SDE
+		has_country_flag = SDE_columbian_dreams
+	}
+
+	allowed = {
+		original_tag = SDE
+	}
+}
+
 form_appalachia_category = {
 	
 	icon = GFX_generic_formable_nations

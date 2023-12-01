@@ -1357,3 +1357,331 @@ form_canada_generic_category = {
 		}
 	}
 }
+
+form_delmarva_category = {
+
+	SDE_seize_eastern_shore = {
+		ai_will_do = {
+			factor = 20
+		}
+		
+		fire_only_once = yes
+
+		visible = {
+			OR = {
+				tag = SDE
+			}
+			NOT = {
+				has_global_flag = DELMARVA_FORMED
+			}
+		}
+		
+		days_remove = 14
+		cost = 25
+		available = {
+			controls_state = 204
+		}
+		
+		remove_effect = {
+			transfer_state = 137
+
+			SVA = {
+				country_event = { id = naflavor_formable.11 }
+			}
+		}
+	}
+
+	form_delmarva = {
+		ai_will_do = {
+			factor = 20
+		}
+		
+		visible = {
+			OR = {
+				tag = SDE
+			}
+			NOT = {
+				has_global_flag = DELMARVA_FORMED
+			}
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 204
+			controls_state = 136
+			controls_state = 205
+			controls_state = 137
+			custom_trigger_tooltip = {
+				tooltip = integrated_MD_peninsula_tt
+				AND = {
+					has_country_flag = SDE_136_cored
+					has_country_flag = SDE_204_cored
+					has_country_flag = SDE_205_cored
+				}
+			}
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = delmarva_decision_tt
+			set_cosmetic_tag = DELMARVA
+
+			hidden_effect = {
+				137 = { add_core_of = ROOT }
+				set_global_flag = DELMARVA_FORMED
+				set_country_flag = formed_delmarva
+
+				country_event = { id = naflavor_formable.12 days = 30 }
+				#news_event = { id = naflavor.117 days = 1}
+			}
+			
+		}
+	}
+
+	delaware_core_205 = {
+		ai_will_do = {
+			factor = 20
+		}
+		
+
+		visible = {
+			OR = {
+				tag = SDE
+			}
+			NOT = {
+				has_global_flag = DELMARVA_FORMED
+			}
+			NOT = {
+				has_country_flag = SDE_205_cored
+			}
+		}
+
+		cancel_trigger = {
+			NOT = { controls_state = 205 }
+		}
+		
+		days_remove = 50
+		on_map_mode = map_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 205
+			}
+		}
+
+		available = {
+			controls_state = 205
+		}
+		
+
+		remove_effect = {
+			205 = { add_core_of = SDE }
+			set_country_flag = SDE_205_cored
+		}
+	}
+
+	delaware_core_204 = {
+		ai_will_do = {
+			factor = 20
+		}
+		
+
+		visible = {
+			OR = {
+				tag = SDE
+			}
+			NOT = {
+				has_global_flag = DELMARVA_FORMED
+			}
+			NOT = {
+				has_country_flag = SDE_204_cored
+			}
+		}
+
+		cancel_trigger = {
+			NOT = { controls_state = 204 }
+		}
+		
+		days_remove = 50
+		on_map_mode = map_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 204
+			}
+		}
+
+		available = {
+			controls_state = 204
+		}
+		
+
+		remove_effect = {
+			204 = { add_core_of = SDE }
+			set_country_flag = SDE_204_cored
+		}
+	}
+
+	delaware_core_136 = {
+		ai_will_do = {
+			factor = 20
+		}
+
+		visible = {
+			OR = {
+				tag = SDE
+			}
+			NOT = {
+				has_global_flag = DELMARVA_FORMED
+			}
+			NOT = {
+				has_country_flag = SDE_136_cored
+			}
+		}
+
+		cancel_trigger = {
+			NOT = { controls_state = 136 }
+		}
+
+		days_remove = 50
+		on_map_mode = map_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 136
+			}
+		}
+
+		available = {
+			controls_state = 136
+		}
+		
+
+		remove_effect = {
+			136 = { add_core_of = SDE }
+			set_country_flag = SDE_136_cored
+		}
+	}
+
+	
+
+	debug_delmarva = {
+		ai_will_do = {
+			factor = 20
+		}
+				
+		visible = {
+			is_ai = no
+			is_debug = yes
+		}
+	
+		available = {
+			
+		}
+	
+		complete_effect = {
+			clr_global_flag = DELMARVA_FORMED
+			clr_country_flag = SDE_136_cored
+			clr_country_flag = SDE_204_cored
+			clr_country_flag = SDE_205_cored
+		}
+	}
+}
+
+form_columbia_category = {
+
+	form_columbia = {
+		ai_will_do = {
+			factor = 20
+		}
+
+		fire_only_once = yes
+
+		visible = {
+			original_tag = SDE
+			has_country_flag = SDE_columbian_dreams
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = controls_virginia_but_in_right_file_trigger_tt
+				controls_virginia_trigger  = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = controls_maryland_tt
+				controls_maryland_trigger = yes
+			}
+		}
+
+
+		complete_effect = {
+			custom_effect_tooltip = core_virginia_tt
+			custom_effect_tooltip = core_maryland_tt
+			custom_effect_tooltip = core_west_virginia_tt
+
+			set_cosmetic_tag = SDE_columbia
+
+			hidden_effect = {
+				core_virginia = yes
+				core_maryland = yes
+				core_west_virginia = yes
+				set_global_flag = SDE_COLUMBIA_FORMED
+				set_country_flag = formed_sde_columbia
+
+				country_event = { id = naflavor_formable.13 days = 14}
+				#news_event = { id = naflavor.117 days = 1}
+			}
+			
+		}
+	}
+}
+
+
+
+
+######## FORMABLE TEMPLATE!
+#form_FORMABLE_category = {
+#
+#	form_FORMABLE = {
+#		ai_will_do = {
+#			factor = 20
+#		}
+#		
+#		visible = {
+#			OR = {
+#				tag = FNS
+#			}
+#			NOT = {
+#				has_global_flag = FORMABLE_FORMED
+#			}
+#		}
+#
+#		available = {
+#			is_subject = no
+#			custom_trigger_tooltip = {
+#				tooltip = control_louisiana_tt
+#				controls_louisiana_trigger = yes
+#			}
+#
+#		}
+#
+#		complete_effect = {
+#			custom_effect_tooltip = _tt
+#			set_cosmetic_tag = FORMTAG
+#
+#			hidden_effect = {
+#				core_louisiana = yes
+#				core_mississippi = yes
+#				core_alabama = yes
+#				core_georgia = yes
+#				core_south_carolina = yes
+#
+#
+#				set_global_flag = FORMABLE_FORMED
+#				set_country_flag = formed_formable
+#
+#				country_event = { id = naflavor_formable.1 days = 14}
+#				news_event = { id = naflavor.117 days = 1}
+#			}
+#			
+#		}
+#	}
+#
+#}

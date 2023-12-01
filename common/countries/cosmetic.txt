@@ -107,7 +107,10 @@ MDC_united = {
 }
 
 ####
-
+SDE_columbia = {
+	color = rgb { 60 59 140 }
+	color_ui = rgb { 60 59 140 }
+}
 ##########################################################
 CAN_UNIFIED_ENG = {
 	color = rgb { 119 48 39 }

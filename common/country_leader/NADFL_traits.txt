@@ -1,0 +1,6 @@
+leader_traits = {
+    french_conqueror = {
+		random = no
+		justify_war_goal_time = -0.50
+	}
+}

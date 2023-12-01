@@ -40,6 +40,9 @@ form_NEW_FRANCE_category = {
 			custom_effect_tooltip = core_ontario_tt
 			
 			custom_effect_tooltip = french_american_crusade_tt
+
+			add_country_leader_trait = french_conqueror
+			
 			hidden_effect = {
 				set_global_flag = french_canada_formed
 				news_event = { id = naflavor_newfrance.2 days = 1 }
@@ -144,7 +147,7 @@ form_NEW_FRANCE_category = {
 			controls_state = 839
 		}
 
-		days_remove = 280
+		days_remove = 140
 
 		cost = 250
 
@@ -317,7 +320,7 @@ form_NEW_FRANCE_category = {
 			controls_state = 840
 		}
 
-		days_remove = 120
+		days_remove = 90
 
 		cost = 100
 
@@ -381,7 +384,7 @@ form_NEW_FRANCE_category = {
 			controls_state = 520
 		}
 
-		days_remove = 150
+		days_remove = 80
 
 		cost = 120
 
@@ -585,7 +588,7 @@ form_SCT_western_reserve_category = {
 		}
 
 		cost = 80
-		days_remove = 90
+		days_remove = 45
 		modifier = {
 			political_power_gain = -0.15
 		}
@@ -693,13 +696,13 @@ form_new_afrika_category = {
 			
 			controls_state = 13
 			13 = {
-				compliance > 25
+				compliance > 10
 				resistance < 15
 			}
 
 			controls_state = 14
 			14 = {
-				compliance > 25
+				compliance > 10
 				resistance < 15
 			}
 		}
@@ -731,19 +734,19 @@ form_new_afrika_category = {
 		available = {
 			controls_state = 163
 			163 = {
-				compliance > 25
+				compliance > 10
 				resistance < 15
 			}
 
 			controls_state = 222
 			222 = {
-				compliance > 25
+				compliance > 10
 				resistance < 15
 			}
 
 			controls_state = 223
 			223 = {
-				compliance > 25
+				compliance > 10
 				resistance < 15
 			}
 		}
@@ -996,7 +999,7 @@ form_leftist_CSA_category = {
 			is_subject = no
 			core_compliance = {
 				occupied_country_tag = SMO
-				value > 20
+				value > 5
 			}
 			custom_trigger_tooltip = {
 				tooltip = controls_missouri_tt
@@ -1036,7 +1039,7 @@ form_leftist_CSA_category = {
 			is_subject = no
 			core_compliance = {
 				occupied_country_tag = SWV
-				value > 30
+				value > 15
 			}
 			custom_trigger_tooltip = {
 				tooltip = controls_west_virginia_tt
@@ -1074,11 +1077,11 @@ form_leftist_CSA_category = {
 			is_subject = no
 			core_compliance = {
 				occupied_country_tag = SNM
-				value > 20
+				value > 10
 			}
 			core_compliance = {
 				occupied_country_tag = SAZ
-				value > 20
+				value > 10
 			}
 			custom_trigger_tooltip = {
 				tooltip = controls_g_new_mexico_tt

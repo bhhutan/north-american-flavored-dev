@@ -294,6 +294,15 @@ naflavor_formable.13.b:0 "We shall move it to Baltimore"
 naflavor_formable.13.c:0 "Move the capital to Richmond"
 naflavor_formable.13.d:0 "Appropiate the old Federal capital"
 
+naflavor_formable.14.t:0 "Strange Occurences in D.C."
+naflavor_formable.14.desc:0 "A month has passed since the great Columbian Commonwealth has moved its capital to the former seat of government for the old United States. All has gone smoothly, and many of our politicians seem comfortable in their new house of governance.\n\nThough, strange reportings have come from Congressmen and policemen who patrol around the Capitol Building. These sightings include bright flashing lights in the middle of the night, happening in rapid succession. \n\nOf course, any sane person would reject these claims as utter fantasy, and only exist to most likely scare the the population in some sort of easy voting tactic. \n\nBut.. can we really be so sure?"
+naflavor_formable.14.a:0 "Investigate this nonsense, and out these phonies!"
+naflavor_formable.14.b:0 "It isn't worth our time."
+
+naflavor_formable.15.t:0 "The Inter-Universal President."
+naflavor_formable.15.desc:0 "Hindsight is 20/20. We should have investigated the flashing lights when we could've.\n\nIt's too late. A man known as Joe Biden has taken control of our nation. He claims to be the president of the United States from an alternate universe, and has a holy mission to save this universe's America.\n\nHail Dark Brandon."
+naflavor_formable.15.a:0 "Only Biden can save America!"
+
 ################################
 ##### NEWS FORMABLE EVENTS #####
 ################################

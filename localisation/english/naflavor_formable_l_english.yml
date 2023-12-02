@@ -403,4 +403,21 @@ SDE_columbia_ADJ:0 "Columbian"
 SDE_columbian_claims_tt:0 "§YWe will get claims on the lands of this proposed Commonwealth.§!"
 SDE_loser_tt:0 "Well, you're no fun"
 
+
+
 SDE_brandon_tt:0 "§RAre you really sure?§!"
+SDE_brandon_2_tt:0 "§RThe strange light flashings continue...§!"
+SDE_brandon_3_tt:0 "§RGain cores on our rightful domain.§!"
+
+SDE_joe_biden:0 "Joe Biden"
+POLITICS_JOE_BIDEN_DESC:0 "Hailing from the future in an alternate universe in which the United States does not collapse from the Great Depression, Joeseph Biden, also known as \"Dark Brandon\", has emerged from a wormhole from his realm into ours. His infiltration of the Columbian government has succeeded, and Biden now rules the nation, in which he claims he is the rightful eternal President of.\n\nAlthough born in Scranton, Pennsylvania, Joe Biden has always felt he had greater ties to the great state of Delaware. He claims he was a Sentator of the state since the 70s, until he became Vice President under a president named \"Barack Obama\". Following this, and the rule of the supposed son of Fred Trump, Donald, Biden would win the U.S Presidency in the year 2020.\n\nDark Brandon claims that the evil-doings of Fred Trump's son have ruined America in his universe. Worrying of any other possible variations of this being, Biden has created a wormhole machine to destroy this so-called \"manifestation of the Antichrist itself\" in every universe possible, to keep America truly great, in every universe possible."
+
+bidenism:0 "Bidenism"
+bidenism_desc:0 "Bidenism is an ideology based on the beliefs of Eternal President Joseph Robinette Biden Jr. Calling for the total destruction of Right-wing Populism, and the eradication of the Republican Party, Bidenism espouses Progressive beliefs socially, as well as economically (although having strong protectionist ideals), being pro-union, and more harsh to corporate entities compared to his political colleagues."
+
+dark_brandon:0 "Dark Brandon"
+sleepy:0 "Sleepy"
+
+dark_brandon_USA:0 "Biden's America"
+dark_brandon_USA_DEF:0 "Biden's America"
+dark_brandon_USA:0 "Bidenist"

@@ -1,0 +1,13 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_SDE_dark_brandon"
+		texturefile = "gfx/leaders/SDE/leader_dark_brandon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_bidenism"
+		texturefile = "gfx/interface/ideologies/bidenism.dds"
+	}
+	
+}

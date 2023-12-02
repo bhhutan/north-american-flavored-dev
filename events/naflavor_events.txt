@@ -2639,8 +2639,91 @@ country_event = {
 		}
 		set_capital = { state = 44 }
 		add_stability = -0.01
-		#custom_effect_tooltip = SDE_brandon_tt
-		#soon
+		custom_effect_tooltip = SDE_brandon_tt
+		hidden_effect = {
+			country_event = { id = naflavor_formable.14 days = 30}
+		}
+	}
+
+}
+
+country_event = {
+	id = naflavor_formable.14
+	title = naflavor_formable.14.t
+	desc = naflavor_formable.14.desc
+	#picture = GFX_canadiancapital
+
+	is_triggered_only = yes
+
+	option = {
+		name = naflavor_formable.14.a
+		add_political_power = -10
+	}
+
+	option = {
+		name = naflavor_formable.14.b
+		add_stability = -0.01
+		custom_effect_tooltip = SDE_brandon_2_tt
+		hidden_effect = {
+			set_global_flag = SDE_biden_awakes
+		}
+	}
+
+}
+
+country_event = {
+	id = naflavor_formable.15
+	title = naflavor_formable.15.t
+	desc = naflavor_formable.15.desc
+	picture = GFX_dark_brandon
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = SDE
+		AND = {
+			date > 1942.11.20
+			has_global_flag = SDE_biden_awakes
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		clr_global_flag = SDE_biden_awakes
+	}
+
+	option = {
+		name = naflavor_formable.15.a
+		custom_effect_tooltip = SDE_brandon_3_tt
+		create_country_leader = {
+			name = "Joe Biden"
+			desc = POLITICS_JOE_BIDEN_DESC
+			picture = GFX_SDE_dark_brandon
+			ideology = bidenism
+			traits = {
+				dark_brandon
+				sleepy
+			}
+		}
+
+		set_politics = {
+			ruling_party = progressivism
+			elections_allowed = no
+		}
+		
+		add_popularity = {
+			ideology = progressivism
+			popularity = 0.5
+		}
+
+		hidden_effect = {
+			core_the_united_states = yes
+			set_cosmetic_tag = dark_brandon_USA
+		}
+
 	}
 
 }

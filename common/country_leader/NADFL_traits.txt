@@ -10,7 +10,8 @@ leader_traits = {
 		war_support_factor = 0.07
 		army_core_attack_factor = 0.1
 		army_core_defence_factor = 0.1
-		annex_cost_factor = -0.2
+		annex_cost_factor = -0.5
+		justify_war_goal_time = -0.75
 		progressivism_drift = 0.03
 	}
 

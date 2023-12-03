@@ -822,11 +822,11 @@ news_event = { #Ohio War
 		SOH = {
 			has_offensive_war_with = SIN
 		}
-		has_global_flag = SOH_attack_SIN
+		#has_global_flag = SOH_attack_SIN
 	}
 
 	immediate = {
-		clr_global_flag = SOH_attack_SIN
+		#clr_global_flag = SOH_attack_SIN
 	}
 
 	option = {
@@ -2677,18 +2677,14 @@ country_event = {
 	desc = naflavor_formable.15.desc
 	picture = GFX_dark_brandon
 
-	is_triggered_only = yes
-
 	trigger = {
 		tag = SDE
-		AND = {
-			date > 1942.11.20
-			has_global_flag = SDE_biden_awakes
-		}
+		date > 1942.11.20
+		has_global_flag = SDE_biden_awakes
 	}
 
 	mean_time_to_happen = {
-		days = 1
+		days = 2
 	}
 
 	immediate = {

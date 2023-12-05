@@ -1900,7 +1900,7 @@ form_CSA_category = {
 			is_subject = no
 			core_compliance = {
 				occupied_country_tag = SMO
-				value > 20
+				value > 5
 			}
 			custom_trigger_tooltip = {
 				tooltip = controls_missouri_tt
@@ -1942,7 +1942,7 @@ form_CSA_category = {
 			is_subject = no
 			core_compliance = {
 				occupied_country_tag = SWV
-				value > 30
+				value > 15
 			}
 			custom_trigger_tooltip = {
 				tooltip = controls_west_virginia_tt
@@ -1982,11 +1982,11 @@ form_CSA_category = {
 			is_subject = no
 			core_compliance = {
 				occupied_country_tag = SNM
-				value > 20
+				value > 10
 			}
 			core_compliance = {
 				occupied_country_tag = SAZ
-				value > 20
+				value > 10
 			}
 			custom_trigger_tooltip = {
 				tooltip = controls_g_new_mexico_tt

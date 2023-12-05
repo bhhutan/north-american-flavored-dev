@@ -822,11 +822,11 @@ news_event = { #Ohio War
 		SOH = {
 			has_offensive_war_with = SIN
 		}
-		#has_global_flag = SOH_attack_SIN
+		NOT = { has_global_flag = ohio_attacked_kentucky }
 	}
 
 	immediate = {
-		#clr_global_flag = SOH_attack_SIN
+		set_global_flag = ohio_attacked_kentucky
 	}
 
 	option = {

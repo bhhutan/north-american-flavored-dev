@@ -1,0 +1,20 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_WDC_democrat_icon"
+		texturefile = "gfx/interface/WDCrework/democrat.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_WDC_republican_icon"
+		texturefile = "gfx/interface/WDCrework/republican.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_WDC_thirdparty_icon"
+		texturefile = "gfx/interface/WDCrework/thirdparty.dds"
+		legacy_lazy_load = no
+	}
+}

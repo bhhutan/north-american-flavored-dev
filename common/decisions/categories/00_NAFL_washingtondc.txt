@@ -1,0 +1,19 @@
+WDC_political_influence = {
+	
+	icon = hol_gateway_to_europe
+
+	allowed = {
+		original_tag = WDC
+	}
+
+	#picture = 
+	priority = {
+		base = 10
+	}
+	
+	visible_when_empty = yes
+
+	visible = {
+		has_completed_focus = WDC_state_of_the_union_address
+	}
+}

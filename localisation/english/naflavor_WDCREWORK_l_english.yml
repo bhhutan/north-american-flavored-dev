@@ -1,0 +1,75 @@
+﻿l_english:
+ms_repub_increase_influence_big_tt:0 "§RMainstream Republican§! influence §Gincreases§! by §Y10§!"
+ms_repub_increase_influence_med_tt:0 "§RMainstream Republican§! influence §Gincreases§! by §Y5§!"
+ms_repub_increase_influence_small_tt:0 "§RMainstream Republican§! influence §Gincreases§! by §Y3§!"
+#
+ms_repub_decrease_influence_big_tt:0 "§RMainstream Republican§! influence §Rdecreases§! by §Y10§!"
+ms_repub_decrease_influence_med_tt:0 "§RMainstream Republican§! influence §Rdecreases§! by §Y5§!"
+ms_repub_decrease_influence_small_tt:0 "§RMainstream Republican§! influence §Rdecreases§! by §Y3§!"
+
+hoov_repub_increase_influence_big_tt:0 "§gHoover Republican§! influence §Gincreases§! by §Y10§!"
+hoov_repub_increase_influence_med_tt:0 "§gHooverRepublican§! influence §Gincreases§! by §Y5§!"
+hoov_repub_increase_influence_small_tt:0 "§gHoover Republican§! influence §Gincreases§! by §Y3§!"
+#
+hoov_repub_decrease_influence_big_tt:0 "§gHoover Republican§! influence §Rdecreases§! by §Y10§!"
+hoov_repub_decrease_influence_med_tt:0 "§gHooverRepublican§! influence §Rdecreases§! by §Y5§!"
+hoov_repub_decrease_influence_small_tt:0 "§gHoover Republican§! influence §Rdecreases§! by §Y3§!"
+
+con_dem_increase_influence_big_tt:0 "§BConservative Democrat§! influence §Gincreases§! by §Y10§!"
+con_dem_increase_influence_med_tt:0 "§BConservative Democrat§! influence §Gincreases§! by §Y5§!"
+con_dem_increase_influence_small_tt:0 "§BConservative Democrat§! influence §Gincreases§! by §Y3§!"
+#
+con_dem_decrease_influence_big_tt:0 "§BConservative Democrat§! influence §Rdecreases§! by §Y10§!"
+con_dem_decrease_influence_med_tt:0 "§BConservative Democrat§! influence §Rdecreases§! by §Y5§!"
+con_dem_decrease_influence_small_tt:0 "§BConservative Democrat§! influence §Rdecreases§! by §Y3§!"
+
+prog_dem_increase_influence_big_tt:0 "§GProgressive Democrat§! influence §Gincreases§! by §Y10§!"
+prog_dem_increase_influence_med_tt:0 "§GProgressive Democrat§! influence §Gincreases§! by §Y5§!"
+prog_dem_increase_influence_small_tt:0 "§GProgressive Democrat§! influence §Gincreases§! by §Y3§!"
+#
+prog_dem_decrease_influence_big_tt:0 "§GProgressive Democrat§! influence §Rdecreases§! by §Y10§!"
+prog_dem_decrease_influence_med_tt:0 "§GProgressive Democrat§! influence §Rdecreases§! by §Y5§!"
+prog_dem_decrease_influence_small_tt:0 "§GProgressive Democrat§! influence §Rdecreases§! by §Y3§!"
+
+socialists_increase_influence_big_tt:0 "§tSocialist§! influence §Gincreases§! by §Y10§!"
+socialists_increase_influence_med_tt:0 "§tSocialist§! influence §Gincreases§! by §Y5§!"
+socialists_increase_influence_small_tt:0 "§tSocialist§! influence §Gincreases§! by §Y3§!"
+#
+socialists_decrease_influence_big_tt:0 "§tSocialist§! influence §Rdecreases§! by §Y10§!"
+socialists_decrease_influence_med_tt:0 "§tSocialist§! influence §Rdecreases§! by §Y5§!"
+socialists_decrease_influence_small_tt:0 "§tSocialist§! influence §Rdecreases§! by §Y3§!"
+
+business_increase_influence_big_tt:0 "§LBusiness§! influence §Gincreases§! by §Y10§!"
+business_increase_influence_med_tt:0 "§LBusiness§! influence §Gincreases§! by §Y5§!"
+business_increase_influence_small_tt:0 "§LBusiness§! influence §Gincreases§! by §Y3§!"
+#
+business_decrease_influence_big_tt:0 "§LBusiness§! influence §Rdecreases§! by §Y10§!"
+business_decrease_influence_med_tt:0 "§LBusiness§! influence §Rdecreases§! by §Y5§!"
+business_decrease_influence_small_tt:0 "§LBusiness§! influence §Rdecreases§! by §Y3§!"
+
+#####################################
+republican_increase_influence_big_tt:0 "§RRepublican Party§! influence is §Gincreased§! by §Y10§!"
+republican_increase_influence_med_tt:0 "§RRepublican Party§! influence is §Gincreased§! by §Y5§!"
+republican_increase_influence_small_tt:0 "§RRepublican Party§! influence is §Gincreased§! by §Y3§!"
+#
+republican_decrease_influence_big_tt:0 "§RRepublican Party§! influence is §Rdecreased§! by §Y10§!"
+republican_decrease_influence_med_tt:0 "§RRepublican Party§! influence is §Rdecreased§! by §Y5§!"
+republican_decrease_influence_small_tt:0 "§RRepublican Party§! influence is §Rdecreased§! by §Y3§!"
+#########
+
+democrat_increase_influence_big_tt:0 "§BDemocratic Party§! influence is §Gincreased§! by §Y10§!"
+democrat_increase_influence_med_tt:0 "§BDemocratic Party§! influence is §Gincreased§! by §Y5§!"
+democrat_increase_influence_small_tt:0 "§BDemocratic Party§! influence is §Gincreased§! by §Y3§!"
+#
+democrat_decrease_influence_big_tt:0 "§BDemocratic Party§! influence is §Rdecreased§! by §Y10§!"
+democrat_decrease_influence_med_tt:0 "§BDemocratic Party§! influence is §Rdecreased§! by §Y5§!"
+democrat_decrease_influence_small_tt:0 "§BDemocratic Party§! influence is §Rdecreased§! by §Y3§!"
+#########
+
+third_party_decrease_influence_big_tt:0 "§OThird Party§! influence is §Rdecreased§! by §Y10§!"
+third_party_decrease_influence_med_tt:0 "§OThird Party§! influence is §Rdecreased§! by §Y35!"
+third_party_decrease_influence_small_tt:0 "§OThird Party§! influence is §Rdecreased§! by §Y3§!"
+
+
+WDC_political_influence:0 "Influence in Congress"
+WDC_political_influence_desc:0 "\nThe collapse of federal authority in the United States has left Congress and its parties in a state of disarray, as the establishment Democrats and Republicans continue vying for power, with third parties springing up to secure their own. \n\nWith the ever unpopular Herbert Hoover in power, it is up to Congress to reign in control as best they can, lest they let the president have unchecked power, and continue his total control over federal governance.\n\n§YThe Republican Party§! £WDC_republican_icon \n §RMainstream Republicans§!: [?WDC.WDC_mainstream_republicans_influence]\n §gHoover Republicans§!: [?WDC.WDC_hoover_republicans_influence]\n\n§YThe Democratic Party§! £WDC_democrat_icon \n §2Conservative Democrats§!: [?WDC.WDC_con_democrats_influence]\n §GProgressive Democrats§!: [?WDC.WDC_prog_democrats_influence]\n\n§YThird Parties§! £WDC_thirdparty_icon \n §tSocialists§!: [?WDC.WDC_socialists_influence]\n §LBusiness Interests§!: [?WDC.WDC_business_interests_influence]\n"

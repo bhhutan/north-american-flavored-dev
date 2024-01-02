@@ -304,6 +304,19 @@ focus = {
 				set_country_flag = WDC_refused_political_support
 			}
 			add_political_power = 75
+			increase_hoov_republican_influence_big = yes
+			increase_MS_republican_influence_small = yes
+			
+			custom_effect_tooltip = democrat_decrease_influence_med_tt
+			custom_effect_tooltip = third_party_decrease_influence_small_tt
+			hidden_effect = {
+				decrease_business_influence_small = yes
+				decrease_socialist_influence_small = yes
+				
+				decrease_con_dem_influence_medium = yes
+				decrease_prog_dem_influence_medium = yes
+			}
+			
 		}
 	}
 #

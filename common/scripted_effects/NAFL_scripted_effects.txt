@@ -1,0 +1,322 @@
+#	Example:
+# 
+#	example_effect = {
+#		add_political_power = 66
+#		add_popularity = {
+#			ideology = fascism
+#			popularity = 0.33
+#		}
+#	}
+#
+#
+#	In a script file:
+#
+#	effect = {
+#		example_effect = yes
+#	}
+#
+
+increase_MS_republican_influence_big = {
+	add_to_variable = {
+		var = WDC_mainstream_republicans_influence
+		value = 10
+		tooltip = ms_repub_increase_influence_big_tt
+	}
+}
+increase_MS_republican_influence_medium = {
+	add_to_variable = {
+		var = WDC_mainstream_republicans_influence
+		value = 5
+		tooltip = ms_repub_increase_influence_med_tt
+	}
+}
+increase_MS_republican_influence_small = {
+	add_to_variable = {
+		var = WDC_mainstream_republicans_influence
+		value = 3
+		tooltip = ms_repub_increase_influence_small_tt
+	}
+}
+####### - HOOVER REPUBLICANS
+increase_hoov_republican_influence_big = {
+	add_to_variable = {
+		var = WDC_hoover_republicans_influence
+		value = 10
+		tooltip = hoov_repub_increase_influence_big_tt
+	}
+}
+increase_hoov_republican_influence_medium = {
+	add_to_variable = {
+		var = WDC_hoover_republicans_influence
+		value = 5
+		tooltip = hoov_repub_increase_influence_med_tt
+	}
+}
+increase_hoov_republican_influence_small = {
+	add_to_variable = {
+		var = WDC_hoover_republicans_influence
+		value = 3
+		tooltip = hoov_repub_increase_influence_small_tt
+	}
+}
+###################### - DEMOCRATS
+increase_con_dem_influence_big = {
+	add_to_variable = {
+		var = WDC_con_democrats_influence
+		value = 10
+		tooltip = con_dem_increase_influence_big_tt
+	}
+}
+increase_con_dem_influence_medium = {
+	add_to_variable = {
+		var = WDC_con_democrats_influence
+		value = 5
+		tooltip = con_dem_increase_influence_med_tt
+	}
+}
+increase_con_dem_influence_small = {
+	add_to_variable = {
+		var = WDC_con_democrats_influence
+		value = 3
+		tooltip = con_dem_increase_influence_small_tt
+	}
+}
+####### - PROGRESSIVE DEM
+increase_prog_dem_influence_big = {
+	add_to_variable = {
+		var = WDC_prog_democrats_influence
+		value = 10
+		tooltip = prog_dem_increase_influence_big_tt
+	}
+}
+increase_prog_dem_influence_medium = {
+	add_to_variable = {
+		var = WDC_prog_democrats_influence
+		value = 5
+		tooltip = prog_dem_increase_influence_med_tt
+	}
+}
+increase_prog_dem_influence_small = {
+	add_to_variable = {
+		var = WDC_prog_democrats_influence
+		value = 3
+		tooltip = prog_dem_increase_influence_small_tt
+	}
+}
+###################### - THIRD PARTIES
+increase_socialist_influence_big = {
+	add_to_variable = {
+		var = WDC_socialists_influence
+		value = 10
+		tooltip = socialists_increase_influence_big_tt
+	}
+}
+increase_socialist_influence_medium = {
+	add_to_variable = {
+		var = WDC_socialists_influence
+		value = 5
+		tooltip = socialists_increase_influence_med_tt
+	}
+}
+increase_socialist_influence_small = {
+	add_to_variable = {
+		var = WDC_socialists_influence
+		value = 3
+		tooltip = socialists_increase_influence_small_tt
+	}
+}
+####### - Business Interests
+increase_business_influence_big = {
+	add_to_variable = {
+		var = WDC_business_interests_influence
+		value = 10
+		tooltip = business_increase_influence_big_tt
+	}
+}
+increase_business_influence_medium = {
+	add_to_variable = {
+		var = WDC_business_interests_influence
+		value = 5
+		tooltip = business_increase_influence_med_tt
+	}
+}
+increase_business_influence_small = {
+	add_to_variable = {
+		var = WDC_business_interests_influence
+		value = 3
+		tooltip = business_increase_influence_small_tt
+	}
+}
+
+################################################################################################################################
+################################################################################################################################
+################################################################################################################################
+
+decrease_MS_republican_influence_big = {
+	add_to_variable = {
+		var = WDC_mainstream_republicans_influence
+		value = 10
+		tooltip = ms_repub_decrease_influence_big_tt
+	}
+}
+decrease_MS_republican_influence_medium = {
+	subtract_from_variable = {
+		var = WDC_mainstream_republicans_influence
+		value = 5
+		tooltip = ms_repub_decrease_influence_med_tt
+	}
+}
+decrease_MS_republican_influence_small = {
+	subtract_from_variable = {
+		var = WDC_mainstream_republicans_influence
+		value = 3
+		tooltip = ms_repub_decrease_influence_small_tt
+	}
+}
+####### - HOOVER REPUBLICANS
+decrease_hoov_republican_influence_big = {
+	subtract_from_variable = {
+		var = WDC_hoover_republicans_influence
+		value = 10
+		tooltip = hoov_repub_decrease_influence_big_tt
+	}
+}
+decrease_hoov_republican_influence_medium = {
+	subtract_from_variable = {
+		var = WDC_hoover_republicans_influence
+		value = 5
+		tooltip = hoov_repub_decrease_influence_med_tt
+	}
+}
+decrease_hoov_republican_influence_small = {
+	subtract_from_variable = {
+		var = WDC_hoover_republicans_influence
+		value = 3
+		tooltip = hoov_repub_decrease_influence_small_tt
+	}
+}
+###################### - DEMOCRATS
+decrease_con_dem_influence_big = {
+	subtract_from_variable = {
+		var = WDC_con_democrats_influence
+		value = 10
+		tooltip = con_dem_decrease_influence_big_tt
+	}
+}
+decrease_con_dem_influence_medium = {
+	subtract_from_variable = {
+		var = WDC_con_democrats_influence
+		value = 5
+		tooltip = con_dem_decrease_influence_med_tt
+	}
+}
+decrease_con_dem_influence_small = {
+	subtract_from_variable = {
+		var = WDC_con_democrats_influence
+		value = 3
+		tooltip = con_dem_decrease_influence_small_tt
+	}
+}
+####### - PROGRESSIVE DEM
+decrease_prog_dem_influence_big = {
+	subtract_from_variable = {
+		var = WDC_prog_democrats_influence
+		value = 10
+		tooltip = prog_dem_decrease_influence_big_tt
+	}
+}
+decrease_prog_dem_influence_medium = {
+	subtract_from_variable = {
+		var = WDC_prog_democrats_influence
+		value = 5
+		tooltip = prog_dem_decrease_influence_med_tt
+	}
+}
+decrease_prog_dem_influence_small = {
+	subtract_from_variable = {
+		var = WDC_prog_democrats_influence
+		value = 3
+		tooltip = prog_dem_decrease_influence_small_tt
+	}
+}
+###################### - THIRD PARTIES
+decrease_socialist_influence_big = {
+	subtract_from_variable = {
+		var = WDC_socialists_influence
+		value = 10
+		tooltip = socialists_decrease_influence_big_tt
+	}
+}
+decrease_socialist_influence_medium = {
+	subtract_from_variable = {
+		var = WDC_socialists_influence
+		value = 5
+		tooltip = socialists_decrease_influence_med_tt
+	}
+}
+decrease_socialist_influence_small = {
+	subtract_from_variable = {
+		var = WDC_socialists_influence
+		value = 3
+		tooltip = socialists_decrease_influence_small_tt
+	}
+}
+####### - Business Interests
+decrease_business_influence_big = {
+	subtract_from_variable = {
+		var = WDC_business_interests_influence
+		value = 10
+		tooltip = business_decrease_influence_big_tt
+	}
+}
+decrease_business_influence_medium = {
+	subtract_from_variable = {
+		var = WDC_business_interests_influence
+		value = 5
+		tooltip = business_decrease_influence_med_tt
+	}
+}
+decrease_business_influence_small = {
+	subtract_from_variable = {
+		var = WDC_business_interests_influence
+		value = 3
+		tooltip = business_decrease_influence_small_tt
+	}
+}
+
+################################################################################################################################
+################################################################################################################################
+################################################################################################################################
+
+increase_republican_influence_big = {
+	custom_effect_tooltip = republican_increase_influence_big_tt
+	increase_MS_republican_influence_big = yes
+	increase_hoov_republican_influence_big = yes
+}
+increase_republican_influence_medium = {
+	custom_effect_tooltip = republican_increase_influence_med_tt
+	increase_MS_republican_influence_medium = yes
+	increase_hoov_republican_influence_medium = yes
+}
+increase_republican_influence_small = {
+	custom_effect_tooltip = republican_increase_influence_small_tt
+	increase_MS_republican_influence_small = yes
+	increase_hoov_republican_influence_small = yes
+}
+######
+increase_democrat_influence_big = {
+	custom_effect_tooltip = democrat_increase_influence_big_tt
+	increase_con_dem_influence_big = yes
+	increase_prog_dem_influence_big = yes
+}
+increase_democrat_influence_medium = {
+	custom_effect_tooltip = democrat_increase_influence_med_tt
+	increase_con_dem_influence_medium = yes
+	increase_prog_dem_influence_medium = yes
+}
+increase_democrat_influence_small = {
+	custom_effect_tooltip = democrat_increase_influence_small_tt
+	increase_con_dem_influence_small = yes
+	increase_prog_dem_influence_small = yes
+}
+##################################################################################

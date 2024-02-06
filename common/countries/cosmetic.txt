@@ -116,6 +116,11 @@ dark_brandon_USA = {
 	color = rgb { 30 30 30 }
 	color_ui = rgb { 130 130 130 }
 }
+####
+american_italy = {
+	color = rgb { 38 127 30 }
+	color_ui = rgb { 38 127 30 }
+}
 ##########################################################
 CAN_UNIFIED_ENG = {
 	color = rgb { 119 48 39 }

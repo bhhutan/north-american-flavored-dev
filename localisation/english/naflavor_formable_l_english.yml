@@ -421,3 +421,31 @@ sleepy:0 "Sleepy"
 dark_brandon_USA:0 "Biden's America"
 dark_brandon_USA_DEF:0 "Biden's America"
 dark_brandon_USA:0 "Bidenist"
+
+#########################################################
+###### AMERICAN ITALY FORMABLE
+#########################################################
+form_american_italy_category:0 "Little Italy No Longer"
+form_american_italy_category_desc:0 "For many years, us Italian Americans have faced discrimination by the Anglo Protestants of the United States. No more will we tolerate being second class citizens! It is time to unite the Italian Americans of the Northeast, to protect and preserve our culture and people! Viva l'America Italiana!"
+form_american_italy:0 "Declare an Italian-American State"
+control_new_jersey_tt:0 "Controls §YNew Jersey§!"
+control_nyc_tt:0 "Controls §YNew York City§!"
+
+american_italy:0 "Vespuccia"
+american_italy_DEF:0 "Vespuccia"
+american_italy_democratic:0 "Republic of Vespuccia"
+american_italy_democratic_DEF:0 "the Republic of Vespuccia"
+american_italy_communism:0 "Vespuccian People's Union"
+american_italy_communism_DEF:0 "the Vespuccian People's Union"
+american_italy_fascism:0 "Vespuccian Social Republic"
+american_italy_fascism_DEF:0 "the Vespuccian Social Republic"
+american_italy_longism:0 "State of Vespuccia"
+american_italy_longism_DEF:0 "State of Vespuccia"
+american_italy_progressivism:0 "Republic of New Italy"
+american_italy_progressivism_DEF:0 "the Republic of New Italy"
+american_italy_ADJ:0 "Italian-American"
+
+core_NYC_tt:0 "Gain §Ycores§! on §YNew York City§!"
+core_new_jersey_tt:0 "Gain §Ycores§! on §YNew Jersey§!"
+core_southern_newyork_tt:0 "Gain §Ycores§! on the §YHudson Valley§!"
+core_western_connecticut_tt:0 "Gain §Ycores§! on §YWestern Connecticut§!"

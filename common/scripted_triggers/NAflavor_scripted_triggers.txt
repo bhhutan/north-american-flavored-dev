@@ -213,22 +213,11 @@ controls_ontario_trigger = {
 	}
 }
 
-is_confederate_nation_trigger = {
-	OR = {
-		original_tag = SVA
-		original_tag = SNC
-		original_tag = SSC
-		original_tag = SGA
-		original_tag = SAL
-		original_tag = SMS
-		original_tag = SFL
-		original_tag = STN
-		original_tag = SAR
-		original_tag = SLA
-		original_tag = STX
-		original_tag = SKY
-		original_tag = SOK
-		original_tag = SMD
-		original_tag = LMO
+controls_new_york_city_trigger = {
+	AND = {
+		controls_state = 26
+		controls_state = 27
+		controls_state = 28
+		controls_state = 202
 	}
 }

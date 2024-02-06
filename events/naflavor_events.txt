@@ -1852,49 +1852,51 @@ news_event = {
 ######################## FALL OF CITIES EVENTS
 ####################################
 ################################################################################################
+
 ### baltimore - DC
-news_event = {
-	id = naflavor.200
-	title = naflavor.200.t
-	desc = naflavor.200.d
-	picture = GFX_naflnews200
-	
-	major = yes
-	
-	trigger = {
-		45 = { is_controlled_by = WDC }
-		45 = { is_owned_by = SMD }
-		WDC = { has_war_with = SMD }
-		NOT = { has_global_flag = fall_of_baltimore_wdc }
-	}
-	
-	immediate = {
-		set_global_flag = fall_of_baltimore_wdc
-	}
-	
-	mean_time_to_happen = {
-		days = 2
-	}
-	
-	option = {
-		name = naflavor.200.a
-		trigger = {
-			NOT = {
-				TAG = WDC
-				TAG = SMD
-			}
-		}
-	}
-	option = {
-		name = naflavor.200.b
-		trigger = { TAG = WDC }
-	}
-	option = {
-		name = naflavor.201.c
-		trigger = { TAG = SMD }
-	}
-}
-### DC - maryland
+
+#news_event = {
+#	id = naflavor.200
+#	title = naflavor.200.t
+#	desc = naflavor.200.d
+#	picture = GFX_naflnews200
+#	
+#	major = yes
+#	
+#	trigger = {
+#		45 = { is_controlled_by = WDC }
+#		45 = { is_owned_by = SMD }
+#		WDC = { has_war_with = SMD }
+#		NOT = { has_global_flag = fall_of_baltimore_wdc }
+#	}
+#	
+#	immediate = {
+#		set_global_flag = fall_of_baltimore_wdc
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 2
+#	}
+#	
+#	option = {
+#		name = naflavor.200.a
+#		trigger = {
+#			NOT = {
+#				TAG = WDC
+#				TAG = SMD
+#			}
+#		}
+#	}
+#	option = {
+#		name = naflavor.200.b
+#		trigger = { TAG = WDC }
+#	}
+#	option = {
+#		name = naflavor.201.c
+#		trigger = { TAG = SMD }
+#	}
+#}
+#### DC - maryland
 news_event = {
 	id = naflavor.201
 	title = naflavor.201.t
@@ -1936,175 +1938,175 @@ news_event = {
 		trigger = { TAG = WDC }
 	}
 }
-###philly - DC
-news_event = {
-	id = naflavor.202
-	title = naflavor.202.t
-	desc = naflavor.202.d
-	picture = GFX_naflnews202
-	
-	major = yes
-	
-	trigger = {
-		46 = { is_controlled_by = WDC }
-		46 = { is_owned_by = SPA }
-		WDC = { has_war_with = SPA }
-		NOT = { has_global_flag = fall_of_philidelphia }
-	}
-	
-	immediate = {
-		set_global_flag = fall_of_philidelphia
-	}
-	
-	mean_time_to_happen = {
-		days = 2
-	}
-	
-	option = {
-		name = naflavor.202.a
-		trigger = {
-			NOT = {
-				TAG = WDC
-				TAG = SPA
-			}
-		}
-	}
-	option = {
-		name = naflavor.202.b
-		trigger = { TAG = WDC }
-	}
-	option = {
-		name = naflavor.202.c
-		trigger = { TAG = SPA }
-	}
-}
-### manhattan - DC
-news_event = {
-	id = naflavor.203
-	title = naflavor.203.t
-	desc = naflavor.203.d
-	picture = GFX_naflnews203
-	
-	major = yes
-	
-	trigger = {
-		27 = { is_controlled_by = WDC }
-		27 = { is_owned_by = NYC }
-		WDC = { has_war_with = NYC }
-		NOT = { has_global_flag = fall_of_manhattan }
-	}
-	
-	immediate = {
-		set_global_flag = fall_of_manhattan
-	}
-	
-	mean_time_to_happen = {
-		days = 2
-	}
-	
-	option = {
-		name = naflavor.203.a
-		trigger = {
-			NOT = {
-				TAG = WDC
-				TAG = NYC
-			}
-		}
-	}
-	option = {
-		name = naflavor.203.b
-		trigger = { TAG = WDC }
-	}
-	option = {
-		name = naflavor.203.c
-		trigger = { TAG = NYC }
-	}
-}
-### Boston - DC
-news_event = {
-	id = naflavor.204
-	title = naflavor.204.t
-	desc = naflavor.204.d
-	picture = GFX_naflnews204
-	
-	major = yes
-	
-	trigger = {
-		5 = { is_controlled_by = WDC }
-		5 = { is_owned_by = SMA }
-		WDC = { has_war_with = SMA }
-		NOT = { has_global_flag = fall_of_boston }
-	}
-	
-	immediate = {
-		set_global_flag = fall_of_boston
-	}
-	
-	mean_time_to_happen = {
-		days = 2
-	}
-	
-	option = {
-		name = naflavor.204.a
-		trigger = {
-			NOT = {
-				TAG = WDC
-				TAG = SMA
-			}
-		}
-	}
-	option = {
-		name = naflavor.204.b
-		trigger = { TAG = WDC }
-	}
-	option = {
-		name = naflavor.204.c
-		trigger = { TAG = SMA }
-	}
-}
-
-news_event = {
-	id = naflavor.205
-	title = naflavor.205.t
-	desc = naflavor.205.d
-	picture = GFX_naflnews205
-	
-	major = yes
-	
-	trigger = {
-		358 = { is_controlled_by = WDC }
-		358 = { is_owned_by = SVA }
-		WDC = { has_war_with = SVA }
-		NOT = { has_global_flag = fall_of_richmond }
-	}
-	
-	immediate = {
-		set_global_flag = fall_of_richmond
-	}
-	
-	mean_time_to_happen = {
-		days = 2
-	}
-	
-	option = {
-		name = naflavor.205.a
-		trigger = {
-			NOT = {
-				TAG = WDC
-				TAG = SVA
-			}
-		}
-	}
-	option = {
-		name = naflavor.205.b
-		trigger = { TAG = WDC }
-	}
-	option = {
-		name = naflavor.205.c
-		trigger = { TAG = SVA }
-	}
-}
-
+####philly - DC
+#news_event = {
+#	id = naflavor.202
+#	title = naflavor.202.t
+#	desc = naflavor.202.d
+#	picture = GFX_naflnews202
+#	
+#	major = yes
+#	
+#	trigger = {
+#		46 = { is_controlled_by = WDC }
+#		46 = { is_owned_by = SPA }
+#		WDC = { has_war_with = SPA }
+#		NOT = { has_global_flag = fall_of_philidelphia }
+#	}
+#	
+#	immediate = {
+#		set_global_flag = fall_of_philidelphia
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 2
+#	}
+#	
+#	option = {
+#		name = naflavor.202.a
+#		trigger = {
+#			NOT = {
+#				TAG = WDC
+#				TAG = SPA
+#			}
+#		}
+#	}
+#	option = {
+#		name = naflavor.202.b
+#		trigger = { TAG = WDC }
+#	}
+#	option = {
+#		name = naflavor.202.c
+#		trigger = { TAG = SPA }
+#	}
+#}
+#### manhattan - DC
+#news_event = {
+#	id = naflavor.203
+#	title = naflavor.203.t
+#	desc = naflavor.203.d
+#	picture = GFX_naflnews203
+#	
+#	major = yes
+#	
+#	trigger = {
+#		27 = { is_controlled_by = WDC }
+#		27 = { is_owned_by = NYC }
+#		WDC = { has_war_with = NYC }
+#		NOT = { has_global_flag = fall_of_manhattan }
+#	}
+#	
+#	immediate = {
+#		set_global_flag = fall_of_manhattan
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 2
+#	}
+#	
+#	option = {
+#		name = naflavor.203.a
+#		trigger = {
+#			NOT = {
+#				TAG = WDC
+#				TAG = NYC
+#			}
+#		}
+#	}
+#	option = {
+#		name = naflavor.203.b
+#		trigger = { TAG = WDC }
+#	}
+#	option = {
+#		name = naflavor.203.c
+#		trigger = { TAG = NYC }
+#	}
+#}
+#### Boston - DC
+#news_event = {
+#	id = naflavor.204
+#	title = naflavor.204.t
+#	desc = naflavor.204.d
+#	picture = GFX_naflnews204
+#	
+#	major = yes
+#	
+#	trigger = {
+#		5 = { is_controlled_by = WDC }
+#		5 = { is_owned_by = SMA }
+#		WDC = { has_war_with = SMA }
+#		NOT = { has_global_flag = fall_of_boston }
+#	}
+#	
+#	immediate = {
+#		set_global_flag = fall_of_boston
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 2
+#	}
+#	
+#	option = {
+#		name = naflavor.204.a
+#		trigger = {
+#			NOT = {
+#				TAG = WDC
+#				TAG = SMA
+#			}
+#		}
+#	}
+#	option = {
+#		name = naflavor.204.b
+#		trigger = { TAG = WDC }
+#	}
+#	option = {
+#		name = naflavor.204.c
+#		trigger = { TAG = SMA }
+#	}
+#}
+#
+#news_event = {
+#	id = naflavor.205
+#	title = naflavor.205.t
+#	desc = naflavor.205.d
+#	picture = GFX_naflnews205
+#	
+#	major = yes
+#	
+#	trigger = {
+#		358 = { is_controlled_by = WDC }
+#		358 = { is_owned_by = SVA }
+#		WDC = { has_war_with = SVA }
+#		NOT = { has_global_flag = fall_of_richmond }
+#	}
+#	
+#	immediate = {
+#		set_global_flag = fall_of_richmond
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 2
+#	}
+#	
+#	option = {
+#		name = naflavor.205.a
+#		trigger = {
+#			NOT = {
+#				TAG = WDC
+#				TAG = SVA
+#			}
+#		}
+#	}
+#	option = {
+#		name = naflavor.205.b
+#		trigger = { TAG = WDC }
+#	}
+#	option = {
+#		name = naflavor.205.c
+#		trigger = { TAG = SVA }
+#	}
+#}
+#
 ################################################################
 
 country_event = {

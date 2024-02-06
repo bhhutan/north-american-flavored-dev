@@ -236,3 +236,24 @@ form_appalachia_category = {
 		}
 	}
 }
+
+form_american_italy_category = {
+	
+	icon = GFX_generic_formable_nations
+	
+	picture = GFX_vespuccia
+	
+	visible = {
+		OR = {
+			tag = SNJ
+			tag = NYC
+		}
+	}
+
+	allowed = {
+		OR = {
+			tag = SNJ
+			tag = NYC
+		}
+	}
+}

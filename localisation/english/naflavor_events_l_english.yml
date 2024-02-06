@@ -452,3 +452,43 @@ naflavor.205.d:0 "Federalist forces have turned towards Dixie, and have captured
 naflavor.205.a:0 "Dixie will have to make a stand.."
 naflavor.205.b:0 "The gates of the South stand wide open!"
 naflavor.205.c:0 "It's over.."
+
+########################################
+###### GENERIC FALL OF CITY EVENT ######
+########################################
+
+naflavor_cityfall.1.t:0 "The Fall of Washington"
+naflavor_cityfall.1.desc:0 "The District of Columbia, the capital of the former United States, has fallen to advancing forces from [new_controller.GetName]. With the retreat from the old Capitol by [new_controller.GetAdjective] troops, the proud flag of [new_controller.GetName] can be seen flying on top of the Capitol Dome. The city faced a a long lasting artillery siege before the initial charge, and in turn has received heavy damage, with the notable exception of the Washington Monument, which was intentionally avoided in honor of America's Founding Father.\n\nTerms have been agreed upon for the preservation of historical American documents, such as the Declaration of Independence, and the Constitution."
+naflavor_cityfall.1.a:0 "A terrible setback."
+naflavor_cityfall.1.b:0 "We are the true America!"
+naflavor_cityfall.1.c:0 "Destruction not seen since 1814.."
+
+naflavor_cityfall.2.t:0 "Fall of Chicago"
+naflavor_cityfall.2.desc:0 "The most populous city in the Midwest, Chicago, has been captured by [new_controller.GetAdjective] troops. In a gruesome urban door-to-door battle between [old_controller.GetAdjective] and [new_controller.GetAdjective] soldiers, the city has been ravaged by bombs and lead.\n\nWith the important Chicago steel mills and industrial base now controlled by [new_controller.GetName], it is without doubt that the [old_controller.GetName] will suffer greatly for the devasting loss of the Windy City"
+naflavor_cityfall.2.a:0 "A terrible setback."
+naflavor_cityfall.2.b:0 "The Windy City is ours!"
+naflavor_cityfall.2.c:0 "Does the Midwest have a new master?"
+
+naflavor_cityfall.3.t:0 "Fall of Cleveland"
+naflavor_cityfall.3.desc:0 "Cleveland, a city deeply rooted its industrial prowess, has witnessed its fall to [new_controller.GetAdjective] forces in a surprise turn of events. The city, known for its manufacturing legacy, became the focal point of a complex conflict marked by urban warfare and strategic maneuvers. The circumstances surrounding the fall of Cleveland raise questions about the broader implications for [old_controller.GetName]. \n\nThe event underscores the challenges faced by both defending forces and assailants in a rapidly evolving situation. As [old_controller.GetName] grapples with this unexpected development, the fall of Cleveland serves as a noteworthy chapter in the ongoing war in the Great Lakes."
+naflavor_cityfall.3.a:0 "A terrible setback."
+naflavor_cityfall.3.b:0 "Wonderful news!"
+naflavor_cityfall.3.c:0 "What will this mean for [old_controller.GetName]?"
+
+naflavor_cityfall.4.t:0 "Fall of Boston"
+naflavor_cityfall.4.desc:0 "In a significant turn of events, Boston has fallen to [new_controller.GetAdjective] troops in a series of strategically executed maneuvers. Initiating their campaign with a surprise amphibious assault on the city's waterfront, this led to a protracted period of urban combat, marked by intense street fighting and the gradual encirclement of key defense positions. \n\nNotably, the Old North Church, a historic landmark, became a focal point in the conflict as both a defensive stronghold and a symbolic target to [old_controller.GetAdjective] soldiers. The fall of Boston culminates in the successful occupation of crucial governmental and strategic installations in [old_controller.GetName], marking a significant chapter in the city's history and prompting questions about the broader implications for the region in this conflict."
+naflavor_cityfall.4.a:0 "A terrible setback."
+naflavor_cityfall.4.b:0 "New England shall be ours!"
+naflavor_cityfall.4.c:0 "We live in dark times.."
+
+naflavor_cityfall.5.t:0 "Fall of Manhattan"
+naflavor_cityfall.5.desc:0 "Manhattan has fallen to [new_controller.GetAdjective] forces in a series of deadly artillery barrages and urban warfare. Amphibious landings along the city's waterfront marked the commencement of the invasion, leading to intense urban warfare across key neighborhoods and thoroughfares. Notably, the iconic Brooklyn Bridge became a strategic focal point in the conflict, witnessing fierce engagements as [old_controller.GetAdjective] forces attempted to halt the encroachment of the invaders. \n\nSimultaneously, [new_controller.GetAdjective] troops targeted vital historical, financial, and governmental institutions, successfully establishing control over key administrative centers. The fall of the Big Apple will no doubt be one of the most destructive occupations the continent will ever see."
+naflavor_cityfall.5.a:0 "A terrible setback."
+naflavor_cityfall.5.b:0 "Great news!"
+naflavor_cityfall.5.c:0 "The city finally sleeps."
+
+naflavor_cityfall.6.t:0 "Fall of Richmond"
+naflavor_cityfall.6.desc:0 "The city of Richmond has witnessed a significant turn of events, succumbing to [new_controller.GetAdjective] forces. The [new_controller.GetAdjective] forces initiated their campaign with a mass charge into the Southern city. The conflict unfolded into intense urban warfare as [old_controller.GetAdjective] soldiers held a last stand against the attacking army. \n\nNotably, the historic Capitol Square became a focal point of contention, witnessing fierce clashes between [old_controller.GetAdjective] forces and the encroaching [new_controller.GetAdjective] troops. Simultaneously, assailants targeted and secured control of vital government and administrative centers, solidifying their dominance over Richmond."
+naflavor_cityfall.6.a:0 "A terrible setback."
+naflavor_cityfall.6.b:0 "Great news!"
+naflavor_cityfall.6.c:0 "What will this mean for the rest of the south?"

@@ -271,6 +271,16 @@ spriteTypes = {
 		name = "GFX_naflnews205"
 		texturefile = "gfx/event_pictures/news_fallof_richmond.dds"
 	}
+
+
+	spriteType = {
+		name = "GFX_Chicago"
+		texturefile = "gfx/event_pictures/news_fallof_chicago.dds"
+	}
+	spriteType = {
+		name = "GFX_cleveland"
+		texturefile = "gfx/event_pictures/news_fallof_cleveland.dds"
+	}
 	
 }#END
 

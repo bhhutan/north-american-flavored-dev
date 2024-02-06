@@ -1,10 +1,9 @@
 on_actions = {
-  on_startup = {
-    effect = {
+  	on_startup = {
+		effect = {
 			every_country = {
 				country_event = naflavor.1
 			}
 		}
-  }
-  
+	}
 }

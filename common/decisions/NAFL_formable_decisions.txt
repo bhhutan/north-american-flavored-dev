@@ -1637,6 +1637,73 @@ form_columbia_category = {
 	}
 }
 
+form_american_italy_category = {
+
+	form_american_italy = {
+		ai_will_do = {
+			factor = 20
+		}
+		
+		visible = {
+			OR = {
+				original_tag = NYC
+				original_tag = SNJ
+			}
+			NOT = {
+				has_global_flag = AMERICAN_ITALY_FORMED
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = control_new_jersey_tt
+				controls_new_jersey_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = control_nyc_tt
+				controls_new_york_city_trigger = yes
+			}
+
+			controls_state = 622
+			controls_state = 201
+			controls_state = 248
+			controls_state = 249
+			controls_state = 277
+			controls_state = 278
+			controls_state = 279
+			controls_state = 291		
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = core_NYC_tt
+			custom_effect_tooltip = core_new_jersey_tt
+			custom_effect_tooltip = core_southern_newyork_tt
+			custom_effect_tooltip = core_western_connecticut_tt
+			set_cosmetic_tag = american_italy
+			hidden_effect = {
+				core_new_jersey = yes
+				core_new_york_city = yes
+				622 = { add_core_of = ROOT }
+				201 = { add_core_of = ROOT }
+				248 = { add_core_of = ROOT }
+				249 = { add_core_of = ROOT }
+				277 = { add_core_of = ROOT }
+				278 = { add_core_of = ROOT }
+				279 = { add_core_of = ROOT }
+				291 = { add_core_of = ROOT }
+				set_global_flag = AMERICAN_ITALY_FORMED
+				set_country_flag = formed_american_italy
+
+				#country_event = { id = naflavor_formable.1 days = 14}
+				#news_event = { id = naflavor.117 days = 1}
+			}
+			
+		}
+	}
+
+}
+
 
 
 

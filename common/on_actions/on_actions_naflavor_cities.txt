@@ -1,0 +1,135 @@
+on_actions = {
+  	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					has_war_with = FROM
+					FROM.FROM = {
+						is_owned_by = FROM
+						NOT = { has_state_flag = state_has_fallen }
+					}
+				}
+				if = { #DC
+					limit = {
+						FROM = { NOT = { tag = SMD } }
+						FROM.FROM = { state = 44 }
+						ROOT = { controls_state = 44 }
+					}
+					news_event = { id = naflavor_cityfall.1 random_hours = 24 }
+				}
+				else_if = { #Chicago
+					limit = {
+						FROM.FROM = { state = 692 }
+						ROOT = { controls_state = 692 }
+					}
+					news_event = naflavor_cityfall.2
+				}
+				else_if = { #Cleveland
+					limit = {
+						FROM.FROM = { state = 48 }
+						ROOT = { controls_state = 48 }
+					}
+					news_event = naflavor_cityfall.3
+				}
+				else_if = { #Boston
+					limit = {
+						FROM.FROM = { state = 5 }
+						ROOT = { controls_state = 5 }
+					}
+					news_event = naflavor_cityfall.4
+				}
+				else_if = { #Manhattan
+					limit = {
+						FROM.FROM = { state = 27 }
+						ROOT = { controls_state = 27 }
+					}
+					news_event = naflavor_cityfall.5
+				}
+				else_if = { #Richmond
+					limit = {
+						FROM.FROM = { state = 358 }
+						ROOT = { controls_state = 358 }
+					}
+					news_event = naflavor_cityfall.6
+				}
+				else_if = { #Atlanta
+					limit = {
+						FROM.FROM = { state = 74 }
+						ROOT = { controls_state = 74 }
+					}
+					news_event = naflavor_cityfall.7
+				}
+				else_if = { #Miami
+					limit = {
+						FROM.FROM = { state = 11 }
+						ROOT = { controls_state = 11 }
+					}
+					news_event = naflavor_cityfall.8
+				}
+				else_if = { #Nashville
+					limit = {
+						FROM.FROM = { state = 520 }
+						ROOT = { controls_state = 520 }
+					}
+					news_event = naflavor_cityfall.9
+				}
+				else_if = { #Houston
+					limit = {
+						FROM.FROM = { state = 42 }
+						ROOT = { controls_state = 42 }
+					}
+					news_event = naflavor_cityfall.10
+				}
+				else_if = { #Kansas City
+					limit = {
+						FROM.FROM = { state = 683 }
+						ROOT = { controls_state = 683 }
+					}
+					news_event = naflavor_cityfall.2
+				}
+				else_if = { #Omaha
+					limit = {
+						FROM.FROM = { state = 692 }
+						ROOT = { controls_state = 692 }
+					}
+					news_event = naflavor_cityfall.2
+				}
+				else_if = { #Denver
+					limit = {
+						FROM.FROM = { state = 692 }
+						ROOT = { controls_state = 692 }
+					}
+					news_event = naflavor_cityfall.2
+				}
+				else_if = { #Portland
+					limit = {
+						FROM.FROM = { state = 692 }
+						ROOT = { controls_state = 692 }
+					}
+					news_event = naflavor_cityfall.2
+				}
+				else_if = { #Seattle
+					limit = {
+						FROM.FROM = { state = 692 }
+						ROOT = { controls_state = 692 }
+					}
+					news_event = naflavor_cityfall.2
+				}
+				else_if = { #Los Angeles
+					limit = {
+						FROM.FROM = { state = 692 }
+						ROOT = { controls_state = 692 }
+					}
+					news_event = naflavor_cityfall.2
+				}
+				else_if = { #San Francisco	
+					limit = {
+						FROM.FROM = { state = 692 }
+						ROOT = { controls_state = 692 }
+					}
+					news_event = naflavor_cityfall.2
+				}
+			}
+		}
+	}
+}

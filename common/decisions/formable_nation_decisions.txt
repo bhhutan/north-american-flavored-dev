@@ -1052,7 +1052,7 @@ form_cascadia_category = {
 		}
 		complete_effect = {
 			hidden_effect = {
-		country_event = usastates_news.40
+			country_event = usastates_news.40
 		}
 			set_cosmetic_tag = CASCADIA_FORMED
 			custom_effect_tooltip = core_all_of_oregon_tt
@@ -2463,6 +2463,7 @@ form_nation_usa_states_category = {
 				has_cosmetic_tag = new_england_unified
 				has_cosmetic_tag = PAZIFIK
 				has_cosmetic_tag = SDE_columbia
+				has_cosmetic_tag = american_italy
 			}
 			
 			

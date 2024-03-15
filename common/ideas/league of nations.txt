@@ -1,0 +1,198 @@
+ideas = {
+    country = {
+		LON_strained_garrison = {
+            picture = national_debt
+            allowed = {
+
+            }
+            available = {
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                political_power_factor = -0.3
+                stability_weekly = -0.001
+            }
+        }
+        #
+        LON_closed_canal = {
+            picture = great_depression
+            
+            allowed = {
+                tag = psk
+            }
+            
+            available = {
+
+            }
+            
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                production_speed_buildings_factor = -0.1
+                industrial_capacity_factory = -0.2
+            }
+            rule = {
+                can_access_market = no
+            }
+        }
+        #
+        #haha sex
+        LON_blown_canal = {
+            picture = great_depression
+            
+            allowed = {
+            }
+            
+            available = {
+
+            }
+            
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                production_speed_buildings_factor = -0.2
+                industrial_capacity_factory = -0.3
+                repair_speed_factor = -0.15
+            }
+            rule = {
+                can_access_market = no
+            }
+        }
+        #
+        LON_fixing_canal = {
+            picture = GFX_idea_SUT_Morman_Zeal
+
+            allowed = {
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                production_speed_buildings_factor = -0.15
+                industrial_capacity_factory = -0.15
+                consumer_goods_factor = 0.3
+            }
+            rule = {
+                can_access_market = no
+            }
+        }
+        #
+        LON_renewed_canal = {
+            picture = boyscouts_utah
+            
+            allowed = {
+            }
+            
+            available = {
+
+            }
+            
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                production_speed_buildings_factor = 0.05
+                consumer_goods_factor = -0.15
+                political_power_gain = 0.05
+            }
+        }
+        #
+        LON_bluehelmets = {
+            picture = bluehelmets
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                weekly_manpower = 200
+                conscription_factor = -0.33
+            }
+        }
+        #
+		LON_volunteers = {
+            picture = leagueofnations
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                consumer_goods_factor = 0.05
+                stability_factor = -0.05
+                war_stability_factor = 0.15
+			    democratic_acceptance = 100
+			    neutrality_acceptance = 50
+            }
+        }
+        #
+        LON_panamanian_nationalists = {
+            picture = leagueofnations
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                stability_factor = -0.3
+                war_support_factor = -0.2
+                political_power_factor = -0.2
+            }
+        }
+        #
+        LON_panamanian_nationalists_1 = {
+            picture = leagueofnations
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                stability_factor = -0.2
+                war_support_factor = -0.1
+                political_power_factor = -0.1
+            }
+        }
+        LON_panamanian_nationalists_2 = {
+            picture = leagueofnations
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                stability_factor = -0.1
+                political_power_factor = -0.05
+            }
+        }
+        #
+    }
+}

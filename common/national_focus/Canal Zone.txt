@@ -1,0 +1,1111 @@
+focus_tree = {
+	id = canal_zone_focus
+	
+	country = {
+		factor = 0
+	
+		modifier = {		
+			add = 10
+			tag = LON
+		}
+	}
+	continuous_focus_position = { x = 1 y = 2200 }
+	
+	#example :
+	#random_owned_controlled_state = {
+	#	add_extra_state_shared_building_slots = 2
+	#	add_building_construction = {
+	#		type = industrial_complex
+	#		level = 2
+	#		instant_build = yes
+	#	}
+	#	add_extra_state_shared_building_slots = 2
+	#}														
+
+	focus = {
+		id = LON_the_mandate
+		#icon = GFX_SRI_Theodores_last_term
+		#prerequisite = { focus =  }
+		x = 5
+		y = 0
+		#relative_position_id = 
+
+		cost = 5
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 25
+		}
+	}
+
+	focus = {
+		id = LON_british_volunteers
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_the_mandate }
+		x = -2
+		y = 1
+		relative_position_id = LON_the_mandate
+
+		cost = 5
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_manpower = 10000
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 200
+			}
+		}
+	}
+
+	focus = {
+		id = LON_international_investment
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_the_mandate }
+		x = 0
+		y = 1
+		relative_position_id = LON_the_mandate
+
+		cost = 5
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {		
+			if = {
+				limit = {
+					has_idea = destitute_economy
+				}
+				add_ideas = agrarian_economy
+			}
+			add_offsite_building = { type = arms_factory level = 2 }
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 1
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = LON_german_weaponry
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_the_mandate }
+		x = 2
+		y = 1
+		relative_position_id = LON_the_mandate
+
+		cost = 5
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 800
+			}
+		}
+	}
+
+	focus = {
+		id = LON_we_stand_alone 
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_british_volunteers }
+		prerequisite = { focus = LON_german_weaponry }
+		prerequisite = { focus = LON_international_investment }
+		x = 0
+		y = 2
+		relative_position_id = LON_the_mandate
+
+		cost = 5
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.05
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = LON_something_stirs 
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_we_stand_alone }
+		x = 0
+		y = 1
+		relative_position_id = LON_we_stand_alone
+
+		cost = 5
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 100
+			#country_event = {
+			#	id = rhode_island.2
+			#}
+		}
+	}
+
+	focus = {
+		id = LON_beg_for_help
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_something_stirs }
+		x = 1
+		y = 1
+		relative_position_id = LON_something_stirs
+		mutually_exclusive = { focus = LON_empower_US_division }
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 100
+			#country_event = {
+			#	id = rhode_island.2
+			#}
+		}
+	}
+
+	focus = {
+		id = LON_empower_US_division
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_something_stirs }
+		x = -1
+		y = 1
+		relative_position_id = LON_something_stirs
+		mutually_exclusive = { focus = LON_beg_for_help }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 100
+			#country_event = {
+			#	id = rhode_island.2
+			#}
+		}
+	}
+
+	focus = {
+		id = LON_america_regains_control
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_empower_US_division focus = LON_beg_for_help }
+		x = -3
+		y = 2
+		relative_position_id = LON_empower_US_division
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 100
+			#country_event = {
+			#	id = rhode_island.2
+			#}
+		}
+	}
+
+	focus = {
+		id = LON_invite_exiles
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_america_regains_control }
+		x = 0
+		y = 1
+		relative_position_id = LON_america_regains_control
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 100
+			#country_event = {
+			#	id = rhode_island.2
+			#}
+		}
+	}
+
+	focus = {
+		id = LON_question_of_leadership
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_invite_exiles }
+		x = 0
+		y = 2
+		relative_position_id = LON_america_regains_control
+		cost = 4
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 100
+			#country_event = {
+			#	id = rhode_island.2
+			#}
+		}
+	}
+
+	focus = {
+		id = LON_US_military
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_question_of_leadership }
+		x = -1
+		y = 3
+		relative_position_id = LON_america_regains_control
+		mutually_exclusive = { focus = LON_bureau_of_investigation }
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 100
+			#country_event = {
+			#	id = rhode_island.2
+			#}
+		}
+	}
+
+	focus = {
+		id = LON_placate_the_bureau
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_US_military }
+		x = 0
+		y = 1
+		relative_position_id = LON_US_military
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 100
+			#country_event = {
+			#	id = rhode_island.2
+			#}
+		}
+	}
+
+	focus = {
+		id = LON_bureau_of_investigation
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_question_of_leadership }
+		x = 1
+		y = 3
+		relative_position_id = LON_america_regains_control
+		mutually_exclusive = { focus = LON_US_military }
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 100
+			#country_event = {
+			#	id = rhode_island.2
+			#}
+		}
+	}
+
+	focus = {
+		id = LON_the_fbi
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_bureau_of_investigation }
+		x = 0
+		y = 1
+		relative_position_id = LON_bureau_of_investigation
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 100
+			#country_event = {
+			#	id = rhode_island.2
+			#}
+		}
+	}
+
+	focus = {
+		id = LON_siphon_shipments
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_placate_the_bureau focus = LON_the_fbi }
+		x = -1
+		y = 2
+		relative_position_id = LON_bureau_of_investigation
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = canal_opened_tt
+				has_country_flag = canal_fixed
+			}
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 100
+			#country_event = {
+			#	id = rhode_island.2
+			#}
+		}
+	}
+	
+	focus = {
+		id = LON_the_league_holds
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_beg_for_help focus = LON_empower_US_division }
+		x = 3
+		y = 2
+		relative_position_id = LON_beg_for_help
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 100
+
+		}
+	}
+
+	focus = {
+		id = LON_chapter_in_history
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_empower_US_division focus = LON_beg_for_help }
+		x = 0
+		y = 2
+		relative_position_id = LON_something_stirs
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = canal_zone_failure_tt
+			hidden_effect = {
+				PAN = {
+					annex_country = {
+						target = LON
+						transfer_troops = no
+					}
+					change_tag_from = LON
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = LON_deal_with_nationalists
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_america_regains_control focus = LON_the_league_holds }
+		x = 4
+		y = 1
+		relative_position_id = LON_america_regains_control
+
+		cost = 4
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = LON_panamanian_nationalists
+				}
+				swap_ideas = {
+					remove_idea = LON_panamanian_nationalists
+					add_idea = LON_panamanian_nationalists_1
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = LON_hunt_them_down
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_deal_with_nationalists }
+		x = -1	
+		y = 1
+		relative_position_id = LON_deal_with_nationalists
+		mutually_exclusive = { focus = LON_negotiate }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_stability = -0.05
+			add_political_power = 50
+			if = {
+				limit = {
+					has_idea = LON_panamanian_nationalists
+				}
+				swap_ideas = {
+					remove_idea = LON_panamanian_nationalists
+					add_idea = LON_panamanian_nationalists_1
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = LON_panamanian_nationalists_1
+				}
+				swap_ideas = {
+					remove_idea = LON_panamanian_nationalists_1
+					add_idea = LON_panamanian_nationalists_2
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = LON_punish_them
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_hunt_them_down }
+		x = -1
+		y = 2
+		relative_position_id = LON_deal_with_nationalists
+		mutually_exclusive = { focus = LON_negotiate }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_stability = -0.1
+			add_political_power = 150
+			army_experience = 25
+			if = {
+				limit = {
+					has_idea = LON_panamanian_nationalists
+				}
+				swap_ideas = {
+					remove_idea = LON_panamanian_nationalists
+					add_idea = LON_panamanian_nationalists_1
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = LON_panamanian_nationalists_1
+				}
+				swap_ideas = {
+					remove_idea = LON_panamanian_nationalists_1
+					add_idea = LON_panamanian_nationalists_2
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = LON_negotiate
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_deal_with_nationalists }
+		x = 1
+		y = 1	
+		relative_position_id = LON_deal_with_nationalists
+		mutually_exclusive = { focus = LON_hunt_them_down }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = -50
+			add_stability = 0.05
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.02
+			}
+			if = {
+				limit = {
+					has_idea = LON_panamanian_nationalists
+				}
+				swap_ideas = {
+					remove_idea = LON_panamanian_nationalists
+					add_idea = LON_panamanian_nationalists_1
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = LON_panamanian_nationalists_1
+				}
+				swap_ideas = {
+					remove_idea = LON_panamanian_nationalists_1
+					add_idea = LON_panamanian_nationalists_2
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = LON_grant_concessions
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_negotiate }
+		x = 1
+		y = 2
+		relative_position_id = LON_deal_with_nationalists
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = -100
+			add_stability = 0.1
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.05
+			}
+			if = {
+				limit = {
+					has_idea = LON_panamanian_nationalists
+				}
+				swap_ideas = {
+					remove_idea = LON_panamanian_nationalists
+					add_idea = LON_panamanian_nationalists_1
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = LON_panamanian_nationalists_1
+				}
+				swap_ideas = {
+					remove_idea = LON_panamanian_nationalists_1
+					add_idea = LON_panamanian_nationalists_2
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = LON_problems_solved
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_grant_concessions focus = LON_punish_them }
+		x = 0
+		y = 3
+		relative_position_id = LON_deal_with_nationalists
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_stability = 0.05
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.1
+			}
+			if = {
+				limit = {
+					has_idea = LON_panamanian_nationalists
+				}
+				swap_ideas = {
+					remove_idea = LON_panamanian_nationalists
+					add_idea = LON_panamanian_nationalists_1
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = LON_panamanian_nationalists_1
+				}
+				swap_ideas = {
+					remove_idea = LON_panamanian_nationalists_1
+					add_idea = LON_panamanian_nationalists_2
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = LON_panamanian_nationalists_2
+				}
+				remove_ideas = LON_panamanian_nationalists_2
+			}
+		}
+	}
+
+	focus = {
+		id = LON_secure_panama
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_siphon_shipments }
+		prerequisite = { focus = LON_problems_solved }
+		x = 0
+		y = 5
+		relative_position_id = LON_deal_with_nationalists
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+			every_state = {
+				limit = { is_core_of = PAN }
+				add_claim_by = FROM
+			}
+			create_wargoal = {
+				target = PAN
+				type = annex_everything
+			}
+		}
+	}
+
+	
+}

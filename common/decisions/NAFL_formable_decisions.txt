@@ -1383,13 +1383,24 @@ form_delmarva_category = {
 		cost = 25
 		available = {
 			controls_state = 204
-			country_exists = TDW
 		}
 		
 		remove_effect = {
-			transfer_state = 137
-
-			SVA = {
+			if = {
+				limit = { 
+					VES ={
+						exists = yes
+					}
+				}
+				annex_country = {
+					target = VES
+					transfer_troops = no
+				}
+			}
+			else = {
+				transfer_state = 137
+			}
+			WDC = {
 				country_event = { id = naflavor_formable.11 }
 			}
 		}

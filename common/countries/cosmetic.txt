@@ -138,9 +138,17 @@ DESERET = {
 	color = rgb { 255 235 127 }
 	color_ui = rgb { 173 164 117 }
 }
+Oregon_America = {
+	color = rgb { 0 45 106 }
+	color_ui = rgb { 0 45 106 }
+}
 AMERICAN_PEOPLES_REPUBLIC = {
 	color = rgb { 104 255 164 }
 	color_ui = rgb { 56 137 88 }
+}
+greater_new_mexico = { 
+	color = rgb { 0 163 131 }
+	color_ui = rgb { 0 163 131 }
 }
 CAROLINA = {
 	color = rgb { 16 23 204 }
@@ -263,7 +271,7 @@ GREATERSOK = {
 	color_ui = rgb { 222 210 47 }
 }
 FOLSOM = {
-	color = rgb { 222 62 84 }
+	color = rgb { 190 30 30 }
 	color_ui = rgb { 222 62 84 }
 }
 ORLJAZZ = {
@@ -411,8 +419,8 @@ TAMALAGE = {
 	color_ui = rgb { 0 40 104 }
 }
 MARINE_REPUBLIC = {
-	color = rgb { 229 28 34 }
-	color_ui = rgb { 220 224 63 }
+	color = rgb { 67 72 131 }
+	color_ui = rgb { 67 72 131 }
 }
 monarchist_virginia = {
 	color = rgb { 86 29 94}
@@ -442,7 +450,7 @@ greater_washington = {
 	color = rgb { 14 128 56 }
 	color_ui = rgb { 14 58 56 }
 }
-LMO_NEW_DIXIE = {
+	LMO_NEW_DIXIE = {
 	color = rgb { 8 10 156 }
 	color_ui = rgb { 8 12 148 }
 }
@@ -787,8 +795,8 @@ CHI_lightfoot_unification = {
 	color_ui = rgb { 135 51 68 }
 }
 CHI_capone_unification = {
-	color = rgb { 14 16 15 }
-	color_ui = rgb { 14 16 15 }
+	color = rgb { 61 54 41 }
+	color_ui = rgb { 61 54 41 }
 }
 
 CHI_lightfoot_great_lakes = {
@@ -828,7 +836,7 @@ SPA_SOH_SSSR = {
 	color_ui = rgb { 161 31 61 }
 }
 SNY_SOH_SSSR = {
-	color = rgb { 161 31 61 }
+	color = rgb { 161 31 61 } 
 	color_ui = rgb { 161 31 61 }
 }
 SIL_SOH_SSSR = {
@@ -862,4 +870,78 @@ PBC_athabaskia_tag = {
 Western_Canadian_Canada = {
 	color = rgb { 65 68 102 }
 	color_ui = rgb { 65 68 102 }
+}
+SMI_Ford_Motor_Co = {
+	color = rgb { 95 99 111 }
+	color_ui = rgb { 95 99 111 }
+}
+SMI_Ford_Motor_USA = {
+	color = rgb { 95 99 111 }
+	color_ui = rgb { 95 99 111 }
+}
+SMI_Black_Legion = {
+	color = rgb { 15 19 21 }
+	color_ui = { 15 19 21 }
+}
+LBJ_America = {
+	color = rgb { 0 45 106 }
+	color_ui = rgb { 0 45 106 }
+}
+VES_delmarva = {
+	color = rgb { 0 132 255 }
+	color_ui = rgb { 0 132 255 }
+}
+
+### DEMOCRAT NEW ENGLAND ###
+
+SMA_democrat_commonwealth = {
+	color = rgb { 12 61 145 }
+	color_ui = rgb { 12 61 145 }
+}
+
+SCT_democrat_commonwealth = {
+	color = rgb { 12 61 145 }
+	color_ui = rgb { 12 61 145 }
+}
+
+SVT_democrat_commonwealth = {
+	color = rgb { 12 61 145 }
+	color_ui = rgb { 12 61 145 }
+}
+
+SNH_democrat_commonwealth = {
+	color = rgb { 12 61 145 }
+	color_ui = rgb { 12 61 145 }
+}
+
+SRI_democrat_commonwealth = {
+	color = rgb { 12 61 145 }
+	color_ui = rgb { 12 61 145 }
+}
+
+SME_democrat_commonwealth = {
+	color = rgb { 12 61 145 }
+	color_ui = rgb { 12 61 145 }
+}
+
+# VERMONT
+
+SVT_independence = {
+	color = rgb { 112 143 50 }
+	color_ui = rgb { 112 143 50 }
+}
+
+SVT_independence_nazi = {
+	color = rgb { 52 73 30 }
+	color_ui = rgb { 52 73 30 }
+}
+
+SVT_greater_vermont = {
+	color = rgb { 52 73 30 }
+	color_ui = rgb { 52 73 30 }
+}
+
+SME_CAN_thirteen_colonies_tag = {
+	color = rgb { 171 75 82 }
+	color_ui = rgb { 52 73 30 }
 }

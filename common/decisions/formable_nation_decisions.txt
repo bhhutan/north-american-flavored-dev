@@ -2022,116 +2022,6 @@ form_CSA_category = {
 		}
 	}
 
-}
-
-form_nation_maritime_states_category = {
-
-# neoceltic federation #
-#------#
-	
-	form_neocelticfederation = {
-	
-		ai_will_do = {
-			factor = 20
-			#modifier = {
-			#	factor = 0
-			#	is_historical_focus_on = yes
-			#}
-		}
-		visible = {
-			OR = {
-				original_tag = PNS
-				original_tag = PEI
-				original_tag = PNB
-				original_tag = PNL
-				original_tag = NFL
-				original_tag = LAB
-			}
-			NOT = {
-				has_global_flag = celtic_fed_formed
-			}
-			NOT = {
-				has_cosmetic_tag = UNITED_STATES_BIG
-			}
-		}
-
-		available = {
-			is_subject = no
-			#New_Brunswick
-			custom_trigger_tooltip = {
-				tooltip = form_country_required_states_NBrunswick_tt
-				controls_new_brunswick_trigger = yes
-			}
-
-			#Nova_Scotia
-			custom_trigger_tooltip = {
-				tooltip = form_country_required_states_Nova_Scotia_tt
-				controls_nova_scotia_trigger = yes
-			}
-
-			#Newfoundland_and_labrador
-			custom_trigger_tooltip = {
-				tooltip = form_country_required_states_Newfoundland_and_labrador_tt
-				controls_newfoundland_and_labrador_trigger = yes
-			}
-
-			#Prince_edward_island
-			custom_trigger_tooltip = {
-				tooltip = form_country_required_states_PEI_tt
-				AND = {
-					controls_state = 323 #westpei
-					controls_state = 130 #pei
-				}
-			}
-
-
-
-		}
-
-		complete_effect = {
-			set_cosmetic_tag = CELTIC
-			custom_effect_tooltip = form_neocelticfederation_coring_states_tt
-			hidden_effect = { 
-				sound_effect = complete_focus 
-				#New_Brunswick
-				core_new_brunswick = yes
-
-				#nova_scotia
-				core_nova_scotia = yes
-
-				#prince_edward_island
-				core_prince_edward_island = yes
-
-				#newfoundland_and_labrador
-				core_newfoundland_and_labrador = yes
-
-			
-				393 = { add_core_of = ROOT }
-				516 = { add_core_of = ROOT }
-				392 = { add_core_of = ROOT }
-				515 = { add_core_of = ROOT }
-				517 = { add_core_of = ROOT }
-				394 = { add_core_of = ROOT }
-				134 = { add_core_of = ROOT }
-				133 = { add_core_of = ROOT }
-				31 = { add_core_of = ROOT }
-				132 = { add_core_of = ROOT }
-				131 = { add_core_of = ROOT }
-				130 = { add_core_of = ROOT }
-				323 = { add_core_of = ROOT }
-				66 = { add_core_of = ROOT }
-				65 = { add_core_of = ROOT }
-				263 = { add_core_of = ROOT }
-				128 = { add_core_of = ROOT }
-				125 = { add_core_of = ROOT }
-				126 = { add_core_of = ROOT }
-				129 = { add_core_of = ROOT }
-			}
-			set_global_flag = celtic_fed_formed
-		}
-	}
-
-
 	proclaim_greater_csa = {
 		
 		fire_only_once = yes
@@ -2319,6 +2209,117 @@ form_nation_maritime_states_category = {
 	}
 }
 
+form_nation_maritime_states_category = {
+
+	# neoceltic federation #
+	#------#
+		
+		form_neocelticfederation = {
+		
+			ai_will_do = {
+				factor = 20
+				#modifier = {
+				#	factor = 0
+				#	is_historical_focus_on = yes
+				#}
+			}
+			visible = {
+				OR = {
+					original_tag = PNS
+					original_tag = PEI
+					original_tag = PNB
+					original_tag = PNL
+					original_tag = NFL
+					original_tag = LAB
+				}
+				NOT = {
+					has_global_flag = celtic_fed_formed
+				}
+				NOT = {
+					has_cosmetic_tag = UNITED_STATES_BIG
+				}
+			}
+	
+			available = {
+				is_subject = no
+				#New_Brunswick
+				custom_trigger_tooltip = {
+					tooltip = form_country_required_states_NBrunswick_tt
+					controls_new_brunswick_trigger = yes
+				}
+	
+				#Nova_Scotia
+				custom_trigger_tooltip = {
+					tooltip = form_country_required_states_Nova_Scotia_tt
+					controls_nova_scotia_trigger = yes
+				}
+	
+				#Newfoundland_and_labrador
+				custom_trigger_tooltip = {
+					tooltip = form_country_required_states_Newfoundland_and_labrador_tt
+					controls_newfoundland_and_labrador_trigger = yes
+				}
+	
+				#Prince_edward_island
+				custom_trigger_tooltip = {
+					tooltip = form_country_required_states_PEI_tt
+					AND = {
+						controls_state = 323 #westpei
+						controls_state = 130 #pei
+					}
+				}
+	
+	
+	
+			}
+	
+			complete_effect = {
+				set_cosmetic_tag = CELTIC
+				custom_effect_tooltip = form_neocelticfederation_coring_states_tt
+				hidden_effect = { 
+					sound_effect = complete_focus 
+					#New_Brunswick
+					core_new_brunswick = yes
+	
+					#nova_scotia
+					core_nova_scotia = yes
+	
+					#prince_edward_island
+					core_prince_edward_island = yes
+	
+					#newfoundland_and_labrador
+					core_newfoundland_and_labrador = yes
+	
+				
+					393 = { add_core_of = ROOT }
+					516 = { add_core_of = ROOT }
+					392 = { add_core_of = ROOT }
+					515 = { add_core_of = ROOT }
+					517 = { add_core_of = ROOT }
+					394 = { add_core_of = ROOT }
+					134 = { add_core_of = ROOT }
+					133 = { add_core_of = ROOT }
+					31 = { add_core_of = ROOT }
+					132 = { add_core_of = ROOT }
+					131 = { add_core_of = ROOT }
+					130 = { add_core_of = ROOT }
+					323 = { add_core_of = ROOT }
+					66 = { add_core_of = ROOT }
+					65 = { add_core_of = ROOT }
+					263 = { add_core_of = ROOT }
+					128 = { add_core_of = ROOT }
+					125 = { add_core_of = ROOT }
+					126 = { add_core_of = ROOT }
+					129 = { add_core_of = ROOT }
+				}
+				set_global_flag = celtic_fed_formed
+			}
+		}
+	
+	
+		
+	}
+
 
 	#-----------------#
 	#  Western Canada #
@@ -2425,10 +2426,7 @@ form_nation_maritime_states_category = {
 	}
 
 form_nation_usa_states_category = {
-
-
-#------#
-	
+			
 	form_united_states = {
 	
 		ai_will_do = {
@@ -2442,6 +2440,10 @@ form_nation_usa_states_category = {
 			
 			NOT = {
 				has_cosmetic_tag = UNITED_STATES_BIG
+				has_cosmetic_tag = SUT_theodemocracy
+				has_cosmetic_tag = SUT_theostratocracy
+				has_cosmetic_tag = MARINE_REPUBLIC 
+				has_cosmetic_tag = Oregon_America
 			}
 			NOT = {
 				or = {
@@ -2462,8 +2464,9 @@ form_nation_usa_states_category = {
 				has_cosmetic_tag = CAROLINA
 				has_cosmetic_tag = new_england_unified
 				has_cosmetic_tag = PAZIFIK
-				has_cosmetic_tag = SDE_columbia
-				has_cosmetic_tag = american_italy
+				has_cosmetic_tag = SRI_junta_northeast
+				has_cosmetic_tag = SRI_democratic_new_eng
+				has_cosmetic_tag = SRI_junta_neweng
 			}
 			
 			
@@ -2477,21 +2480,6 @@ form_nation_usa_states_category = {
 				}
 			}
 			
-			OR = {
-				NOT = {
-					country_exists = WDC
-				}
-				
-				controls_state = 44
-
-				ROOT = {
-					ic_ratio = { 
-						tag = WDC 
-						ratio > 0.65
-					}
-				}
-			}
-
 			count_triggers = {
 				amount = 13
 				custom_trigger_tooltip = {

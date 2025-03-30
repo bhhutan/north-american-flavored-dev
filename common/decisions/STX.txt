@@ -177,7 +177,6 @@ STX_third_red_river_war_dcat = {
             }
             hidden_effect = {
                 set_country_flag = STX_rrw3_start
-                news_event = { id = naflavor.10 hours = 8 }
             }
 
             if = {

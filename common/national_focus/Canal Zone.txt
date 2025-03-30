@@ -26,7 +26,7 @@ focus_tree = {
 		id = LON_the_mandate
 		#icon = GFX_SRI_Theodores_last_term
 		#prerequisite = { focus =  }
-		x = 5
+		x = 20
 		y = 0
 		#relative_position_id = 
 
@@ -686,6 +686,222 @@ focus_tree = {
 	}
 
 	focus = {
+		id = LON_forced_collaboration
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_the_league_holds }
+		x = 0
+		y = 1
+		relative_position_id = LON_the_league_holds
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 100
+
+		}
+	}
+
+	focus = {
+		id = LON_the_american_garrison
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_forced_collaboration }
+		x = 0
+		y = 2
+		relative_position_id = LON_the_league_holds
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 100
+
+		}
+	}
+
+	focus = {
+		id = LON_expel_them
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_the_american_garrison }
+		x = 1
+		y = 3
+		relative_position_id = LON_the_league_holds
+
+		mutually_exclusive = { focus = LON_uneasy_peace }
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 100
+
+		}
+	}
+
+	focus = {
+		id = LON_uneasy_peace
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_the_american_garrison }
+		x = -1
+		y = 3
+		relative_position_id = LON_the_league_holds
+		mutually_exclusive = { focus = LON_expel_them }
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 100
+
+		}
+	}
+
+	focus = {
+		id = LON_firm_against_FBI
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_uneasy_peace focus = LON_expel_them }
+		x = 0
+		y = 4
+		relative_position_id = LON_the_league_holds
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 100
+
+		}
+	}
+
+	focus = {
+		id = LON_one_last_shipment
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_firm_against_FBI }
+		x = 0
+		y = 5
+		relative_position_id = LON_the_league_holds
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 100
+
+		}
+	}
+
+	focus = {
 		id = LON_chapter_in_history
 		#icon = GFX_SRI_Theodores_last_term
 		prerequisite = { focus = LON_empower_US_division focus = LON_beg_for_help }
@@ -1066,7 +1282,7 @@ focus_tree = {
 	focus = {
 		id = LON_secure_panama
 		#icon = GFX_SRI_Theodores_last_term
-		prerequisite = { focus = LON_siphon_shipments }
+		prerequisite = { focus = LON_siphon_shipments focus = LON_one_last_shipment }
 		prerequisite = { focus = LON_problems_solved }
 		x = 0
 		y = 5
@@ -1107,5 +1323,870 @@ focus_tree = {
 		}
 	}
 
-	
+	focus = {
+		id = LON_spread_them_pamphlets
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_secure_panama }
+		x = 0
+		y = 1
+		relative_position_id = LON_secure_panama
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = LON_put_down_resistance
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_secure_panama }
+		x = 2
+		y = 1
+		relative_position_id = LON_secure_panama
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = LON_the_panamanian_army
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_secure_panama }
+		x = -2
+		y = 1
+		relative_position_id = LON_secure_panama
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = LON_the_next_step
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_the_panamanian_army }
+		prerequisite = { focus = LON_spread_them_pamphlets }
+		prerequisite = { focus = LON_put_down_resistance }
+		x = 0
+		y = 3
+		relative_position_id = LON_secure_panama
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+#################################################################################
+	focus = {
+		id = LON_to_reclaim_america
+		#icon = GFX_SRI_Theodores_last_term
+		x = 5
+		y = 3
+		#relative_position_id = LON_secure_panama
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+			always = false
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+}
+##################################################################################
+	focus = {
+		id = LON_a_herculean_task
+		#icon = GFX_SRI_Theodores_last_term
+		x = 36
+		y = 3
+		#relative_position_id = LON_secure_panama
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = LON_more_than_peacekeepers
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_a_herculean_task }
+		x = -4
+		y = 2
+		relative_position_id = LON_a_herculean_task
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = LON_international_brigades
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_more_than_peacekeepers }
+		x = -3
+		y = 1
+		relative_position_id = LON_more_than_peacekeepers
+		mutually_exclusive = { focus = LON_strict_professionalism }
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = LON_recruitment_drives
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_international_brigades }
+		x = 0
+		y = 1
+		relative_position_id = LON_international_brigades
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = LON_work_for_peace
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_recruitment_drives }
+		x = 1
+		y = 2
+		relative_position_id = LON_international_brigades
+		mutually_exclusive = { focus = LON_serve_for_peace }
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+			always = false
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = LON_all_in_for_stability
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_work_for_peace }
+		x = 1
+		y = 3
+		relative_position_id = LON_international_brigades
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = LON_serve_for_peace
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_recruitment_drives }
+		x = -1
+		y = 2
+		relative_position_id = LON_international_brigades
+		mutually_exclusive = { focus = LON_work_for_peace }
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = LON_local_knowledge
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_serve_for_peace }
+		x = -1
+		y = 3
+		relative_position_id = LON_international_brigades
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = LON_local_knowledge
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_serve_for_peace }
+		x = -1
+		y = 3
+		relative_position_id = LON_international_brigades
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+	focus = {
+		id = LON_the_league_stands_for_people
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_local_knowledge focus = LON_all_in_for_stability }
+		x = 0
+		y = 4
+		relative_position_id = LON_international_brigades
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+
+
+	focus = {
+		id = LON_strict_professionalism
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_more_than_peacekeepers }
+		x = 3
+		y = 1
+		relative_position_id = LON_more_than_peacekeepers
+		mutually_exclusive = { focus = LON_international_brigades }
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = LON_best_of_the_best
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_strict_professionalism }
+		x = 0
+		y = 1
+		relative_position_id = LON_strict_professionalism
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = LON_ranger_primacy
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_best_of_the_best }
+		x = -1
+		y = 2
+		relative_position_id = LON_strict_professionalism
+		mutually_exclusive = { focus = LON_marine_primacy }
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = LON_marine_primacy
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_best_of_the_best }
+		x = 1
+		y = 2
+		relative_position_id = LON_strict_professionalism
+		mutually_exclusive = { focus = LON_ranger_primacy }
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = LON_frogmen
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_marine_primacy }
+		x = 2
+		y = 3
+		relative_position_id = LON_strict_professionalism
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = LON_spec_ops
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_ranger_primacy }
+		x = -2
+		y = 3
+		relative_position_id = LON_strict_professionalism
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = LON_intensive_terrain_training
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_marine_primacy focus = LON_ranger_primacy }
+		x = 0
+		y = 3
+		relative_position_id = LON_strict_professionalism
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = LON_to_tackle_giants
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_spec_ops focus = LON_frogmen }
+		prerequisite = { focus = LON_intensive_terrain_training }
+		x = 0
+		y = 4
+		relative_position_id = LON_strict_professionalism
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = LON_peace_enforcers
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_the_league_stands_for_people focus = LON_to_tackle_giants }
+		#prerequisite = { focus = LON_intensive_terrain_training }
+		x = 0
+		y = 6
+		relative_position_id = LON_more_than_peacekeepers
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = LON_keeping_the_peace
+		#icon = GFX_SRI_Theodores_last_term
+		prerequisite = { focus = LON_international_brigades focus = LON_strict_professionalism }
+		x = 0
+		y = 2
+		relative_position_id = LON_more_than_peacekeepers
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
 }

@@ -24,8 +24,11 @@
     
     
     
-    
+    ###############################
     ###### EDITED BY NADFLAV ######
+    ###############################
+    
+    
     GPLAINS:0 "Great Plains"
     GPLAINS_DEF:0 "The Great Plains"
     GPLAINS_ADJ:0 "Great Plainer"
@@ -191,31 +194,12 @@
     CELTIC_progressivism:0 "Maritime Republic"
     CELTIC_progressivism_DEF:0 "the Maritime Republic"
     CELTIC_progressivism_ADJ:0 "Maritimer"
-
-    ###################################
     
-    UNITED_STATES_BIG_fascism:0 "Free American Empire"
-    UNITED_STATES_BIG_fascism_DEF:0 "The Free American Empire"
-    UNITED_STATES_BIG_democratic:0 "United States"
-    UNITED_STATES_BIG_democratic_DEF:0 "The United States"
-    UNITED_STATES_BIG_neutrality:1 "United States"
-    UNITED_STATES_BIG_neutrality_DEF:1 "The United States"
-    UNITED_STATES_BIG_communism:0 "Communist States of America"
-    UNITED_STATES_BIG_communism_DEF:0 "The Communist States of America"
-    UNITED_STATES_BIG_fascism_ADJ:0 "American"
-    UNITED_STATES_BIG_democratic_ADJ:0 "American"
-    UNITED_STATES_BIG_neutrality_ADJ:0 "American"
-    UNITED_STATES_BIG_communism_ADJ:0 "American"
-    UNITED_STATES_BIG:0 "United States"
-    UNITED_STATES_BIG_DEF:0 "The United States"
-    UNITED_STATES_BIG_ADJ:0 "American"
-    UNITED_STATES_BIG_progressivism:0 "Progressive States of America"
-    UNITED_STATES_BIG_progressivism_DEF:0 "The Progressive States of America"
-    UNITED_STATES_BIG_progressivism_ADJ:0 "American"
-    UNITED_STATES_BIG_longism:0 "American Union State"
-    UNITED_STATES_BIG_longism_DEF:0 "The American Union State"
-    UNITED_STATES_BIG_longism_ADJ:0 "American"
+    SOH_USA_COMMIE:0 "American Soviet Socialist Republic"
+    SOH_USA_COMMIE_DEF:0 "The American Soviet Socialist Republic"
+    SOH_USA_COMMIE_ADJ:0 "American"
 
+    #########################################################
     
     cali_northwest_district:0 "Northwestern District"
     cali_northwest_district_DEF:0 "The Northwestern District"
@@ -245,11 +229,6 @@
     PVC_CUM:0 "Cumtoria"
     PVC_CUM_DEF:0 "the Province of Cumtoria Island"
     PVC_CUM_ADJ:0 "Cumtorian"
-
-
-    STX_UNITED_KLANS:0 "Imperial States of the South"
-    STX_UNITED_KLANS_DEF:0 "The Imperial States of the South"
-    STX_UNITED_KLANS_ADJ:0 "Imperial"
     
     GULF_REP:0 "Gulf Republic"
     GULF_REP_DEF:0 "The Gulf Republic"
@@ -292,10 +271,13 @@
     ANARCHY_OR:0 "Dakota"
     ANARCHY_OR_DEF:0 "Dakota"
     ANARCHY_OR_ADJ:0 "Dakotan"
+    
+    
+    
 ###########OHIO###############
 
-    GREATER_OHIO:0 "Greater Ohio"
-    GREATER_OHIO_DEF:0 "Greater Ohio"
+    GREATER_OHIO:0 "Federal State of Greater Ohio"
+    GREATER_OHIO_DEF:0 "The Federal State of Greater Ohio"
     GREATER_OHIO_ADJ:0 "Ohioan"
 
     OHIO_ORDER:0 "Ohio Order"
@@ -364,9 +346,9 @@
     cascadia_DEF:0 "Republic of Greater Cascadia"
     cascadia_ADJ:0 "Cascadian"
 
-    KKK_ONTARIO:0 "Ontario"
-    KKK_ONTARIO_DEF:0 "Aryan Ontario"
-    KKK_ONTARIO_ADJ:0 "Ontarioite"
+    KKK_ONTARIO:0 "Great White North"
+    KKK_ONTARIO_DEF:0 "The Great White Northern Aryan Order of Ontario"
+    KKK_ONTARIO_ADJ:0 "Aryan"
 
     SOK_KEYPOPULISM:0 "Oklahoma"
     SOK_KEYPOPULISM_DEF:0 "Oklahoma"
@@ -384,8 +366,10 @@
     GREATERSOK_DEF:0 "Oklahoma"
     GREATERSOK_ADJ:0 "Oklahoman"
 
-    FOLSOM:0 "Hillbilly State of Alabama"
-    FOLSOM_DEF:0 "the Hillbilly State of Alabama"
+    FOLSOM_longism:0 "People's Republic of Nickajack"
+    FOLSOM_longism_DEF:0 "The People's Republic of Nickajack"
+    FOLSOM_democratic:0 "Constitutional Republic of Alabama"
+    FOLSOM_democratic_DEF:0 "The Constitutional Republic of Alabama"
     FOLSOM_ADJ:0 "Alabamian"
 
     ORLJAZZ:0 "Jazz Republic"
@@ -404,9 +388,9 @@
     NEGRO_DEF:0 "Negro People's Republic"
     NEGRO_ADJ:0 "Negro"
 
-    THIRD_KLAN:0 "Third Klan"
-    THIRD_KLAN_DEF:0 "Klan"
-    THIRD_KLAN_ADJ:0 "Klan"
+    THIRD_KLAN:0 "United Klaverns"
+    THIRD_KLAN_DEF:0 "The United Klaverns"
+    THIRD_KLAN_ADJ:0 "Klansmen"
 
     COMOFAMERICA:0 "Commonwealth of America"
     COMOFAMERICA_DEF:0 "Commonwealth"
@@ -420,8 +404,8 @@
     RIOGRANDE_DEF:0 "Rio Grande"
     RIOGRANDE_ADJ:0 "Rio Grandian"
 
-    G_CONFEDERATE_STATES:0 "Greater Confederate States"
-    G_CONFEDERATE_STATES_DEF:0 "The Greater Confederate States"
+    G_CONFEDERATE_STATES:0 "Confederate States of North America"
+    G_CONFEDERATE_STATES_DEF:0 "The Greater Confederate States of North America"
     G_CONFEDERATE_STATES_ADJ:0 "Confederate"
 
     HISP:0 "Hispaniola"
@@ -436,9 +420,10 @@
     DSCR_DEF:0 "The Democratic Socialist Republic of Canada"
     DSCR_ADJ:0 "Canadian"
 
-    FOUR:0 "Four Corners"
-    FOUR_DEF:0 "The Four Corners"
+    FOUR:0 "Four-Corner State"
+    FOUR_DEF:0 "The Four-Corner State"
     FOUR_ADJ:0 "Corneran"
+
 
     GYUKON:0 "Great White North"
     GYUKON_DEF:0 "The Great White North"
@@ -456,7 +441,7 @@
     CAROLINA_DEF:0 "Carolina"
     CAROLINA_ADJ:0 "Carolinian"
 
-    confederate_states:0 "Confederate States"
+    confederate_states:0 "Confederate States of America"
     confederate_states_DEF:0 "The Confederate States of America"
     confederate_states_ADJ:0 "Confederate"
 
@@ -471,6 +456,10 @@
     TEXAS_RANGERS:0 "Texas Rangers Republic"
     TEXAS_RANGERS_DEF:0 "The Texas Rangers Republic"
     TEXAS_RANGERS_ADJ:0 "Texan Ranger"    
+
+    LBJ_America:0 "Confederal Republic of America"
+    LBJ_America_DEF:0 "Confederal Republic of America"
+    LBJ_America_ADJ:0 "American"
 
     DEMOCRATIC_NEW_YORK:0 "Republic of New York"
     DEMOCRATIC_NEW_YORK_DEF:0 "The Republic of New York"
@@ -508,9 +497,9 @@
     anglo_saxon_virginia_DEF:0 "The Protectorate of Virginia"
     anglo_saxon_virginia_ADJ:0 "Virginian"
 
-    MARINE_REPUBLIC:0 "Marine Republic"
-    MARINE_REPUBLIC_DEF:0 "The Marine Republic of the East Coast"
-    MARINE_REPUBLIC_ADJ:0 "Mariner"
+    MARINE_REPUBLIC:0 "United States Military Government"
+    MARINE_REPUBLIC_DEF:0 "The United States Military Government"
+    MARINE_REPUBLIC_ADJ:0 "American"
 
     monarchist_virginia:0 "Kingdom of Dixie"
     monarchist_virginia_DEF:0 "The Federal Kingdom of Greater Dixie"
@@ -577,7 +566,7 @@
     SUT_rangercollaborator_ADJ:0 "Mormon"
 
     NYC_zog:0 "New Kingdom of Albania"
-    NYC_zog_DEF:0 "The Albanian Kingdom of the East Coast"
+    NYC_zog_DEF:0 "The Kingdom of Albania"
     NYC_zog_ADJ:0 "Albanian"
 
     SSC_marineclient:0 "Southern Marine Republic"
@@ -670,8 +659,8 @@
     SAL_eufala_navy_DEF:0 "The Greater Eufala Naval Republic of Alabama"
     SAL_eufala_navy_ADJ:0 "Eufalan"
 
-    SAL_Nickajack:0 "Nickajack"
-    SAL_Nickajack_DEF:0 "The Republic of Nickajack"
+    SAL_Nickajack:0 "Nickajack Free State"
+    SAL_Nickajack_DEF:0 "The Nickajack Free State"
     SAL_Nickajack_ADJ:0 "Nickajacker"
 
     SWA_military_district:0 "Cascadian District"
@@ -718,6 +707,17 @@
     SOR_martin_DEF:0 "The Martial Republic of Oregon"
     SOR_martin_ADJ:0 "Oregonian"
 
+    Oregon_America_democratic:0 "Confederated Districts of America"
+    Oregon_America_democratic_DEF:0 "The Confederated Districts of America"
+    Oregon_America_fascism:0 "American Free State"
+    Oregon_America_fascism_DEF:0 "The American Free State"
+    Oregon_America_progressivism:0 "Commonwealth of America"
+    Oregon_America_progressivism_DEF:0 "The Commonwealth of America"
+    Oregon_America_longism:0 "Eretz-Yisrael"
+    Oregon_America_longism_DEF:0 "Eretz-Yisrael"
+    Oregon_America_neutrality:0 "American Military Junta"
+    Oregon_America_neutrality_DEF:0 "The American Military Junta"
+
     SHI_monarchists:0 "Empire of Hawaii"
     SHI_monarchists_DEF:0 "The Imperial Kingdom of Hawai'i"
     SHI_monarchists_ADJ:0 "Hawaiian"
@@ -730,13 +730,13 @@
     SHI_remnant_navy_DEF:0 "The Maritime States of America"
     SHI_remnant_navy_ADJ:0 "Maritime"
 
-    SUT_theodemocracy:0 "Theodemocratic States of Zion"
-    SUT_theodemocracy_DEF:0 "The United Theodemocratic States of New Zion"
-    SUT_theodemocracy_ADJ:0 "Zionist"
+    SUT_theodemocracy:0 "Zion"
+    SUT_theodemocracy_DEF:0 "The State of Zion"
+    SUT_theodemocracy_ADJ:0 "Zionite"
 
-    SUT_theostratocracy:0 "Theostratocratic States of Zion"
-    SUT_theostratocracy_DEF:0 "The United Theostratocratic States of New Zion"
-    SUT_theostratocracy_ADJ:0 "Zionist"
+    SUT_theostratocracy:0 "United States of Zion"
+    SUT_theostratocracy_DEF:0 "The United States of Zion"
+    SUT_theostratocracy_ADJ:0 "Zionite"
 
     PBC_Transient_Republic:0 "Transient Republic"
     PBC_Transient_Republic_DEF:0 "The United Hobos Of The Transient Republic"
@@ -770,13 +770,24 @@
     COZ_rival_mexico_DEF:0 "The Mexican Government of National Salvation"
     COZ_rival_mexico_ADJ:0 "Mexican"
 
-    SRI_junta_neweng:0 "National State of New England"
-    SRI_junta_neweng_DEF:0 "the National State of New England"
-    SRI_junta_neweng_ADJ:0 "New Englander"
+    SRI_junta_neweng_neutrality:0 "New England Republic"
+    SRI_junta_neweng_neutrality_DEF:0 "The New England Republic"
+    SRI_junta_neweng_fascism:0 "New English Military District"
+    SRI_junta_neweng_fascism_DEF:0 "The New English Military District"
+    SRI_junta_neweng_ADJ:0 "New English"
 
-    SRI_junta_northeast:0 "Northeastern National State"
-    SRI_junta_northeast_DEF:0 "the National State of Northeastern America"
+    SRI_junta_northeast_fascism:0 "Northeastern Military District"
+    SRI_junta_northeast_fascism_DEF:0 "The Military District of Northeastern America"
+    SRI_junta_northeast_neutrality:0 "Northeastern Commonwealth"
+    SRI_junta_northeast_neutrality_DEF:0 "The Commonwealth of Northeastern America"
     SRI_junta_northeast_ADJ:0 "Northeastern"
+    
+    SRI_junta_america_fascism:0 "American Military Junta"
+    SRI_junta_america_fascism_DEF:0 "The American Military Junta"
+    SRI_junta_america_ADJ:0 "American"
+    SRI_junta_america_neutrality:0 "American Federation"
+    SRI_junta_america_neutralityDEF:0 "The American Federation"
+    SRI_junta_america_ADJ:0 "American"
 
     SRI_democratic_new_eng:0 "Republic of New England"
     SRI_democratic_new_eng_DEF:0 "the Republic of New England"
@@ -867,12 +878,12 @@
     CHI_lightfoot_unification_DEF:0 "The People's Republic of Illinois"
     CHI_lightfoot_unification_ADJ:0 "Illinoisian"
     
-    CHI_capone_unification:0 "Illinois Territory"
-    CHI_capone_unification_DEF:0 "the Illinois Territory"
+    CHI_capone_unification:0 "State of Illinois"
+    CHI_capone_unification_DEF:0 "the State of Illinois"
     CHI_capone_unification_ADJ:0 "Mobster"
 
-    CHI_lightfoot_great_lakes:0 "Socialist States of the Great Lakes"
-    CHI_lightfoot_great_lakes_DEF:0 "the Socialist States of the Great Lakes"
+    CHI_lightfoot_great_lakes:0 "United Socialist States of the Great Lakes"
+    CHI_lightfoot_great_lakes_DEF:0 "the United Socialist States of the Great Lakes"
     CHI_lightfoot_great_lakes_ADJ:0 "Worker"
 
     SMI_godly_america_reily:0 "Mandate of The Faithful"
@@ -911,10 +922,6 @@
     SWI_SOH_SSSR:0 "Wisconsin Soviet Socialist Republic"
     SWI_SOH_SSSR_DEF:0 "The Wisconsin Soviet Socialist Republic"
 
-    SOH_USA_COMMIE:0 "American Soviet Socialist Republic"
-    SOH_USA_COMMIE_DEF:0 "The American Soviet Socialist Republic"
-    SOH_USA_COMMIE_ADJ:0 "American"
-
     GCSA_GOLDEN_CIRCLE:0 "Golden Circle"
     GCSA_GOLDEN_CIRCLE_DEF:0 "The Golden Circle"
     GCSA_GOLDEN_CIRCLE_ADJ:0 "Golden"
@@ -922,3 +929,103 @@
     Illinois_big:0 "American Union"
     Illinois_big_DEF:0 "The American Union"
     Illinois_big_ADJ:0 "American"
+
+    VES_delmarva:0 "Delmarva Military District"
+    VES_delmarva_DEF:0 "The Federal Military District of Delmarva"
+    VES_delmarva_ADJ:0 "Delmarvan"
+    
+    # CANADA
+    
+    PON_PreDissolution:0 "Province of Ontario"
+    PON_PreDissolution_DEF:0 "the Province of Ontario"
+    PON_PreDissolution_ADJ:0 "Canadian"
+    
+    PNB_PreDissolution:0 "Province of New Brunswick"
+    PNB_PreDissolution_DEF:0 "the Province of New Brunswick"
+    PNB_PreDissolution_ADJ:0 "Canadian"
+    
+    PNS_PreDissolution:0 "Province of Nova Scotia"
+    PNS_PreDissolution_DEF:0 "the Province of Nova Scotia"
+    PNS_PreDissolution_ADJ:0 "Canadian"
+    
+    PEI_PreDissolution:0 "Province of Prince Edward Island"
+    PEI_PreDissolution_DEF:0 "the Province of Prince Edward Island"
+    PEI_PreDissolution_ADJ:0 "Canadian"
+    
+    PMB_PreDissolution:0 "Province of Manitoba"
+    PMB_PreDissolution_DEF:0 "the Province of Manitoba"
+    PMB_PreDissolution_ADJ:0 "Canadian"
+    
+    PSK_PreDissolution:0 "Province of Saskatchewan"
+    PSK_PreDissolution_DEF:0 "the Province of Saskatchewan"
+    PSK_PreDissolution_ADJ:0 "Canadian"
+    
+    PAB_PreDissolution:0 "Province of Alberta"
+    PAB_PreDissolution_DEF:0 "the Province of Alberta"
+    PAB_PreDissolution_ADJ:0 "Canadian"
+    
+    PBC_PreDissolution:0 "Province of British Columbia"
+    PBC_PreDissolution_DEF:0 "the Province of British Columbia"
+    PBC_PreDissolution_ADJ:0 "Canadian"
+    
+    NWT_PreDissolution:0 "Northwestern Territories"
+    NWT_PreDissolution_DEF:0 "the Northwestern Territories"
+    NWT_PreDissolution_ADJ:0 "Canadian"
+
+    # ARKANSAS
+
+    SAR_STFU:0 "Arkansan People's Republic"
+    SAR_STFU_DEF:0 "the Pluralnational Arkansan People's Democratic Republic"
+    SAR_ADJ:0 "Farmer"
+
+    SAR_KKK:0 "Arkansas Confederal Government"
+    SAR_KKK_DEF:0 "the Arkansas Confederal Government of National Protection"
+    SAR_KKK_ADJ:0 "Protectionist"
+
+    SAR_KKK_UNIFIED:0 "Confederal Republic of Arkansas"
+    SAR_KKK_UNIFIED_DEF:0 "the Confederal Republic of Arkansas"
+    SAR_KKK_UNIFIED_ADJ:0 "Arkansan"
+    
+    # DEMOCRAT NEW England
+    
+    SMA_democrat_commonwealth:0 "State of Massachusetts"
+    SMA_democrat_commonwealth_DEF:0 "the State of Massachusetts"
+    SMA_democrat_commonwealth_ADJ:0 "Massachussett"
+    
+    SME_democrat_commonwealth:0 "State of Maine"
+    SME_democrat_commonwealth_DEF:0 "the State of Maine"
+    SME_democrat_commonwealth_ADJ:0 "Mainer"
+    
+    SVT_democrat_commonwealth:0 "State of Vermont"
+    SVT_democrat_commonwealth_DEF:0 "the State of Vermont"
+    SVT_democrat_commonwealth_ADJ:0 "Vermonter"
+    
+    SNH_democrat_commonwealth:0 "State of New Hampshire"
+    SNH_democrat_commonwealth_DEF:0 "the State of New Hampshire"
+    SNH_democrat_commonwealth_ADJ:0 "New Hampshirer"
+    
+    SCT_democrat_commonwealth:0 "State of Connecticut"
+    SCT_democrat_commonwealth_DEF:0 "the State of Connecticut"
+    SCT_democrat_commonwealth_ADJ:0 "Connecticuter"
+    
+    SRI_democrat_commonwealth:0 "State of Rhode Island"
+    SRI_democrat_commonwealth_DEF:0 "the State of Rhode Island"
+    SRI_democrat_commonwealth_ADJ:0 "Rhode Islander"
+    
+    # Vermont Republic
+    
+    SVT_independence:0 "Vermont People's Republic"
+    SVT_independence_DEF:0 "the Vermont People's Republic"
+    SVT_independence_ADJ:0 "Vermonter"
+    
+    SVT_independence_nazi:0 "Vermont National Republic"
+    SVT_independence_nazi_DEF:0 "the Vermont National Republic"
+    SVT_independence_nazi_ADJ:0 "Vermonter"
+    
+    SVT_greater_vermont:0 "Greater Vermonters' Realm"
+    SVT_greater_vermont_DEF:0 "the Greater Vermonters' Realm"
+    SVT_greater_vermont_ADJ:0 "Vermonter"
+
+    SME_CAN_thirteen_colonies_tag:0 "The Thirteen Colonies"
+    SME_CAN_thirteen_colonies_tag_DEF:0 "The Thirteen Colonies"
+    SME_CAN_thirteen_colonies_tag_ADJ:0 "Colonies"

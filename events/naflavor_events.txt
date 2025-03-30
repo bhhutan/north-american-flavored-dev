@@ -2,6 +2,13 @@
 add_namespace = naflavor_newfrance
 add_namespace = naflavor_formable
 
+
+#########################################################
+# Most of these events fire independently of focus tree completion rewards or event rewards so it doesnt fuck with update content when they release
+# Way less work for me!!!
+#########################################################
+
+
 ########### NON-FORMABLE NEWS EVENTS
 country_event = {
 	id = naflavor.1
@@ -22,7 +29,22 @@ news_event = { #Pennsylvanian Anarchy
 	desc = naflavor.2.d
 	picture = GFX_nadflnewsanarchy
 
-	is_triggered_only = yes
+	trigger = {
+		SPA = {
+			has_completed_focus = SPA_embrace_anarchy
+		}
+		NOT = {
+			has_global_flag = NAFL_SPA_anarchy_news
+		}
+	}
+
+	immediate = {
+		set_global_flag  = NAFL_SPA_anarchy_news
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
 
 	major = yes
 
@@ -59,7 +81,21 @@ news_event = { #Hiram Evans
 	desc = naflavor.3.d
 	picture = GFX_texasklan
 
-	is_triggered_only = yes
+	trigger = {
+		STX = {
+			has_completed_focus = STX_elect_hiram_wesley_evans
+		}
+		NOT = {
+			has_global_flag = NAFL_STX_hiram_elected
+		}
+	}
+	immediate = {
+		set_global_flag  = NAFL_STX_hiram_elected
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
 
 	major = yes
 
@@ -95,8 +131,24 @@ news_event = { #O'Daniel
 	desc = naflavor.4.d
 	picture = GFX_texasodaniel
 
-	is_triggered_only = yes
+	#is_triggered_only = yes
+	#fire_only_once = yes
+	trigger = {
+		STX = {
+			has_completed_focus = STX_elect_w_lee_o_daniel
+		}
+		NOT = {
+			has_global_flag = NAFL_STX_odaniel_elected
+		}
+	}
 
+	immediate = {
+		set_global_flag  = NAFL_STX_odaniel_elected
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
 	major = yes
 
 	option = {
@@ -131,8 +183,24 @@ news_event = { #Jumbo
 	desc = naflavor.5.d
 	picture = GFX_texasjumbo
 
-	is_triggered_only = yes
+	#is_triggered_only = yes
+	#fire_only_once = yes
 
+	trigger = {
+		STX = {
+			has_completed_focus = STX_elect_lyndon_b_johnson
+		}
+		NOT = {
+			has_global_flag = NAFL_STX_johnson_elected
+		}
+	}
+
+	immediate = {
+		set_global_flag  = NAFL_STX_johnson_elected
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
 	major = yes
 
 	option = {
@@ -167,8 +235,23 @@ news_event = { #Ferguson
 	desc = naflavor.6.d
 	picture = GFX_texasferguson
 
-	is_triggered_only = yes
+	#is_triggered_only = yes
+	#fire_only_once = yes
+	trigger = {
+		STX = {
+			has_completed_focus = STX_elect_miriam_a_ferguson
+		}
+		NOT = {
+			has_global_flag = NAFL_STX_ferguson_elected
+		}
+	}
 
+	immediate = {
+		set_global_flag  = NAFL_STX_ferguson_elected
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
 	major = yes
 
 	option = {
@@ -203,8 +286,23 @@ news_event = { #Allred
 	desc = naflavor.7.d
 	picture = GFX_texasallred
 
-	is_triggered_only = yes
+	#is_triggered_only = yes
+	#fire_only_once = yes
+	trigger = {
+		STX = {
+			has_completed_focus = STX_james_allred_wins_the_election
+		}
+		NOT = {
+			has_global_flag = NAFL_STX_allred_elected
+		}
+	}
 
+	immediate = {
+		set_global_flag  = NAFL_STX_allred_elected
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
 	major = yes
 
 	option = {
@@ -239,8 +337,24 @@ news_event = { #Unionists
 	desc = naflavor.8.d
 	picture = GFX_texasunionists
 
-	is_triggered_only = yes
+	#is_triggered_only = yes
+	#fire_only_once = yes
+	trigger = {
+		STX = {
+			has_completed_focus = STX_Unionists_Storm_Austin
+		}
+		NOT = {
+			has_global_flag = NAFL_STX_unionists_elected
+		}
+	}
 
+	immediate = {
+		set_global_flag  = NAFL_STX_unionists_elected
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
 	major = yes
 
 	option = {
@@ -276,8 +390,24 @@ news_event = { #Long becomes leader
 	desc = naflavor.9.d
 	picture = GFX_hueylong2
 
-	is_triggered_only = yes
+	#is_triggered_only = yes
+	#fire_only_once = yes
 
+	trigger = {
+		SLA = {
+			has_country_flag = SLA_huey_is_leader
+		}
+		NOT = {
+			has_global_flag = NAFL_SLA_huey_news
+		}
+	}
+
+	immediate = {
+		set_global_flag  = NAFL_SLA_huey_news
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
 	major = yes
 
 	option = {
@@ -310,8 +440,24 @@ news_event = { #Third Red River War
 	desc = naflavor.10.d
 	picture = GFX_thirdrrw
 
-	is_triggered_only = yes
+	#is_triggered_only = yes
+	#fire_only_once = yes
+	trigger = {
+		STX = {
+			has_country_flag = STX_rrw3_start
+		}
+		NOT = {
+			has_global_flag = NAFL_third_rrw_news_fire
+		}
+	}
 
+	immediate = {
+		set_global_flag  = NAFL_third_rrw_news_fire
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
 	major = yes
 
 	option = {
@@ -344,7 +490,7 @@ news_event = { #Third Red River War
 	}	
 }
 
-news_event = { #Texas unites klans
+news_event = { #Texas unites klans - decision trigger
 	id = naflavor.11
 	title = naflavor.11.t
 	desc = naflavor.11.d
@@ -388,8 +534,22 @@ news_event = { #curley coup
 	desc = naflavor.12.d
 	picture = GFX_curleywin
 
-	is_triggered_only = yes
+	#is_triggered_only = yes
+	trigger = {
+		SMA = {
+			has_completed_focus = SMA_Curley_Coup
+		}
+		NOT = {
+			has_global_flag = NAFL_SMA_hurley_news
+		}
+	}
 
+	immediate = {
+		set_global_flag  = NAFL_SMA_curley_news
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
 	major = yes
 
 	option = {
@@ -426,8 +586,23 @@ news_event = { #hurley wins
 	desc = naflavor.13.d
 	picture = GFX_hurleywin
 
-	is_triggered_only = yes
+	#is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		SMA = {
+			has_completed_focus = SMA_Hurly_General_President
+		}
+		NOT = {
+			has_global_flag = NAFL_SMA_hurley_news
+		}
+	}
 
+	immediate = {
+		set_global_flag  = NAFL_SMA_hurley_news
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
 	major = yes
 
 	option = {
@@ -467,8 +642,24 @@ news_event = { #moderate republican generic
 	desc = naflavor.14.d
 	picture = GFX_moderaterepublicanwin
 
-	is_triggered_only = yes
+	#is_triggered_only = yes
+	#fire_only_once = yes
+	trigger = {
+		SMA = {
+			has_completed_focus = SMA_Moderate_republicans
+		}
+		NOT = {
+			has_global_flag = NAFL_SMA_moderate_republican_news
+		}
+	}
 
+	immediate = {
+		set_global_flag  = NAFL_SMA_moderate_republican_news
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
 	major = yes
 
 	option = {
@@ -508,8 +699,24 @@ news_event = { #weeks republican win
 	desc = naflavor.15.d
 	picture = GFX_weekswin
 
-	is_triggered_only = yes
+	#is_triggered_only = yes
+	#fire_only_once = yes
+	trigger = {
+		SMA = {
+			has_completed_focus = SMA_Weeks_Republicans
+		}
+		NOT = {
+			has_global_flag = NAFL_SMA_weeks_republican_news
+		}
+	}
 
+	immediate = {
+		set_global_flag  = NAFL_SMA_weeks_republican_news
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
 	major = yes
 
 	option = {
@@ -549,8 +756,22 @@ news_event = { #communist revolution
 	desc = naflavor.16.d
 	picture = GFX_communistrevolution
 
-	is_triggered_only = yes
-
+	#is_triggered_only = yes
+	#fire_only_once = yes
+	trigger = {
+		SMA = {
+			has_completed_focus = SMA_Hood_Leads_the_Revolution
+		}
+		NOT = {
+			has_global_flag = NAFL_SMA_communist_news
+		}
+	}
+	immediate = {
+		set_global_flag  = NAFL_SMA_communist_news
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
 	major = yes
 
 	option = {
@@ -587,9 +808,23 @@ news_event = { #wickliffe takeover
 	desc = naflavor.17.d
 	picture = GFX_eugenics
 
-	is_triggered_only = yes
-
+	#is_triggered_only = yes
+	#fire_only_once = yes
 	major = yes
+	trigger = {
+		SMA = {
+			has_completed_focus = SMA_Wickliffes_Coup
+		}
+		NOT = {
+			has_global_flag = NAFL_SMA_wickliffe_news
+		}
+	}
+	immediate = {
+		set_global_flag  = NAFL_SMA_wickliffe_news
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
 
 	option = {
 		name = naflavor.17.a
@@ -628,8 +863,22 @@ news_event = { #SRI national guard takeover
 	desc = naflavor.18.d
 	picture = GFX_SRIcoup
 
-	is_triggered_only = yes
-
+	#is_triggered_only = yes
+	#fire_only_once = yes
+	trigger = {
+		SRI = {
+			has_completed_focus = SRI_army_coup
+		}
+		NOT = {
+			has_global_flag = NAFL_SRI_army_coup_news
+		}
+	}
+	immediate = {
+		set_global_flag  = NAFL_SRI_army_coup_news
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
 	major = yes
 
 	option = {
@@ -668,7 +917,22 @@ news_event = { #new england faction
 	desc = naflavor.19.d
 	picture = GFX_SRI_faction
 
-	is_triggered_only = yes
+	#is_triggered_only = yes
+	#fire_only_once = yes
+	trigger = {
+		SRI = {
+			has_completed_focus = SRI_reach_out_to_our_neighbors
+		}
+		NOT = {
+			has_global_flag = NAFL_SRI_newengland_faction_news
+		}
+	}
+	immediate = {
+		set_global_flag  = NAFL_SRI_newengland_faction_news
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
 
 	major = yes
 
@@ -710,17 +974,10 @@ news_event = { #dc maryland war
 
 	major = yes
 
-	trigger = {
-		has_global_flag = WDC_reclaimmaryland
-		SMD = { has_defensive_war_with = WDC }
-	}
+	is_triggered_only = yes
 
 	mean_time_to_happen = {
 		days = 1
-	}
-
-	immediate = { 
-		clr_global_flag = WDC_reclaimmaryland
 	}
 
 	option = {
@@ -757,9 +1014,24 @@ news_event = { #TEX wins RRW
 	desc = naflavor.21.d
 	picture = GFX_newsevent44
 
-	is_triggered_only = yes
-
+	#is_triggered_only = yes
 	major = yes
+	trigger = {
+		SOK = {
+			has_country_flag = texas_stalemate_rrw
+		}
+		NOT = {
+			has_global_flag = NAFL_rrw_stalemate_news
+		}
+	}
+	immediate = {
+		set_global_flag = NAFL_rrw_statemate_news
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	fire_only_once = yes
+
 
 	option = {
 		name = naflavor.21.a
@@ -778,9 +1050,18 @@ news_event = { #SLA wins RRW
 	desc = naflavor.22.d
 	picture = GFX_newsevent45
 
-	is_triggered_only = yes
-
 	major = yes
+	#is_triggered_only = yes
+	#fire_only_once = yes
+	trigger = {
+		SOK = {
+			has_country_flag = texas_loss_rrw
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
 
 	option = {
 		name = naflavor.22.a
@@ -865,8 +1146,23 @@ news_event = { #Long assassinated
 	picture = GFX_hueyfuckingdies
 
 	major = yes
-
-	is_triggered_only = yes
+	trigger = {
+		SLA ={
+			has_idea = SLA_goodbye_huey
+		}
+		NOT = {
+			has_global_flag = NAFL_SLA_huey_dead_asf
+		}
+	}
+	immediate = {
+		set_global_flag = NAFL_SLA_huey_dead_asf
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	#is_triggered_only = yes
+	#fire_only_once = yes
+	
 
 	option = {
 		name = naflavor.24.a
@@ -902,6 +1198,7 @@ news_event = { #New Orleans secedes
 	major = yes
 
 	is_triggered_only = yes
+	fire_only_once = yes
 
 	option = {
 		name = naflavor.25.a
@@ -936,7 +1233,24 @@ news_event = { #Virginia Monarchy
 
 	major = yes
 
-	is_triggered_only = yes
+	#is_triggered_only = yes
+	#fire_only_once = yes
+	trigger = {
+		SVA = {
+			has_completed_focus = SVA_monarch_lee
+		}
+		NOT = {
+			has_global_flag = NAFL_SVA_monarch_news
+		}
+	}
+
+	immediate = {
+		set_global_flag = NAFL_SVA_monarch_news
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
 
 	option = {
 		name = naflavor.26.a
@@ -971,7 +1285,24 @@ news_event = { #Virginia Army Coup
 
 	major = yes
 
-	is_triggered_only = yes
+	#is_triggered_only = yes
+	#fire_only_once = yes
+	trigger = {
+		SVA = {
+			has_completed_focus = SVA_army_rule
+		}
+		NOT = {
+			has_global_flag = NAFL_SVA_army_rule_news
+		}
+	}
+
+	immediate = {
+		set_global_flag = NAFL_SVA_army_rule_news
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
 
 	option = {
 		name = naflavor.27.a
@@ -1006,7 +1337,22 @@ news_event = { #Hoey Wins
 
 	major = yes
 
-	is_triggered_only = yes
+	#is_triggered_only = yes
+	#fire_only_once = yes
+	trigger = {
+		SNC = {
+			has_completed_focus = SNC_hoey_presidency
+		}
+		NOT = {
+			has_global_flag = NAFL_SNC_hoey_wins_news
+		}
+	}
+	immediate = {
+		set_global_flag = NAFL_SNC_hoey_wins_news
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
 
 	option = {
 		name = naflavor.28.a
@@ -1033,7 +1379,22 @@ news_event = { #Silver Legion wins
 
 	major = yes
 
-	is_triggered_only = yes
+	#is_triggered_only = yes
+	#fire_only_once = yes
+	trigger = {
+		SNC = {
+			has_completed_focus = SNC_silver_legion
+		}
+		NOT = {
+			has_global_flag = NAFL_SNC_pelley_wins_news
+		}
+	}
+	immediate = {
+		set_global_flag = NAFL_SNC_pelley_wins_news
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
 
 	option = {
 		name = naflavor.29.a
@@ -1060,7 +1421,22 @@ news_event = { #Populist Triumph
 
 	major = yes
 
-	is_triggered_only = yes
+	#is_triggered_only = yes
+	#fire_only_once = yes
+	trigger = {
+		SNC = {
+			has_completed_focus = SNC_elect_Lewis_Randolph_Donelson_Jr
+		}
+		NOT = {
+			has_global_flag = NAFL_SNC_populists_wins_news
+		}
+	}
+	immediate = {
+		set_global_flag = NAFL_SNC_populists_wins_news
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
 
 	option = {
 		name = naflavor.30.a
@@ -1095,7 +1471,22 @@ news_event = { #Communist
 
 	major = yes
 
-	is_triggered_only = yes
+	#is_triggered_only = yes
+	#fire_only_once = yes
+	trigger = {
+		SNC = {
+			has_completed_focus = SNC_Ellen_dawson
+		}
+		NOT = {
+			has_global_flag = NAFL_SNC_dawson_wins_news
+		}
+	}
+	immediate = {
+		set_global_flag = NAFL_SNC_dawson_wins_news
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
 
 	option = {
 		name = naflavor.31.a
@@ -1133,17 +1524,11 @@ news_event = { #Second Cristero War
 
 	major = yes
 
-	trigger = {
-		has_global_flag = second_cristero_war
-		MDC = { has_war_with = MEX }
-	}
+	is_triggered_only = yes
+	#fire_only_once = yes
 
 	mean_time_to_happen = {
 		days = 1
-	}
-
-	immediate = { 
-		clr_global_flag = second_cristero_war
 	}
 
 	option = {
@@ -1468,7 +1853,22 @@ news_event = { #Mid-Atlantic Commune Formed
 	desc = naflavor.107.d
 	picture = GFX_nadflnewsevent107
 
-	is_triggered_only = yes
+	#is_triggered_only = yes
+	#fire_only_once = yes
+	trigger = {
+		SPA = {
+			has_completed_focus = SPA_the_tri_state_commune
+		}
+		NOT = {
+			has_global_flag = NAFL_SPA_mid_atlantic_commune_news
+		}
+	}
+	immediate = {
+		set_global_flag = NAFL_SPA_mid_atlantic_commune_news
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
 
 	major = yes
 
@@ -1502,7 +1902,23 @@ news_event = { #East-Coast Commune formed
 	desc = naflavor.108.d
 	picture = GFX_nadflnewsevent108
 
-	is_triggered_only = yes
+	#is_triggered_only = yes
+	#fire_only_once = yes
+	trigger = {
+		SPA = {
+			has_completed_focus = SPA_the_eastern_commune
+		}
+		NOT = {
+			has_global_flag = NAFL_SPA_eastern_commune_news
+		}
+	}
+	immediate = {
+		set_global_flag = NAFL_SPA_eastern_commune_news
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
 
 	major = yes
 
@@ -1527,7 +1943,24 @@ news_event = { #United Communes formed
 	desc = naflavor.109.d
 	picture = GFX_nadflnewsevent109
 
-	is_triggered_only = yes
+	#is_triggered_only = yes
+	#fire_only_once = yes
+	trigger = {
+		SPA = {
+			has_completed_focus = SPA_the_united_states_commune
+		}
+		NOT = {
+			has_global_flag = NAFL_SPA_united_states_commune_news
+		}
+	}
+
+	immediate = {
+		set_global_flag = NAFL_SPA_united_states_commune_news
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
 
 	major = yes
 
@@ -1552,7 +1985,22 @@ news_event = { #eugenics new england
 	desc = naflavor.110.d
 	picture = GFX_nadflnewsevent110
 
-	is_triggered_only = yes
+	#is_triggered_only = yes
+	#fire_only_once = yes
+	trigger = {
+		SMA = {
+			has_completed_focus = SMA_Massachusetts_Empire
+		}
+		NOT = {
+			has_global_flag = NAFL_SMA_wickliffe_wins_news
+		}
+	}
+	immediate = {
+		set_global_flag = NAFL_SMA_wickliffe_wins_news
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
 
 	major = yes
 
@@ -1577,8 +2025,24 @@ news_event = { #commie new england
 	desc = naflavor.111.d
 	picture = GFX_nadflnewsevent111
 
-	is_triggered_only = yes
+	#is_triggered_only = yes
+	#fire_only_once = yes
+	trigger = {
+		SMA = {
+			has_completed_focus = SMA_Socialist_Republic_of_New_England
+		}
+		NOT = {
+			has_global_flag = NAFL_SMA_commies_win_news
+		}
+	}
 
+	immediate = {
+		set_global_flag = NAFL_SMA_commies_win_news
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
 	major = yes
 
 	option = {
@@ -1602,7 +2066,24 @@ news_event = { #new hibernia
 	desc = naflavor.112.d
 	picture = GFX_nadflnewsevent112
 
-	is_triggered_only = yes
+	#is_triggered_only = yes
+	#fire_only_once = yes
+	trigger = {
+		SMA = {
+			has_completed_focus = SMA_Establish_New_Hibernia
+		}
+		NOT = {
+			has_global_flag = NAFL_SMA_hibernia_news
+		}
+	}
+
+	immediate = {
+		set_global_flag = NAFL_SMA_hibernia_news
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
 
 	major = yes
 
@@ -1627,7 +2108,24 @@ news_event = { #lovecraft larp
 	desc = naflavor.113.d
 	picture = GFX_nadflnewsevent113
 
-	is_triggered_only = yes
+	#is_triggered_only = yes
+	#fire_only_once = yes
+	trigger = {
+		SRI = {
+			has_completed_focus = SRI_proclaim_new_england
+		}
+		NOT = {
+			has_global_flag = NAFL_SMA_lovecraft_wins_news
+		}
+	}
+
+	immediate = {
+		set_global_flag = NAFL_SMA_lovecraft_wins_news
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
 
 	major = yes
 
@@ -1649,7 +2147,7 @@ news_event = { #lovecraft larp
 	}
 }
 
-news_event = { #SRI democratic new england
+news_event = { #SRI democratic new england -- decision
 	id = naflavor.114
 	title = naflavor.114.t
 	desc = naflavor.114.d
@@ -1688,7 +2186,7 @@ news_event = { #SRI democratic new england
 	}
 }
 
-news_event = {
+news_event = { #generic new england
 	id = naflavor.115
 	title = naflavor.115.t
 	desc = naflavor.115.desc
@@ -1777,7 +2275,7 @@ news_event = {
 	}
 }
 
-news_event = {
+news_event = { # new afrika
 	id = naflavor.117
 	title = naflavor.117.t
 	desc = naflavor.117.desc
@@ -1821,7 +2319,7 @@ news_event = {
 	}
 }
 
-news_event = {
+news_event = { #commie csa
 	id = naflavor.118
 	title = naflavor.118.t
 	desc = naflavor.118.d

@@ -1,0 +1,15 @@
+defined_text = {
+	name = Get_newspaper_header
+
+	### test ###
+	text = { # texas
+		trigger = {
+			original_tag = STX
+		}
+		localization_key = texas_newspaper_test
+	}
+
+	text = {
+		localization_key = TNO_newspaper_generic_header
+	}
+}

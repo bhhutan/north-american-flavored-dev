@@ -1,0 +1,9 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_news_header_STX"
+		texturefile = "gfx/interface/TEST_news_paper_titles/news_header_STX.dds"
+		legacy_lazy_load = no
+	}
+	
+}

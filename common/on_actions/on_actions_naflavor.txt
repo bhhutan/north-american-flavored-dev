@@ -6,4 +6,44 @@ on_actions = {
 			}
 		}
 	}
+	on_declare_war = {
+		effect = {
+			if = {
+				limit = {
+					tag = MEX
+					FROM = { tag = MDC }
+			 	}
+				news_event = naflavor.32
+			}
+
+			if = {
+				limit = {
+					tag = MDC
+					FROM = { tag = MEX }
+			 	}
+				news_event = naflavor.32
+			}
+
+			if = {
+				limit = {
+					tag = WDC
+					FROM = { tag = SMD }
+			 	}
+				news_event = naflavor.20
+			}
+		}
+	}
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					FROM.FROM = { state = 752 }
+				}
+				if = {
+					limit = { tag = ORL }
+					news_event = naflavor.25
+				}
+			}	
+		}
+	}
 }

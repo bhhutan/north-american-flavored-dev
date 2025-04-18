@@ -587,7 +587,7 @@ news_event = { #hurley wins
 	picture = GFX_hurleywin
 
 	#is_triggered_only = yes
-	fire_only_once = yes
+	#fire_only_once = yes
 	trigger = {
 		SMA = {
 			has_completed_focus = SMA_Hurly_General_President
@@ -1030,7 +1030,7 @@ news_event = { #TEX wins RRW
 	mean_time_to_happen = {
 		days = 1
 	}
-	fire_only_once = yes
+	#fire_only_once = yes
 
 
 	option = {
